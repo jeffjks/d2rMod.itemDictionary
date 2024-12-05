@@ -1,0 +1,27 @@
+{
+    "name": "Item Dictionary",
+    "description": "Add Item Dictionary on ESC menu",
+    "author": "강낭땅콩",
+    "website": "https://www.nexusmods.com/diablo2resurrected/mods/582",
+    "version": "2.4",
+    "config": [
+        {
+            "id": "addRecipeButtonToCube",
+            "type": "checkbox",
+            "name": "Add Cube Recipe Button",
+            "description": "Add Cube recipe button on Horadric Cube panel",
+            "defaultValue": true
+        },
+        {
+            "id": "language",
+            "type": "select",
+            "name": "Language",
+            "description": "Make sure to change the in-game language as well.",
+            "defaultValue": "enUS",
+            "options": [
+                { "label": "English", "value": "enUS" },
+                { "label": "한국어", "value": "koKR" }
+            ]
+        }
+    ]
+}

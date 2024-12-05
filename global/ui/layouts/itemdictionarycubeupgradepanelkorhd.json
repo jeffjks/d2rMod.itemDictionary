@@ -1,0 +1,691 @@
+{
+    "type": "VideoOptionsPanel",
+    "name": "ItemDictionaryCubeUpgradePanelKor",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": {
+            "x": 0.5
+        },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": {
+                    "x": 1.0
+                },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": {
+                            "x": 1.0
+                        },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget",
+            "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget",
+                    "name": "OptionsTable",
+                    "fields": {
+                        "columns": [
+                            {
+                                "width": 640,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            },
+                            {
+                                "width": 1090,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            }
+                        ],
+                        "rowHeight": "$CubeSocketTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row CubeRecipeDescription",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 24,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "- 노말 -> 익셉셔널 시 베이스 아이템과 아이템 옵션의 요구레벨 중 높은 수치의 +5가 됨\n- 익셉셔널 -> 엘리트 시 베이스 아이템과 아이템 옵션의 요구레벨 중 높은 수치의 +7이 됨\n- 품질 개선 조합 시 아이템 레벨이 1이 되므로 최대 소켓 개수가 달라질 수 있음",
+                                                "style": "$StyleDictionaryNotice"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "장비 강화 (노말 -> 익셉셔널)",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "노말 유니크/세트 무기\n@r08L + @r12L\n최상급 에메랄드",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  익셉셔널 유니크/세트 무기",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "노말 유니크/세트 방어구\n@r07L + @r13L\n최상급 다이아몬드",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  익셉셔널 유니크/세트 방어구",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "노말 희귀 무기\n@r09L + @r11L\n최상급 사파이어",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  익셉셔널 희귀 무기",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "노말 희귀 방어구\n@r08L + @r10\n최상급 자수정",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  익셉셔널 희귀 방어구",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "장비 강화 (익셉셔널 -> 엘리트)",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "익셉셔널 유니크/세트 무기\n@r17L + @r21L\n최상급 에메랄드",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  엘리트 유니크/세트 무기",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "익셉셔널 유니크/세트 방어구\n@r18L + @r20L\n최상급 다이아몬드",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  엘리트 유니크/세트 방어구",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "익셉셔널 희귀 무기\n@r19L + @r22L\n최상급 사파이어",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  엘리트 희귀 무기",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "익셉셔널 희귀 방어구\n@r18L + @r21L\n최상급 자수정",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  엘리트 희귀 방어구",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "품질 개선",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "질 낮은/손상된/조잡한 일반 무기\n@r02L 룬\n최하급 보석",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 80
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  일반 무기 (@dictItemLevel: 1)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "질 낮은/손상된/조잡한 일반 방어구\n@r01L 룬\n최하급 보석",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 80
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  일반 방어구 (@dictItemLevel: 1)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

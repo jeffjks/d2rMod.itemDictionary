@@ -1,0 +1,463 @@
+{
+    "type": "VideoOptionsPanel",
+    "name": "ItemDictionaryCubeSocketPanelKor",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": {
+            "x": 0.5
+        },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": {
+                    "x": 1.0
+                },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": {
+                            "x": 1.0
+                        },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget",
+            "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget",
+                    "name": "OptionsTable",
+                    "fields": {
+                        "columns": [
+                            {
+                                "width": 640,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            },
+                            {
+                                "width": 1090,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            }
+                        ],
+                        "rowHeight": "$CubeSocketTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row CubeRecipeDescription",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 24,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "- 고급 장비는 큐브를 통해 홈 생성 불가능\n- 아이템 종류와 아이템 레벨에 따라 홈 최대 개수가 달라짐\n- 홈에 사용된 아이템 제거 시 홈에 박혀있던 아이템은 모두 사라짐",
+                                                "style": "$StyleDictionaryNotice"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "홈 생성",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "일반 갑옷\n@r07L + @r10L\n최상급 토파즈",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  랜덤한 수의 홈 생성",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "일반 무기\n@r08L + @r11L\n최상급 자수정",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  랜덤한 수의 홈 생성",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "일반 투구\n@r08L + @r10L\n최상급 사파이어",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  랜덤한 수의 홈 생성",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "일반 방패\n@r07L + @r11L\n최상급 루비",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  랜덤한 수의 홈 생성",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "희귀 아이템\n최상급 해골 × 3\n요르단의 반지",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  홈 1개 생성",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "홈 아이템 제거",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "홈을 사용한 아이템\n@r15L 룬\n마을 차원문의 두루마리",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  홈에 사용된 아이템 제거",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

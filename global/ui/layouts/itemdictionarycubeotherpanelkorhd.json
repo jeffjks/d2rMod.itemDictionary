@@ -1,0 +1,1162 @@
+{
+    "type": "VideoOptionsPanel",
+    "name": "ItemDictionaryCubeOtherPanelKor",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": {
+            "x": 0.5
+        },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": {
+                    "x": 1.0
+                },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": {
+                            "x": 1.0
+                        },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget",
+            "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget",
+                    "name": "OptionsTable",
+                    "fields": {
+                        "columns": [
+                            {
+                                "width": 640,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            },
+                            {
+                                "width": 1090,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            }
+                        ],
+                        "rowHeight": "$OptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "퀘스트 관련",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 36,
+                                                    "y": 0
+                                                },
+                                                "filename": "items/weapon/club/wirts_leg",
+                                                "tooltipString": "@leg",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 198,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 311,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/book/town_portal_book",
+                                                "tooltipString": "@tbk",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 473,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 586,
+                                                    "y": 50
+                                                },
+                                                "filename": "itemDictionary/cubehelp_redPortalLarge",
+                                                "tooltipString": "젖소방 차원문 생성",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 49,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 36,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/key/mephisto_key",
+                                                "tooltipString": "@pk1",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 198,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 311,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/key/mephisto_key",
+                                                "tooltipString": "@pk2",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 473,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 586,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/key/mephisto_key",
+                                                "tooltipString": "@pk3",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 748,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 861,
+                                                    "y": 50
+                                                },
+                                                "filename": "itemDictionary/cubehelp_redPortalLarge",
+                                                "tooltipString": "혼돈계 이벤트 차원문 생성",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 98,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 36,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/body_part/horn",
+                                                "tooltipString": "@dhn",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 198,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 311,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/body_part/brain",
+                                                "tooltipString": "@mbr",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 473,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 586,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/body_part/eye",
+                                                "tooltipString": "@bey",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 748,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 861,
+                                                    "y": 50
+                                                },
+                                                "filename": "itemDictionary/cubehelp_redPortalLarge",
+                                                "tooltipString": "혼돈계 이벤트 (우버 트리스트럼) 차원문 생성",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 98,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 36,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/quest/twisted_essence_of_suffering",
+                                                "tooltipString": "@dictOrange@tes",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 198,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 311,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/quest/charged_essense_of_hatred",
+                                                "tooltipString": "@dictOrange@ceh",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 473,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 586,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/quest/burning_essence_of_terror",
+                                                "tooltipString": "@dictOrange@bet",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 748,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 861,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/quest/festering_essence_of_destruction",
+                                                "tooltipString": "@dictOrange@fed",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1023,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1136,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/quest/token_of_absolution",
+                                                "tooltipString": "@dictOrange@toa\n@UseTokenOfAbsolution",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "소비 아이템",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "치유 물약 (종류 무관) × 3\n마나 물약 (종류 무관) × 3\n최하급 보석",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  활력 물약",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "활력 물약 × 3",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  대량의 활력 물약",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "치유 물약 (종류 무관) × 3\n마나 물약 (종류 무관) × 3\n일반 등급 보석",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  대량의 활력 물약",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 72,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "유독 가스 물약\n치유 물약 (종류 무관) × 3",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  해독 물약",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "화살 × 2",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  쇠뇌용 화살 (랜덤 수량)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "쇠뇌용 화살 × 2",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  화살 (랜덤 수량)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 72,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "창 계열 무기\n화살",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  일반 재벌린 (랜덤 수량)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 72,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "도끼 계열 무기\n대거",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  일반 스로잉 액스 (랜덤 수량)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "장비 수리",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 72,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "무기\n@r09L 룬",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  무기 수리",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "무기\n@r09L 룬\n최하급 보석",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  무기 수리 및 충전",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 72,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "방어구\n@r08L 룬",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  방어구 수리",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeInputLayout",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "방어구\n@r08L 룬\n최하급 보석",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeOutputLayout",
+                                    "fields": {
+                                        "marginTop": 96
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeOutput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  방어구 수리 및 충전",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

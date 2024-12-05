@@ -1,0 +1,691 @@
+{
+    "type": "VideoOptionsPanel",
+    "name": "ItemDictionaryCubeUpgradePanelEng",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": {
+            "x": 0.5
+        },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": {
+                    "x": 1.0
+                },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": {
+                            "x": 1.0
+                        },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget",
+            "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget",
+                    "name": "OptionsTable",
+                    "fields": {
+                        "columns": [
+                            {
+                                "width": 640,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            },
+                            {
+                                "width": 1090,
+                                "alignment": {
+                                    "h": "fit",
+                                    "v": "fit"
+                                }
+                            }
+                        ],
+                        "rowHeight": "$CubeSocketTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row CubeRecipeDescription",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 24,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "- There is a +5 modifier to the base level req when upgrading normal -> exceptional.\n- There is a +7 modifier to the base level req when upgrading exceptional -> elite.",
+                                                "style": "$StyleDictionaryNotice"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "Upgrade Item (Normal -> Exceptional)",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Normal Unique/Set Weapon\n@r08L + @r12L\nPerfect Emerald",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Exceptional Unique/Set Weapon",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Normal Unique/Set Armor\n@r07L + @r13L\nPerfect Diamond",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Exceptional Unique/Set Armor",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Normal Rare Weapon\n@r09L + @r11L\nPerfect Sapphire",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Exceptional Rare Weapon",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Normal Rare Armor\n@r08L + @r10\nPerfect Amethyst",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Exceptional Rare Armor",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "Upgrade Item (Exceptional -> Elite)",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Exceptional Unique/Set Weapon\n@r17L + @r21L\nPerfect Emerald",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Elite Unique/Set Weapon",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Exceptional Unique/Set Armor\n@r18L + @r20L\nPerfect Diamond",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Elite Unique/Set Armor",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Exceptional Rare Weapon\n@r19L + @r22L\nPerfect Sapphire",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Elite Rare Weapon",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Exceptional Rare Armor\n@r18L + @r21L\nPerfect Amethyst",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Elite Rare Armor",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "Quality Improvement",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Low Quality Weapon\n@r02L Rune\nChipped Gem",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 80
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Normal Weapon (@dictItemLevel: 1)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginLeft": 48
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeInput",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Low Quality Armor\n@r01L Rune\nChipped Gem",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "CubeRecipeTextWrapper",
+                                    "fields": {
+                                        "marginTop": 96,
+                                        "rect": {
+                                            "x": 80
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "CubeRecipeResult",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "->  Normal Armor (@dictItemLevel: 1)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
