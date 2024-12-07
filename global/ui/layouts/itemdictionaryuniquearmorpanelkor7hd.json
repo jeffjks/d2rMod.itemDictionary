@@ -1685,7 +1685,7 @@
                                             "name": "Uniquename",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "초승달 (초승달)",
+                                                "text": "초승달",
                                                 "style": "$StyleDictionaryCategory"
                                             }
                                         }
