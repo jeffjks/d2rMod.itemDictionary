@@ -3,7 +3,7 @@
     "description": "Add Item Dictionary on ESC menu",
     "author": "강낭땅콩",
     "website": "https://www.nexusmods.com/diablo2resurrected/mods/582",
-    "version": "2.4",
+    "version": "2.5",
     "config": [
         {
             "id": "addRecipeButtonToCube",

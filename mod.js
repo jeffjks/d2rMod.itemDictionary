@@ -414,7 +414,7 @@ function addString()
 {"Key":"dictCraftBloodCommon","koKR":"ÿc3적중당 생명력 1~3% 훔침 ÿcT(변함)\nÿc3생명력 +10~20 ÿcT(변함)","enUS":"ÿc31-3% Life stolen per hit ÿcT(Varies)\nÿc3+10-20 to Life ÿcT(Varies)"},
 {"Key":"dictCraftCasterCommon","koKR":"ÿc3마나 재생 4~10% ÿcT(변함)\nÿc3마나 +10~20 ÿcT(변함)","enUS":"ÿc3Regenerate Mana 4-10% ÿcT(Varies)\nÿc3+10-20 to Mana ÿcT(Varies)"},
 {"Key":"dictCraftSafetyCommon","koKR":"ÿc3마법 피해 1~2 감소 ÿcT(변함)\nÿc3피해 1~4 감소 ÿcT(변함)","enUS":"ÿc3Magic Damage Reduced By 1-2 ÿcT(Varies)\nÿc3Damage Reduced By 1-4 ÿcT(Varies)"},
-{"Key":"dictCredit","koKR":"아이템 사전 모드 ver 2.4\nCreated by 강낭땅콩","enUS":"Item Dictionary Mod ver 2.4\nCreated by jeffjks"},
+{"Key":"dictCredit","koKR":"아이템 사전 모드 ver 2.5\nCreated by 강낭땅콩","enUS":"Item Dictionary Mod ver 2.5\nCreated by jeffjks"},
 {"Key":"dictLadderOnly","koKR":"(래더 전용)","enUS":"(Ladder Only)"},
 {"Key":"dictMaxSocketNumber","koKR":"ÿc3최대 홈 개수","enUS":"ÿc3Max Sockets"},
 {"Key":"dictWhite","koKR":"ÿc0","enUS":"ÿc0"},
