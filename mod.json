@@ -6,10 +6,24 @@
     "version": "2.5",
     "config": [
         {
+            "id": "addButtonToPauseMenu",
+            "type": "checkbox",
+            "name": "Add Button to Pause Menu",
+            "description": "Add Item Dictionary button to pause menu",
+            "defaultValue": true
+        },
+        {
+            "id": "addButtonToHelpMenu",
+            "type": "checkbox",
+            "name": "Add Button to Help Menu",
+            "description": "Add Item Dictionary button to help menu",
+            "defaultValue": true
+        },
+        {
             "id": "addRecipeButtonToCube",
             "type": "checkbox",
-            "name": "Add Cube Recipe Button",
-            "description": "Add Cube recipe button on Horadric Cube panel",
+            "name": "Add Button to Cube Panel",
+            "description": "Add Cube Recipe button to horadric cube panel",
             "defaultValue": true
         },
         {

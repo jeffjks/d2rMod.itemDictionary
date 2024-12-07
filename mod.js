@@ -7,7 +7,8 @@ const language = config.language
 const controllerAvailable = false
 
 addStyleToProfileHD();
-addItemDictionarynPauseMenu();
+addItemDictionaryToPauseMenu();
+addItemDictionaryToHelpPanel();
 addCubeRecipeButtonToCube();
 addString();
 
@@ -83,8 +84,12 @@ function addStyleToProfileHD()
 }
 
 
-function addItemDictionarynPauseMenu()
+function addItemDictionaryToPauseMenu()
 {
+    if (config.addButtonToPauseMenu == false) {
+        return;
+    }
+
     const pauselayouthdFilename = 'global\\ui\\layouts\\pauselayouthd.json';
     const pauselayouthd = D2RMM.readJson(pauselayouthdFilename);
 
@@ -199,6 +204,107 @@ function addItemDictionarynPauseMenu()
     pauselayouthdController.children.push(itemDictionaryTableControllerWidget);
     pauselayouthdController.children[0].fields.filename = 'Controller/Panel/Options/Panel_Options_BG';
     D2RMM.writeJson(pauselayouthdControllerFilename, pauselayouthdController);
+}
+
+
+function addItemDictionaryToHelpPanel()
+{
+    if (config.addButtonToHelpMenu == false) {
+        return;
+    }
+
+    const helppanelhdFilename = 'global\\ui\\layouts\\helppanelhd.json';
+    const helppanelhd = D2RMM.readJson(helppanelhdFilename);
+
+    function buttonWidgetMaker(name, textString, onClickMessage)
+    {
+        const buttonWidget =  { "fields": {} };
+        buttonWidget.type = "ButtonWidget";
+        buttonWidget.name = name;
+        buttonWidget.fields.filename = "PauseMenu\\PauseButton";
+        buttonWidget.fields.hoveredFrame = 3;
+        buttonWidget.fields.textString = textString;
+        buttonWidget.fields.pressLabelOffset = [ 0, 0 ];
+        buttonWidget.fields.onClickMessage = "PanelManager:OpenPanel:" + onClickMessage;
+        buttonWidget.fields.textColor = "$FontColorLightTeal";
+        buttonWidget.fields["text/style"] = "$StyleFEButtonText";
+        buttonWidget.fields.acceptsReturnKey = true;
+        buttonWidget.fields.focusOnMouseOver = true;
+        buttonWidget.fields.sound = "select";
+        return buttonWidget;
+    }
+
+    const itemDictionaryTableWidget = {
+        "type": "TableWidget", "name": "PauseInfoTable",
+        "fields": {
+            "anchor": { "x": 0.5, "y": 0.5 },
+            "rect": { "x": -680, "y": 240 },
+            "columns": [
+                { "width": 720, "alignment": { "h": "center", "v": "center" } },
+                { "width": 720, "alignment": { "h": "center", "v": "center" } }
+                ],
+            "rowHeight": 180,
+            "generateFocusLinks": true
+        },
+        "children": []
+    };
+
+    const nameArray = [ ["NormalWeaponDictionary", "NormalArmorDictionary"], ["UniqueWeaponDictionary", "UniqueArmorDictionary"], ["RunewordItemDictionary", "SetItemDictionary"], ["CubeRecipeDictionary"] ];
+    const buttonTextList = [
+        ["@dictTextNormalWeapons", "@dictTextNormalArmors"],
+        ["@dictTextUniqueWeapons", "@dictTextUniqueArmors"],
+        ["@dictTextRunewords", "@dictTextSetItems"],
+        ["@dictTextCubeRecipes"]
+    ];
+
+
+    const onClickMessageArray = [
+        [
+            {"enUS": "ItemDictionaryNormalWeaponMainPanel", "koKR": "ItemDictionaryNormalWeaponMainPanel"},
+            {"enUS": "ItemDictionaryNormalArmorMainPanel", "koKR": "ItemDictionaryNormalArmorMainPanel"}
+        ],
+        [
+            {"enUS": "ItemDictionaryUniqueWeaponMainPanelEng", "koKR": "ItemDictionaryUniqueWeaponMainPanelKor"},
+            {"enUS": "ItemDictionaryUniqueArmorMainPanelEng", "koKR": "ItemDictionaryUniqueArmorMainPanelKor"}
+        ],
+        [
+            {"enUS": "ItemDictionaryRunewordMainPanelEng", "koKR": "ItemDictionaryRunewordMainPanelKor"},
+            {"enUS": "ItemDictionarySetItemMainPanelEng", "koKR": "ItemDictionarySetItemMainPanelKor"}
+        ],
+        [
+            {"enUS": "ItemDictionaryCubeRecipeMainPanelEng", "koKR": "ItemDictionaryCubeRecipeMainPanelKor"},
+        ]
+    ];
+    // json file name must be "{onClickMessage}hd.json"
+
+    for (let i = 0; i < nameArray.length; ++i)
+    {
+        const tableRowWidget = {
+            "type": "TableRowWidget", "name": 'RowItemDictionary' + String(i + 1), "children": []
+        };
+        for (let j = 0; j < nameArray[i].length; ++j)
+        {
+            tableRowWidget.children.push(buttonWidgetMaker(nameArray[i][j], buttonTextList[i][j], onClickMessageArray[i][j][language]));
+        }
+
+        itemDictionaryTableWidget.children.push(tableRowWidget);
+    }
+
+    const removeList = [
+        "GameplayLabel", "HelpRun", "HelpHighItems", "HelpStandAttack",
+        "UILabel", "HelpAutoMap", "HelpGameMenu", "HelpchatMode", "Helpskillbind", "HelpRenderToggle", "HelpZoom", "HelpMercenaryScreen", "HelpMercenaryPotion"
+    ];
+    const target = helppanelhd.children.find(item => item.name === "CenterSection");
+    if (target) {
+        target.children = target.children.filter(child => !removeList.includes(child.name));
+    }
+
+    const index = target.children.findIndex(child => child.name === "Title");
+    if (index !== -1) {
+        target.children.splice(index + 1, 0, itemDictionaryTableWidget);
+    }
+
+    D2RMM.writeJson(helppanelhdFilename, helppanelhd);
 }
 
 
