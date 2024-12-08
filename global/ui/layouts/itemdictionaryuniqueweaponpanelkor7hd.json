@@ -3178,7 +3178,7 @@
                                             "name": "GammaCalibration",
                                             "fields": {
                                                 "rect": "$StyleDictionaryDefaultImageRect",
-                                                "filename": "items/weapon/bow/stag_bow",
+                                                "filename": "items/weapon/bow/hellclap",
                                                 "useAdvancedColoring": true,
                                                 "recolorRange": {
                                                     "hue": [
