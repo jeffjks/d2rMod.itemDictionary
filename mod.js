@@ -294,14 +294,22 @@ function addItemDictionaryToHelpPanel()
         "GameplayLabel", "HelpRun", "HelpHighItems", "HelpStandAttack",
         "UILabel", "HelpAutoMap", "HelpGameMenu", "HelpchatMode", "Helpskillbind", "HelpRenderToggle", "HelpZoom", "HelpMercenaryScreen", "HelpMercenaryPotion"
     ];
-    const target = helppanelhd.children.find(item => item.name === "CenterSection");
-    if (target) {
-        target.children = target.children.filter(child => !removeList.includes(child.name));
+    const centerSection = helppanelhd.children.find(item => item.name === "CenterSection");
+    if (centerSection) {
+        centerSection.children = centerSection.children.filter(child => !removeList.includes(child.name));
+    }
+    else {
+        console.error("Cannot add Item Dictionary button to help menu. Please check other mod or disable 'Add Button to Help Menu'.");
+        return;
     }
 
-    const index = target.children.findIndex(child => child.name === "Title");
-    if (index !== -1) {
-        target.children.splice(index + 1, 0, itemDictionaryTableWidget);
+    const titleIndex = centerSection.children.findIndex(child => child.name === "Title");
+    if (titleIndex !== -1) {
+        centerSection.children.splice(titleIndex + 1, 0, itemDictionaryTableWidget);
+    }
+    else {
+        console.error("Cannot add Item Dictionary button to help menu. Please check other mod or disable 'Add Button to Help Menu'.");
+        return;
     }
 
     D2RMM.writeJson(helppanelhdFilename, helppanelhd);
