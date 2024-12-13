@@ -3434,7 +3434,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Schaefer's Hammer \n@uhf\n\n@dictBlue 20% Chance to cast level 10 Static Field on striking\n+20% Increased Attack Speed\n+100-130% Enhanced Damage @dictVariable\n@dictBlue +2-198 to Maximum Damage (Based on Character Level)\n+8-792 to Attack Rating (Based on Character Level)\nAdds 50-200 lightning damage\n+50 to Life\nLightning Resist +75%\n+1 to Light Radius\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Schaefer's Hammer \n@uhf\n\n@dictBlue 20% Chance to cast level 10 Static Field on striking\nIndestructible\n+20% Increased Attack Speed\n+100-130% Enhanced Damage @dictVariable\n@dictBlue +2-198 to Maximum Damage (Based on Character Level)\n+8-792 to Attack Rating (Based on Character Level)\nAdds 50-200 lightning damage\n+50 to Life\nLightning Resist +75%\n+1 to Light Radius\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },

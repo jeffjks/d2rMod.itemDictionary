@@ -3434,7 +3434,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 섀퍼의 망치 \n@uhf\n\n@dictBlue 타격 시 20% 확률로 10 레벨 전자기장 시전\n공격 속도 +20%\n피해 +100~130% 증가 @dictVariable\n@dictBlue 최대 피해 +2~198 (캐릭터 레벨에 비례)\n명중률 +8~792 (캐릭터 레벨에 비례)\n번개 피해 50 - 200 추가\n생명력 +50\n번개 저항 +75%\n시야 +1\n언데드에게 주는 피해 +50%",
+                                                "tooltipString": "@dictGold 섀퍼의 망치 \n@uhf\n\n@dictBlue 타격 시 20% 확률로 10 레벨 전자기장 시전\n파괴 불가\n공격 속도 +20%\n피해 +100~130% 증가 @dictVariable\n@dictBlue 최대 피해 +2~198 (캐릭터 레벨에 비례)\n명중률 +8~792 (캐릭터 레벨에 비례)\n번개 피해 50 - 200 추가\n생명력 +50\n번개 저항 +75%\n시야 +1\n언데드에게 주는 피해 +50%",
                                                 "pressedFrame": 0
                                             }
                                         },
