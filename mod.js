@@ -528,14 +528,14 @@ function addString()
 {"Key":"dictCraftBloodCommon","koKR":"ÿc3적중당 생명력 1~3% 훔침 ÿcT(변함)\nÿc3생명력 +10~20 ÿcT(변함)","enUS":"ÿc31-3% Life stolen per hit ÿcT(Varies)\nÿc3+10-20 to Life ÿcT(Varies)"},
 {"Key":"dictCraftCasterCommon","koKR":"ÿc3마나 재생 4~10% ÿcT(변함)\nÿc3마나 +10~20 ÿcT(변함)","enUS":"ÿc3Regenerate Mana 4-10% ÿcT(Varies)\nÿc3+10-20 to Mana ÿcT(Varies)"},
 {"Key":"dictCraftSafetyCommon","koKR":"ÿc3마법 피해 1~2 감소 ÿcT(변함)\nÿc3피해 1~4 감소 ÿcT(변함)","enUS":"ÿc3Magic Damage Reduced By 1-2 ÿcT(Varies)\nÿc3Damage Reduced By 1-4 ÿcT(Varies)"},
-{"Key":"dictCredit","koKR":"아이템 사전 모드 ver 2.6\nCreated by 강낭땅콩","enUS":"Item Dictionary Mod ver 2.6\nCreated by jeffjks"},
+{"Key":"dictCredit","koKR":"아이템 사전 모드 ver 2.7\nCreated by 강낭땅콩","enUS":"Item Dictionary Mod ver 2.7\nCreated by jeffjks"},
 {"Key":"dictLadderOnly","koKR":"(래더 전용)","enUS":"(Ladder Only)"},
 {"Key":"dictMaxSocketNumber","koKR":"ÿc3최대 홈 개수","enUS":"ÿc3Max Sockets"},
-{"Key":"dictWhite","koKR":"ÿc0","enUS":"ÿc0"},
-{"Key":"dictGold","koKR":"ÿc4","enUS":"ÿc4"},
-{"Key":"dictBlue","koKR":"ÿc3","enUS":"ÿc3"},
-{"Key":"dictOrange","koKR":"ÿc8","enUS":"ÿc8"},
-{"Key":"dictGreen","koKR":"ÿc2","enUS":"ÿc2"},
+{"Key":"dictWhite","default":"ÿc0"},
+{"Key":"dictGold","default":"ÿc4"},
+{"Key":"dictBlue","default":"ÿc3"},
+{"Key":"dictOrange","default":"ÿc8"},
+{"Key":"dictGreen","default":"ÿc2"},
 {"Key":"dictRange","koKR":"~","enUS":"-"},
 {"Key":"dictVariable","koKR":"ÿcT(변함)","enUS":"ÿcT(Varies)"},
 {"Key":"dictTextNormalWeapons","koKR":"일반 무기 목록","enUS":"Normal Weapons"},
@@ -600,15 +600,47 @@ function addString()
 {"Key":"dictClassBelt","koKR":"허리띠","enUS":"Belt"},
 {"Key":"dictClassBoot","koKR":"신발","enUS":"Boot"}];
 
+    let stringKey;
     stringKeyList.forEach((item) => {
-        uiJson.push(
-            {
+        if (item.default === undefined) {
+            stringKey = {
                 'id': D2RMM.getNextStringID(),
                 'Key': item['Key'],
+                'enUS': item['enUS'],
+                'zhTW': item['enUS'],
+                'deDE': item['enUS'],
+                'esES': item['enUS'],
+                'frFR': item['enUS'],
+                'itIT': item['enUS'],
                 'koKR': item['koKR'],
-                'enUS': item['enUS']
+                'plPL': item['enUS'],
+                'esMX': item['enUS'],
+                'jaJP': item['enUS'],
+                'ptBR': item['enUS'],
+                'ruRU': item['enUS'],
+                'zhCN': item['enUS']
             }
-        );
+        }
+        else {
+            stringKey = {
+                'id': D2RMM.getNextStringID(),
+                'Key': item['Key'],
+                'enUS': item['default'],
+                'zhTW': item['default'],
+                'deDE': item['default'],
+                'esES': item['default'],
+                'frFR': item['default'],
+                'itIT': item['default'],
+                'koKR': item['default'],
+                'plPL': item['default'],
+                'esMX': item['default'],
+                'jaJP': item['default'],
+                'ptBR': item['default'],
+                'ruRU': item['default'],
+                'zhCN': item['default']
+            }
+        }
+        uiJson.push(stringKey);
     });
 
     D2RMM.writeJson(uiJsonFileName, uiJson);
