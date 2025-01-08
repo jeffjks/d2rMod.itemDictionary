@@ -1456,7 +1456,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictClassBow @dictBaseAttackSpeed: [10]\n(아마존 전용)",
+                                                "text": "@dictClassBow @dictBaseAttackSpeed: [10]\n@AmaOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2254,7 +2254,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictClassClaw @dictBaseAttackSpeed: [0]\n(암살자 전용)",
+                                                "text": "@dictClassClaw @dictBaseAttackSpeed: [0]\n@AssOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3025,7 +3025,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictClassStaff @dictBaseAttackSpeed: [10]\n(원소술사 전용)",
+                                                "text": "@dictClassStaff @dictBaseAttackSpeed: [10]\n@SorOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4051,7 +4051,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "(드루이드 전용)",
+                                                "text": "@DruOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4976,7 +4976,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "(강령술사 전용)",
+                                                "text": "@NecOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5956,7 +5956,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "(야만용사 전용)",
+                                                "text": "@BarOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9167,7 +9167,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "(성기사 전용)",
+                                                "text": "@PalOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
