@@ -1873,7 +1873,7 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword55",
+                                                "text": "@Runeword14",
                                                 "style": "$StyleDictionaryCategory"
                                             }
                                         }
@@ -1913,7 +1913,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword55\n\n@dictBlue +2 to All Skills\n+200% Damage to Demons\n+100% Damage to Undead\n8% Life stolen per hit\n+70% Enhanced Defense\n+20 to Strength\nReflensh Life +7\nAll Resistances +65\nPhysical Damage Received Reduced by 8%\n25% Better Chance of Getting Magic Items",
+                                                "tooltipString": "@dictGold@Runeword14\n\n@dictBlue +2 to All Skills\n+200% Damage to Demons\n+100% Damage to Undead\n8% Life stolen per hit\n+70% Enhanced Defense\n+20 to Strength\nReflensh Life +7\nAll Resistances +65\nPhysical Damage Received Reduced by 8%\n25% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         }

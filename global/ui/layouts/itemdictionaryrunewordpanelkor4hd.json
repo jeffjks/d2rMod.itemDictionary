@@ -1873,7 +1873,7 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword55",
+                                                "text": "@Runeword14",
                                                 "style": "$StyleDictionaryCategory"
                                             }
                                         }
@@ -1913,7 +1913,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword55\n\n@dictBlue 모든 기술 +2\n악마에게 주는 피해 +200%\n언데드에게 주는 피해 +100%\n적중당 생명력 8% 훔침\n방어력 +70% 증가\n힘 +20\n생명력 회복 +7\n모든 저항 +65\n받는 물리 피해 8% 감소\n마법 아이템 발견 확률 25% 증가",
+                                                "tooltipString": "@dictGold@Runeword14\n\n@dictBlue 모든 기술 +2\n악마에게 주는 피해 +200%\n언데드에게 주는 피해 +100%\n적중당 생명력 8% 훔침\n방어력 +70% 증가\n힘 +20\n생명력 회복 +7\n모든 저항 +65\n받는 물리 피해 8% 감소\n마법 아이템 발견 확률 25% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
