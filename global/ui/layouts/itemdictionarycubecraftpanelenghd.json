@@ -3023,7 +3023,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/armor/belt/light_belt",
-                                                "tooltipString": "@dictBlue@strBSMagic @lbl / @zlb / @ulc",
+                                                "tooltipString": "@dictBlue@strBSMagic @vbl / @zvb / @uvc",
                                                 "pressedFrame": 0
                                             }
                                         },
