@@ -174,7 +174,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @dgr\n@dictOneHandDamage: 2 - 19",
+                                                "text": "@dictBaseItem: @dgr\n@dictOneHandDmg: 2 - 19",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -338,7 +338,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @dir\n@dictOneHandDamage: 4 - 13",
+                                                "text": "@dictBaseItem: @dir\n@dictOneHandDmg: 4 - 13",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -442,7 +442,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Jade Tan Do \n@kri\n\n@dictBlue +100-150 to Attack Rating @dictVariable\n@dictBlue +180 poison damage over 4 seconds\n+20% to Maximum Poison Resist\nPoison Resist +95%\nCannot Be Frozen",
+                                                "tooltipString": "@dictGold The Jade Tan Do \n@kri\n\n@dictBlue +@dictLightBlue(100-150)@dictBlue to Attack Rating\n+180 poison damage over 4 seconds\n+20% to Maximum Poison Resist\nPoison Resist +95%\nCannot Be Frozen",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -475,7 +475,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @kri\n@dictOneHandDamage: 2 - 11",
+                                                "text": "@dictBaseItem: @kri\n@dictOneHandDmg: 2 - 11",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -639,7 +639,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bld\n@dictOneHandDamage: 4 - 15",
+                                                "text": "@dictBaseItem: @bld\n@dictOneHandDmg: 4 - 15",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -743,7 +743,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Spineripper \n@9dg\n\n@dictBlue +1 to Necromancer Skill Levels\n+15% Increased Attack Speed\n+200-240% Enhanced Damage @dictVariable\n@dictBlue Adds 15-27 damage\nIgnore Target's Defense\n8% Life stolen per hit\nPrevent Monster Heal\n+10 to Dexterity",
+                                                "tooltipString": "@dictGold Spineripper \n@9dg\n\n@dictBlue +1 to Necromancer Skill Levels\n+15% Increased Attack Speed\n+@dictLightBlue(200-240)@dictBlue% Enhanced Damage\nAdds 15-27 damage\nIgnore Target's Defense\n8% Life stolen per hit\nPrevent Monster Heal\n+10 to Dexterity",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -776,7 +776,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9dg\n@dictOneHandDamage: (33~35) - (81~88)",
+                                                "text": "@dictBaseItem: @9dg\n@dictOneHandDmg: (33-35) - (81-88)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -880,7 +880,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Heart Carver \n@9di\n\n@dictBlue +190-240% Enhanced Damage @dictVariable\n@dictBlue Adds 15-35 damage\nIgnore Target's Defense\n+35% Deadly Strike\n+4 to Grim Ward (Barbarian Only)\n+4 to Find Item (Barbarian Only)\n+4 to Find Potion (Barbarian Only)",
+                                                "tooltipString": "@dictGold Heart Carver \n@9di\n\n@dictBlue +@dictLightBlue(190-240)@dictBlue% Enhanced Damage\nAdds 15-35 damage\nIgnore Target's Defense\n+35% Deadly Strike\n+4 to Grim Ward (Barbarian Only)\n+4 to Find Item (Barbarian Only)\n+4 to Find Potion (Barbarian Only)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -913,7 +913,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9di\n@dictOneHandDamage: (44~49) - (110~123)",
+                                                "text": "@dictBaseItem: @9di\n@dictOneHandDmg: (44-49) - (110-123)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1050,7 +1050,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9kr\n@dictOneHandDamage: 30 - 76",
+                                                "text": "@dictBaseItem: @9kr\n@dictOneHandDmg: 30 - 76",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1154,7 +1154,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Stormspike \n@9bl\n\n@dictBlue 25% Chance to cast level 3 Charged Bolt when struck\n+150% Enhanced Damage\nAdds 1-120 lightning damage\nLightning Resist +1-99% (Based on Character Level)\nAttacker Takes Lightning Damage of 20",
+                                                "tooltipString": "@dictGold Stormspike \n@9bl\n\n@dictBlue 25% Chance to cast level 3 Charged Bolt when struck\n+150% Enhanced Damage\nAdds 1-120 lightning damage\nLightning Resist +(1-99)% (Based on Character Level)\nAttacker Takes Lightning Damage of 20",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1214,7 +1214,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9bl\n@dictOneHandDamage: 47 - 90",
+                                                "text": "@dictBaseItem: @9bl\n@dictOneHandDmg: 47 - 90",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1318,7 +1318,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Wizardspike \n@7dg\n\n@dictBlue Indestructible\n+50% Faster Cast Rate\nIncrease Maximum Mana 15%\n+2-198 to Mana (Based on Character Level)\nRegenerate Mana 15%\nAll Resistances +75",
+                                                "tooltipString": "@dictGold Wizardspike \n@7dg\n\n@dictBlue Indestructible\n+50% Faster Cast Rate\nIncrease Maximum Mana 15%\n+(2-198) to Mana (Based on Character Level)\nRegenerate Mana 15%\nAll Resistances +75",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1378,7 +1378,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7dg\n@dictOneHandDamage: 23 - 49",
+                                                "text": "@dictBaseItem: @7dg\n@dictOneHandDmg: 23 - 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1467,6 +1467,170 @@
                                             "name": "Uniquename",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "Bloodpact Shard",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x2",
+                                                "tooltipString": "@dictGold Bloodpact Shard \n@7di\n\n@dictBlue +1 to All Skills\n+30% Faster Cast Rate\n+@dictLightBlue(1-3)@dictBlue to Bind Demon (Warlock Only)\n+@dictLightBlue(2-3)@dictBlue to Blood Boil (Warlock Only)\n+@dictLightBlue(2-3)@dictBlue to Blood Oath (Warlock Only)\nSlows Target by 25%\nIncrease Maximum Life @dictLightBlue(10-15)@dictBlue%\n+@dictLightBlue(20-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/weapon/knife/dirk",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange": {
+                                                    "hue": [
+                                                        0.0,
+                                                        0.501
+                                                    ],
+                                                    "saturation": [
+                                                        0.14,
+                                                        0.14
+                                                    ],
+                                                    "value": [
+                                                        0.425,
+                                                        0.54
+                                                    ]
+                                                },
+                                                "hsvTransform": [
+                                                    0.0,
+                                                    0.75,
+                                                    -0.35,
+                                                    0.0
+                                                ],
+                                                "tintTransform": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0,
+                                                    0.5
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @7di\n@dictOneHandDmg: 37 - 53",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 55\n@dictRequiredDexterity: 98, @dictRequiredStrength: 55, @dictRequiredLevel: 67",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "Fleshripper",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -1482,7 +1646,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Fleshripper \n@7kr\n\n@dictBlue +200-300% Enhanced Damage @dictVariable\n@dictBlue -50% Target Defense\n+25% Chance of Crushing Blow\n+33% Deadly Strike\n+50% Chance of Open Wounds\nPrevent Monster Heal\nSlows Target by 20%",
+                                                "tooltipString": "@dictGold Fleshripper \n@7kr\n\n@dictBlue +@dictLightBlue(200-300)@dictBlue% Enhanced Damage\n-50% Target Defense\n+25% Chance of Crushing Blow\n+33% Deadly Strike\n+50% Chance of Open Wounds\nPrevent Monster Heal\nSlows Target by 20%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1542,7 +1706,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7kr\n@dictOneHandDamage: (45~60) - (174~228)",
+                                                "text": "@dictBaseItem: @7kr\n@dictOneHandDmg: (45-60) - (174-228)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1646,7 +1810,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Ghostflame \n@7bl\n\n@dictBlue Indestructible\n+190-240% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n+108 magic damage\n10-15% Mana stolen per hit @dictVariable\n@dictBlue +2 to Light Radius\nEthereal (Cannot be Repaired)",
+                                                "tooltipString": "@dictGold Ghostflame \n@7bl\n\n@dictBlue Indestructible\n+@dictLightBlue(190-240)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n+108 magic damage\n@dictLightBlue(10-15)@dictBlue% Mana stolen per hit\n+2 to Light Radius\nEthereal (Cannot be Repaired)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1706,7 +1870,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7bl\n@dictOneHandDamage: (133~156) - (203~238)",
+                                                "text": "@dictBaseItem: @7bl\n@dictOneHandDmg: (133-156) - (203-238)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

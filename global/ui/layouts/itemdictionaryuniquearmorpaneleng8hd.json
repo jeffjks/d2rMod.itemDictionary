@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Gheed's Fortune \n@cm3\n\n@dictBlue 80-160% Extra Gold from Monsters @dictVariable\n@dictBlue Reduces all Vendor Prices 10-15% @dictVariable\n@dictBlue 20-40% Better Chance of Getting Magic Items @dictVariable",
+                                                "tooltipString": "@dictGold Gheed's Fortune \n@cm3\n\n@dictBlue @dictLightBlue(80-160)@dictBlue% Extra Gold from Monsters\nReduces all Vendor Prices @dictLightBlue(10-15)@dictBlue%\n@dictLightBlue(20-40)@dictBlue% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -251,7 +251,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Annihilus \n@cm1\n\n@dictBlue +1 to All Skills\n+10-20 to all Attributes @dictVariable\n@dictBlue All Resistances +10-20 @dictVariable\n@dictBlue +5-10% to Experience Gained @dictVariable",
+                                                "tooltipString": "@dictGold Annihilus \n@cm1\n\n@dictBlue +1 to All Skills\n+@dictLightBlue(10-20)@dictBlue to all Attributes\nAll Resistances +@dictLightBlue(10-20)@dictBlue\n+@dictLightBlue(5-10)@dictBlue% to Experience Gained",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -388,7 +388,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Hellfire Torch \n@cm2\n\n@dictBlue 5% Chance to cast level 10 Firestorm on striking\n+3 to Random Class Skill Levels\n+10-20 to all Attributes @dictVariable\n@dictBlue All Resistances +10-20 @dictVariable\n@dictBlue +8 to Light Radius\nLevel 30 Hydra (10 Charges)",
+                                                "tooltipString": "@dictGold Hellfire Torch \n@cm2\n\n@dictBlue 5% Chance to cast level 10 Firestorm on striking\n+3 to Random Class Skill Levels\n+@dictLightBlue(10-20)@dictBlue to all Attributes\nAll Resistances +@dictLightBlue(10-20)@dictBlue\n+8 to Light Radius\nLevel 30 Hydra (10 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -525,7 +525,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Black Cleft \n@cm3\n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -(45-65)% @dictVariable",
+                                                "tooltipString": "@dictGold The Black Cleft \n@cm3\n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -@dictLightBlue(45-65)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -689,7 +689,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Bone Break \n@cm3\n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by 10-30% @dictVariable",
+                                                "tooltipString": "@dictGold The Bone Break \n@cm3\n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by @dictLightBlue(10-30)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -853,7 +853,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Flame Rift \n@cm3\n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -(70-90)% @dictVariable",
+                                                "tooltipString": "@dictGold Flame Rift \n@cm3\n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -@dictLightBlue(70-90)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1017,7 +1017,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Cold Rupture \n@cm3\n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -(70-90)% @dictVariable",
+                                                "tooltipString": "@dictGold The Cold Rupture \n@cm3\n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -@dictLightBlue(70-90)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1181,7 +1181,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Crack of Heavens \n@cm3\n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -(70-90)% @dictVariable",
+                                                "tooltipString": "@dictGold The Crack of Heavens \n@cm3\n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -@dictLightBlue(70-90)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1345,7 +1345,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Rotting Fissure \n@cm3\n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -(70-90)% @dictVariable",
+                                                "tooltipString": "@dictGold The Rotting Fissure \n@cm3\n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -@dictLightBlue(70-90)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1527,7 +1527,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 29 Blaze when you Level-Up\nAdds 17-45 fire damage\n+3-5% to Fire Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Fire Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 29 Blaze when you Level-Up\nAdds 17-45 fire damage\n+@dictLightBlue(3-5)@dictBlue% to Fire Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Fire Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1585,7 +1585,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1639,7 +1639,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 31 Meteor when you Die\nAdds 17-45 fire damage\n+3-5% to Fire Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Fire Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 31 Meteor when you Die\nAdds 17-45 fire damage\n+@dictLightBlue(3-5)@dictBlue% to Fire Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Fire Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1697,7 +1697,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1751,7 +1751,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 43 Frost Nova when you Level-Up\nAdds 24-38 cold damage\n+3-5% to Cold Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Cold Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 43 Frost Nova when you Level-Up\nAdds 24-38 cold damage\n+@dictLightBlue(3-5)@dictBlue% to Cold Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Cold Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1809,7 +1809,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1863,7 +1863,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 37 Blizzard when you Die\nAdds 24-38 cold damage\n+3-5% to Cold Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Cold Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 37 Blizzard when you Die\nAdds 24-38 cold damage\n+@dictLightBlue(3-5)@dictBlue% to Cold Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Cold Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1921,7 +1921,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1975,7 +1975,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 41 Nova when you Level-Up\nAdds 1-74 lightning damage\n+3-5% to Lightning Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Lightning Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 41 Nova when you Level-Up\nAdds 1-74 lightning damage\n+@dictLightBlue(3-5)@dictBlue% to Lightning Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Lightning Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2033,7 +2033,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2087,7 +2087,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 47 Chain Lightning when you Die\nAdds 1-74 lightning damage\n+3-5% to Lightning Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Lightning Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 47 Chain Lightning when you Die\nAdds 1-74 lightning damage\n+@dictLightBlue(3-5)@dictBlue% to Lightning Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Lightning Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2145,7 +2145,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2199,7 +2199,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 23 Venom when you Level-Up\n+37 poison damage over 2 seconds\n+3-5% to Poison Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Poison Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 23 Venom when you Level-Up\n+37 poison damage over 2 seconds\n+@dictLightBlue(3-5)@dictBlue% to Poison Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Poison Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2257,7 +2257,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2311,7 +2311,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 51 Poison Nova when you Die\n+37 poison damage over 2 seconds\n+3-5% to Poison Skill Damage @dictVariable\n@dictBlue -(3-5)% to Enemy Poison Resistance @dictVariable",
+                                                "tooltipString": "@dictGold Rainbow Facet \n@jew\n\n@dictBlue 100% Chance to cast level 51 Poison Nova when you Die\n+37 poison damage over 2 seconds\n+@dictLightBlue(3-5)@dictBlue% to Poison Skill Damage\n-@dictLightBlue(3-5)@dictBlue% to Enemy Poison Resistance",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2369,7 +2369,679 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictRequiredLevel 49",
+                                                "text": "@dictRequiredLevel: 49",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Defender's Bile",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Defender's Bile \n@jew\n\n@dictBlue 1% Chance to cast level 25 Bone Armor when struck\n+95 poison damage over 1 seconds\n+@dictLightBlue(5-10)@dictBlue% to Poison Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Poison Resistance\n+@dictLightBlue(3-5)@dictBlue% Experience Gained\n@dictLightBlue(25-50)@dictBlue% Extra Gold from Monsters\n@dictLightBlue(15-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/body_part/fragment_poison"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @jew",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 75",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Guardian's Thunder",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Guardian's Thunder \n@jew\n\n@dictBlue 1% Chance to cast level 25 Cyclone Armor when struck\nAdds 1-75 lightning damage\n+@dictLightBlue(5-10)@dictBlue% to Lightning Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Lightning Resistance\n+@dictLightBlue(3-5)@dictBlue% Experience Gained\n@dictLightBlue(25-50)@dictBlue% Extra Gold from Monsters\n@dictLightBlue(15-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/body_part/fragment_lightning"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @jew",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 75",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Protector's Frost",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Protector's Frost \n@jew\n\n@dictBlue 1% Chance to cast level 25 Frozen Armor when struck\nAdds 10-30 cold damage\n+@dictLightBlue(5-10)@dictBlue% to Cold Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Cold Resistance\n+@dictLightBlue(3-5)@dictBlue% Experience Gained\n@dictLightBlue(25-50)@dictBlue% Extra Gold from Monsters\n@dictLightBlue(15-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/body_part/fragment_cold"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @jew",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 75",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Defender's Fire",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Defender's Fire \n@jew\n\n@dictBlue 1% Chance to cast level 25 Blaze when struck\nAdds 20-60 fire damage\n+@dictLightBlue(5-10)@dictBlue% to Fire Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Fire Resistance\n+@dictLightBlue(3-5)@dictBlue% Experience Gained\n@dictLightBlue(25-50)@dictBlue% Extra Gold from Monsters\n@dictLightBlue(15-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/body_part/fragment_fire"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @jew",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 75",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Protector's Stone",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Protector's Stone \n@jew\n\n@dictBlue 1% Chance to cast level 15 Fade when struck\n+@dictLightBlue(30-50)@dictBlue% Enhanced Damage\nAdds 10 - 30 Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Physical Resistance\n+@dictLightBlue(3-5)@dictBlue% Experience Gained\n@dictLightBlue(25-50)@dictBlue% Extra Gold from Monsters\n@dictLightBlue(15-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/body_part/fragment_physical"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @jew",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 75",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Guardian's Light",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Guardian's Light \n@jew\n\n@dictBlue 1% Chance to cast level 25 Psychic Ward when struck\nAdds 15-35 magic damage\n+@dictLightBlue(5-10)@dictBlue% to Magic Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Magic Resistance\n+@dictLightBlue(3-5)@dictBlue% Experience Gained\n@dictLightBlue(25-50)@dictBlue% Extra Gold from Monsters\n@dictLightBlue(15-35)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/body_part/fragment_magic"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @jew",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 75",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

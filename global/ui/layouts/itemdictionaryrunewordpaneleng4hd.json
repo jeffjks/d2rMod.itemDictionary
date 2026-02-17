@@ -277,7 +277,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue +2 to All Skills\n+25-35% Faster Cast Rate @dictVariable\n@dictBlue +55% Faster Hit Recovery\nAdds 1-50 lightning damage\nAdds 3-14 cold damage\n+75 poison damage over 5 seconds\n7% Life stolen per hit\n+250 Defense vs. Missile\n+22 to Vitality\n+89-112 to Mana @dictVariable\n@dictBlue +3-8 Magic Absorb @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue +2 to All Skills\n+@dictLightBlue(25-35)@dictBlue% Faster Cast Rate\n+55% Faster Hit Recovery\nAdds 1-50 lightning damage\nAdds 3-14 cold damage\n+75 poison damage over 5 seconds\n7% Life stolen per hit\n+250 Defense vs. Missile\n+22 to Vitality\n+@dictLightBlue(89-112)@dictBlue to Mana\n+@dictLightBlue(3-8)@dictBlue Magic Absorb",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -367,7 +367,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue +2 to All Skills\n+25-35% Faster Cast Rate @dictVariable\n@dictBlue +55% Faster Hit Recovery\n+250 Defense vs. Missile\n+22 to Vitality\n+89-112 to Mana @dictVariable\n@dictBlue Cold Resist +35%\nLightning Resist +35%\nPoison Resist +35%\n+3-8 Magic Absorb @dictVariable\n@dictBlue Attacker Takes Damage of 14",
+                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue +2 to All Skills\n+@dictLightBlue(25-35)@dictBlue% Faster Cast Rate\n+55% Faster Hit Recovery\n+250 Defense vs. Missile\n+22 to Vitality\n+@dictLightBlue(89-112)@dictBlue to Mana\nCold Resist +35%\nLightning Resist +35%\nPoison Resist +35%\n+@dictLightBlue(3-8)@dictBlue Magic Absorb\nAttacker Takes Damage of 14",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -471,7 +471,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword62\n\n@dictBlue Level 12-17 Meditation Aura When Equipped @dictVariable\n@dictBlue +35% Faster Cast Rate\n+200-260% Enhanced Damage @dictVariable\n@dictBlue +9 to Minimum Damage\n180-250% Bonus to Attack Rating @dictVariable\n@dictBlue Adds 5-30 fire damage\n+75 poison damage over 5 seconds\n+1-6 Critical Strike @dictVariable\n@dictBlue +5 to all Attributes\n+2 Mana after each Kill\n23% Better Chance of Getting Magic Items",
+                                                "tooltipString": "@dictGold@Runeword62\n\n@dictBlue Level @dictLightBlue(12-17)@dictBlue Meditation Aura When Equipped\n+35% Faster Cast Rate\n+@dictLightBlue(200-260)@dictBlue% Enhanced Damage\n+9 to Minimum Damage\n@dictLightBlue(180-250)@dictBlue% Bonus to Attack Rating\nAdds 5-30 fire damage\n+75 poison damage over 5 seconds\n+@dictLightBlue(1-6)@dictBlue Critical Strike\n+5 to all Attributes\n+2 Mana after each Kill\n23% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -679,7 +679,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword49\n\n@dictBlue Level 10 Vigor Aura When Equipped\n+200-275% Enhanced Damage @dictVariable\n@dictBlue +9 to Minimum Damage\n+9 to Maximum Damage\nAdds 55-160 fire damage\nAdds 55-160 lightning damage\nAdds 55-160 cold damage\n+2-6 Valkyrie @dictVariable\n@dictBlue +10 to Dexterity\nRegenerate Mana 20%\n+2 Mana after each Kill\n+2 to Light Radius\nLevel 20 Revive (25 Charges)",
+                                                "tooltipString": "@dictGold@Runeword49\n\n@dictBlue Level 10 Vigor Aura When Equipped\n+@dictLightBlue(200-275)@dictBlue% Enhanced Damage\n+9 to Minimum Damage\n+9 to Maximum Damage\nAdds 55-160 fire damage\nAdds 55-160 lightning damage\nAdds 55-160 cold damage\n+@dictLightBlue(2-6)@dictBlue Valkyrie\n+10 to Dexterity\nRegenerate Mana 20%\n+2 Mana after each Kill\n+2 to Light Radius\nLevel 20 Revive (25 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -783,7 +783,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword95\n\n@dictBlue +25% Increased Attack Speed\n+160-210% Enhanced Damage @dictVariable\n@dictBlue 50-80% Bonus to Attack Rating @dictVariable\n@dictBlue +75% Damage to Undead\n+50 to Attack Rating against Undead\nAdds 1-50 lightning damage\n+1 Berserk\n+1 Zeal\nHit Blinds Target +10\nHit Causes Monster to Flee +25%\n75% Extra Gold from Monsters\nLevel 3 Heart of Wolverine (12 Charges)",
+                                                "tooltipString": "@dictGold@Runeword95\n\n@dictBlue +25% Increased Attack Speed\n+@dictLightBlue(160-210)@dictBlue% Enhanced Damage\n@dictLightBlue(50-80)@dictBlue% Bonus to Attack Rating\n+75% Damage to Undead\n+50 to Attack Rating against Undead\nAdds 1-50 lightning damage\n+1 Berserk\n+1 Zeal\nHit Blinds Target +10\nHit Causes Monster to Flee +25%\n75% Extra Gold from Monsters\nLevel 3 Heart of Wolverine (12 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -887,7 +887,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword99\n\n@dictBlue 15% Chance to cast level 13 Frozen Orb on striking\n18% Chance to cast level 20 Ice Blast on striking\n+50 to Attack Rating\n+220-350% Damage to Demons @dictVariable\n@dictBlue +355-375% Damage to Undead @dictVariable\n@dictBlue +50 to Attack Rating against Undead\nAdds 100-220 cold damage\n-24% to Enemy Cold Resistance\n+10 to Dexterity\nCannot Be Frozen\n75% Extra Gold from Monsters\n+1 to Light Radius",
+                                                "tooltipString": "@dictGold@Runeword99\n\n@dictBlue 15% Chance to cast level 13 Frozen Orb on striking\n18% Chance to cast level 20 Ice Blast on striking\n+50 to Attack Rating\n+@dictLightBlue(220-350)@dictBlue% Damage to Demons\n+@dictLightBlue(355-375)@dictBlue% Damage to Undead\n+50 to Attack Rating against Undead\nAdds 100-220 cold damage\n-24% to Enemy Cold Resistance\n+10 to Dexterity\nCannot Be Frozen\n75% Extra Gold from Monsters\n+1 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -991,7 +991,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword137\n\n@dictBlue +60% Faster Hit Recovery\n+250-290% Enhanced Defense @dictVariable\n@dictBlue +300 Defense vs. Missile\n+16 to Strength\n+16 to Vitality\n+10 to Energy\nAll Resistances +15\nLevel 16 Molten Boulder (80 Charges)\nLevel 16 Clay Golem (16 Charges)",
+                                                "tooltipString": "@dictGold@Runeword137\n\n@dictBlue +60% Faster Hit Recovery\n+@dictLightBlue(250-290)@dictBlue% Enhanced Defense\n+300 Defense vs. Missile\n+16 to Strength\n+16 to Vitality\n+10 to Energy\nAll Resistances +15\nLevel 16 Molten Boulder (80 Charges)\nLevel 16 Clay Golem (16 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1095,7 +1095,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword91\n\n@dictBlue Indestructible\n30% Chance to cast level 20 Bone Spirit on striking\n+50% Increased Attack Speed\n+210-340% Enhanced Damage @dictVariable\n@dictBlue +75% Damage to Demons\n+100 to Attack Rating against Demons\nPrevent Monster Heal\n+10 to Energy\n+10-15 Magic Absorb @dictVariable\n@dictBlue Level 16 Heart of Wolverine (20 Charges)\nLevel 17 Iron Golem (14 Charges)",
+                                                "tooltipString": "@dictGold@Runeword91\n\n@dictBlue Indestructible\n30% Chance to cast level 20 Bone Spirit on striking\n+50% Increased Attack Speed\n+@dictLightBlue(210-340)@dictBlue% Enhanced Damage\n+75% Damage to Demons\n+100 to Attack Rating against Demons\nPrevent Monster Heal\n+10 to Energy\n+@dictLightBlue(10-15)@dictBlue Magic Absorb\nLevel 16 Heart of Wolverine (20 Charges)\nLevel 17 Iron Golem (14 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1199,7 +1199,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword66\n\n@dictBlue +30% Increased Attack Speed\n+230-270% Enhanced Damage @dictVariable\n@dictBlue -25% Target Defense\n20% Bonus to Attack Rating\n+33% Chance of Crushing Blow\n+50% Chance of Open Wounds\n+1 Vengeance\nPrevent Monster Heal\n+10 to Strength\n40% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold@Runeword66\n\n@dictBlue +30% Increased Attack Speed\n+@dictLightBlue(230-270)@dictBlue% Enhanced Damage\n-25% Target Defense\n20% Bonus to Attack Rating\n+33% Chance of Crushing Blow\n+50% Chance of Open Wounds\n+1 Vengeance\nPrevent Monster Heal\n+10 to Strength\n40% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1303,7 +1303,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword121\n\n@dictBlue 20% Chance to cast level 16 Tornado on striking\n16% Chance to cast level 21 Frozen Orb on attack\n20% Bonus to Attack Rating\nAdds 160-250 magic damage\nAdds 60-180 fire damage\n+5-10 to all Attributes @dictVariable\n@dictBlue +10 to Dexterity\n+38% Damage Taken Goes To Mana\n75% Extra Gold from Monsters\nLevel 15 Iron Maiden (40 Charges)\nRequirements -20%",
+                                                "tooltipString": "@dictGold@Runeword121\n\n@dictBlue 20% Chance to cast level 16 Tornado on striking\n16% Chance to cast level 21 Frozen Orb on attack\n20% Bonus to Attack Rating\nAdds 160-250 magic damage\nAdds 60-180 fire damage\n+@dictLightBlue(5-10)@dictBlue to all Attributes\n+10 to Dexterity\n+38% Damage Taken Goes To Mana\n75% Extra Gold from Monsters\nLevel 15 Iron Maiden (40 Charges)\nRequirements -20%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1407,7 +1407,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword51\n\n@dictBlue +3 to All Skills\n+40% Faster Cast Rate\n+75% Damage to Demons\n+100 to Attack Rating against Demons\nAdds 3-14 cold damage\n7% Mana stolen per hit\n+10 to Dexterity\nReflensh Life +20\nIncrease Maximum Mana 15%\nAll Resistances +30-40 @dictVariable\n@dictBlue Level 4 Oak Sage (25 Charges)\nLevel 14 Raven (60 Charges)",
+                                                "tooltipString": "@dictGold@Runeword51\n\n@dictBlue +3 to All Skills\n+40% Faster Cast Rate\n+75% Damage to Demons\n+100 to Attack Rating against Demons\nAdds 3-14 cold damage\n7% Mana stolen per hit\n+10 to Dexterity\nReflensh Life +20\nIncrease Maximum Mana 15%\nAll Resistances +@dictLightBlue(30-40)@dictBlue\nLevel 4 Oak Sage (25 Charges)\nLevel 14 Raven (60 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1511,7 +1511,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword37\n\n@dictBlue 15% Chance to cast level 5 Life Tap on striking\nLevel 13-16 Defiance Aura When Equipped @dictVariable\n@dictBlue +2 to Offensive Auras (Paladin Only)\n+30% Faster Block Rate\nFreezes Target\n+220-260% Enhanced Defense @dictVariable\n@dictBlue Reflensh Life +7\n+5% to Maximum Cold Resist\n+5% to Maximum Fire Resist\n25% Better Chance of Getting Magic Items\nRepairs 1 durability in 4 seconds",
+                                                "tooltipString": "@dictGold@Runeword37\n\n@dictBlue 15% Chance to cast level 5 Life Tap on striking\nLevel @dictLightBlue(13-16)@dictBlue Defiance Aura When Equipped\n+2 to Offensive Auras (Paladin Only)\n+30% Faster Block Rate\nFreezes Target\n+@dictLightBlue(220-260)@dictBlue% Enhanced Defense\nReflensh Life +7\n+5% to Maximum Cold Resist\n+5% to Maximum Fire Resist\n25% Better Chance of Getting Magic Items\nRepairs 1 durability in 4 seconds",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1615,7 +1615,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 20% Chance to cast level 15 Chilling Armor when struck\n+25% Faster Cast Rate\n+300% Enhanced Damage\n+9 to Minimum Damage\n+50 to Attack Rating\n+20% Deadly Strike\nHit Causes Monster to Flee +25%\n+200% Enhanced Defense\n+1 to Life-(99-148) (Based on Character Level) @dictVariable\n@dictBlue All Resistances +25-30 @dictVariable\n@dictBlue +12% Damage Taken Goes To Mana\n+1 to Light Radius",
+                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 20% Chance to cast level 15 Chilling Armor when struck\n+25% Faster Cast Rate\n+300% Enhanced Damage\n+9 to Minimum Damage\n+50 to Attack Rating\n+20% Deadly Strike\nHit Causes Monster to Flee +25%\n+200% Enhanced Defense\n+1-@dictLightBlue(99-148)@dictBlue to Life (Based on Character Level)\nAll Resistances +@dictLightBlue(25-30)@dictBlue\n+12% Damage Taken Goes To Mana\n+1 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1705,7 +1705,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 20% Chance to cast level 15 Chilling Armor when struck\n+25% Faster Cast Rate\n+300% Enhanced Damage\n+200% Enhanced Defense\n+15 Defense\n+1 to Life-(99-148) (Based on Character Level) @dictVariable\n@dictBlue Reflensh Life +7\n+5% to Maximum Lightning Resist\nAll Resistances +25-30 @dictVariable\n@dictBlue Damage Reduced by 7\n+12% Damage Taken Goes To Mana\n+1 to Light Radius",
+                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 20% Chance to cast level 15 Chilling Armor when struck\n+25% Faster Cast Rate\n+300% Enhanced Damage\n+200% Enhanced Defense\n+15 Defense\n+1-@dictLightBlue(99-148)@dictBlue to Life (Based on Character Level)\nReflensh Life +7\n+5% to Maximum Lightning Resist\nAll Resistances +@dictLightBlue(25-30)@dictBlue\nDamage Reduced by 7\n+12% Damage Taken Goes To Mana\n+1 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1809,7 +1809,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword9\n\n@dictBlue Level 15-21 Thorns Aura When Equipped @dictVariable\n@dictBlue +50% Faster Hit Recovery\n+25-50% to Poison Skill Damage @dictVariable\n@dictBlue +300 Defense\nIncrease Maximum Mana 5%\nRegenerate Mana 15%\n+5% to Maximum Cold Resist\nFire Resist +30%\nPoison Resist +100%\n+13 Life after each Kill\nLevel 13 Spirit of Barbs (33 Charges)",
+                                                "tooltipString": "@dictGold@Runeword9\n\n@dictBlue Level @dictLightBlue(15-21)@dictBlue Thorns Aura When Equipped\n+50% Faster Hit Recovery\n+@dictLightBlue(25-50)@dictBlue% to Poison Skill Damage\n+300 Defense\nIncrease Maximum Mana 5%\nRegenerate Mana 15%\n+5% to Maximum Cold Resist\nFire Resist +30%\nPoison Resist +100%\n+13 Life after each Kill\nLevel 13 Spirit of Barbs (33 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2017,7 +2017,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword60\n\n@dictBlue 50% Chance to cast level 20 Chain Lightning when you Kill an Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n+255-325% Enhanced Damage @dictVariable\n@dictBlue -(45-55)% to Enemy Lightning Resistance @dictVariable\n@dictBlue +40% Chance of Crushing Blow\nPrevent Monster Heal\n+0-49 to Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)",
+                                                "tooltipString": "@dictGold@Runeword60\n\n@dictBlue 50% Chance to cast level 20 Chain Lightning when you Kill an Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n+@dictLightBlue(255-325)@dictBlue% Enhanced Damage\n-@dictLightBlue(45-55)@dictBlue% to Enemy Lightning Resistance\n+40% Chance of Crushing Blow\nPrevent Monster Heal\n+(0-49) to Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2121,7 +2121,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword168\n\n@dictBlue 30% Chance to cast level 1 Decrepify on striking\n5% Chance to cast level 10 Life Tap on striking\n+375% Damage to Demons\n+100 to Attack Rating against Demons\n+250-300% Damage to Undead @dictVariable\n@dictBlue Adds 85-120 magic damage\nAdds 41-240 lightning damage\n+20% Chance of Crushing Blow\nPrevent Monster Heal\n+10 to Energy\nCannot Be Frozen",
+                                                "tooltipString": "@dictGold@Runeword168\n\n@dictBlue 30% Chance to cast level 1 Decrepify on striking\n5% Chance to cast level 10 Life Tap on striking\n+375% Damage to Demons\n+100 to Attack Rating against Demons\n+@dictLightBlue(250-300)@dictBlue% Damage to Undead\nAdds 85-120 magic damage\nAdds 41-240 lightning damage\n+20% Chance of Crushing Blow\nPrevent Monster Heal\n+10 to Energy\nCannot Be Frozen",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2225,7 +2225,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword10\n\n@dictBlue 35% Chance to cast level 14 Amplify Damage when struck\n100% Chance to cast level 18 Bone Spear on striking\nFires Explosive Arrows or Bolts\n+260-340% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n20% Bonus to Attack Rating\n+280-330% Damage to Demons @dictVariable\n@dictBlue +20% Deadly Strike\nPrevent Monster Heal\nKnockback",
+                                                "tooltipString": "@dictGold@Runeword10\n\n@dictBlue 35% Chance to cast level 14 Amplify Damage when struck\n100% Chance to cast level 18 Bone Spear on striking\nFires Explosive Arrows or Bolts\n+@dictLightBlue(260-340)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n20% Bonus to Attack Rating\n+@dictLightBlue(280-330)@dictBlue% Damage to Demons\n+20% Deadly Strike\nPrevent Monster Heal\nKnockback",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2329,7 +2329,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword38\n\n@dictBlue Level 12-15 Fanaticism Aura When Equipped @dictVariable\n@dictBlue +1 to All Skills-2 @dictVariable\n@dictBlue +330% Enhanced Damage\nIgnore Target's Defense\n300% Bonus to Attack Rating\n+75% Damage to Undead\n+50 to Attack Rating against Undead\n+120 fire damage\nAll Resistances +15\n10% Reanimate as: Returned\n75% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold@Runeword38\n\n@dictBlue Level @dictLightBlue(12-15)@dictBlue Fanaticism Aura When Equipped\n+1 to All Skills-2\n+330% Enhanced Damage\nIgnore Target's Defense\n300% Bonus to Attack Rating\n+75% Damage to Undead\n+50 to Attack Rating against Undead\n+120 fire damage\nAll Resistances +15\n10% Reanimate as: Returned\n75% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2433,7 +2433,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword39\n\n@dictBlue +30% Increased Attack Speed\n+320-370% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\nAdds 180-200 magic damage\nAdds 50-200 fire damage\nAdds 51-250 lightning damage\nAdds 50-200 cold damage\n12% Life stolen per hit\nPrevent Monster Heal\n+10 to Strength",
+                                                "tooltipString": "@dictGold@Runeword39\n\n@dictBlue +30% Increased Attack Speed\n+@dictLightBlue(320-370)@dictBlue% Enhanced Damage\nIgnore Target's Defense\nAdds 180-200 magic damage\nAdds 50-200 fire damage\nAdds 51-250 lightning damage\nAdds 50-200 cold damage\n12% Life stolen per hit\nPrevent Monster Heal\n+10 to Strength",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2537,7 +2537,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword59\n\n@dictBlue 100% Chance to cast level 40 Blizzard when you Level-Up\n25% Chance to cast level 22 Frost Nova on striking\nLevel 18 Holy Freeze Aura When Equipped\n+20% Increased Attack Speed\n+140-210% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n+25-30% to Cold Skill Damage @dictVariable\n@dictBlue 7% Life stolen per hit\n-20% to Enemy Cold Resistance\n+20% Deadly Strike\n3-309% Extra Gold from Monsters (Based on Character Level)",
+                                                "tooltipString": "@dictGold@Runeword59\n\n@dictBlue 100% Chance to cast level 40 Blizzard when you Level-Up\n25% Chance to cast level 22 Frost Nova on striking\nLevel 18 Holy Freeze Aura When Equipped\n+20% Increased Attack Speed\n+@dictLightBlue(140-210)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n+@dictLightBlue(25-30)@dictBlue% to Cold Skill Damage\n7% Life stolen per hit\n-20% to Enemy Cold Resistance\n+20% Deadly Strike\n(3-309)% Extra Gold from Monsters (Based on Character Level)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2641,7 +2641,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 100% Chance to cast level 40 Blaze when you Level-Up\n40% Chance to cast level 22 Firestorm on striking\nLevel 10-15 Redemption Aura When Equipped @dictVariable\n@dictBlue +350-400% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n14% Mana stolen per hit\n-28% to Enemy Fire Resistance\n+20% Deadly Strike\n+350-400 Defense vs. Missile @dictVariable\n@dictBlue +15-21 Fire Absorb @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 100% Chance to cast level 40 Blaze when you Level-Up\n40% Chance to cast level 22 Firestorm on striking\nLevel @dictLightBlue(10-15)@dictBlue Redemption Aura When Equipped\n+@dictLightBlue(350-400)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n14% Mana stolen per hit\n-28% to Enemy Fire Resistance\n+20% Deadly Strike\n+@dictLightBlue(350-400)@dictBlue Defense vs. Missile\n+@dictLightBlue(15-21)@dictBlue Fire Absorb",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2731,7 +2731,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 100% Chance to cast level 40 Blaze when you Level-Up\n40% Chance to cast level 22 Firestorm on striking\nLevel 10-15 Redemption Aura When Equipped @dictVariable\n@dictBlue +350-400% Enhanced Damage @dictVariable\n@dictBlue -28% to Enemy Fire Resistance\n+350-400 Defense vs. Missile @dictVariable\n@dictBlue +50 to Life\n+5% to Maximum Lightning Resist\n+10% to Maximum Fire Resist\n+15-21 Fire Absorb @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 100% Chance to cast level 40 Blaze when you Level-Up\n40% Chance to cast level 22 Firestorm on striking\nLevel @dictLightBlue(10-15)@dictBlue Redemption Aura When Equipped\n+@dictLightBlue(350-400)@dictBlue% Enhanced Damage\n-28% to Enemy Fire Resistance\n+@dictLightBlue(350-400)@dictBlue Defense vs. Missile\n+50 to Life\n+5% to Maximum Lightning Resist\n+10% to Maximum Fire Resist\n+@dictLightBlue(15-21)@dictBlue Fire Absorb",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2835,7 +2835,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword48\n\n@dictBlue 100% Chance to cast level 36 Blaze when you Level-Up\n100% Chance to cast level 48 Meteor when you Die\nLevel 16 Holy Fire Aura When Equipped\n+33% Increased Attack Speed\n+280-330% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n-20% to Enemy Fire Resistance\n7% Life stolen per hit\n+20% Deadly Strike\nHit Blinds Target\nFreezes Target +3",
+                                                "tooltipString": "@dictGold@Runeword48\n\n@dictBlue 100% Chance to cast level 36 Blaze when you Level-Up\n100% Chance to cast level 48 Meteor when you Die\nLevel 16 Holy Fire Aura When Equipped\n+33% Increased Attack Speed\n+@dictLightBlue(280-330)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n-20% to Enemy Fire Resistance\n7% Life stolen per hit\n+20% Deadly Strike\nHit Blinds Target\nFreezes Target +3",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2939,7 +2939,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword109\n\n@dictBlue 25% Chance to cast level 17 Fire Wall when struck\nLevel 16-20 Concentration Aura When Equipped @dictVariable\n@dictBlue 260-300% Bonus to Attack Rating @dictVariable\n@dictBlue +1-99% Damage to Demons (Based on Character Level)\nAdds 50-280 lightning damage\n+20% Deadly Strike\nHit Blinds Target\nFreezes Target +3\n+10 to Vitality\nReflensh Life +8\n1-185% Extra Gold from Monsters (Based on Character Level)",
+                                                "tooltipString": "@dictGold@Runeword109\n\n@dictBlue 25% Chance to cast level 17 Fire Wall when struck\nLevel @dictLightBlue(16-20)@dictBlue Concentration Aura When Equipped\n@dictLightBlue(260-300)@dictBlue% Bonus to Attack Rating\n+(1-99)% Damage to Demons (Based on Character Level)\nAdds 50-280 lightning damage\n+20% Deadly Strike\nHit Blinds Target\nFreezes Target +3\n+10 to Vitality\nReflensh Life +8\n(1-185)% Extra Gold from Monsters (Based on Character Level)",
                                                 "pressedFrame": 0
                                             }
                                         }

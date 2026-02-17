@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Hotspur \n@lbt\n\n@dictBlue Adds 3-6 fire damage\n+10-20% Enhanced Defense @dictVariable\n@dictBlue +6 Defense\n+15 to Life\n+15% to Maximum Fire Resist\nFire Resist +45%",
+                                                "tooltipString": "@dictGold Hotspur \n@lbt\n\n@dictBlue Adds 3-6 fire damage\n+@dictLightBlue(10-20)@dictBlue% Enhanced Defense\n+6 Defense\n+15 to Life\n+15% to Maximum Fire Resist\nFire Resist +45%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -174,7 +174,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @lbt\n@strchrdef: 10, @dictKickDamage: 3 - 8",
+                                                "text": "@dictBaseItem: @lbt\n@strchrdef: 10, @dictKickDmg: 3 - 8",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -278,7 +278,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Gorefoot \n@vbt\n\n@dictBlue +20% Faster Run/Walk\n2% Mana stolen per hit\n+2 to Leap (Barbarian Only)\n+20-30% Enhanced Defense @dictVariable\n@dictBlue +12 Defense\nAttacker Takes Damage of 2",
+                                                "tooltipString": "@dictGold Gorefoot \n@vbt\n\n@dictBlue +20% Faster Run/Walk\n2% Mana stolen per hit\n+2 to Leap (Barbarian Only)\n+@dictLightBlue(20-30)@dictBlue% Enhanced Defense\n+12 Defense\nAttacker Takes Damage of 2",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -338,7 +338,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @vbt\n@strchrdef: 20~21, @dictKickDamage: 4 - 10",
+                                                "text": "@dictBaseItem: @vbt\n@strchrdef: 20-21, @dictKickDmg: 4 - 10",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -442,7 +442,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Treads of Cthon \n@mbt\n\n@dictBlue +30% Faster Run/Walk\n+30-40% Enhanced Defense @dictVariable\n@dictBlue +12 Defense\n+50 Defense vs. Missile\n+10 to Life\n50% Slower Stamina Drain",
+                                                "tooltipString": "@dictGold Treads of Cthon \n@mbt\n\n@dictBlue +30% Faster Run/Walk\n+@dictLightBlue(30-40)@dictBlue% Enhanced Defense\n+12 Defense\n+50 Defense vs. Missile\n+10 to Life\n50% Slower Stamina Drain",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -502,7 +502,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @mbt\n@strchrdef: 25~26, @dictKickDamage: 6 - 12",
+                                                "text": "@dictBaseItem: @mbt\n@strchrdef: 25-26, @dictKickDmg: 6 - 12",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -606,7 +606,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Goblin Toe \n@tbt\n\n@dictBlue +25% Chance of Crushing Blow\n+50-60% Enhanced Defense @dictVariable\n@dictBlue +15 Defense\nDamage Reduced by 1\nMagic Damage Reduced by 1\n-1 to Light Radius",
+                                                "tooltipString": "@dictGold Goblin Toe \n@tbt\n\n@dictBlue +25% Chance of Crushing Blow\n+@dictLightBlue(50-60)@dictBlue% Enhanced Defense\n+15 Defense\nDamage Reduced by 1\nMagic Damage Reduced by 1\n-1 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -666,7 +666,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @tbt\n@strchrdef: 33~34, @dictKickDamage: 8 - 16",
+                                                "text": "@dictBaseItem: @tbt\n@strchrdef: 33-34, @dictKickDmg: 8 - 16",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -770,7 +770,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Tearhaunch \n@hbt\n\n@dictBlue +20% Faster Run/Walk\n+2 to Vigor (Paladin Only)\n+60-80% Enhanced Defense @dictVariable\n@dictBlue +35 Defense\n+5 to Strength\n+5 to Dexterity\nAll Resistances +10",
+                                                "tooltipString": "@dictGold Tearhaunch \n@hbt\n\n@dictBlue +20% Faster Run/Walk\n+2 to Vigor (Paladin Only)\n+@dictLightBlue(60-80)@dictBlue% Enhanced Defense\n+35 Defense\n+5 to Strength\n+5 to Dexterity\nAll Resistances +10",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -830,7 +830,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @hbt\n@strchrdef: 60~63, @dictKickDamage: 10 - 20",
+                                                "text": "@dictBaseItem: @hbt\n@strchrdef: 60-63, @dictKickDmg: 10 - 20",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -934,7 +934,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Infernostride \n@xlb\n\n@dictBlue 5% Chance to cast level 8 Blaze when struck\n+20% Faster Run/Walk\nAdds 12-33 fire damage\n+120-150% Enhanced Defense @dictVariable\n@dictBlue +15 Defense\n+10% to Maximum Fire Resist\nFire Resist +30%\n40-70% Extra Gold from Monsters @dictVariable\n@dictBlue +2 to Light Radius",
+                                                "tooltipString": "@dictGold Infernostride \n@xlb\n\n@dictBlue 5% Chance to cast level 8 Blaze when struck\n+20% Faster Run/Walk\nAdds 12-33 fire damage\n+@dictLightBlue(120-150)@dictBlue% Enhanced Defense\n+15 Defense\n+10% to Maximum Fire Resist\nFire Resist +30%\n@dictLightBlue(40-70)@dictBlue% Extra Gold from Monsters\n+2 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -967,7 +967,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xlb\n@strchrdef: 94~105, @dictKickDamage: 26 - 46",
+                                                "text": "@dictBaseItem: @xlb\n@strchrdef: 94-105, @dictKickDmg: 26 - 46",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1071,7 +1071,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Waterwalk \n@xvb\n\n@dictBlue +20% Faster Run/Walk\n+180-210% Enhanced Defense @dictVariable\n@dictBlue +100 Defense vs. Missile\n+15 to Dexterity\n+45-65 to Life @dictVariable\n@dictBlue +40 Maximum Stamina\nHeal Stamina Plus 50%\n+5% to Maximum Fire Resist",
+                                                "tooltipString": "@dictGold Waterwalk \n@xvb\n\n@dictBlue +20% Faster Run/Walk\n+@dictLightBlue(180-210)@dictBlue% Enhanced Defense\n+100 Defense vs. Missile\n+15 to Dexterity\n+@dictLightBlue(45-65)@dictBlue to Life\n+40 Maximum Stamina\nHeal Stamina Plus 50%\n+5% to Maximum Fire Resist",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1104,7 +1104,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xvb\n@strchrdef: 112~124, @dictKickDamage: 28 - 50",
+                                                "text": "@dictBaseItem: @xvb\n@strchrdef: 112-124, @dictKickDmg: 28 - 50",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1208,7 +1208,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Silkweave \n@xmb\n\n@dictBlue +30% Faster Run/Walk\n+150-190% Enhanced Defense @dictVariable\n@dictBlue +200 Defense vs. Missile\nIncrease Maximum Mana 10%\n+5 Mana after each Kill",
+                                                "tooltipString": "@dictGold Silkweave \n@xmb\n\n@dictBlue +30% Faster Run/Walk\n+@dictLightBlue(150-190)@dictBlue% Enhanced Defense\n+200 Defense vs. Missile\nIncrease Maximum Mana 10%\n+5 Mana after each Kill",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1241,7 +1241,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xmb\n@strchrdef: 112~130, @dictKickDamage: 23 - 52",
+                                                "text": "@dictBaseItem: @xmb\n@strchrdef: 112-130, @dictKickDmg: 23 - 52",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1345,7 +1345,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold War Traveler \n@xtb\n\n@dictBlue +25% Faster Run/Walk\nAdds 15-25 damage\n+150-190% Enhanced Defense @dictVariable\n@dictBlue +10 to Strength\n+10 to Vitality\n40% Slower Stamina Drain\nAttacker Takes Damage of 5-10 @dictVariable\n@dictBlue 30-50% Better Chance of Getting Magic Items @dictVariable",
+                                                "tooltipString": "@dictGold War Traveler \n@xtb\n\n@dictBlue +25% Faster Run/Walk\nAdds 15-25 damage\n+@dictLightBlue(150-190)@dictBlue% Enhanced Defense\n+10 to Strength\n+10 to Vitality\n40% Slower Stamina Drain\nAttacker Takes Damage of @dictLightBlue(5-10)@dictBlue\n@dictLightBlue(30-50)@dictBlue% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1378,7 +1378,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xtb\n@strchrdef: 120~139, @dictKickDamage: 37 - 64",
+                                                "text": "@dictBaseItem: @xtb\n@strchrdef: 120-139, @dictKickDmg: 37 - 64",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1482,7 +1482,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Gore Rider \n@xhb\n\n@dictBlue +30% Faster Run/Walk\n+15% Chance of Crushing Blow\n+15% Deadly Strike\n+10% Chance of Open Wounds\n+160-200% Enhanced Defense @dictVariable\n@dictBlue +20 Maximum Stamina\nRequirements -25%",
+                                                "tooltipString": "@dictGold Gore Rider \n@xhb\n\n@dictBlue +30% Faster Run/Walk\n+15% Chance of Crushing Blow\n+15% Deadly Strike\n+10% Chance of Open Wounds\n+@dictLightBlue(160-200)@dictBlue% Enhanced Defense\n+20 Maximum Stamina\nRequirements -25%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1515,7 +1515,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhb\n@strchrdef: 140~162, @dictKickDamage: 39 - 80",
+                                                "text": "@dictBaseItem: @xhb\n@strchrdef: 140-162, @dictKickDmg: 39 - 80",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1619,7 +1619,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Sandstorm Trek \n@uvb\n\n@dictBlue +20% Faster Run/Walk\n+20% Faster Hit Recovery\n+140-170% Enhanced Defense @dictVariable\n@dictBlue +10-15 to Strength @dictVariable\n@dictBlue +10-15 to Vitality @dictVariable\n@dictBlue +1-99 Maximum Stamina (Based on Character Level)\n50% Slower Stamina Drain\nPoison Resist +40-70% @dictVariable\n@dictBlue Repairs 1 durability in 20 seconds",
+                                                "tooltipString": "@dictGold Sandstorm Trek \n@uvb\n\n@dictBlue +20% Faster Run/Walk\n+20% Faster Hit Recovery\n+@dictLightBlue(140-170)@dictBlue% Enhanced Defense\n+@dictLightBlue(10-15)@dictBlue to Strength\n+@dictLightBlue(10-15)@dictBlue to Vitality\n+(1-99) Maximum Stamina (Based on Character Level)\n50% Slower Stamina Drain\nPoison Resist +@dictLightBlue(40-70)@dictBlue%\nRepairs 1 durability in 20 seconds",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1652,7 +1652,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uvb\n@strchrdef: 158~178, @dictKickDamage: 60 - 110",
+                                                "text": "@dictBaseItem: @uvb\n@strchrdef: 158-178, @dictKickDmg: 60 - 110",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1756,7 +1756,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Marrowwalk \n@umb\n\n@dictBlue +20% Faster Run/Walk\n+1-2 to Skeleton Mastery (Necromancer Only) @dictVariable\n@dictBlue +170-200% Enhanced Defense @dictVariable\n@dictBlue +10-20 to Strength @dictVariable\n@dictBlue +17 to Dexterity\nRegenerate Mana 10%\nHeal Stamina Plus 10%\nHalf Freeze Duration\nLevel 33 Bone Prison (13 Charges)\nLevel 12 Life Tap (10 Charges)",
+                                                "tooltipString": "@dictGold Marrowwalk \n@umb\n\n@dictBlue +20% Faster Run/Walk\n+@dictLightBlue(1-2)@dictBlue to Skeleton Mastery (Necromancer Only)\n+@dictLightBlue(170-200)@dictBlue% Enhanced Defense\n+@dictLightBlue(10-20)@dictBlue to Strength\n+17 to Dexterity\nRegenerate Mana 10%\nHeal Stamina Plus 10%\nHalf Freeze Duration\nLevel 33 Bone Prison (13 Charges)\nLevel 12 Life Tap (10 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1789,7 +1789,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @umb\n@strchrdef: 183~204, @dictKickDamage: 69 - 118",
+                                                "text": "@dictBaseItem: @umb\n@strchrdef: 183-204, @dictKickDmg: 69 - 118",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1878,6 +1878,170 @@
                                             "name": "Uniquename",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "Wraithstep",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x2",
+                                                "tooltipString": "@dictGold Wraithstep \n@utb\n\n@dictBlue +30% Faster Run/Walk\n+20% Faster Hit Recovery\n+@dictLightBlue(40-60)@dictBlue Defense\n+@dictLightBlue(10-15)@dictBlue to Dexterity\n+@dictLightBlue(10-15)@dictBlue to Energy\n\n1 of the following:\n+1 to Chaos Skills (Warlock Only)\n+1 to Eldritch Skills (Warlock Only)\n+1 to Demon Skills (Warlock Only)",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/boot/light_plate_boots",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange": {
+                                                    "hue": [
+                                                        0.05,
+                                                        0.06
+                                                    ],
+                                                    "saturation": [
+                                                        0.5,
+                                                        0.501
+                                                    ],
+                                                    "value": [
+                                                        0.585,
+                                                        0.415
+                                                    ]
+                                                },
+                                                "hsvTransform": [
+                                                    0.0,
+                                                    -0.55,
+                                                    -0.35,
+                                                    0.0
+                                                ],
+                                                "tintTransform": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @utb\n@strchrdef: 99-128, @dictKickDmg: 50 - 145",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 18\n@dictRequiredStrength: 163, @dictRequiredLevel: 67",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "Shadow Dancer",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -1893,7 +2057,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Shadow Dancer \n@uhb\n\n@dictBlue +1-2 to Shadow Disciplines (Assassin Only) @dictVariable\n@dictBlue +30% Faster Run/Walk\n+30% Faster Hit Recovery\n+70-100% Enhanced Defense @dictVariable\n@dictBlue +15-25 to Dexterity @dictVariable\n@dictBlue Requirements -20%",
+                                                "tooltipString": "@dictGold Shadow Dancer \n@uhb\n\n@dictBlue +@dictLightBlue(1-2)@dictBlue to Shadow Disciplines (Assassin Only)\n+30% Faster Run/Walk\n+30% Faster Hit Recovery\n+@dictLightBlue(70-100)@dictBlue% Enhanced Defense\n+@dictLightBlue(15-25)@dictBlue to Dexterity\nRequirements -20%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1953,7 +2117,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uhb\n@strchrdef: 122~144, @dictKickDamage: 83 - 149",
+                                                "text": "@dictBaseItem: @uhb\n@strchrdef: 122-144, @dictKickDmg: 83 - 149",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Felloak \n@clb\n\n@dictBlue +70-80% Enhanced Damage @dictVariable\n@dictBlue Adds 6-8 fire damage\nKnockback\nLightning Resist +60%\nFire Resist +20%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Felloak \n@clb\n\n@dictBlue +@dictLightBlue(70-80)@dictBlue% Enhanced Damage\nAdds 6-8 fire damage\nKnockback\nLightning Resist +60%\nFire Resist +20%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -147,7 +147,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @clb\n@dictOneHandDamage: 1 - 10",
+                                                "text": "@dictBaseItem: @clb\n@dictOneHandDmg: 1 - 10",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -251,7 +251,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Stoutnail \n@spc\n\n@dictBlue +100% Enhanced Damage\n+7 to Vitality\nMagic Damage Reduced by 2\nAttacker Takes Damage of 3-10 @dictVariable\n@dictBlue +50% Damage to Undead",
+                                                "tooltipString": "@dictGold Stoutnail \n@spc\n\n@dictBlue +100% Enhanced Damage\n+7 to Vitality\nMagic Damage Reduced by 2\nAttacker Takes Damage of @dictLightBlue(3-10)@dictBlue\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -284,7 +284,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @spc\n@dictOneHandDamage: 10 - 16",
+                                                "text": "@dictBaseItem: @spc\n@dictOneHandDmg: 10 - 16",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -388,7 +388,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Dark Clan Crusher \n@9cl\n\n@dictBlue +2 to Druid Skill Levels\n+195% Enhanced Damage\n20-25% Bonus to Attack Rating @dictVariable\n@dictBlue +200% Damage to Demons\n+200 to Attack Rating against Demons\n+15 Life after each Demon Kill\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Dark Clan Crusher \n@9cl\n\n@dictBlue +2 to Druid Skill Levels\n+195% Enhanced Damage\n@dictLightBlue(20-25)@dictBlue% Bonus to Attack Rating\n+200% Damage to Demons\n+200 to Attack Rating against Demons\n+15 Life after each Demon Kill\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -448,7 +448,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9cl\n@dictOneHandDamage: 17 - 61",
+                                                "text": "@dictBaseItem: @9cl\n@dictOneHandDmg: 17 - 61",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -552,7 +552,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Fleshrender \n@9sp\n\n@dictBlue +2 to Shape Shifting Skills (Druid Only)\n+1 to Druid Skill Levels\n+130-200% Enhanced Damage @dictVariable\n@dictBlue Adds 35-50 damage\n+20% Chance of Crushing Blow\n+20% Deadly Strike\n+25% Chance of Open Wounds\nPrevent Monster Heal\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Fleshrender \n@9sp\n\n@dictBlue +2 to Shape Shifting Skills (Druid Only)\n+1 to Druid Skill Levels\n+@dictLightBlue(130-200)@dictBlue% Enhanced Damage\nAdds 35-50 damage\n+20% Chance of Crushing Blow\n+20% Deadly Strike\n+25% Chance of Open Wounds\nPrevent Monster Heal\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -585,7 +585,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9sp\n@dictOneHandDamage: (64~74) - (107~125)",
+                                                "text": "@dictBaseItem: @9sp\n@dictOneHandDmg: (64-74) - (107-125)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -689,7 +689,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Nord's Tenderizer \n@7cl\n\n@dictBlue +25% Increased Attack Speed\n+270-330% Enhanced Damage @dictVariable\n@dictBlue 150-180% Bonus to Attack Rating @dictVariable\n@dictBlue Adds 205-455 cold damage\nFreezes Target +2-4 @dictVariable\n@dictBlue Cold Absorb +5-15% @dictVariable\n@dictBlue Level 16 Blizzard (12 Charges)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Nord's Tenderizer \n@7cl\n\n@dictBlue +25% Increased Attack Speed\n+@dictLightBlue(270-330)@dictBlue% Enhanced Damage\n@dictLightBlue(150-180)@dictBlue% Bonus to Attack Rating\nAdds 205-455 cold damage\nFreezes Target +@dictLightBlue(2-4)@dictBlue\nCold Absorb +@dictLightBlue(5-15)@dictBlue%\nLevel 16 Blizzard (12 Charges)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -722,7 +722,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7cl\n@dictOneHandDamage: (129~150) - (159~184)",
+                                                "text": "@dictBaseItem: @7cl\n@dictOneHandDmg: (129-150) - (159-184)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -826,7 +826,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Demon Limb \n@7sp\n\n@dictBlue +180-230% Enhanced Damage @dictVariable\n@dictBlue +123% Damage to Demons\nAdds 222-333 fire damage\n7-13% Life stolen per hit @dictVariable\n@dictBlue Fire Resist +15-20% @dictVariable\n@dictBlue Level 23 Enchant (20 Charges)\nRepairs 1 durability in 20 seconds\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Demon Limb \n@7sp\n\n@dictBlue +@dictLightBlue(180-230)@dictBlue% Enhanced Damage\n+123% Damage to Demons\nAdds 222-333 fire damage\n@dictLightBlue(7-13)@dictBlue% Life stolen per hit\nFire Resist +@dictLightBlue(15-20)@dictBlue%\nLevel 23 Enchant (20 Charges)\nRepairs 1 durability in 20 seconds\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -886,7 +886,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7sp\n@dictOneHandDamage: (89~105) - (162~191)",
+                                                "text": "@dictBaseItem: @7sp\n@dictOneHandDmg: (89-105) - (162-191)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1008,7 +1008,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Crushflange \n@mac\n\n@dictBlue +50-60% Enhanced Damage @dictVariable\n@dictBlue +33% Chance of Crushing Blow\nKnockback\n+15 to Strength\nFire Resist +50%\n+2 to Light Radius\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Crushflange \n@mac\n\n@dictBlue +@dictLightBlue(50-60)@dictBlue% Enhanced Damage\n+33% Chance of Crushing Blow\nKnockback\n+15 to Strength\nFire Resist +50%\n+2 to Light Radius\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1068,7 +1068,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @mac\n@dictOneHandDamage: 4 - (15~16)",
+                                                "text": "@dictBaseItem: @mac\n@dictOneHandDmg: 4 - (15-16)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1205,7 +1205,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @mst\n@dictOneHandDamage: 15 - 35",
+                                                "text": "@dictBaseItem: @mst\n@dictOneHandDmg: 15 - 35",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1309,7 +1309,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold The General's Tan Do Li Ga \n@fla\n\n@dictBlue +20% Increased Attack Speed\n+50-60% Enhanced Damage @dictVariable\n@dictBlue Adds 1-20 damage\n5% Mana stolen per hit\nSlows Target by 50%\n+25 Defense\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold The General's Tan Do Li Ga \n@fla\n\n@dictBlue +20% Increased Attack Speed\n+@dictLightBlue(50-60)@dictBlue% Enhanced Damage\nAdds 1-20 damage\n5% Mana stolen per hit\nSlows Target by 50%\n+25 Defense\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1369,7 +1369,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @fla\n@dictOneHandDamage: 2 - (56~58)",
+                                                "text": "@dictBaseItem: @fla\n@dictOneHandDmg: 2 - (56-58)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1473,7 +1473,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Sureshrill Frost \n@9ma\n\n@dictBlue +150-180% Enhanced Damage @dictVariable\n@dictBlue Adds 5-10 damage\nAdds 63-112 cold damage\nFreezes Target +3\nCannot Be Frozen\nLevel 9 Frozen Orb (50 Charges)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Sureshrill Frost \n@9ma\n\n@dictBlue +@dictLightBlue(150-180)@dictBlue% Enhanced Damage\nAdds 5-10 damage\nAdds 63-112 cold damage\nFreezes Target +3\nCannot Be Frozen\nLevel 9 Frozen Orb (50 Charges)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1506,7 +1506,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9ma\n@dictOneHandDamage: (42~47) - (67~74)",
+                                                "text": "@dictBaseItem: @9ma\n@dictOneHandDmg: (42-47) - (67-74)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1610,7 +1610,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Moonfall \n@9mt\n\n@dictBlue 5% Chance to cast level 6 Meteor on striking\n+120-150% Enhanced Damage @dictVariable\n@dictBlue Adds 10-15 damage\nAdds 55-115 fire damage\nMagic Damage Reduced by 9-12 @dictVariable\n@dictBlue +2 to Light Radius\nLevel 11 Meteor (60 Charges)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Moonfall \n@9mt\n\n@dictBlue 5% Chance to cast level 6 Meteor on striking\n+@dictLightBlue(120-150)@dictBlue% Enhanced Damage\nAdds 10-15 damage\nAdds 55-115 fire damage\nMagic Damage Reduced by @dictLightBlue(9-12)@dictBlue\n+2 to Light Radius\nLevel 11 Meteor (60 Charges)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1643,7 +1643,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9mt\n@dictOneHandDamage: (54~60) - (83~92)",
+                                                "text": "@dictBaseItem: @9mt\n@dictOneHandDmg: (54-60) - (83-92)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1747,7 +1747,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Baezil's Vortex \n@9fl\n\n@dictBlue 5% Chance to cast level 8 Nova on striking\n+20% Increased Attack Speed\n+160-200% Enhanced Damage @dictVariable\n@dictBlue Adds 1-150 lightning damage\n+100 to Mana\nLightning Resist +25%\nLevel 15 Nova (80 Charges)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Baezil's Vortex \n@9fl\n\n@dictBlue 5% Chance to cast level 8 Nova on striking\n+20% Increased Attack Speed\n+@dictLightBlue(160-200)@dictBlue% Enhanced Damage\nAdds 1-150 lightning damage\n+100 to Mana\nLightning Resist +25%\nLevel 15 Nova (80 Charges)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1807,7 +1807,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9fl\n@dictOneHandDamage: (33~39) - (91~105)",
+                                                "text": "@dictBaseItem: @9fl\n@dictOneHandDmg: (33-39) - (91-105)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1971,7 +1971,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7mt\n@dictOneHandDamage: 129 - 159",
+                                                "text": "@dictBaseItem: @7mt\n@dictOneHandDmg: 129 - 159",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2075,7 +2075,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Horizon's Tornado \n@7fl\n\n@dictBlue 20% Chance to cast level 15 Tornado on striking\n+50% Increased Attack Speed\n+230-280% Enhanced Damage @dictVariable\n@dictBlue Slows Target by 20%\nRequirements -20%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Horizon's Tornado \n@7fl\n\n@dictBlue 20% Chance to cast level 15 Tornado on striking\n+50% Increased Attack Speed\n+@dictLightBlue(230-280)@dictBlue% Enhanced Damage\nSlows Target by 20%\nRequirements -20%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2135,7 +2135,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7fl\n@dictOneHandDamage: (9~11) - (264~304)",
+                                                "text": "@dictBaseItem: @7fl\n@dictOneHandDmg: (9-11) - (264-304)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2239,7 +2239,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Stormlash \n@7fl\n\n@dictBlue 20% Chance to cast level 18 Tornado on striking\n15% Chance to cast level 10 Static Field on striking\n+30% Increased Attack Speed\n+240-300% Enhanced Damage @dictVariable\n@dictBlue Adds 1-473 lightning damage\n+33% Chance of Crushing Blow\n+3-9 Lightning Absorb @dictVariable\n@dictBlue Attacker Takes Lightning Damage of 30\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Stormlash \n@7fl\n\n@dictBlue 20% Chance to cast level 18 Tornado on striking\n15% Chance to cast level 10 Static Field on striking\n+30% Increased Attack Speed\n+@dictLightBlue(240-300)@dictBlue% Enhanced Damage\nAdds 1-473 lightning damage\n+33% Chance of Crushing Blow\n+@dictLightBlue(3-9)@dictBlue Lightning Absorb\nAttacker Takes Lightning Damage of 30\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2299,7 +2299,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7fl\n@dictOneHandDamage: (10~12) - (272~320)",
+                                                "text": "@dictBaseItem: @7fl\n@dictOneHandDmg: (10-12) - (272-320)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2421,7 +2421,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Ironstone \n@whm\n\n@dictBlue +100-150% Enhanced Damage @dictVariable\n@dictBlue +100-150 to Attack Rating @dictVariable\n@dictBlue Adds 1-10 lightning damage\n+10 to Strength\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Ironstone \n@whm\n\n@dictBlue +@dictLightBlue(100-150)@dictBlue% Enhanced Damage\n+@dictLightBlue(100-150)@dictBlue to Attack Rating\nAdds 1-10 lightning damage\n+10 to Strength\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2481,7 +2481,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @whm\n@dictOneHandDamage: (38~47) - (58~72)",
+                                                "text": "@dictBaseItem: @whm\n@dictOneHandDmg: (38-47) - (58-72)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2585,7 +2585,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Bonesnap \n@mau\n\n@dictBlue +200-300% Enhanced Damage @dictVariable\n@dictBlue +100% Damage to Undead\n+40% Chance of Crushing Blow\nCold Resist +30%\nFire Resist +30%",
+                                                "tooltipString": "@dictGold Bonesnap \n@mau\n\n@dictBlue +@dictLightBlue(200-300)@dictBlue% Enhanced Damage\n+100% Damage to Undead\n+40% Chance of Crushing Blow\nCold Resist +30%\nFire Resist +30%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2618,7 +2618,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @mau\n@dictTwoHandDamage: (90~120) - (129~172)",
+                                                "text": "@dictBaseItem: @mau\n@dictTwoHandDmg: (90-120) - (129-172)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2722,7 +2722,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Steeldriver \n@gma\n\n@dictBlue +40% Increased Attack Speed\n+150-250% Enhanced Damage @dictVariable\n@dictBlue Heal Stamina Plus 25%\nRequirements -50%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Steeldriver \n@gma\n\n@dictBlue +40% Increased Attack Speed\n+@dictLightBlue(150-250)@dictBlue% Enhanced Damage\nHeal Stamina Plus 25%\nRequirements -50%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2782,7 +2782,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @gma\n@dictTwoHandDamage: (95~133) - (145~203)",
+                                                "text": "@dictBaseItem: @gma\n@dictTwoHandDmg: (95-133) - (145-203)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2919,7 +2919,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9wh\n@dictOneHandDamage: 98 - 162",
+                                                "text": "@dictBaseItem: @9wh\n@dictOneHandDmg: 98 - 162",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3023,7 +3023,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Bloodtree Stump \n@9m9\n\n@dictBlue +2 to Masteries (Barbarian Only)\n+180-220% Enhanced Damage @dictVariable\n@dictBlue +50% Chance of Crushing Blow\n+3 to Mace Mastery (Barbarian Only)\n+25 to Strength\nAll Resistances +20\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Bloodtree Stump \n@9m9\n\n@dictBlue +2 to Masteries (Barbarian Only)\n+@dictLightBlue(180-220)@dictBlue% Enhanced Damage\n+50% Chance of Crushing Blow\n+3 to Mace Mastery (Barbarian Only)\n+25 to Strength\nAll Resistances +20\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3056,7 +3056,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9m9\n@dictTwoHandDamage: (148~169) - (218~249)",
+                                                "text": "@dictBaseItem: @9m9\n@dictTwoHandDmg: (148-169) - (218-249)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3160,7 +3160,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold The Gavel of Pain \n@9gm\n\n@dictBlue 5% Chance to cast level 1 Iron Maiden when struck\n5% Chance to cast level 1 Amplify Damage on striking\n+130-160% Enhanced Damage @dictVariable\n@dictBlue Adds 12-30 damage\nAttacker Takes Damage of 26\nLevel 8 Amplify Damage (3 Charges)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold The Gavel of Pain \n@9gm\n\n@dictBlue 5% Chance to cast level 1 Iron Maiden when struck\n5% Chance to cast level 1 Amplify Damage on striking\n+@dictLightBlue(130-160)@dictBlue% Enhanced Damage\nAdds 12-30 damage\nAttacker Takes Damage of 26\nLevel 8 Amplify Damage (3 Charges)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3193,7 +3193,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9gm\n@dictTwoHandDamage: (152~170) - (257~287)",
+                                                "text": "@dictBaseItem: @9gm\n@dictTwoHandDmg: (152-170) - (257-287)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3297,7 +3297,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Stone Crusher \n@uhf\n\n@dictBlue +280-320% Enhanced Damage @dictVariable\n@dictBlue +10-30 damage @dictVariable\n@dictBlue -25% Target Defense\n+40% Chance of Crushing Blow\n-100 to Monster Defense Per Hit\n+20-30 to Strength @dictVariable\n@dictBlue +50% Damage to Undead",
+                                                "tooltipString": "@dictGold Stone Crusher \n@uhf\n\n@dictBlue +@dictLightBlue(280-320)@dictBlue% Enhanced Damage\n+@dictLightBlue(10-30)@dictBlue damage\n-25% Target Defense\n+40% Chance of Crushing Blow\n-100 to Monster Defense Per Hit\n+@dictLightBlue(20-30)@dictBlue to Strength\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3330,7 +3330,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uhf\n@dictOneHandDamage: (190~210) - (231~256)",
+                                                "text": "@dictBaseItem: @uhf\n@dictOneHandDmg: (190-210) - (231-256)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3434,7 +3434,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Schaefer's Hammer \n@uhf\n\n@dictBlue 20% Chance to cast level 10 Static Field on striking\nIndestructible\n+20% Increased Attack Speed\n+100-130% Enhanced Damage @dictVariable\n@dictBlue +2-198 to Maximum Damage (Based on Character Level)\n+8-792 to Attack Rating (Based on Character Level)\nAdds 50-200 lightning damage\n+50 to Life\nLightning Resist +75%\n+1 to Light Radius\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Schaefer's Hammer \n@uhf\n\n@dictBlue 20% Chance to cast level 10 Static Field on striking\nIndestructible\n+20% Increased Attack Speed\n+@dictLightBlue(100-130)@dictBlue% Enhanced Damage\n+(2-198) to Maximum Damage (Based on Character Level)\n+(8-792) to Attack Rating (Based on Character Level)\nAdds 50-200 lightning damage\n+50 to Life\nLightning Resist +75%\n+1 to Light Radius\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3494,7 +3494,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uhf\n@dictOneHandDamage: (100~114) - (124~338)",
+                                                "text": "@dictBaseItem: @uhf\n@dictOneHandDmg: (100-114) - (124-338)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3598,7 +3598,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Windhammer \n@7m7\n\n@dictBlue 33% Chance to cast level 22 Twister on striking\n+60% Increased Attack Speed\n+180-230% Enhanced Damage @dictVariable\n@dictBlue +50% Chance of Crushing Blow\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Windhammer \n@7m7\n\n@dictBlue 33% Chance to cast level 22 Twister on striking\n+60% Increased Attack Speed\n+@dictLightBlue(180-230)@dictBlue% Enhanced Damage\n+50% Chance of Crushing Blow\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3658,7 +3658,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7m7\n@dictTwoHandDamage: (215~254) - (296~349)",
+                                                "text": "@dictBaseItem: @7m7\n@dictTwoHandDmg: (215-254) - (296-349)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3762,7 +3762,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Earth Shifter \n@7gm\n\n@dictBlue 25% Chance to cast level 14 Fissure on striking\n+7 to Elemental Skills (Druid Only)\n+10% Increased Attack Speed\n+10% Faster Cast Rate\n+250-300% Enhanced Damage @dictVariable\n@dictBlue +33% Chance of Crushing Blow\nLevel 14 Volcano (30 Charges)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Earth Shifter \n@7gm\n\n@dictBlue 25% Chance to cast level 14 Fissure on striking\n+7 to Elemental Skills (Druid Only)\n+10% Increased Attack Speed\n+10% Faster Cast Rate\n+@dictLightBlue(250-300)@dictBlue% Enhanced Damage\n+33% Chance of Crushing Blow\nLevel 14 Volcano (30 Charges)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3795,7 +3795,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gm\n@dictTwoHandDamage: (115~132) - (630~720)",
+                                                "text": "@dictBaseItem: @7gm\n@dictTwoHandDmg: (115-132) - (630-720)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3899,7 +3899,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold The Cranium Basher \n@7gm\n\n@dictBlue Indestructible\n4% Chance to cast level 1 Amplify Damage on striking\n+20% Increased Attack Speed\n+200-240% Enhanced Damage @dictVariable\n@dictBlue +20 to Minimum Damage\n+75% Chance of Crushing Blow\n+25 to Strength\nAll Resistances +25\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold The Cranium Basher \n@7gm\n\n@dictBlue Indestructible\n4% Chance to cast level 1 Amplify Damage on striking\n+20% Increased Attack Speed\n+@dictLightBlue(200-240)@dictBlue% Enhanced Damage\n+20 to Minimum Damage\n+75% Chance of Crushing Blow\n+25 to Strength\nAll Resistances +25\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3959,7 +3959,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gm\n@dictTwoHandDamage: (119~132) - (560~632)",
+                                                "text": "@dictBaseItem: @7gm\n@dictTwoHandDmg: (119-132) - (560-632)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4081,7 +4081,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Knell Striker \n@scp\n\n@dictBlue +70-80% Enhanced Damage @dictVariable\n@dictBlue +35 to Attack Rating\n+25% Chance of Crushing Blow\n+15 to Mana\nFire Resist +20%\nPoison Resist +20%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Knell Striker \n@scp\n\n@dictBlue +@dictLightBlue(70-80)@dictBlue% Enhanced Damage\n+35 to Attack Rating\n+25% Chance of Crushing Blow\n+15 to Mana\nFire Resist +20%\nPoison Resist +20%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4141,7 +4141,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @scp\n@dictOneHandDamage: 10 - (18~19)",
+                                                "text": "@dictBaseItem: @scp\n@dictOneHandDmg: 10 - (18-19)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4245,7 +4245,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Rusthandle \n@gsc\n\n@dictBlue +1 to Paladin Skill Levels\n+50-60% Enhanced Damage @dictVariable\n@dictBlue Adds 3-7 damage\n+100-110% Damage to Undead @dictVariable\n@dictBlue 8% Life stolen per hit\n+1-3 to Vengeance (Paladin Only) @dictVariable\n@dictBlue +3 to Thorns (Paladin Only)\nMagic Damage Reduced by 1",
+                                                "tooltipString": "@dictGold Rusthandle \n@gsc\n\n@dictBlue +1 to Paladin Skill Levels\n+@dictLightBlue(50-60)@dictBlue% Enhanced Damage\nAdds 3-7 damage\n+@dictLightBlue(100-110)@dictBlue% Damage to Undead\n8% Life stolen per hit\n+@dictLightBlue(1-3)@dictBlue to Vengeance (Paladin Only)\n+3 to Thorns (Paladin Only)\nMagic Damage Reduced by 1",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4305,7 +4305,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @gsc\n@dictOneHandDamage: 15 - (34~35)",
+                                                "text": "@dictBaseItem: @gsc\n@dictOneHandDmg: 15 - (34-35)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4409,7 +4409,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Stormeye \n@wsp\n\n@dictBlue +80-120% Enhanced Damage @dictVariable\n@dictBlue Adds 1-6 lightning damage\nAdds 3-5 cold damage\n+1 to Fist of the Heavens (Paladin Only)\n+3 to Holy Shock (Paladin Only)\n+3-5 to Resist Lightning (Paladin Only) @dictVariable\n@dictBlue Reflensh Life +10\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Stormeye \n@wsp\n\n@dictBlue +@dictLightBlue(80-120)@dictBlue% Enhanced Damage\nAdds 1-6 lightning damage\nAdds 3-5 cold damage\n+1 to Fist of the Heavens (Paladin Only)\n+3 to Holy Shock (Paladin Only)\n+@dictLightBlue(3-5)@dictBlue to Resist Lightning (Paladin Only)\nReflensh Life +10\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4469,7 +4469,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @wsp\n@dictOneHandDamage: (18~22) - (30~37)",
+                                                "text": "@dictBaseItem: @wsp\n@dictOneHandDmg: (18-22) - (30-37)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4573,7 +4573,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Zakarum's Hand \n@9sc\n\n@dictBlue 6% Chance to cast level 5 Blizzard on striking\n+30% Increased Attack Speed\n+180-220% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n8% Mana stolen per hit\n+2 to Holy Shock (Paladin Only)\n+2 to Holy Freeze (Paladin Only)\nRegenerate Mana 10%\nHeal Stamina Plus 15%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Zakarum's Hand \n@9sc\n\n@dictBlue 6% Chance to cast level 5 Blizzard on striking\n+30% Increased Attack Speed\n+@dictLightBlue(180-220)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n8% Mana stolen per hit\n+2 to Holy Shock (Paladin Only)\n+2 to Holy Freeze (Paladin Only)\nRegenerate Mana 10%\nHeal Stamina Plus 15%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4633,7 +4633,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9sc\n@dictOneHandDamage: (36~41) - (67~76)",
+                                                "text": "@dictBaseItem: @9sc\n@dictOneHandDmg: (36-41) - (67-76)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4737,7 +4737,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Fetid Sprinkler \n@9qs\n\n@dictBlue 5% Chance to cast level 1 Decrepify on striking\n10% Chance to cast level 1 Confuse on striking\n+2 to Paladin Skill Levels\n+160-190% Enhanced Damage @dictVariable\n@dictBlue Adds 15-25 damage\n+150-200 to Attack Rating @dictVariable\n@dictBlue +160 poison damage over 4 seconds\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold The Fetid Sprinkler \n@9qs\n\n@dictBlue 5% Chance to cast level 1 Decrepify on striking\n10% Chance to cast level 1 Confuse on striking\n+2 to Paladin Skill Levels\n+@dictLightBlue(160-190)@dictBlue% Enhanced Damage\nAdds 15-25 damage\n+@dictLightBlue(150-200)@dictBlue to Attack Rating\n+160 poison damage over 4 seconds\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4770,7 +4770,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9qs\n@dictOneHandDamage: (51~55) - (118~129)",
+                                                "text": "@dictBaseItem: @9qs\n@dictOneHandDmg: (51-55) - (118-129)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4874,7 +4874,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Hand of Blessed Light \n@9ws\n\n@dictBlue 5% Chance to cast level 4 Fist of the Heavens on striking\n+2 to Paladin Skill Levels\n+130-160% Enhanced Damage @dictVariable\n@dictBlue Adds 20-45 damage\n100% Bonus to Attack Rating\n+2 to Fist of the Heavens (Paladin Only)\n+4 to Holy Bolt (Paladin Only)\n+50 Defense\nRegenerate Mana 15%\n+4 to Light Radius\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Hand of Blessed Light \n@9ws\n\n@dictBlue 5% Chance to cast level 4 Fist of the Heavens on striking\n+2 to Paladin Skill Levels\n+@dictLightBlue(130-160)@dictBlue% Enhanced Damage\nAdds 20-45 damage\n100% Bonus to Attack Rating\n+2 to Fist of the Heavens (Paladin Only)\n+4 to Holy Bolt (Paladin Only)\n+50 Defense\nRegenerate Mana 15%\n+4 to Light Radius\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4907,7 +4907,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9ws\n@dictOneHandDamage: (56~61) - (132~143)",
+                                                "text": "@dictBaseItem: @9ws\n@dictOneHandDmg: (56-61) - (132-143)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5011,7 +5011,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Heaven's Light \n@7sc\n\n@dictBlue +2-3 to Paladin Skill Levels @dictVariable\n@dictBlue +20% Increased Attack Speed\n+250-300% Enhanced Damage @dictVariable\n@dictBlue -33% Target Defense\n+33% Chance of Crushing Blow\n+15-20 Life after each Demon Kill @dictVariable\n@dictBlue +3 to Light Radius\n+50% Damage to Undead\nSocketed (1-2) @dictVariable",
+                                                "tooltipString": "@dictGold Heaven's Light \n@7sc\n\n@dictBlue +@dictLightBlue(2-3)@dictBlue to Paladin Skill Levels\n+20% Increased Attack Speed\n+@dictLightBlue(250-300)@dictBlue% Enhanced Damage\n-33% Target Defense\n+33% Chance of Crushing Blow\n+@dictLightBlue(15-20)@dictBlue Life after each Demon Kill\n+3 to Light Radius\n+50% Damage to Undead\nSocketed @dictLightBlue(1-2)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -5071,7 +5071,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7sc\n@dictOneHandDamage: (140~160) - (182~208)",
+                                                "text": "@dictBaseItem: @7sc\n@dictOneHandDmg: (140-160) - (182-208)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5175,7 +5175,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Redeemer \n@7sc\n\n@dictBlue +2 to Paladin Skill Levels\n+250-300% Enhanced Damage @dictVariable\n@dictBlue +60-120 damage @dictVariable\n@dictBlue -33% Target Defense\n+200-250% Damage to Demons @dictVariable\n@dictBlue +2-4 to Redemption (Paladin Only) @dictVariable\n@dictBlue +2-4 to Holy Bolt (Paladin Only) @dictVariable\n@dictBlue +3 to Light Radius\nRequirements -60%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold The Redeemer \n@7sc\n\n@dictBlue +2 to Paladin Skill Levels\n+@dictLightBlue(250-300)@dictBlue% Enhanced Damage\n+@dictLightBlue(60-120)@dictBlue damage\n-33% Target Defense\n+@dictLightBlue(200-250)@dictBlue% Damage to Demons\n+@dictLightBlue(2-4)@dictBlue to Redemption (Paladin Only)\n+@dictLightBlue(2-4)@dictBlue to Holy Bolt (Paladin Only)\n+3 to Light Radius\nRequirements -60%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -5208,7 +5208,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7sc\n@dictOneHandDamage: (140~160) - (182~208)",
+                                                "text": "@dictBaseItem: @7sc\n@dictOneHandDmg: (140-160) - (182-208)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5312,7 +5312,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Astreon's Iron Ward \n@7ws\n\n@dictBlue +2-4 to Combat Skills (Paladin Only) @dictVariable\n@dictBlue +10% Increased Attack Speed\n+240-290% Enhanced Damage @dictVariable\n@dictBlue +40-85 damage @dictVariable\n@dictBlue 150-200% Bonus to Attack Rating @dictVariable\n@dictBlue Adds 80-240 magic damage\n+33% Chance of Crushing Blow\nSlows Target by 25%\nDamage Reduced by 4-7 @dictVariable\n@dictBlue +50% Damage to Undead",
+                                                "tooltipString": "@dictGold Astreon's Iron Ward \n@7ws\n\n@dictBlue +@dictLightBlue(2-4)@dictBlue to Combat Skills (Paladin Only)\n+10% Increased Attack Speed\n+@dictLightBlue(240-290)@dictBlue% Enhanced Damage\n+@dictLightBlue(40-85)@dictBlue damage\n@dictLightBlue(150-200)@dictBlue% Bonus to Attack Rating\nAdds 80-240 magic damage\n+33% Chance of Crushing Blow\nSlows Target by 25%\nDamage Reduced by @dictLightBlue(4-7)@dictBlue\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -5372,7 +5372,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ws\n@dictOneHandDamage: (125~144) - (146~167)",
+                                                "text": "@dictBaseItem: @7ws\n@dictOneHandDmg: (125-144) - (146-167)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

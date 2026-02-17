@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold The Hand of Broc \n@lgl\n\n@dictBlue 3% Mana stolen per hit\n3% Life stolen per hit\n+10-20% Enhanced Defense @dictVariable\n@dictBlue +10 Defense\n+20 to Mana\nPoison Resist +10%",
+                                                "tooltipString": "@dictGold The Hand of Broc \n@lgl\n\n@dictBlue 3% Mana stolen per hit\n3% Life stolen per hit\n+@dictLightBlue(10-20)@dictBlue% Enhanced Defense\n+10 Defense\n+20 to Mana\nPoison Resist +10%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -278,7 +278,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Bloodfist \n@vgl\n\n@dictBlue +10% Increased Attack Speed\n+30% Faster Hit Recovery\n+5 to Minimum Damage\n+10-20% Enhanced Defense @dictVariable\n@dictBlue +10 Defense\n+40 to Life",
+                                                "tooltipString": "@dictGold Bloodfist \n@vgl\n\n@dictBlue +10% Increased Attack Speed\n+30% Faster Hit Recovery\n+5 to Minimum Damage\n+@dictLightBlue(10-20)@dictBlue% Enhanced Defense\n+10 Defense\n+40 to Life",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -338,7 +338,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @vgl\n@strchrdef: 17~18",
+                                                "text": "@dictBaseItem: @vgl\n@strchrdef: 17-18",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -442,7 +442,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Chance Guards \n@mgl\n\n@dictBlue +25 to Attack Rating\n+20-30% Enhanced Defense @dictVariable\n@dictBlue +15 Defense\n200% Extra Gold from Monsters\n25-40% Better Chance of Getting Magic Items @dictVariable\n@dictBlue +2 to Light Radius",
+                                                "tooltipString": "@dictGold Chance Guards \n@mgl\n\n@dictBlue +25 to Attack Rating\n+@dictLightBlue(20-30)@dictBlue% Enhanced Defense\n+15 Defense\n200% Extra Gold from Monsters\n@dictLightBlue(25-40)@dictBlue% Better Chance of Getting Magic Items\n+2 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -502,7 +502,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @mgl\n@strchrdef: 27~28",
+                                                "text": "@dictBaseItem: @mgl\n@strchrdef: 27-28",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -606,7 +606,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Magefist \n@tgl\n\n@dictBlue +1 to Fire Skills\n+20% Faster Cast Rate\nAdds 1-6 fire damage\n+20-30% Enhanced Defense @dictVariable\n@dictBlue +10 Defense\nRegenerate Mana 25%",
+                                                "tooltipString": "@dictGold Magefist \n@tgl\n\n@dictBlue +1 to Fire Skills\n+20% Faster Cast Rate\nAdds 1-6 fire damage\n+@dictLightBlue(20-30)@dictBlue% Enhanced Defense\n+10 Defense\nRegenerate Mana 25%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -666,7 +666,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @tgl\n@strchrdef: 24~25",
+                                                "text": "@dictBaseItem: @tgl\n@strchrdef: 24-25",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -770,7 +770,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Frostburn \n@hgl\n\n@dictBlue +5% Enhanced Damage\nAdds 1-6 cold damage\n+10-20% Enhanced Defense @dictVariable\n@dictBlue +30 Defense\nIncrease Maximum Mana 40%",
+                                                "tooltipString": "@dictGold Frostburn \n@hgl\n\n@dictBlue +5% Enhanced Damage\nAdds 1-6 cold damage\n+@dictLightBlue(10-20)@dictBlue% Enhanced Defense\n+30 Defense\nIncrease Maximum Mana 40%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -830,7 +830,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @hgl\n@strchrdef: 47~49",
+                                                "text": "@dictBaseItem: @hgl\n@strchrdef: 47-49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -934,7 +934,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Venom Grip \n@xlg\n\n@dictBlue +60 poison damage over 4 seconds\n5% Life stolen per hit\n+5% Chance of Crushing Blow\n+130-160% Enhanced Defense @dictVariable\n@dictBlue +15-25 Defense @dictVariable\n@dictBlue +5% to Maximum Poison Resist\nPoison Resist +30%",
+                                                "tooltipString": "@dictGold Venom Grip \n@xlg\n\n@dictBlue +60 poison damage over 4 seconds\n5% Life stolen per hit\n+5% Chance of Crushing Blow\n+@dictLightBlue(130-160)@dictBlue% Enhanced Defense\n+@dictLightBlue(15-25)@dictBlue Defense\n+5% to Maximum Poison Resist\nPoison Resist +30%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -967,7 +967,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xlg\n@strchrdef: 97~118",
+                                                "text": "@dictBaseItem: @xlg\n@strchrdef: 97-118",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1071,7 +1071,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Gravepalm \n@xvg\n\n@dictBlue +100-200% Damage to Undead @dictVariable\n@dictBlue +100-200 to Attack Rating against Undead @dictVariable\n@dictBlue +140-180% Enhanced Defense @dictVariable\n@dictBlue +10 to Strength\n+10 to Energy",
+                                                "tooltipString": "@dictGold Gravepalm \n@xvg\n\n@dictBlue +@dictLightBlue(100-200)@dictBlue% Damage to Undead\n+@dictLightBlue(100-200)@dictBlue to Attack Rating against Undead\n+@dictLightBlue(140-180)@dictBlue% Enhanced Defense\n+10 to Strength\n+10 to Energy",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1104,7 +1104,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xvg\n@strchrdef: 96~112",
+                                                "text": "@dictBaseItem: @xvg\n@strchrdef: 96-112",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1208,7 +1208,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Ghoulhide \n@xmg\n\n@dictBlue +2-198% Damage to Undead (Based on Character Level)\n+8-792 to Attack Rating against Undead (Based on Character Level)\n4-5% Mana stolen per hit @dictVariable\n@dictBlue +150-190% Enhanced Defense @dictVariable\n@dictBlue +20 to Life",
+                                                "tooltipString": "@dictGold Ghoulhide \n@xmg\n\n@dictBlue +(2-198)% Damage to Undead (Based on Character Level)\n+(8-792) to Attack Rating against Undead (Based on Character Level)\n@dictLightBlue(4-5)@dictBlue% Mana stolen per hit\n+@dictLightBlue(150-190)@dictBlue% Enhanced Defense\n+20 to Life",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1241,7 +1241,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xmg\n@strchrdef: 112~130",
+                                                "text": "@dictBaseItem: @xmg\n@strchrdef: 112-130",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1345,7 +1345,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Lava Gout \n@xtg\n\n@dictBlue 2% Chance to cast level 10 Enchant on striking\n+20% Increased Attack Speed\nAdds 13-46 fire damage\n+150-200% Enhanced Defense @dictVariable\n@dictBlue Fire Resist +24%\nHalf Freeze Duration",
+                                                "tooltipString": "@dictGold Lava Gout \n@xtg\n\n@dictBlue 2% Chance to cast level 10 Enchant on striking\n+20% Increased Attack Speed\nAdds 13-46 fire damage\n+@dictLightBlue(150-200)@dictBlue% Enhanced Defense\nFire Resist +24%\nHalf Freeze Duration",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1378,7 +1378,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xtg\n@strchrdef: 120~144",
+                                                "text": "@dictBaseItem: @xtg\n@strchrdef: 120-144",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1482,7 +1482,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Hellmouth \n@xhg\n\n@dictBlue 4% Chance to cast level 12 Firestorm on striking\n2% Chance to cast level 4 Meteor on striking\nAdds 15-72 fire damage\n+150-200% Enhanced Defense @dictVariable\n@dictBlue +15 Fire Absorb",
+                                                "tooltipString": "@dictGold Hellmouth \n@xhg\n\n@dictBlue 4% Chance to cast level 12 Firestorm on striking\n2% Chance to cast level 4 Meteor on striking\nAdds 15-72 fire damage\n+@dictLightBlue(150-200)@dictBlue% Enhanced Defense\n+15 Fire Absorb",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1515,7 +1515,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhg\n@strchrdef: 135~162",
+                                                "text": "@dictBaseItem: @xhg\n@strchrdef: 135-162",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1619,7 +1619,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Dracul's Grasp \n@uvg\n\n@dictBlue 5% Chance to cast level 10 Life Tap on striking\n7-10% Life stolen per hit @dictVariable\n@dictBlue +25% Chance of Open Wounds\n+90-120% Enhanced Defense @dictVariable\n@dictBlue +10-15 to Strength @dictVariable\n@dictBlue +5-10 Life after each Kill @dictVariable",
+                                                "tooltipString": "@dictGold Dracul's Grasp \n@uvg\n\n@dictBlue 5% Chance to cast level 10 Life Tap on striking\n@dictLightBlue(7-10)@dictBlue% Life stolen per hit\n+25% Chance of Open Wounds\n+@dictLightBlue(90-120)@dictBlue% Enhanced Defense\n+@dictLightBlue(10-15)@dictBlue to Strength\n+@dictLightBlue(5-10)@dictBlue Life after each Kill",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1679,7 +1679,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uvg\n@strchrdef: 125~145",
+                                                "text": "@dictBaseItem: @uvg\n@strchrdef: 125-145",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1783,7 +1783,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Soul Drainer \n@umg\n\n@dictBlue 8% Chance to cast level 3 Weaken on striking\n4-7% Mana stolen per hit @dictVariable\n@dictBlue 4-7% Life stolen per hit @dictVariable\n@dictBlue -50 to Monster Defense Per Hit\n+90-120% Enhanced Defense @dictVariable",
+                                                "tooltipString": "@dictGold Soul Drainer \n@umg\n\n@dictBlue 8% Chance to cast level 3 Weaken on striking\n@dictLightBlue(4-7)@dictBlue% Mana stolen per hit\n@dictLightBlue(4-7)@dictBlue% Life stolen per hit\n-50 to Monster Defense Per Hit\n+@dictLightBlue(90-120)@dictBlue% Enhanced Defense",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1843,7 +1843,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @umg\n@strchrdef: 129~149",
+                                                "text": "@dictBaseItem: @umg\n@strchrdef: 129-149",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1947,7 +1947,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Steelrend \n@uhg\n\n@dictBlue +30-60% Enhanced Damage @dictVariable\n@dictBlue +10% Chance of Crushing Blow\n+170-210 Defense @dictVariable\n@dictBlue +15-20 to Strength @dictVariable",
+                                                "tooltipString": "@dictGold Steelrend \n@uhg\n\n@dictBlue +@dictLightBlue(30-60)@dictBlue% Enhanced Damage\n+10% Chance of Crushing Blow\n+@dictLightBlue(170-210)@dictBlue Defense\n+@dictLightBlue(15-20)@dictBlue to Strength",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1980,7 +1980,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uhg\n@strchrdef: 232 - 281",
+                                                "text": "@dictBaseItem: @uhg\n@strchrdef: 232-281",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold 죽음조각 \n@9tk\n\n@dictBlue 피해 +130~180% 증가 @dictVariable\n@dictBlue 명중률 +200~450 @dictVariable\n@dictBlue 적중당 마나 4~6% 훔침 @dictVariable\n@dictBlue 적중당 생명력 7~9% 훔침 @dictVariable\n@dictBlue 치명적 공격 +40%\n수량 자동 회복",
+                                                "tooltipString": "@dictGold 죽음조각 \n@9tk\n\n@dictBlue 피해 +@dictLightBlue(130-180)@dictBlue% 증가\n명중률 +@dictLightBlue(200-450)@dictBlue\n적중당 마나 @dictLightBlue(4-6)@dictBlue% 훔침\n적중당 생명력 @dictLightBlue(7-9)@dictBlue% 훔침\n치명적 공격 +40%\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -147,7 +147,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9tk\n@dictThrowDamage: (25~30) - (55~67), @dictOneHandDamage: (18~22) - (36~44)",
+                                                "text": "@dictBaseItem: @9tk\n@dictThrowDmg: (25-30) - (55-67), @dictOneHandDmg: (18-22) - (36-44)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -251,7 +251,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold 전쟁표창 \n@7bk\n\n@dictBlue 타격 시 25% 확률로 9 레벨 번개 파장 시전\n공격 속도 +30%\n관통 공격 +50%\n피해 +200~250% 증가 @dictVariable\n@dictBlue 치명적 공격 +50%\n수량 자동 회복",
+                                                "tooltipString": "@dictGold 전쟁표창 \n@7bk\n\n@dictBlue 타격 시 25% 확률로 9 레벨 번개 파장 시전\n공격 속도 +30%\n관통 공격 +50%\n피해 +@dictLightBlue(200-250)@dictBlue% 증가\n치명적 공격 +50%\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -311,7 +311,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7bk\n@dictThrowDamage: (69~80) - (117~136), @dictOneHandDamage: (81~94) - (105~122)",
+                                                "text": "@dictBaseItem: @7bk\n@dictThrowDmg: (69-80) - (117-136), @dictOneHandDmg: (81-94) - (105-122)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -433,7 +433,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold 무두도끼 \n@9ta\n\n@dictBlue 공격 속도 +20%\n피해 +150~200% 증가 @dictVariable\n@dictBlue 명중률 보너스 25%\n적중당 생명력 4~6% 훔침 @dictVariable\n@dictBlue 상처 악화 확률 +33%\n적 처치 시 마나 +4\n수량 자동 회복",
+                                                "tooltipString": "@dictGold 무두도끼 \n@9ta\n\n@dictBlue 공격 속도 +20%\n피해 +@dictLightBlue(150-200)@dictBlue% 증가\n명중률 보너스 25%\n적중당 생명력 @dictLightBlue(4-6)@dictBlue% 훔침\n상처 악화 확률 +33%\n적 처치 시 마나 +4\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -466,7 +466,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9ta\n@dictThrowDamage: (45~54) - (82~99), @dictOneHandDamage: (27~33) - (55~66)",
+                                                "text": "@dictBaseItem: @9ta\n@dictThrowDmg: (45-54) - (82-99), @dictOneHandDmg: (27-33) - (55-66)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -570,7 +570,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold 아른날 \n@7ta\n\n@dictBlue 공격 속도 +30%\n피해 +160~210% 증가 @dictVariable\n@dictBlue 화염 피해 218 - 483 추가\n번개 피해 29 - 501 추가\n냉기 피해 176 - 397 추가\n중첩 수량 증가",
+                                                "tooltipString": "@dictGold 아른날 \n@7ta\n\n@dictBlue 공격 속도 +30%\n피해 +@dictLightBlue(160-210)@dictBlue% 증가\n화염 피해 218 - 483 추가\n번개 피해 29 - 501 추가\n냉기 피해 176 - 397 추가\n중첩 수량 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -603,7 +603,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ta\n@dictThrowDamage: (39~46) - (171~204), @dictOneHandDamage: (44~52) - (169~201)",
+                                                "text": "@dictBaseItem: @7ta\n@dictThrowDmg: (39-46) - (171-204), @dictOneHandDmg: (44-52) - (169-201)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -707,7 +707,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 난도질 도끼 \n@7b8\n\n@dictBlue 타격 시 33% 확률로 3 레벨 피해 증폭 시전\n공격 속도 +30%\n피해 +150~210% 증가 @dictVariable\n@dictBlue 상처 악화 확률 +33%\n괴물 회복 저지\n적중 시 괴물 도주 +50%\n수량 자동 회복",
+                                                "tooltipString": "@dictGold 난도질 도끼 \n@7b8\n\n@dictBlue 타격 시 33% 확률로 3 레벨 피해 증폭 시전\n공격 속도 +30%\n피해 +@dictLightBlue(150-210)@dictBlue% 증가\n상처 악화 확률 +33%\n괴물 회복 저지\n적중 시 괴물 도주 +50%\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -767,7 +767,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7b8\n@dictThrowDamage: (17~21) - (150~186), @dictOneHandDamage: (27~34) - (140~173)",
+                                                "text": "@dictBaseItem: @7b8\n@dictThrowDmg: (17-21) - (150-186), @dictOneHandDmg: (27-34) - (140-173)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -889,7 +889,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 악마의 호 \n@7s7\n\n@dictBlue 공격 속도 +30%\n피해 +160~210% 증가 @dictVariable\n@dictBlue 화염 피해 232 - 323 추가\n번개 피해 23 - 333 추가\n적중당 생명력 6~12% 훔침 @dictVariable\n@dictBlue 수량 자동 회복",
+                                                "tooltipString": "@dictGold 악마의 호 \n@7s7\n\n@dictBlue 공격 속도 +30%\n피해 +@dictLightBlue(160-210)@dictBlue% 증가\n화염 피해 232 - 323 추가\n번개 피해 23 - 333 추가\n적중당 생명력 @dictLightBlue(6-12)@dictBlue% 훔침\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -949,7 +949,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7s7\n@dictThrowDamage: (104~124) - (161~192), @dictOneHandDamage: (85~102) - (163~195)",
+                                                "text": "@dictBaseItem: @7s7\n@dictThrowDmg: (104-124) - (161-192), @dictOneHandDmg: (85-102) - (163-195)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1053,7 +1053,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold 망령의 비행 \n@7gl\n\n@dictBlue 피해 +150~190% 증가 @dictVariable\n@dictBlue 적중당 생명력 9~13% 훔침 @dictVariable\n@dictBlue 적 처치 시 마나 +15\n수량 자동 회복\n무형 (수리 불가)",
+                                                "tooltipString": "@dictGold 망령의 비행 \n@7gl\n\n@dictBlue 피해 +@dictLightBlue(150-190)@dictBlue% 증가\n적중당 생명력 @dictLightBlue(9-13)@dictBlue% 훔침\n적 처치 시 마나 +15\n수량 자동 회복\n무형 (수리 불가)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1113,7 +1113,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gl\n@dictThrowDamage: (112~130) - (317~368), @dictOneHandDamage: (70~81) - (225~261)",
+                                                "text": "@dictBaseItem: @7gl\n@dictThrowDmg: (112-130) - (317-368), @dictOneHandDmg: (70-81) - (225-261)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1217,7 +1217,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold 가고일의 이빨 \n@7ts\n\n@dictBlue 피해 +180~230% 증가 @dictVariable\n@dictBlue 독 피해 +293 (10초에 걸쳐)\n적중당 생명력 9~15% 훔침 @dictVariable\n@dictBlue 11 레벨 역병 투창 (충전 60회)\n수량 자동 회복",
+                                                "tooltipString": "@dictGold 가고일의 이빨 \n@7ts\n\n@dictBlue 피해 +@dictLightBlue(180-230)@dictBlue% 증가\n독 피해 +293 (10초에 걸쳐)\n적중당 생명력 @dictLightBlue(9-15)@dictBlue% 훔침\n11 레벨 역병 투창 (충전 60회)\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1277,7 +1277,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ts\n@dictThrowDamage: (30~36) - (215~254), @dictOneHandDamage: (75~89) - (98~115)",
+                                                "text": "@dictBaseItem: @7ts\n@dictThrowDmg: (30-36) - (215-254), @dictOneHandDmg: (75-89) - (98-115)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1399,7 +1399,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 거인의 복수 \n@ama\n\n@dictBlue 투창과 창 기술 +2 (아마존 전용)\n아마존 기술 레벨 +2\n달리기/걷기 속도 +30%\n피해 +150~200% 증가 @dictVariable\n@dictBlue 피해 25 - 50 추가\n적중당 생명력 5~9% 훔침 @dictVariable\n@dictBlue 힘 +20\n민첩 +20\n중첩 수량 증가\n수량 자동 회복",
+                                                "tooltipString": "@dictGold 거인의 복수 \n@ama\n\n@dictBlue 투창과 창 기술 +2 (아마존 전용)\n아마존 기술 레벨 +2\n달리기/걷기 속도 +30%\n피해 +@dictLightBlue(150-200)@dictBlue% 증가\n피해 25 - 50 추가\n적중당 생명력 @dictLightBlue(5-9)@dictBlue% 훔침\n힘 +20\n민첩 +20\n중첩 수량 증가\n수량 자동 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1432,7 +1432,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ama\n@dictThrowDamage: (70~79) - (185~212), @dictOneHandDamage: (70~79) - (137~155)",
+                                                "text": "@dictBaseItem: @ama\n@dictThrowDmg: (70-79) - (185-212), @dictOneHandDmg: (70-79) - (137-155)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1536,7 +1536,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 천둥일격 \n@amf\n\n@dictBlue 타격 시 20% 확률로 14 레벨 번개 시전\n투창과 창 기술 +2~4 (아마존 전용) @dictVariable\n@dictBlue 공격 속도 +15%\n피해 +150~200% 증가 @dictVariable\n@dictBlue 번개 피해 1 - 511 추가\n적의 번개 저항 -15%\n+3 번갯불 (아마존 전용)",
+                                                "tooltipString": "@dictGold 천둥일격 \n@amf\n\n@dictBlue 타격 시 20% 확률로 14 레벨 번개 시전\n투창과 창 기술 +@dictLightBlue(2-4)@dictBlue (아마존 전용)\n공격 속도 +15%\n피해 +@dictLightBlue(150-200)@dictBlue% 증가\n번개 피해 1 - 511 추가\n적의 번개 저항 -15%\n+3 번갯불 (아마존 전용)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1596,7 +1596,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @amf\n@dictThrowDamage: (87~105) - (165~198), @dictOneHandDamage: (75~90) - (135~162)",
+                                                "text": "@dictBaseItem: @amf\n@dictThrowDmg: (87-105) - (165-198), @dictOneHandDmg: (75-90) - (135-162)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1718,7 +1718,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 바르툭의 목 따개 \n@9tw\n\n@dictBlue 무술 +1 (암살자 전용)\n암살자 기술 레벨 +2\n타격 회복 속도 +30%\n피해 +150~200% 증가 @dictVariable\n@dictBlue 피해 25 - 50 추가\n명중률 보너스 20%\n적중당 생명력 5~9% 훔침 @dictVariable\n@dictBlue 힘 +20\n민첩 +20",
+                                                "tooltipString": "@dictGold 바르툭의 목 따개 \n@9tw\n\n@dictBlue 무술 +1 (암살자 전용)\n암살자 기술 레벨 +2\n타격 회복 속도 +30%\n피해 +@dictLightBlue(150-200)@dictBlue% 증가\n피해 25 - 50 추가\n명중률 보너스 20%\n적중당 생명력 @dictLightBlue(5-9)@dictBlue% 훔침\n힘 +20\n민첩 +20",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1751,7 +1751,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9tw\n@dictOneHandDamage: (77~88) - (137~155)",
+                                                "text": "@dictBaseItem: @9tw\n@dictOneHandDmg: (77-88) - (137-155)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1855,7 +1855,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 비취 발톱 \n@7wb\n\n@dictBlue 무술 +1~2 (암살자 전용) @dictVariable\n@dictBlue 그림자 단련 +1~2 (암살자 전용) @dictVariable\n@dictBlue 타격 회복 속도 +30%\n피해 +190~240% 증가 @dictVariable\n@dictBlue 적중당 마나 10~15% 훔침 @dictVariable\n@dictBlue 모든 저항 +40~50 @dictVariable",
+                                                "tooltipString": "@dictGold 비취 발톱 \n@7wb\n\n@dictBlue 무술 +@dictLightBlue(1-2)@dictBlue (암살자 전용)\n그림자 단련 +@dictLightBlue(1-2)@dictBlue (암살자 전용)\n타격 회복 속도 +30%\n피해 +@dictLightBlue(190-240)@dictBlue% 증가\n적중당 마나 @dictLightBlue(10-15)@dictBlue% 훔침\n모든 저항 +@dictLightBlue(40-50)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1915,7 +1915,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7wb\n@dictOneHandDamage: (98~115) - (130~153)",
+                                                "text": "@dictBaseItem: @7wb\n@dictOneHandDmg: (98-115) - (130-153)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2019,7 +2019,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 죽음의 그림자 \n@7cs\n\n@dictBlue 파괴 불가\n타격 시 33% 확률로 8 레벨 서릿발 시전\n피해 +170~220% 증가 @dictVariable\n@dictBlue 대상의 방어력 -25%\n대상 빙결 +2\n적 처치 시 마나 +10~15 @dictVariable\n@dictBlue 무형 (수리 불가)",
+                                                "tooltipString": "@dictGold 죽음의 그림자 \n@7cs\n\n@dictBlue 파괴 불가\n타격 시 33% 확률로 8 레벨 서릿발 시전\n피해 +@dictLightBlue(170-220)@dictBlue% 증가\n대상의 방어력 -25%\n대상 빙결 +2\n적 처치 시 마나 +@dictLightBlue(10-15)@dictBlue\n무형 (수리 불가)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2052,7 +2052,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7cs\n@dictOneHandDamage: (145~172) - (170~201)",
+                                                "text": "@dictBaseItem: @7cs\n@dictOneHandDmg: (145-172) - (170-201)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2156,7 +2156,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 불도마뱀의 발톱 \n@7lw\n\n@dictBlue 무술 +1~3 (암살자 전용) @dictVariable\n@dictBlue 공격 속도 +15%\n피해 +200~270% 증가 @dictVariable\n@dictBlue 화염 피해 236 - 480 추가\n+1~2 지옥불의 파동 (암살자 전용) @dictVariable\n@dictBlue +1~2 불의 파동 (암살자 전용) @dictVariable\n@dictBlue 화염 저항 +40~70% @dictVariable",
+                                                "tooltipString": "@dictGold 불도마뱀의 발톱 \n@7lw\n\n@dictBlue 무술 +@dictLightBlue(1-3)@dictBlue (암살자 전용)\n공격 속도 +15%\n피해 +@dictLightBlue(200-270)@dictBlue% 증가\n화염 피해 236 - 480 추가\n+@dictLightBlue(1-2)@dictBlue 지옥불의 파동 (암살자 전용)\n+@dictLightBlue(1-2)@dictBlue 불의 파동 (암살자 전용)\n화염 저항 +@dictLightBlue(40-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2189,7 +2189,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7lw\n@dictOneHandDamage: (66~81) - (159~196)",
+                                                "text": "@dictBaseItem: @7lw\n@dictOneHandDmg: (66-81) - (159-196)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

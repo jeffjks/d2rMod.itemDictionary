@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Bane Ash \n@sst\n\n@dictBlue +20% Increased Attack Speed\n+50-60% Enhanced Damage @dictVariable\n@dictBlue Adds 4-6 fire damage\n+2 to Warmth (Sorceress Only)\n+5 to Fire Bolt (Sorceress Only)\n+30 to Mana\nFire Resist +50%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Bane Ash \n@sst\n\n@dictBlue +20% Increased Attack Speed\n+@dictLightBlue(50-60)@dictBlue% Enhanced Damage\nAdds 4-6 fire damage\n+2 to Warmth (Sorceress Only)\n+5 to Fire Bolt (Sorceress Only)\n+30 to Mana\nFire Resist +50%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -174,7 +174,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @sst\n@dictTwoHandDamage: 1 - (7~8)",
+                                                "text": "@dictBaseItem: @sst\n@dictTwoHandDmg: 1 - (7-8)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -278,7 +278,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Serpent Lord \n@lst\n\n@dictBlue +30-40% Enhanced Damage @dictVariable\n@dictBlue -50% Target Defense\n+12 poison damage over 3 seconds\n100% Mana stolen per hit\n+10 to Mana\nPoison Resist +50%\n-1 to Light Radius\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Serpent Lord \n@lst\n\n@dictBlue +@dictLightBlue(30-40)@dictBlue% Enhanced Damage\n-50% Target Defense\n+12 poison damage over 3 seconds\n100% Mana stolen per hit\n+10 to Mana\nPoison Resist +50%\n-1 to Light Radius\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -338,7 +338,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @lst\n@dictTwoHandDamage: 2 - (10~11)",
+                                                "text": "@dictBaseItem: @lst\n@dictTwoHandDmg: 2 - (10-11)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -475,7 +475,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @cst\n@dictTwoHandDamage: 4 - 12",
+                                                "text": "@dictBaseItem: @cst\n@dictTwoHandDmg: 4 - 12",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -639,7 +639,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bst\n@dictTwoHandDamage: 6 - 13",
+                                                "text": "@dictBaseItem: @bst\n@dictTwoHandDmg: 6 - 13",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -803,7 +803,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @wst\n@dictTwoHandDamage: 24 - 56",
+                                                "text": "@dictBaseItem: @wst\n@dictTwoHandDmg: 24 - 56",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -940,7 +940,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @8ss\n@dictTwoHandDamage: 6 - 21",
+                                                "text": "@dictBaseItem: @8ss\n@dictTwoHandDmg: 6 - 21",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1044,7 +1044,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Ribcracker \n@8ls\n\n@dictBlue +50% Increased Attack Speed\n+50% Faster Hit Recovery\n+200-300% Enhanced Damage @dictVariable\n@dictBlue Adds 30-65 damage\n+50% Chance of Crushing Blow\n+100% Enhanced Defense\n+100 Defense\n+15 to Dexterity\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Ribcracker \n@8ls\n\n@dictBlue +50% Increased Attack Speed\n+50% Faster Hit Recovery\n+@dictLightBlue(200-300)@dictBlue% Enhanced Damage\nAdds 30-65 damage\n+50% Chance of Crushing Blow\n+100% Enhanced Defense\n+100 Defense\n+15 to Dexterity\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1104,7 +1104,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @8ls\n@dictTwoHandDamage: (54~62) - (143~169)",
+                                                "text": "@dictBaseItem: @8ls\n@dictTwoHandDmg: (54-62) - (143-169)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1208,7 +1208,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Chromatic Ire \n@8cs\n\n@dictBlue +3 to Sorceress Skill Levels\n+20% Faster Cast Rate\n+1 to Cold Mastery (Sorceress Only)\n+1 to Lightning Mastery (Sorceress Only)\n+1 to Fire Mastery (Sorceress Only)\nIncrease Maximum Life 20-25% @dictVariable\n@dictBlue All Resistances +20-40 @dictVariable\n@dictBlue Attacker Takes Lightning Damage of 20\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Chromatic Ire \n@8cs\n\n@dictBlue +3 to Sorceress Skill Levels\n+20% Faster Cast Rate\n+1 to Cold Mastery (Sorceress Only)\n+1 to Lightning Mastery (Sorceress Only)\n+1 to Fire Mastery (Sorceress Only)\nIncrease Maximum Life @dictLightBlue(20-25)@dictBlue%\nAll Resistances +@dictLightBlue(20-40)@dictBlue\nAttacker Takes Lightning Damage of 20\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1241,7 +1241,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @8cs\n@dictTwoHandDamage: 11 - 32",
+                                                "text": "@dictBaseItem: @8cs\n@dictTwoHandDmg: 11 - 32",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1405,7 +1405,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @8bs\n@dictTwoHandDamage: 14 - 34",
+                                                "text": "@dictBaseItem: @8bs\n@dictTwoHandDmg: 14 - 34",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1509,7 +1509,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Skull Collector \n@8ws\n\n@dictBlue +2 to All Skills\nIncrease Maximum Mana 20%\n+20 Mana after each Kill\n1-99% Better Chance of Getting Magic Items (Based on Character Level)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Skull Collector \n@8ws\n\n@dictBlue +2 to All Skills\nIncrease Maximum Mana 20%\n+20 Mana after each Kill\n(1-99)% Better Chance of Getting Magic Items (Based on Character Level)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1569,7 +1569,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @8ws\n@dictTwoHandDamage: 24 - 58",
+                                                "text": "@dictBaseItem: @8ws\n@dictTwoHandDmg: 24 - 58",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1673,7 +1673,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Ondal's Wisdom \n@6cs\n\n@dictBlue +2 to All Skills-4 @dictVariable\n@dictBlue +45% Faster Cast Rate\n+450-550 Defense @dictVariable\n@dictBlue +40-50 to Energy @dictVariable\n@dictBlue Magic Damage Reduced by 5-8 @dictVariable\n@dictBlue +5% to Experience Gained\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Ondal's Wisdom \n@6cs\n\n@dictBlue +2 to All Skills-4\n+45% Faster Cast Rate\n+@dictLightBlue(450-550)@dictBlue Defense\n+@dictLightBlue(40-50)@dictBlue to Energy\nMagic Damage Reduced by @dictLightBlue(5-8)@dictBlue\n+5% to Experience Gained\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1706,7 +1706,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @6cs\n@dictTwoHandDamage: 80 - 93",
+                                                "text": "@dictBaseItem: @6cs\n@dictTwoHandDmg: 80 - 93",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1810,7 +1810,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Mang Song's Lesson \n@6ws\n\n@dictBlue +5 to All Skills\n+30% Faster Cast Rate\n-(7-15)% to Enemy Lightning Resistance @dictVariable\n@dictBlue -(7-15)% to Enemy Fire Resistance @dictVariable\n@dictBlue -(7-15)% to Enemy Cold Resistance @dictVariable\n@dictBlue Regenerate Mana 10%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Mang Song's Lesson \n@6ws\n\n@dictBlue +5 to All Skills\n+30% Faster Cast Rate\n-@dictLightBlue(7-15)@dictBlue% to Enemy Lightning Resistance\n-@dictLightBlue(7-15)@dictBlue% to Enemy Fire Resistance\n-@dictLightBlue(7-15)@dictBlue% to Enemy Cold Resistance\nRegenerate Mana 10%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1870,7 +1870,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @6ws\n@dictTwoHandDamage: 83 - 99",
+                                                "text": "@dictBaseItem: @6ws\n@dictTwoHandDmg: 83 - 99",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2025,7 +2025,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @wnd\n@dictOneHandDamage: 2 - 4",
+                                                "text": "@dictBaseItem: @wnd\n@dictOneHandDmg: 2 - 4",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2129,7 +2129,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Maelstrom \n@ywn\n\n@dictBlue +30% Faster Cast Rate\nAdds 1-9 lightning damage\n+1-3 to Terror (Necromancer Only) @dictVariable\n@dictBlue +1-3 to Iron Maiden (Necromancer Only) @dictVariable\n@dictBlue +1-3 to Corpse Explosion (Necromancer Only) @dictVariable\n@dictBlue +1-3 to Amplify Damage (Necromancer Only) @dictVariable\n@dictBlue +13 to Mana\nLightning Resist +40%\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Maelstrom \n@ywn\n\n@dictBlue +30% Faster Cast Rate\nAdds 1-9 lightning damage\n+@dictLightBlue(1-3)@dictBlue to Terror (Necromancer Only)\n+@dictLightBlue(1-3)@dictBlue to Iron Maiden (Necromancer Only)\n+@dictLightBlue(1-3)@dictBlue to Corpse Explosion (Necromancer Only)\n+@dictLightBlue(1-3)@dictBlue to Amplify Damage (Necromancer Only)\n+13 to Mana\nLightning Resist +40%\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2189,7 +2189,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ywn\n@dictOneHandDamage: 2 - 8",
+                                                "text": "@dictBaseItem: @ywn\n@dictOneHandDmg: 2 - 8",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2293,7 +2293,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Gravenspine \n@bwn\n\n@dictBlue +2 to Necromancer Skill Levels\nAdds 4-8 cold damage\n5% Mana stolen per hit\n+10 to Strength\n+10 to Dexterity\n+25-50 to Mana @dictVariable\n@dictBlue +50% Damage to Undead",
+                                                "tooltipString": "@dictGold Gravenspine \n@bwn\n\n@dictBlue +2 to Necromancer Skill Levels\nAdds 4-8 cold damage\n5% Mana stolen per hit\n+10 to Strength\n+10 to Dexterity\n+@dictLightBlue(25-50)@dictBlue to Mana\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2326,7 +2326,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bwn\n@dictOneHandDamage: 3 - 7",
+                                                "text": "@dictBaseItem: @bwn\n@dictOneHandDmg: 3 - 7",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2490,7 +2490,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @gwn\n@dictOneHandDamage: 5 - 11",
+                                                "text": "@dictBaseItem: @gwn\n@dictOneHandDmg: 5 - 11",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2627,7 +2627,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9wn\n@dictOneHandDamage: 8 - 18",
+                                                "text": "@dictBaseItem: @9wn\n@dictOneHandDmg: 8 - 18",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2731,7 +2731,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Carin Shard \n@9yw\n\n@dictBlue +2 to Summoning Skills (Necromancer Only)\n+1 to Necromancer Skill Levels\n+10% Faster Cast Rate\n+30% Faster Hit Recovery\n+1-123 to Life (Based on Character Level)\nReflensh Life +5\n+1-123 to Mana (Based on Character Level)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Carin Shard \n@9yw\n\n@dictBlue +2 to Summoning Skills (Necromancer Only)\n+1 to Necromancer Skill Levels\n+10% Faster Cast Rate\n+30% Faster Hit Recovery\n+(1-123) to Life (Based on Character Level)\nReflensh Life +5\n+(1-123) to Mana (Based on Character Level)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2791,7 +2791,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9yw\n@dictOneHandDamage: 8 - 24",
+                                                "text": "@dictBaseItem: @9yw\n@dictOneHandDmg: 8 - 24",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2895,7 +2895,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Arm of King Leoric \n@9bw\n\n@dictBlue 5% Chance to cast level 10 Bone Spirit when struck\n10% Chance to cast level 2 Bone Prison when struck\n+2 to Summoning Skills (Necromancer Only)\n+2 to Poison and Bone Skills (Necromancer Only)\n+10% Faster Cast Rate\n+2 to Raise Skeletal Mage (Necromancer Only)\n+2 to Terror (Necromancer Only)\n+3 to Raise Skeleton (Necromancer Only)\n+3 to Skeleton Mastery (Necromancer Only)\n+1-123 to Mana (Based on Character Level)\n+50% Damage to Undead",
+                                                "tooltipString": "@dictGold Arm of King Leoric \n@9bw\n\n@dictBlue 5% Chance to cast level 10 Bone Spirit when struck\n10% Chance to cast level 2 Bone Prison when struck\n+2 to Summoning Skills (Necromancer Only)\n+2 to Poison and Bone Skills (Necromancer Only)\n+10% Faster Cast Rate\n+2 to Raise Skeletal Mage (Necromancer Only)\n+2 to Terror (Necromancer Only)\n+3 to Raise Skeleton (Necromancer Only)\n+3 to Skeleton Mastery (Necromancer Only)\n+(1-123) to Mana (Based on Character Level)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2928,7 +2928,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9bw\n@dictOneHandDamage: 10 - 22",
+                                                "text": "@dictBaseItem: @9bw\n@dictOneHandDmg: 10 - 22",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3092,7 +3092,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9gw\n@dictOneHandDamage: 13 - 29",
+                                                "text": "@dictBaseItem: @9gw\n@dictOneHandDmg: 13 - 29",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3196,7 +3196,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Boneshade \n@7bw\n\n@dictBlue +2 to Necromancer Skill Levels\n+25% Faster Cast Rate\n+1-2 to Bone Spirit (Necromancer Only) @dictVariable\n@dictBlue +2-3 to Bone Spear (Necromancer Only) @dictVariable\n@dictBlue +2-3 to Bone Wall (Necromancer Only) @dictVariable\n@dictBlue +4-5 to Bone Armor (Necromancer Only) @dictVariable\n@dictBlue +4-5 to Teeth (Necromancer Only) @dictVariable\n@dictBlue +50% Damage to Undead",
+                                                "tooltipString": "@dictGold Boneshade \n@7bw\n\n@dictBlue +2 to Necromancer Skill Levels\n+25% Faster Cast Rate\n+@dictLightBlue(1-2)@dictBlue to Bone Spirit (Necromancer Only)\n+@dictLightBlue(2-3)@dictBlue to Bone Spear (Necromancer Only)\n+@dictLightBlue(2-3)@dictBlue to Bone Wall (Necromancer Only)\n+@dictLightBlue(4-5)@dictBlue to Bone Armor (Necromancer Only)\n+@dictLightBlue(4-5)@dictBlue to Teeth (Necromancer Only)\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3256,7 +3256,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7bw\n@dictOneHandDamage: 10 - 31",
+                                                "text": "@dictBaseItem: @7bw\n@dictOneHandDmg: 10 - 31",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3360,7 +3360,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Death's Web \n@7gw\n\n@dictBlue +2 to All Skills\n+1-2 to Poison and Bone Skills (Necromancer Only) @dictVariable\n@dictBlue -(40-50)% to Enemy Poison Resistance @dictVariable\n@dictBlue +7-12 Mana after each Kill @dictVariable\n@dictBlue +7-12 Life after each Kill @dictVariable\n@dictBlue +50% Damage to Undead",
+                                                "tooltipString": "@dictGold Death's Web \n@7gw\n\n@dictBlue +2 to All Skills\n+@dictLightBlue(1-2)@dictBlue to Poison and Bone Skills (Necromancer Only)\n-@dictLightBlue(40-50)@dictBlue% to Enemy Poison Resistance\n+@dictLightBlue(7-12)@dictBlue Mana after each Kill\n+@dictLightBlue(7-12)@dictBlue Life after each Kill\n+50% Damage to Undead",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3420,7 +3420,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gw\n@dictOneHandDamage: 22 - 28",
+                                                "text": "@dictBaseItem: @7gw\n@dictOneHandDmg: 22 - 28",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3575,7 +3575,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @oba\n@dictOneHandDamage: 18 - 42",
+                                                "text": "@dictBaseItem: @oba\n@dictOneHandDmg: 18 - 42",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3679,7 +3679,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x2",
-                                                "tooltipString": "@dictGold Eschuta's Temper \n@obc\n\n@dictBlue +1-3 to Sorceress Skill Levels @dictVariable\n@dictBlue +40% Faster Cast Rate\n+10-20% to Lightning Skill Damage @dictVariable\n@dictBlue +10-20% to Fire Skill Damage @dictVariable\n@dictBlue +20-30 to Energy @dictVariable",
+                                                "tooltipString": "@dictGold Eschuta's Temper \n@obc\n\n@dictBlue +@dictLightBlue(1-3)@dictBlue to Sorceress Skill Levels\n+40% Faster Cast Rate\n+@dictLightBlue(10-20)@dictBlue% to Lightning Skill Damage\n+@dictLightBlue(10-20)@dictBlue% to Fire Skill Damage\n+@dictLightBlue(20-30)@dictBlue to Energy",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3712,7 +3712,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @obc\n@dictOneHandDamage: 18 - 50",
+                                                "text": "@dictBaseItem: @obc\n@dictOneHandDmg: 18 - 50",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3816,7 +3816,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Death's Fathom \n@obf\n\n@dictBlue +3 to Sorceress Skill Levels\n+20% Faster Cast Rate\n+15-30% to Cold Skill Damage @dictVariable\n@dictBlue Lightning Resist +25-40% @dictVariable\n@dictBlue Fire Resist +25-40% @dictVariable",
+                                                "tooltipString": "@dictGold Death's Fathom \n@obf\n\n@dictBlue +3 to Sorceress Skill Levels\n+20% Faster Cast Rate\n+@dictLightBlue(15-30)@dictBlue% to Cold Skill Damage\nLightning Resist +@dictLightBlue(25-40)@dictBlue%\nFire Resist +@dictLightBlue(25-40)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3849,7 +3849,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @obf\n@dictOneHandDamage: 30 - 53",
+                                                "text": "@dictBaseItem: @obf\n@dictOneHandDmg: 30 - 53",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

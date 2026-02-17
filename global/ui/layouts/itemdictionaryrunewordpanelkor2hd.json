@@ -277,7 +277,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword97\n\n@dictBlue 막기 속도 +30%\n피해 +40~80% 증가 @dictVariable\n@dictBlue 명중률 보너스 10%\n화염 피해 17 - 62 추가\n번개 피해 1 - 50 추가\n냉기 피해 3 - 14 추가\n독 피해 +75 (5초에 걸쳐)\n힘 +6\n민첩 +6\n모든 저항 +15",
+                                                "tooltipString": "@dictGold@Runeword97\n\n@dictBlue 막기 속도 +30%\n피해 +@dictLightBlue(40-80)@dictBlue% 증가\n명중률 보너스 10%\n화염 피해 17 - 62 추가\n번개 피해 1 - 50 추가\n냉기 피해 3 - 14 추가\n독 피해 +75 (5초에 걸쳐)\n힘 +6\n민첩 +6\n모든 저항 +15",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -381,7 +381,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword31\n\n@dictBlue 장착 시 15 레벨 가시 오라 효과 적용\n공격 속도 +35%\n악마에게 주는 피해 +320~380% @dictVariable\n@dictBlue 언데드에게 주는 피해 +280%\n독 피해 +75 (5초에 걸쳐)\n적중당 생명력 7% 훔침\n괴물 회복 저지\n모든 능력치 +5~10 @dictVariable\n@dictBlue 적 처치 시 마나 +2\n상점 물품 가격 15% 하락",
+                                                "tooltipString": "@dictGold@Runeword31\n\n@dictBlue 장착 시 15 레벨 가시 오라 효과 적용\n공격 속도 +35%\n악마에게 주는 피해 +@dictLightBlue(320-380)@dictBlue%\n언데드에게 주는 피해 +280%\n독 피해 +75 (5초에 걸쳐)\n적중당 생명력 7% 훔침\n괴물 회복 저지\n모든 능력치 +@dictLightBlue(5-10)@dictBlue\n적 처치 시 마나 +2\n상점 물품 가격 15% 하락",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -757,7 +757,7 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword172",
+                                                "text": "@Runeword172 (투지)",
                                                 "style": "$StyleDictionaryCategory"
                                             }
                                         }
@@ -797,7 +797,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword172\n\n@dictBlue 타격 시 5% 확률로 1 레벨 폭발적인 속도 시전\n장착 시 1 레벨 광신 오라 효과 적용\n공격 속도 +30%\n피해 +180~200% 증가 @dictVariable\n@dictBlue 언데드에게 주는 피해 +75%\n언데드에 대한 명중률 +50\n민첩 +10",
+                                                "tooltipString": "@dictGold@Runeword172\n\n@dictBlue 타격 시 5% 확률로 1 레벨 폭발적인 속도 시전\n장착 시 1 레벨 광신 오라 효과 적용\n공격 속도 +30%\n피해 +@dictLightBlue(180-200)@dictBlue% 증가\n언데드에게 주는 피해 +75%\n언데드에 대한 명중률 +50\n민첩 +10",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -901,7 +901,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword71\n\n@dictBlue 타격 시 20% 확률로 15 레벨 노화 시전\n장착 시 16~18 레벨 성역 오라 효과 적용 @dictVariable\n@dictBlue 대상의 방어력 -50%\n화염 피해 150 - 210 추가\n냉기 피해 130 - 180 추가\n적중당 생명력 7% 훔침\n처치한 괴물이 안식에 듦\n원거리 공격 방어력 +200~250 @dictVariable\n@dictBlue 민첩 +10\n괴물에게서 얻는 금화 75% 증가",
+                                                "tooltipString": "@dictGold@Runeword71\n\n@dictBlue 타격 시 20% 확률로 15 레벨 노화 시전\n장착 시 @dictLightBlue(16-18)@dictBlue 레벨 성역 오라 효과 적용\n대상의 방어력 -50%\n화염 피해 150 - 210 추가\n냉기 피해 130 - 180 추가\n적중당 생명력 7% 훔침\n처치한 괴물이 안식에 듦\n원거리 공격 방어력 +@dictLightBlue(200-250)@dictBlue\n민첩 +10\n괴물에게서 얻는 금화 75% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1005,7 +1005,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword17\n\n@dictBlue 타격 시 10% 확률로 17 레벨 연쇄 번개 시전\n타격 시 7% 확률로 13 레벨 전자기장 시전\n공격 속도 +20%\n피해 +180~220% 증가 @dictVariable\n@dictBlue 대상의 방어력 무시\n적의 번개 저항 -35%\n상처 악화 확률 +25%\n마법 흡수 +9~11 @dictVariable\n@dictBlue 적 처치 시 마나 +2\n18 레벨 영혼 늑대 소환 (충전 30회)",
+                                                "tooltipString": "@dictGold@Runeword17\n\n@dictBlue 타격 시 10% 확률로 17 레벨 연쇄 번개 시전\n타격 시 7% 확률로 13 레벨 전자기장 시전\n공격 속도 +20%\n피해 +@dictLightBlue(180-220)@dictBlue% 증가\n대상의 방어력 무시\n적의 번개 저항 -35%\n상처 악화 확률 +25%\n마법 흡수 +@dictLightBlue(9-11)@dictBlue\n적 처치 시 마나 +2\n18 레벨 영혼 늑대 소환 (충전 30회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1213,7 +1213,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword173\n\n@dictBlue 필살기가 충전을 소모하지 않을 확률 +50%\n무술 +2 (암살자 전용)\n공격 속도 +20%\n피해 +200~250% 증가 @dictVariable\n@dictBlue 명중률 보너스 20%\n적중당 생명력 7% 훔침\n냉기 기술 피해 +8~15% @dictVariable\n@dictBlue 번개 기술 피해 +8~15% @dictVariable\n@dictBlue 화염 기술 피해 +8~15% @dictVariable\n@dictBlue 괴물 회복 저지",
+                                                "tooltipString": "@dictGold@Runeword173\n\n@dictBlue 필살기가 충전을 소모하지 않을 확률 +50%\n무술 +2 (암살자 전용)\n공격 속도 +20%\n피해 +@dictLightBlue(200-250)@dictBlue% 증가\n명중률 보너스 20%\n적중당 생명력 7% 훔침\n냉기 기술 피해 +@dictLightBlue(8-15)@dictBlue%\n번개 기술 피해 +@dictLightBlue(8-15)@dictBlue%\n화염 기술 피해 +@dictLightBlue(8-15)@dictBlue%\n괴물 회복 저지",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1239,6 +1239,214 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "3홈 손톱\n@dictRequiredLevel: 53 @dictLadderOnly",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword16",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r19L + @r27L + @r22L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword16\n\n@dictBlue 타격 시 9% 확률로 11 레벨 얼음 보주 시전\n타격 시 11% 확률로 9 레벨 번개 줄기 시전\n공격 속도 +35%\n피해 +@dictLightBlue(290-340)@dictBlue% 증가\n마법 피해 216 - 471 추가\n상처 악화 확률 +25%\n+1 소용돌이\n힘 +10\n악마 처치 시 생명력 +15",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3홈 손톱\n@dictRequiredLevel: 57",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword182",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r11L + @r13L + @r27L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword182\n\n@dictBlue 피격 시 13% 확률로 1 레벨 인장: 죽음 시전\n공격 속도 +40%\n피해 +@dictLightBlue(250-320)@dictBlue% 증가\n명중률 보너스 @dictLightBlue(200-260)@dictBlue%\n악마에게 주는 피해 @dictLightBlue(150-250)@dictBlue%\n적중당 생명력 7% 훔침\n처치한 괴물이 안식에 듦\n적 처치 시 생명력 +@dictLightBlue(3-5)",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3홈 단검\n@dictRequiredLevel: 57 @dictNeedRotW",
                                                 "style": "$StyleDictionaryRunewordDescription"
                                             }
                                         }
@@ -1317,7 +1525,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 피격 시 20% 확률로 18 레벨 맹독 시전\n타격 시 12% 확률로 15 레벨 히드라 시전\n장착 시 14 레벨 신성한 불꽃 오라 효과 적용\n방어력 +360\n원거리 공격 방어력 +230\n모든 능력치 +3~5 @dictVariable\n@dictBlue 힘 +0~37 (캐릭터 레벨에 비례)\n마나 +50\n최대 번개 저항 +5%\n피해 7 감소",
+                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 피격 시 20% 확률로 18 레벨 맹독 시전\n타격 시 12% 확률로 15 레벨 히드라 시전\n장착 시 14 레벨 신성한 불꽃 오라 효과 적용\n방어력 +360\n원거리 공격 방어력 +230\n모든 능력치 +@dictLightBlue(3-5)@dictBlue\n힘 +(0-37) (캐릭터 레벨에 비례)\n마나 +50\n최대 번개 저항 +5%\n피해 7 감소",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1485,110 +1693,6 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword16",
-                                                "style": "$StyleDictionaryCategory"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "RunewordTextWrapper",
-                                    "fields": {
-                                        "marginTop": 88
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "TextBoxWidget",
-                                            "name": "ItemType",
-                                            "fields": {
-                                                "fitToText": true,
-                                                "text": "@r19L + @r27L + @r22L",
-                                                "style": "$StyleDictionaryRunewordRune"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "GammaCalibration",
-                                    "fields": {
-                                        "marginTop": 48,
-                                        "marginBottom": 12
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "optionimg",
-                                            "fields": {
-                                                "rect": {
-                                                    "scale": 0.75
-                                                },
-                                                "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword16\n\n@dictBlue 타격 시 9% 확률로 11 레벨 얼음 보주 시전\n타격 시 11% 확률로 9 레벨 번개 줄기 시전\n공격 속도 +35%\n피해 +290~340% 증가 @dictVariable\n@dictBlue 마법 피해 216 - 471 추가\n상처 악화 확률 +25%\n+1 소용돌이\n힘 +10\n악마 처치 시 생명력 +15",
-                                                "pressedFrame": 0
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row ItemNameDisplayMode",
-                            "children": [
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "RunewordTextWrapper",
-                                    "fields": {
-                                        "marginTop": 12,
-                                        "marginBottom": 12
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "TextBoxWidget",
-                                            "name": "RunewordReq",
-                                            "fields": {
-                                                "fitToText": true,
-                                                "text": "3홈 손톱\n@dictRequiredLevel: 57",
-                                                "style": "$StyleDictionaryRunewordDescription"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row Gameplay Options",
-                            "children": [
-                                {
-                                    "type": "ImageWidget",
-                                    "name": "Divider",
-                                    "fields": {
-                                        "rect": "$OptionsDividerRect",
-                                        "filename": "PauseMenu\\Divider"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row ItemNameDisplayMode",
-                            "children": [
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "RunewordTextWrapper",
-                                    "fields": {
-                                        "marginTop": 12,
-                                        "marginBottom": 12
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "TextBoxWidget",
-                                            "name": "Runewordname",
-                                            "fields": {
-                                                "fitToText": true,
                                                 "text": "@Runeword106",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -1629,7 +1733,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword106\n\n@dictBlue 타격 시 25% 확률로 15 레벨 맹독 확산 시전\n피격 시 20% 확률로 12 레벨 저항 감소 시전\n장착 시 13~17 레벨 정화 오라 효과 적용 @dictVariable\n@dictBlue 모든 기술 +1~2 @dictVariable\n@dictBlue 공격 속도 +20%\n피해 +220~320% 증가 @dictVariable\n@dictBlue 적의 독 저항 -23%\n치명적 공격 +0~29% (캐릭터 레벨에 비례)\n상처 악화 확률 +25%\n대상 빙결 +3",
+                                                "tooltipString": "@dictGold@Runeword106\n\n@dictBlue 타격 시 25% 확률로 15 레벨 맹독 확산 시전\n피격 시 20% 확률로 12 레벨 저항 감소 시전\n장착 시 @dictLightBlue(13-17)@dictBlue 레벨 정화 오라 효과 적용\n모든 기술 +@dictLightBlue(1-2)@dictBlue\n공격 속도 +20%\n피해 +@dictLightBlue(220-320)@dictBlue% 증가\n적의 독 저항 -23%\n치명적 공격 +(0-29)% (캐릭터 레벨에 비례)\n상처 악화 확률 +25%\n대상 빙결 +3",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1655,6 +1759,110 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "3홈 도검/손톱/단도\n@dictRequiredLevel: 67",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword157",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r10L + @r33L + @r24L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword157\n\n@dictBlue 파괴 불가\n모든 기술 +2\n시전 속도 +40%\n냉기 피해 3 - 14 추가\n마법 기술 피해 +@dictLightBlue(10-15)@dictBlue%\n+@dictLightBlue(1-3)@dictBlue 심연\n모든 능력치 +@dictLightBlue(8-12)@dictBlue\n마법 아이템 발견 확률 30% 증가\n4 레벨 노화 (충전 35회)",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3홈 단검\n@dictRequiredLevel: 69 @dictNeedRotW",
                                                 "style": "$StyleDictionaryRunewordDescription"
                                             }
                                         }

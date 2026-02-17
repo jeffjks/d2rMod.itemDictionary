@@ -238,7 +238,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/helmet/full_helm",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+25-50 Defense vs. Missile @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+@dictLightBlue(25-50)@dictBlue Defense vs. Missile\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -373,7 +373,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/boot/chain_boots",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+25-50 Defense vs. Melee @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+@dictLightBlue(25-50)@dictBlue Defense vs. Melee\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -508,7 +508,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/glove/bracers_m",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\nKnockback@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\nKnockback\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -643,7 +643,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/armor/belt/heavy_belt",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+5-10% Damage Taken Goes To Mana @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Damage Taken Goes To Mana\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -778,7 +778,7 @@
                                                     "y": -49
                                                 },
                                                 "filename": "items/armor/shield/gothic_shield",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n5-10% Increased Chance of Blocking @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n@dictLightBlue(5-10)@dictBlue% Increased Chance of Blocking\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -917,7 +917,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/armor/armor/field_plate",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+10-20% Faster Hit Recovery @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+@dictLightBlue(10-20)@dictBlue% Faster Hit Recovery\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1052,7 +1052,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/amulet/amulet1",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\nHit Causes Monster to Flee +3-11% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\nHit Causes Monster to Flee +@dictLightBlue(3-11)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1183,7 +1183,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/ring/ring1",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+1-5 to Dexterity @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n+@dictLightBlue(1-5)@dictBlue to Dexterity\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1318,7 +1318,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/weapon/mace/mace",
-                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n35-60% Enhanced Damage @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftHitPowerCommon@dictBlue\n@dictLightBlue(35-60)@dictBlue% Enhanced Damage\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1481,7 +1481,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/helmet/helm",
-                                                "tooltipString": "@dictCraftBloodCommon\nÿc+35-10% Deadly Strike @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Deadly Strike\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1616,7 +1616,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/boot/light_plate_boots",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\nReplenish Life +5-10 @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\nReplenish Life +@dictLightBlue(5-10)@dictBlue\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1751,7 +1751,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/glove/heavy_gloves",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+5-10% Chance of Crushing Blow @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Chance of Crushing Blow\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1886,7 +1886,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/armor/belt/belt_m",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+5-10% Chance of Open Wounds @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Chance of Open Wounds\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2021,7 +2021,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/armor/shield/spiked_shield",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\nAttacker Takes Damage of 4-7 @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\nAttacker Takes Damage of @dictLightBlue(4-7)@dictBlue\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2156,7 +2156,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/armor/armor/plate_mail",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+1-3 Life after each Demon Kill @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+@dictLightBlue(1-3)@dictBlue Life after each Demon Kill\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2291,7 +2291,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/amulet/amulet1",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+5-10% Faster Run/Walk @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2422,7 +2422,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/ring/ring1",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+1-5 to Strength @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n+@dictLightBlue(1-5)@dictBlue to Strength\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2557,7 +2557,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/weapon/axe/hand_axe",
-                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n30-60% Enhanced Damage @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftBloodCommon@dictBlue\n@dictLightBlue(30-60)@dictBlue% Enhanced Damage\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2720,7 +2720,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/helmet/mask",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n1-4% Mana stolen per hit @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n@dictLightBlue(1-4)@dictBlue% Mana stolen per hit\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2855,7 +2855,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/boot/leather_boots",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\nIncrease Maximum Mana 2-5% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\nIncrease Maximum Mana @dictLightBlue(2-5)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2990,7 +2990,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/glove/gloves_l",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+1-3 to Mana after each Kill @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+@dictLightBlue(1-3)@dictBlue to Mana after each Kill\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3125,7 +3125,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/armor/belt/light_belt",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+5-10% Faster Cast Rate @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Faster Cast Rate\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3260,7 +3260,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/shield/small_shield",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n5-10% Increased Chance of Blocking @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n@dictLightBlue(5-10)@dictBlue% Increased Chance of Blocking\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3395,7 +3395,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/armor/armor/light_plate",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+1-3 to Mana after each Kill @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+@dictLightBlue(1-3)@dictBlue to Mana after each Kill\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3530,7 +3530,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/amulet/amulet1",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+5-10% Faster Cast Rate @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Faster Cast Rate\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3661,7 +3661,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/ring/ring1",
-                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+1-5 to Energy @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\n+@dictLightBlue(1-5)@dictBlue to Energy\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3796,7 +3796,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/weapon/scepter/scepter",
-                                                "tooltipString": "@dictCraftCasterCommon\nÿcIncrease Maximum Mana 1-5% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftCasterCommon@dictBlue\nIncrease Maximum Mana @dictLightBlue(1-5)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -3959,7 +3959,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/helmet/crown",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+10-30% Enhanced Defense @dictVariable@dictBlue\nLightning Resist +5-10% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(10-30)@dictBlue% Enhanced Defense\nLightning Resist +@dictLightBlue(5-10)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -4094,7 +4094,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/boot/plate_boots",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+10-30% Enhanced Defense @dictVariable@dictBlue\nFire Resist +5-10% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(10-30)@dictBlue% Enhanced Defense\nFire Resist +@dictLightBlue(5-10)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -4229,7 +4229,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/armor/glove/gaunlets_h",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+10-30% Enhanced Defense @dictVariable@dictBlue\nCold Resist +5-10% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(10-30)@dictBlue% Enhanced Defense\nCold Resist +@dictLightBlue(5-10)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -4364,7 +4364,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/armor/belt/sash_l",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+10-30% Enhanced Defense @dictVariable@dictBlue\nPoison Resist +5-10% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(10-30)@dictBlue% Enhanced Defense\nPoison Resist +@dictLightBlue(5-10)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -4499,7 +4499,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/armor/shield/kite_shield",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+10-30% Enhanced Defense @dictVariable@dictBlue\nMagic Resist +5-10% @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(10-30)@dictBlue% Enhanced Defense\nMagic Resist +@dictLightBlue(5-10)@dictBlue%\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -4634,7 +4634,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/armor/armor/breast_plate",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+10-30% Enhanced Defense @dictVariable@dictBlue\nHalf Freeze Duration@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(10-30)@dictBlue% Enhanced Defense\nHalf Freeze Duration\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -4691,137 +4691,6 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/rune/thul_rune",
-                                                "tooltipString": "@r08",
-                                                "pressedFrame": 0
-                                            }
-                                        },
-                                        {
-                                            "type": "ImageWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 377,
-                                                    "y": 122
-                                                },
-                                                "filename": "itemDictionary/cubehelp_plus"
-                                            }
-                                        },
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 458,
-                                                    "y": 98
-                                                },
-                                                "filename": "items/misc/gem/perfect_emerald",
-                                                "tooltipString": "@gpg",
-                                                "pressedFrame": 0
-                                            }
-                                        },
-                                        {
-                                            "type": "ImageWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 588,
-                                                    "y": 122
-                                                },
-                                                "filename": "itemDictionary/cubehelp_plus"
-                                            }
-                                        },
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 669,
-                                                    "y": 98
-                                                },
-                                                "filename": "items/misc/gem/perfect_diamond4",
-                                                "tooltipString": "@jew",
-                                                "pressedFrame": 0
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Widget",
-                                    "name": "GammaCalibration",
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 0,
-                                                    "y": 122
-                                                },
-                                                "filename": "itemDictionary/cubehelp_equal"
-                                            }
-                                        },
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 113,
-                                                    "y": 98
-                                                },
-                                                "filename": "items/misc/amulet/amulet1",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n1-10% Increased Chance of Blocking @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
-                                                "pressedFrame": 0
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row ItemNameDisplayMode"
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row ItemNameDisplayMode",
-                            "children": [
-                                {
-                                    "type": "Widget",
-                                    "name": "GammaCalibration",
-                                    "children": [
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 36,
-                                                    "y": 98
-                                                },
-                                                "filename": "items/misc/ring/ring1",
-                                                "tooltipString": "@dictBlue@strBSMagic @rin",
-                                                "pressedFrame": 0
-                                            }
-                                        },
-                                        {
-                                            "type": "ImageWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 166,
-                                                    "y": 122
-                                                },
-                                                "filename": "itemDictionary/cubehelp_plus"
-                                            }
-                                        },
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "cubeRecipeImg",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 247,
-                                                    "y": 98
-                                                },
-                                                "filename": "items/misc/rune/amn_rune",
                                                 "tooltipString": "@r10",
                                                 "pressedFrame": 0
                                             }
@@ -4899,8 +4768,139 @@
                                                     "x": 113,
                                                     "y": 98
                                                 },
+                                                "filename": "items/misc/amulet/amulet1",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n@dictLightBlue(1-10)@dictBlue% Increased Chance of Blocking\n\n@dictCraftAdditionalProperties",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 36,
+                                                    "y": 98
+                                                },
                                                 "filename": "items/misc/ring/ring1",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+1-5 to Vitality @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictBlue@strBSMagic @rin",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 166,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 247,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/amn_rune",
+                                                "tooltipString": "@r11",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 377,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 458,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_emerald",
+                                                "tooltipString": "@gpg",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 588,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 669,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_diamond4",
+                                                "tooltipString": "@jew",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 0,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 113,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/ring/ring1",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(1-5)@dictBlue to Vitality\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -5035,7 +5035,7 @@
                                                     "y": 0
                                                 },
                                                 "filename": "items/weapon/javelin/javelin",
-                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+5-10% Enhanced Defense @dictVariable@dictBlue\n\n@dictCraftAdditionalProperties",
+                                                "tooltipString": "@dictCraftSafetyCommon@dictBlue\n+@dictLightBlue(5-10)@dictBlue% Enhanced Defense\n\n@dictCraftAdditionalProperties",
                                                 "pressedFrame": 0
                                             }
                                         }

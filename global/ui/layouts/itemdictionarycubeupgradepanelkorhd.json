@@ -290,7 +290,7 @@
                                             "name": "CubeRecipeInput",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "노말 희귀 방어구\n@r08L + @r10\n최상급 자수정",
+                                                "text": "노말 희귀 방어구\n@r08L + @r10L\n최상급 자수정",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

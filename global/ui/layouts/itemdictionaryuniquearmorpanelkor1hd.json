@@ -147,7 +147,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @cap\n@strchrdef: 17~19",
+                                                "text": "@dictBaseItem: @cap\n@strchrdef: 17-19",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -251,7 +251,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 타른헬름 \n@skp\n\n@dictBlue 모든 기술 +1\n괴물에게서 얻는 금화 75% 증가\n마법 아이템 발견 확률 25~50% 증가 @dictVariable",
+                                                "tooltipString": "@dictGold 타른헬름 \n@skp\n\n@dictBlue 모든 기술 +1\n괴물에게서 얻는 금화 75% 증가\n마법 아이템 발견 확률 @dictLightBlue(25-50)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -311,7 +311,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @skp\n@strchrdef: 8~11",
+                                                "text": "@dictBaseItem: @skp\n@strchrdef: 8-11",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -448,7 +448,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @hlm\n@strchrdef: 25~28",
+                                                "text": "@dictBaseItem: @hlm\n@strchrdef: 25-28",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -552,7 +552,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 황혼심연 \n@fhl\n\n@dictBlue 최대 피해 +8\n방어력 +30~50% 증가 @dictVariable\n@dictBlue 방어력 +10~20 @dictVariable\n@dictBlue 모든 저항 +15\n피해 7 감소\n시야 -2",
+                                                "tooltipString": "@dictGold 황혼심연 \n@fhl\n\n@dictBlue 최대 피해 +8\n방어력 +@dictLightBlue(30-50)@dictBlue% 증가\n방어력 +@dictLightBlue(10-20)@dictBlue\n모든 저항 +15\n피해 7 감소\n시야 -2",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -585,7 +585,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @fhl\n@strchrdef: 45~60",
+                                                "text": "@dictBaseItem: @fhl\n@strchrdef: 45-60",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -722,7 +722,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bhm\n@strchrdef: 33~36",
+                                                "text": "@dictBaseItem: @bhm\n@strchrdef: 33-36",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -886,7 +886,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @msk\n@strchrdef: 34~52",
+                                                "text": "@dictBaseItem: @msk\n@strchrdef: 34-52",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1154,7 +1154,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 언데드 왕관 \n@crn\n\n@dictBlue 언데드에게 주는 피해 +50%\n언데드에 대한 명중률 +50~100 @dictVariable\n@dictBlue 적중당 생명력 5% 훔침\n+3 해골 숙련 (강령술사 전용)\n방어력 +30~60% 증가 @dictVariable\n@dictBlue 방어력 +40\n독 저항 +50%\n빙결 지속시간 절반으로 감소",
+                                                "tooltipString": "@dictGold 언데드 왕관 \n@crn\n\n@dictBlue 언데드에게 주는 피해 +50%\n언데드에 대한 명중률 +@dictLightBlue(50-100)@dictBlue\n적중당 생명력 5% 훔침\n+3 해골 숙련 (강령술사 전용)\n방어력 +@dictLightBlue(30-60)@dictBlue% 증가\n방어력 +40\n독 저항 +50%\n빙결 지속시간 절반으로 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1214,7 +1214,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @crn\n@strchrdef: 99~113",
+                                                "text": "@dictBaseItem: @crn\n@strchrdef: 99-113",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1318,7 +1318,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 평민의 왕관 \n@xap\n\n@dictBlue 모든 기술 +1\n달리기/걷기 속도 +15%\n방어력 +100% 증가\n활력 +20\n마력 +20\n생명력 회복 +6~12 @dictVariable",
+                                                "tooltipString": "@dictGold 평민의 왕관 \n@xap\n\n@dictBlue 모든 기술 +1\n달리기/걷기 속도 +15%\n방어력 +100% 증가\n활력 +20\n마력 +20\n생명력 회복 +@dictLightBlue(6-12)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1455,7 +1455,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 바위막이 \n@xkp\n\n@dictBlue 타격 회복 속도 +30%\n방어력 +160~220% 증가 @dictVariable\n@dictBlue 활력 +15\n냉기 저항 +20~40% @dictVariable\n@dictBlue 번개 저항 +20~40% @dictVariable\n@dictBlue 화염 저항 +20~50% @dictVariable\n@dictBlue 받는 물리 피해 10% 감소",
+                                                "tooltipString": "@dictGold 바위막이 \n@xkp\n\n@dictBlue 타격 회복 속도 +30%\n방어력 +@dictLightBlue(160-220)@dictBlue% 증가\n활력 +15\n냉기 저항 +@dictLightBlue(20-40)@dictBlue%\n번개 저항 +@dictLightBlue(20-40)@dictBlue%\n화염 저항 +@dictLightBlue(20-50)@dictBlue%\n받는 물리 피해 10% 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1488,7 +1488,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xkp\n@strchrdef: 163~201",
+                                                "text": "@dictBaseItem: @xkp\n@strchrdef: 163-201",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1592,7 +1592,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 두개골 도둑 \n@xlm\n\n@dictBlue 공격 속도 +10%\n타격 회복 속도 +10%\n적중당 마나 5% 훔침\n적중당 생명력 5% 훔침\n방어력 +200~240% 증가 @dictVariable\n@dictBlue 마법 아이템 발견 확률 30~50% 증가 @dictVariable",
+                                                "tooltipString": "@dictGold 두개골 도둑 \n@xlm\n\n@dictBlue 공격 속도 +10%\n타격 회복 속도 +10%\n적중당 마나 5% 훔침\n적중당 생명력 5% 훔침\n방어력 +@dictLightBlue(200-240)@dictBlue% 증가\n마법 아이템 발견 확률 @dictLightBlue(30-50)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1625,7 +1625,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xlm\n@strchrdef: 219~248",
+                                                "text": "@dictBaseItem: @xlm\n@strchrdef: 219-248",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1729,7 +1729,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 어둑눈 투구 \n@xhl\n\n@dictBlue 피격 시 6% 확률로 3 레벨 시야 흐리기 시전\n적중당 마나 5% 훔침\n방어력 +2~198 (캐릭터 레벨에 비례)\n화염 저항 +20~40% @dictVariable\n@dictBlue 빙결되지 않음\n시야 -4\n5 레벨 그림자 망토 (충전 30회)",
+                                                "tooltipString": "@dictGold 어둑눈 투구 \n@xhl\n\n@dictBlue 피격 시 6% 확률로 3 레벨 시야 흐리기 시전\n적중당 마나 5% 훔침\n방어력 +(2-198) (캐릭터 레벨에 비례)\n화염 저항 +@dictLightBlue(20-40)@dictBlue%\n빙결되지 않음\n시야 -4\n5 레벨 그림자 망토 (충전 30회)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1789,7 +1789,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhl\n@strchrdef: (77~243)~(86~282)",
+                                                "text": "@dictBaseItem: @xhl\n@strchrdef: (77-243)-(86-282)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1893,7 +1893,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 흡혈귀의 눈길 \n@xh9\n\n@dictBlue 냉기 피해 6 - 22 추가\n적중당 마나 6~8% 훔침 @dictVariable\n@dictBlue 적중당 생명력 6~8% 훔침 @dictVariable\n@dictBlue 방어력 +100% 증가\n지구력 고갈 속도 15% 감소\n받는 물리 피해 15~20% 감소 @dictVariable\n@dictBlue 마법 피해 10~15 감소 @dictVariable",
+                                                "tooltipString": "@dictGold 흡혈귀의 눈길 \n@xh9\n\n@dictBlue 냉기 피해 6 - 22 추가\n적중당 마나 @dictLightBlue(6-8)@dictBlue% 훔침\n적중당 생명력 @dictLightBlue(6-8)@dictBlue% 훔침\n방어력 +100% 증가\n지구력 고갈 속도 15% 감소\n받는 물리 피해 @dictLightBlue(15-20)@dictBlue% 감소\n마법 피해 @dictLightBlue(10-15)@dictBlue 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2057,7 +2057,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 블랙혼의 얼굴 \n@xsk\n\n@dictBlue 괴물 회복 저지\n대상 감속 20%\n방어력 +180~220% 증가 @dictVariable\n@dictBlue 번개 저항 +15%\n번개 흡수 +20\n공격자가 번개 피해를 25 받음",
+                                                "tooltipString": "@dictGold 블랙혼의 얼굴 \n@xsk\n\n@dictBlue 괴물 회복 저지\n대상 감속 20%\n방어력 +@dictLightBlue(180-220)@dictBlue% 증가\n번개 저항 +15%\n번개 흡수 +20\n공격자가 번개 피해를 25 받음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2117,7 +2117,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xsk\n@strchrdef: 243~278",
+                                                "text": "@dictBaseItem: @xsk\n@strchrdef: 243-278",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2206,6 +2206,143 @@
                                             "name": "Uniquename",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "지옥파수꾼의 의지",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x2",
+                                                "tooltipString": "@dictGold 지옥파수꾼의 의지 \n@xsk\n\n@dictBlue 모든 기술 +1\n공격 속도 +20%\n시전 속도 +20%\n적 마법 저항 -@dictLightBlue(5-8)@dictBlue%\n적의 화염 저항 -@dictLightBlue(5-8)@dictBlue%\n방어력 +@dictLightBlue(150-215)@dictBlue% 증가\n적 처치 시 마나 +@dictLightBlue(4-6)",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/helmet/unique_warlock_helm"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @xsk\n@strchrdef: 217-274",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 55, @dictRequiredLevel: 50",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "발키리 날개 (발키리 윙)",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -2221,7 +2358,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 발키리 날개 \n@xhm\n\n@dictBlue 아마존 기술 레벨 +1~2 @dictVariable\n@dictBlue 달리기/걷기 속도 +20%\n타격 회복 속도 +20%\n방어력 +150~200% 증가 @dictVariable\n@dictBlue 적 처치 시 마나 +2~4 @dictVariable",
+                                                "tooltipString": "@dictGold 발키리 날개 \n@xhm\n\n@dictBlue 아마존 기술 레벨 +@dictLightBlue(1-2)@dictBlue\n달리기/걷기 속도 +20%\n타격 회복 속도 +20%\n방어력 +@dictLightBlue(150-200)@dictBlue% 증가\n적 처치 시 마나 +@dictLightBlue(2-4)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2254,7 +2391,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhm\n@strchrdef: 247~297",
+                                                "text": "@dictBaseItem: @xhm\n@strchrdef: 247-297",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2358,7 +2495,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 도둑의 왕관 \n@xrn\n\n@dictBlue 적중당 생명력 9~12% 훔침 @dictVariable\n@dictBlue 방어력 +160~200% 증가 @dictVariable\n@dictBlue 민첩 +25\n생명력 +50\n마나 +35\n화염 저항 +33%\n괴물에게서 얻는 금화 80~100% 증가 @dictVariable",
+                                                "tooltipString": "@dictGold 도둑의 왕관 \n@xrn\n\n@dictBlue 적중당 생명력 @dictLightBlue(9-12)@dictBlue% 훔침\n방어력 +@dictLightBlue(160-200)@dictBlue% 증가\n민첩 +25\n생명력 +50\n마나 +35\n화염 저항 +33%\n괴물에게서 얻는 금화 @dictLightBlue(80-100)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2418,7 +2555,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xrn\n@strchrdef: 296~342",
+                                                "text": "@dictBaseItem: @xrn\n@strchrdef: 296-342",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2522,7 +2659,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 할리퀸 관모 \n@uap\n\n@dictBlue 모든 기술 +2\n모든 능력치 +2\n생명력 +1~148 (캐릭터 레벨에 비례)\n마나 +1~148 (캐릭터 레벨에 비례)\n받는 물리 피해 10% 감소\n마법 아이템 발견 확률 50% 증가",
+                                                "tooltipString": "@dictGold 할리퀸 관모 \n@uap\n\n@dictBlue 모든 기술 +2\n모든 능력치 +2\n생명력 +(1-148) (캐릭터 레벨에 비례)\n마나 +(1-148) (캐릭터 레벨에 비례)\n받는 물리 피해 10% 감소\n마법 아이템 발견 확률 50% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2582,7 +2719,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uap\n@strchrdef: 98~141",
+                                                "text": "@dictBaseItem: @uap\n@strchrdef: 98-141",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2686,7 +2823,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 강철 그늘 \n@ulm\n\n@dictBlue 적중당 마나 4~8% 훔침 @dictVariable\n@dictBlue 방어력 +100~130% 증가 @dictVariable\n@dictBlue 생명력 회복 +10~18 @dictVariable\n@dictBlue 화염 흡수 +5~11 @dictVariable",
+                                                "tooltipString": "@dictGold 강철 그늘 \n@ulm\n\n@dictBlue 적중당 마나 @dictLightBlue(4-8)@dictBlue% 훔침\n방어력 +@dictLightBlue(100-130)@dictBlue% 증가\n생명력 회복 +@dictLightBlue(10-18)@dictBlue\n화염 흡수 +@dictLightBlue(5-11)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2746,7 +2883,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ulm\n@strchrdef: 300~345",
+                                                "text": "@dictBaseItem: @ulm\n@strchrdef: 300-345",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2850,7 +2987,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 거인 두개골 \n@uh9\n\n@dictBlue 강타 확률 +10%\n밀쳐내기\n방어력 +250~320 @dictVariable\n@dictBlue 힘 +25~35 @dictVariable\n@dictBlue 홈 있음 (1~2) @dictVariable",
+                                                "tooltipString": "@dictGold 거인 두개골 \n@uh9\n\n@dictBlue 강타 확률 +10%\n밀쳐내기\n방어력 +@dictLightBlue(250-320)@dictBlue\n힘 +@dictLightBlue(25-35)@dictBlue\n홈 있음 @dictLightBlue(1-2)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2910,7 +3047,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uh9\n@strchrdef: 350~477",
+                                                "text": "@dictBaseItem: @uh9\n@strchrdef: 350-477",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3014,7 +3151,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 안다리엘의 두개골 \n@usk\n\n@dictBlue 피격 시 15% 확률로 15 레벨 맹독 확산 시전\n모든 기술 +2\n공격 속도 +20%\n적중당 생명력 8~10% 훔침 @dictVariable\n@dictBlue 방어력 +100~150% 증가 @dictVariable\n@dictBlue 힘 +25~30 @dictVariable\n@dictBlue 최대 독 저항 +10%\n화염 저항 -30%\n독 저항 +70%\n3 레벨 맹독 (충전 20회)",
+                                                "tooltipString": "@dictGold 안다리엘의 두개골 \n@usk\n\n@dictBlue 피격 시 15% 확률로 15 레벨 맹독 확산 시전\n모든 기술 +2\n공격 속도 +20%\n적중당 생명력 @dictLightBlue(8-10)@dictBlue% 훔침\n방어력 +@dictLightBlue(100-150)@dictBlue% 증가\n힘 +@dictLightBlue(25-30)@dictBlue\n최대 독 저항 +10%\n화염 저항 -30%\n독 저항 +70%\n3 레벨 맹독 (충전 20회)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3074,7 +3211,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @usk\n@strchrdef: 310~387",
+                                                "text": "@dictBaseItem: @usk\n@strchrdef: 310-387",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3178,7 +3315,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 밤날개의 너울 \n@uhm\n\n@dictBlue 모든 기술 +2\n냉기 기술 피해 +8~15% @dictVariable\n@dictBlue 방어력 +90~120% 증가 @dictVariable\n@dictBlue 민첩 +10~20 @dictVariable\n@dictBlue 냉기 흡수 +5~9 @dictVariable\n@dictBlue 빙결 지속시간 절반으로 감소\n착용 조건 -50%",
+                                                "tooltipString": "@dictGold 밤날개의 너울 \n@uhm\n\n@dictBlue 모든 기술 +2\n냉기 기술 피해 +@dictLightBlue(8-15)@dictBlue%\n방어력 +@dictLightBlue(90-120)@dictBlue% 증가\n민첩 +@dictLightBlue(10-20)@dictBlue\n냉기 흡수 +@dictLightBlue(5-9)@dictBlue\n빙결 지속시간 절반으로 감소\n착용 조건 -50%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3238,7 +3375,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uhm\n@strchrdef: 304~352",
+                                                "text": "@dictBaseItem: @uhm\n@strchrdef: 304-352",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3506,7 +3643,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 시대의 왕관 \n@urn\n\n@dictBlue 파괴 불가\n모든 기술 +1\n타격 회복 속도 +30%\n방어력 +50% 증가\n방어력 +100~150 @dictVariable\n@dictBlue 모든 저항 +20~30 @dictVariable\n@dictBlue 받는 물리 피해 10~15% 감소 @dictVariable\n@dictBlue 홈 있음 (1~2) @dictVariable",
+                                                "tooltipString": "@dictGold 시대의 왕관 \n@urn\n\n@dictBlue 파괴 불가\n모든 기술 +1\n타격 회복 속도 +30%\n방어력 +50% 증가\n방어력 +@dictLightBlue(100-150)@dictBlue\n모든 저항 +@dictLightBlue(20-30)@dictBlue\n받는 물리 피해 @dictLightBlue(10-15)@dictBlue% 감소\n홈 있음 @dictLightBlue(1-2)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3566,7 +3703,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @urn\n@strchrdef: 349~399",
+                                                "text": "@dictBaseItem: @urn\n@strchrdef: 349-399",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3688,7 +3825,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 키라의 수호자 \n@ci2\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +50~120 @dictVariable\n@dictBlue 모든 저항 +50~70 @dictVariable\n@dictBlue 빙결되지 않음",
+                                                "tooltipString": "@dictGold 키라의 수호자 \n@ci2\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +@dictLightBlue(50-120)@dictBlue\n모든 저항 +@dictLightBlue(50-70)@dictBlue\n빙결되지 않음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3748,7 +3885,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ci2\n@strchrdef: 90~170",
+                                                "text": "@dictBaseItem: @ci2\n@strchrdef: 90-170",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3852,7 +3989,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 그리폰의 눈 \n@Diadem\n\n@dictBlue 모든 기술 +1\n시전 속도 +25%\n적의 번개 저항 -(15~20)% @dictVariable\n@dictBlue 번개 기술 피해 +10~15% @dictVariable\n@dictBlue 방어력 +100~200 @dictVariable",
+                                                "tooltipString": "@dictGold 그리폰의 눈 \n@Diadem\n\n@dictBlue 모든 기술 +1\n시전 속도 +25%\n적의 번개 저항 -@dictLightBlue(15-20)@dictBlue%\n번개 기술 피해 +@dictLightBlue(10-15)@dictBlue%\n방어력 +@dictLightBlue(100-200)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3885,7 +4022,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @Diadem\n@strchrdef: 150~260",
+                                                "text": "@dictBaseItem: @Diadem\n@strchrdef: 150-260",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4007,7 +4144,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 아리앗의 얼굴 \n@baa\n\n@dictBlue 전투 기술 +2 (야만용사 전용)\n야만용사 기술 레벨 +2\n타격 회복 속도 +30%\n명중률 보너스 20%\n적중당 생명력 3~6% 훔침 @dictVariable\n@dictBlue 방어력 +150~200% 증가 @dictVariable\n@dictBlue 힘 +20\n민첩 +20\n모든 저항 +30",
+                                                "tooltipString": "@dictGold 아리앗의 얼굴 \n@baa\n\n@dictBlue 전투 기술 +2 (야만용사 전용)\n야만용사 기술 레벨 +2\n타격 회복 속도 +30%\n명중률 보너스 20%\n적중당 생명력 @dictLightBlue(3-6)@dictBlue% 훔침\n방어력 +@dictLightBlue(150-200)@dictBlue% 증가\n힘 +20\n민첩 +20\n모든 저항 +30",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4040,7 +4177,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @baa\n@strchrdef: 302~363",
+                                                "text": "@dictBaseItem: @baa\n@strchrdef: 302-363",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4144,7 +4281,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 울부짖는 늑대 \n@bac\n\n@dictBlue 함성 +2~3 (야만용사 전용) @dictVariable\n@dictBlue +3~6 흉포한 격노 @dictVariable\n@dictBlue +3~6 변신술 @dictVariable\n@dictBlue +3~6 늑대인간 @dictVariable\n@dictBlue 방어력 +120~150% 증가 @dictVariable\n@dictBlue 힘 +8~15 @dictVariable\n@dictBlue 민첩 +8~15 @dictVariable\n@dictBlue 활력 +8~15 @dictVariable\n@dictBlue 15 레벨 광포한 늑대 소환 (충전 18회)",
+                                                "tooltipString": "@dictGold 울부짖는 늑대 \n@bac\n\n@dictBlue 함성 +@dictLightBlue(2-3)@dictBlue (야만용사 전용)\n+@dictLightBlue(3-6)@dictBlue 흉포한 격노\n+@dictLightBlue(3-6)@dictBlue 변신술\n+@dictLightBlue(3-6)@dictBlue 늑대인간\n방어력 +@dictLightBlue(120-150)@dictBlue% 증가\n힘 +@dictLightBlue(8-15)@dictBlue\n민첩 +@dictLightBlue(8-15)@dictBlue\n활력 +@dictLightBlue(8-15)@dictBlue\n15 레벨 광포한 늑대 소환 (충전 18회)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4177,7 +4314,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bac\n@strchrdef: 332~377",
+                                                "text": "@dictBaseItem: @bac\n@strchrdef: 332-377",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4281,7 +4418,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 악마뿔의 날 \n@bad\n\n@dictBlue 함성 +1~3 (야만용사 전용) @dictVariable\n@dictBlue 숙련 +1~3 (야만용사 전용) @dictVariable\n@dictBlue 전투 기술 +1~3 (야만용사 전용) @dictVariable\n@dictBlue 공격 속도 +10%\n적중당 생명력 3~6% 훔침 @dictVariable\n@dictBlue 방어력 +120~160% 증가 @dictVariable\n@dictBlue 공격자가 피해를 55~77 받음 @dictVariable",
+                                                "tooltipString": "@dictGold 악마뿔의 날 \n@bad\n\n@dictBlue 함성 +@dictLightBlue(1-3)@dictBlue (야만용사 전용)\n숙련 +@dictLightBlue(1-3)@dictBlue (야만용사 전용)\n전투 기술 +@dictLightBlue(1-3)@dictBlue (야만용사 전용)\n공격 속도 +10%\n적중당 생명력 @dictLightBlue(3-6)@dictBlue% 훔침\n방어력 +@dictLightBlue(120-160)@dictBlue% 증가\n공격자가 피해를 @dictLightBlue(55-77)@dictBlue 받음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4314,7 +4451,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bad\n@strchrdef: 345~408",
+                                                "text": "@dictBaseItem: @bad\n@strchrdef: 345-408",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4418,7 +4555,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 할라버드의 통치 \n@bae\n\n@dictBlue 숙련 +1 (야만용사 전용)\n야만용사 기술 레벨 +2\n타격 회복 속도 +20%\n+1~2 전투 명령 (야만용사 전용) @dictVariable\n@dictBlue +1~2 전투 지시 (야만용사 전용) @dictVariable\n@dictBlue 방어력 +140~170% 증가 @dictVariable\n@dictBlue 생명력 회복 +15~23 @dictVariable",
+                                                "tooltipString": "@dictGold 할라버드의 통치 \n@bae\n\n@dictBlue 숙련 +1 (야만용사 전용)\n야만용사 기술 레벨 +2\n타격 회복 속도 +20%\n+@dictLightBlue(1-2)@dictBlue 전투 명령 (야만용사 전용)\n+@dictLightBlue(1-2)@dictBlue 전투 지시 (야만용사 전용)\n방어력 +@dictLightBlue(140-170)@dictBlue% 증가\n생명력 회복 +@dictLightBlue(15-23)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4451,7 +4588,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bae\n@strchrdef: 384~432",
+                                                "text": "@dictBaseItem: @bae\n@strchrdef: 384-432",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4573,7 +4710,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 잘랄의 갈기 \n@dra\n\n@dictBlue 변신 기술 +2 (드루이드 전용)\n드루이드 기술 레벨 +2\n타격 회복 속도 +30%\n명중률 보너스 20%\n방어력 +150~200% 증가 @dictVariable\n@dictBlue 힘 +20\n마력 +20\n모든 저항 +30\n적 처치 시 마나 +5",
+                                                "tooltipString": "@dictGold 잘랄의 갈기 \n@dra\n\n@dictBlue 변신 기술 +2 (드루이드 전용)\n드루이드 기술 레벨 +2\n타격 회복 속도 +30%\n명중률 보너스 20%\n방어력 +@dictLightBlue(150-200)@dictBlue% 증가\n힘 +20\n마력 +20\n모든 저항 +30\n적 처치 시 마나 +5",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4606,7 +4743,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @dra\n@strchrdef: 247~297",
+                                                "text": "@dictBaseItem: @dra\n@strchrdef: 247-297",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4710,7 +4847,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 세레부스의 이빨 \n@drb\n\n@dictBlue 변신 기술 +2~4 (드루이드 전용) @dictVariable\n@dictBlue 명중률 보너스 60~120% @dictVariable\n@dictBlue 적중당 생명력 7~10% 훔침 @dictVariable\n@dictBlue 상처 악화 확률 +33%\n+1~2 흉포한 격노 (드루이드 전용) @dictVariable\n@dictBlue 방어력 +130~140% 증가 @dictVariable",
+                                                "tooltipString": "@dictGold 세레부스의 이빨 \n@drb\n\n@dictBlue 변신 기술 +@dictLightBlue(2-4)@dictBlue (드루이드 전용)\n명중률 보너스 @dictLightBlue(60-120)@dictBlue%\n적중당 생명력 @dictLightBlue(7-10)@dictBlue% 훔침\n상처 악화 확률 +33%\n+@dictLightBlue(1-2)@dictBlue 흉포한 격노 (드루이드 전용)\n방어력 +@dictLightBlue(130-140)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4770,7 +4907,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @drb\n@strchrdef: 335~350",
+                                                "text": "@dictBaseItem: @drb\n@strchrdef: 335-350",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4874,7 +5011,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 영혼 수호자 \n@drd\n\n@dictBlue 드루이드 기술 레벨 +1~2 @dictVariable\n@dictBlue 타격 회복 속도 +20%\n방어력 +170~190% 증가 @dictVariable\n@dictBlue 최대 독 저항 +10%\n화염 저항 +30~40% @dictVariable\n@dictBlue 번개 흡수 +9~14 @dictVariable\n@dictBlue 냉기 흡수 +15~25% @dictVariable",
+                                                "tooltipString": "@dictGold 영혼 수호자 \n@drd\n\n@dictBlue 드루이드 기술 레벨 +@dictLightBlue(1-2)@dictBlue\n타격 회복 속도 +20%\n방어력 +@dictLightBlue(170-190)@dictBlue% 증가\n최대 독 저항 +10%\n화염 저항 +@dictLightBlue(30-40)@dictBlue%\n번개 흡수 +@dictLightBlue(9-14)@dictBlue\n냉기 흡수 +@dictLightBlue(15-25)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4907,7 +5044,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @drd\n@strchrdef: 413~443",
+                                                "text": "@dictBaseItem: @drd\n@strchrdef: 413-443",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5011,7 +5148,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 까마귀전승 \n@dre\n\n@dictBlue 원소 기술 +3 (드루이드 전용)\n적의 화염 저항 -(10~20)% @dictVariable\n@dictBlue +7 큰까마귀 (드루이드 전용)\n방어력 +120~150% 증가 @dictVariable\n@dictBlue 마력 +20~30 @dictVariable\n@dictBlue 모든 저항 +15~25 @dictVariable",
+                                                "tooltipString": "@dictGold 까마귀전승 \n@dre\n\n@dictBlue 원소 기술 +3 (드루이드 전용)\n적의 화염 저항 -@dictLightBlue(10-20)@dictBlue%\n+7 큰까마귀 (드루이드 전용)\n방어력 +@dictLightBlue(120-150)@dictBlue% 증가\n마력 +@dictLightBlue(20-30)@dictBlue\n모든 저항 +@dictLightBlue(15-25)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -5071,7 +5208,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @dre\n@strchrdef: 343~390",
+                                                "text": "@dictBaseItem: @dre\n@strchrdef: 343-390",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

@@ -485,7 +485,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword72\n\n@dictBlue +3 to Fire Skills\nAdds 5-30 fire damage\n+3 to Inferno (Sorceress Only)\n+3 to Warmth (Sorceress Only)\n+3 to Fire Bolt (Sorceress Only)\n+2-198 Defense (Based on Character Level)\nCold Resist +33%\n+2 Mana after each Kill",
+                                                "tooltipString": "@dictGold@Runeword72\n\n@dictBlue +3 to Fire Skills\nAdds 5-30 fire damage\n+3 to Inferno (Sorceress Only)\n+3 to Warmth (Sorceress Only)\n+3 to Fire Bolt (Sorceress Only)\n+(2-198) Defense (Based on Character Level)\nCold Resist +33%\n+2 Mana after each Kill",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1213,7 +1213,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword131\n\n@dictBlue +1 to All Skills\n+10% Faster Cast Rate\n+20% Faster Block Rate\n+60-100% Enhanced Defense @dictVariable\n@dictBlue +10 to Energy\nRegenerate Mana 15%\n50% Extra Gold from Monsters\n20% Better Chance of Getting Magic Items\n+3 to Light Radius",
+                                                "tooltipString": "@dictGold@Runeword131\n\n@dictBlue +1 to All Skills\n+10% Faster Cast Rate\n+20% Faster Block Rate\n+@dictLightBlue(60-100)@dictBlue% Enhanced Defense\n+10 to Energy\nRegenerate Mana 15%\n50% Extra Gold from Monsters\n20% Better Chance of Getting Magic Items\n+3 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1317,7 +1317,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword112\n\n@dictBlue +25% Faster Hit Recovery\n+140-170% Enhanced Defense @dictVariable\n@dictBlue All Resistances +25-35 @dictVariable\n@dictBlue Damage Reduced by 3\nMagic Damage Reduced by 17\n+2 Mana after each Kill\n+1 to Light Radius\nRepairs 1 durability in 4 seconds",
+                                                "tooltipString": "@dictGold@Runeword112\n\n@dictBlue +25% Faster Hit Recovery\n+@dictLightBlue(140-170)@dictBlue% Enhanced Defense\nAll Resistances +@dictLightBlue(25-35)@dictBlue\nDamage Reduced by 3\nMagic Damage Reduced by 17\n+2 Mana after each Kill\n+1 to Light Radius\nRepairs 1 durability in 4 seconds",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1343,6 +1343,110 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "2 Socket Armors\n@dictRequiredLevel: 49",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword181",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r14L + @r25L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword181\n\n@dictBlue 5% Chance to cast level 10 Ring of Fire when struck\n+10% Faster Run/Walk\n+30% Faster Block Rate\n+@dictLightBlue(75-100)@dictBlue% Enhanced Defense\n+@dictLightBlue(20-40)@dictBlue to Life\nReplenish Life +7\n+@dictLightBlue(20-40)@dictBlue to Mana\n+5% to Maximum Poison Resist\nAll Resistances +@dictLightBlue(25-35)",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "2 Socket Shields\n@dictRequiredLevel: 53 @dictNeedRotW",
                                                 "style": "$StyleDictionaryRunewordDescription"
                                             }
                                         }
@@ -1421,7 +1525,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword163\n\n@dictBlue 10% Chance to cast level 9 Tornado on striking\n+20% Faster Run/Walk\n+40% Increased Attack Speed\n+15% Faster Hit Recovery\n+120-160% Enhanced Damage @dictVariable\n@dictBlue -50% Target Defense\n+50 to Attack Rating\nHit Blinds Target\n+1 to Light Radius\nLevel 13 Twister (127 Charges)",
+                                                "tooltipString": "@dictGold@Runeword163\n\n@dictBlue 10% Chance to cast level 9 Tornado on striking\n+20% Faster Run/Walk\n+40% Increased Attack Speed\n+15% Faster Hit Recovery\n+@dictLightBlue(120-160)@dictBlue% Enhanced Damage\n-50% Target Defense\n+50 to Attack Rating\nHit Blinds Target\n+1 to Light Radius\nLevel 13 Twister (127 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }

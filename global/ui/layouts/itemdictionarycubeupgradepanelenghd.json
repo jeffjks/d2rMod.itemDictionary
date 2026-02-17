@@ -290,7 +290,7 @@
                                             "name": "CubeRecipeInput",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "Normal Rare Armor\n@r08L + @r10\nPerfect Amethyst",
+                                                "text": "Normal Rare Armor\n@r08L + @r10L\nPerfect Amethyst",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

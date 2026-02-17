@@ -534,7 +534,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Prefix@dictBlue\nAll Resistances +16-20% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "Fixed Prefix@dictBlue\nAll Resistances +@dictLightBlue(16-20)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -604,7 +604,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Prefix@dictBlue\nPoison Resist +21-30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "Fixed Prefix@dictBlue\nPoison Resist +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -674,7 +674,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Prefix@dictBlue\nFire Resist +21-30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "Fixed Prefix@dictBlue\nFire Resist +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -744,7 +744,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Prefix@dictBlue\nLightning Resist +21-30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "Fixed Prefix@dictBlue\nLightning Resist +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -814,7 +814,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Prefix@dictBlue\nCold Resist +21-30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "Fixed Prefix@dictBlue\nCold Resist +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -884,7 +884,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Suffix@dictBlue\n2-5% Life stolen per hit @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "Fixed Suffix@dictBlue\n@dictLightBlue(2-5)@dictBlue% Life stolen per hit\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -954,7 +954,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Suffix@dictBlue\nAttacker Takes Damage of 4-6 @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "Fixed Suffix@dictBlue\nAttacker Takes Damage of @dictLightBlue(4-6)@dictBlue\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1024,7 +1024,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "Fixed Prefix@dictBlue\n+66~80% Enhanced Damage @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "Fixed Prefix@dictBlue\n+@dictLightBlue(66-80)@dictBlue% Enhanced Damage\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1053,7 +1053,7 @@
                                             "name": "CubeRecipeInput",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@strBSMagic Weapon\nChpped Gem × 3",
+                                                "text": "@strBSMagic Weapon\nChipped Gem × 3",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1094,7 +1094,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictBlue Socketed (1-2) @dictVariable\n\n@dictWhite@dictItemLevel: 25",
+                                                "tooltipString": "@dictBlue Socketed @dictLightBlue(1-2)\n\n@dictWhite@dictItemLevel: 25",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1164,7 +1164,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictBlue Socketed (1-2) @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "@dictBlue Socketed @dictLightBlue(1-2)\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1234,7 +1234,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictBlue Socketed (1-2) @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "@dictBlue Socketed @dictLightBlue(1-2)\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }

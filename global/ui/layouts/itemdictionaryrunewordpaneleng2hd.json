@@ -277,7 +277,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword97\n\n@dictBlue +30% Faster Block Rate\n+40-80% Enhanced Damage @dictVariable\n@dictBlue 10% Bonus to Attack Rating\nAdds 17-62 fire damage\nAdds 1-50 lightning damage\nAdds 3-14 cold damage\n+75 poison damage over 5 seconds\n+6 to Strength\n+6 to Dexterity\nAll Resistances +15",
+                                                "tooltipString": "@dictGold@Runeword97\n\n@dictBlue +30% Faster Block Rate\n+@dictLightBlue(40-80)@dictBlue% Enhanced Damage\n10% Bonus to Attack Rating\nAdds 17-62 fire damage\nAdds 1-50 lightning damage\nAdds 3-14 cold damage\n+75 poison damage over 5 seconds\n+6 to Strength\n+6 to Dexterity\nAll Resistances +15",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -381,7 +381,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword31\n\n@dictBlue Level 15 Thorns Aura When Equipped\n+35% Increased Attack Speed\n+320-380% Damage to Demons @dictVariable\n@dictBlue +280% Damage to Undead\n+75 poison damage over 5 seconds\n7% Life stolen per hit\nPrevent Monster Heal\n+5-10 to all Attributes @dictVariable\n@dictBlue +2 Mana after each Kill\nReduces all Vendor Prices 15%",
+                                                "tooltipString": "@dictGold@Runeword31\n\n@dictBlue Level 15 Thorns Aura When Equipped\n+35% Increased Attack Speed\n+@dictLightBlue(320-380)@dictBlue% Damage to Demons\n+280% Damage to Undead\n+75 poison damage over 5 seconds\n7% Life stolen per hit\nPrevent Monster Heal\n+@dictLightBlue(5-10)@dictBlue to all Attributes\n+2 Mana after each Kill\nReduces all Vendor Prices 15%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -797,7 +797,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword172\n\n@dictBlue 5% Chance to cast level 1 Burst of Speed on striking\nLevel 1 Fanaticism Aura When Equipped\n+30% Increased Attack Speed\n+180-200% Enhanced Damage @dictVariable\n@dictBlue +75% Damage to Undead\n+50 to Attack Rating against Undead\n+10 to Dexterity",
+                                                "tooltipString": "@dictGold@Runeword172\n\n@dictBlue 5% Chance to cast level 1 Burst of Speed on striking\nLevel 1 Fanaticism Aura When Equipped\n+30% Increased Attack Speed\n+@dictLightBlue(180-200)@dictBlue% Enhanced Damage\n+75% Damage to Undead\n+50 to Attack Rating against Undead\n+10 to Dexterity",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -901,7 +901,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword71\n\n@dictBlue 20% Chance to cast level 15 Decrepify on striking\nLevel 16-18 Sanctuary Aura When Equipped @dictVariable\n@dictBlue -50% Target Defense\nAdds 150-210 fire damage\nAdds 130-180 cold damage\n7% Life stolen per hit\nSlain Monsters Rest in Peace\n+200-250 Defense vs. Missile @dictVariable\n@dictBlue +10 to Dexterity\n75% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold@Runeword71\n\n@dictBlue 20% Chance to cast level 15 Decrepify on striking\nLevel @dictLightBlue(16-18)@dictBlue Sanctuary Aura When Equipped\n-50% Target Defense\nAdds 150-210 fire damage\nAdds 130-180 cold damage\n7% Life stolen per hit\nSlain Monsters Rest in Peace\n+@dictLightBlue(200-250)@dictBlue Defense vs. Missile\n+10 to Dexterity\n75% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1005,7 +1005,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword17\n\n@dictBlue 10% Chance to cast level 17 Chain Lightning on striking\n7% Chance to cast level 13 Static Field on striking\n+20% Increased Attack Speed\n+180-220% Enhanced Damage @dictVariable\n@dictBlue Ignore Target's Defense\n-35% to Enemy Lightning Resistance\n+25% Chance of Open Wounds\n+9-11 Magic Absorb @dictVariable\n@dictBlue +2 Mana after each Kill\nLevel 18 Summon Spirit Wolf (30 Charges)",
+                                                "tooltipString": "@dictGold@Runeword17\n\n@dictBlue 10% Chance to cast level 17 Chain Lightning on striking\n7% Chance to cast level 13 Static Field on striking\n+20% Increased Attack Speed\n+@dictLightBlue(180-220)@dictBlue% Enhanced Damage\nIgnore Target's Defense\n-35% to Enemy Lightning Resistance\n+25% Chance of Open Wounds\n+@dictLightBlue(9-11)@dictBlue Magic Absorb\n+2 Mana after each Kill\nLevel 18 Summon Spirit Wolf (30 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1213,7 +1213,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword173\n\n@dictBlue +50% chance for finishing moves to not consume charges\n+2 to Martial Arts (Assassin Only)\n+20% Increased Attack Speed\n+200-250% Enhanced Damage @dictVariable\n@dictBlue 20% Bonus to Attack Rating\n7% Life stolen per hit\n+8-15% to Cold Skill Damage @dictVariable\n@dictBlue +8-15% to Lightning Skill Damage @dictVariable\n@dictBlue +8-15% to Fire Skill Damage @dictVariable\n@dictBlue Prevent Monster Heal",
+                                                "tooltipString": "@dictGold@Runeword173\n\n@dictBlue +50% chance for finishing moves to not consume charges\n+2 to Martial Arts (Assassin Only)\n+20% Increased Attack Speed\n+@dictLightBlue(200-250)@dictBlue% Enhanced Damage\n20% Bonus to Attack Rating\n7% Life stolen per hit\n+@dictLightBlue(8-15)@dictBlue% to Cold Skill Damage\n+@dictLightBlue(8-15)@dictBlue% to Lightning Skill Damage\n+@dictLightBlue(8-15)@dictBlue% to Fire Skill Damage\nPrevent Monster Heal",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1239,6 +1239,214 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "3 Socket Claws\n@dictRequiredLevel: 53 @dictLadderOnly",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword16",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r19L + @r27L + @r22L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword16\n\n@dictBlue 9% Chance to cast level 11 Frozen Orb on striking\n11% Chance to cast level 9 Charged Bolt on striking\n+35% Increased Attack Speed\n+@dictLightBlue(290-340)@dictBlue% Enhanced Damage\nAdds 216-471 magic damage\n+25% Chance of Open Wounds\n+1 Whirlwind\n+10 to Strength\n+15 Life after each Demon Kill",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3 Socket Claws\n@dictRequiredLevel: 57",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword182",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r11L + @r13L + @r27L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword182\n\n@dictBlue 13% Chance to cast level 1 Sigil: Death when struck\n+40% Increased Attack Speed\n+@dictLightBlue(250-320)@dictBlue% Enhanced Damage\n@dictLightBlue(200-260)@dictBlue% Bonus to Attack Rating\n+@dictLightBlue(150-250)@dictBlue% Damage to Demons\n7% Life stolen per hit\nSlain Monsters Rest in Peace\n@dictLightBlue(3-5)@dictBlue Life after each Kill",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3 Socket Daggers\n@dictRequiredLevel: 57 @dictNeedRotW",
                                                 "style": "$StyleDictionaryRunewordDescription"
                                             }
                                         }
@@ -1317,7 +1525,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 20% Chance to cast level 18 Venom when struck\n12% Chance to cast level 15 Hydra on striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3-5 to all Attributes @dictVariable\n@dictBlue +0-37 to Strength (Based on Character Level)\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7",
+                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 20% Chance to cast level 18 Venom when struck\n12% Chance to cast level 15 Hydra on striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+@dictLightBlue(3-5)@dictBlue to all Attributes\n+(0-37) to Strength (Based on Character Level)\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1485,110 +1693,6 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword16",
-                                                "style": "$StyleDictionaryCategory"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "RunewordTextWrapper",
-                                    "fields": {
-                                        "marginTop": 88
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "TextBoxWidget",
-                                            "name": "ItemType",
-                                            "fields": {
-                                                "fitToText": true,
-                                                "text": "@r19L + @r27L + @r22L",
-                                                "style": "$StyleDictionaryRunewordRune"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "GammaCalibration",
-                                    "fields": {
-                                        "marginTop": 48,
-                                        "marginBottom": 12
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ButtonWidget",
-                                            "name": "optionimg",
-                                            "fields": {
-                                                "rect": {
-                                                    "scale": 0.75
-                                                },
-                                                "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword16\n\n@dictBlue 9% Chance to cast level 11 Frozen Orb on striking\n11% Chance to cast level 9 Charged Bolt on striking\n+35% Increased Attack Speed\n+290-340% Enhanced Damage @dictVariable\n@dictBlue Adds 216-471 magic damage\n+25% Chance of Open Wounds\n+1 Whirlwind\n+10 to Strength\n+15 Life after each Demon Kill",
-                                                "pressedFrame": 0
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row ItemNameDisplayMode",
-                            "children": [
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "RunewordTextWrapper",
-                                    "fields": {
-                                        "marginTop": 12,
-                                        "marginBottom": 12
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "TextBoxWidget",
-                                            "name": "RunewordReq",
-                                            "fields": {
-                                                "fitToText": true,
-                                                "text": "3 Socket Claws\n@dictRequiredLevel: 57",
-                                                "style": "$StyleDictionaryRunewordDescription"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row Gameplay Options",
-                            "children": [
-                                {
-                                    "type": "ImageWidget",
-                                    "name": "Divider",
-                                    "fields": {
-                                        "rect": "$OptionsDividerRect",
-                                        "filename": "PauseMenu\\Divider"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "Row ItemNameDisplayMode",
-                            "children": [
-                                {
-                                    "type": "LayoutItemWidget",
-                                    "name": "RunewordTextWrapper",
-                                    "fields": {
-                                        "marginTop": 12,
-                                        "marginBottom": 12
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "TextBoxWidget",
-                                            "name": "Runewordname",
-                                            "fields": {
-                                                "fitToText": true,
                                                 "text": "@Runeword106",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -1629,7 +1733,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword106\n\n@dictBlue 25% Chance to cast level 15 Poison Nova on striking\n20% Chance to cast level 12 Lower Resist when struck\nLevel 13-17 Cleansing Aura When Equipped @dictVariable\n@dictBlue +1 to All Skills-2 @dictVariable\n@dictBlue +20% Increased Attack Speed\n+220-320% Enhanced Damage @dictVariable\n@dictBlue -23% to Enemy Poison Resistance\n+0-29% Deadly Strike (Based on Character Level)\n+25% Chance of Open Wounds\nFreezes Target +3",
+                                                "tooltipString": "@dictGold@Runeword106\n\n@dictBlue 25% Chance to cast level 15 Poison Nova on striking\n20% Chance to cast level 12 Lower Resist when struck\nLevel @dictLightBlue(13-17)@dictBlue Cleansing Aura When Equipped\n+1 to All Skills-2\n+20% Increased Attack Speed\n+@dictLightBlue(220-320)@dictBlue% Enhanced Damage\n-23% to Enemy Poison Resistance\n+(0-29)% Deadly Strike (Based on Character Level)\n+25% Chance of Open Wounds\nFreezes Target +3",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1655,6 +1759,110 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "3 Socket Swords/Claws/Daggers\n@dictRequiredLevel: 67",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@Runeword157",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r10L + @r33L + @r24L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword157\n\n@dictBlue Indestructible\n+2 to All Skills\n+40% Faster Cast Rate\nAdds 3-14 Cold Damage\n+@dictLightBlue(10-15)@dictBlue% to Magic Skill Damage\n+@dictLightBlue(1-3)@dictBlue to Abyss\n+@dictLightBlue(8-12)@dictBlue to all Attributes\n30% Better Chance of Getting Magic Items\nLevel 4 Decrepify (35 Charges)",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3 Socket Daggers\n@dictRequiredLevel: 69 @dictNeedRotW",
                                                 "style": "$StyleDictionaryRunewordDescription"
                                             }
                                         }

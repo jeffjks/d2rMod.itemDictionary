@@ -277,7 +277,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue 모든 기술 +2\n시전 속도 +25~35% @dictVariable\n@dictBlue 타격 회복 속도 +55%\n번개 피해 1 - 50 추가\n냉기 피해 3 - 14 추가\n독 피해 +75 (5초에 걸쳐)\n적중당 생명력 7% 훔침\n원거리 공격 방어력 +250\n활력 +22\n마나 +89~112 @dictVariable\n@dictBlue 마법 흡수 +3~8 @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue 모든 기술 +2\n시전 속도 +@dictLightBlue(25-35)@dictBlue%\n타격 회복 속도 +55%\n번개 피해 1 - 50 추가\n냉기 피해 3 - 14 추가\n독 피해 +75 (5초에 걸쳐)\n적중당 생명력 7% 훔침\n원거리 공격 방어력 +250\n활력 +22\n마나 +@dictLightBlue(89-112)@dictBlue\n마법 흡수 +@dictLightBlue(3-8)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -367,7 +367,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue 모든 기술 +2\n시전 속도 +25~35% @dictVariable\n@dictBlue 타격 회복 속도 +55%\n원거리 공격 방어력 +250\n활력 +22\n마나 +89~112 @dictVariable\n@dictBlue 냉기 저항 +35%\n번개 저항 +35%\n독 저항 +35%\n마법 흡수 +3~8 @dictVariable\n@dictBlue 공격자가 피해를 14 받음",
+                                                "tooltipString": "@dictGold@Runeword130\n\n@dictBlue 모든 기술 +2\n시전 속도 +@dictLightBlue(25-35)@dictBlue%\n타격 회복 속도 +55%\n원거리 공격 방어력 +250\n활력 +22\n마나 +@dictLightBlue(89-112)@dictBlue\n냉기 저항 +35%\n번개 저항 +35%\n독 저항 +35%\n마법 흡수 +@dictLightBlue(3-8)@dictBlue\n공격자가 피해를 14 받음",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -471,7 +471,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword62\n\n@dictBlue 장착 시 12~17 레벨 명상 오라 효과 적용 @dictVariable\n@dictBlue 시전 속도 +35%\n피해 +200~260% 증가 @dictVariable\n@dictBlue 최소 피해 +9\n명중률 보너스 180~250% @dictVariable\n@dictBlue 화염 피해 5 - 30 추가\n독 피해 +75 (5초에 걸쳐)\n+1~6 치명타 @dictVariable\n@dictBlue 모든 능력치 +5\n적 처치 시 마나 +2\n마법 아이템 발견 확률 23% 증가",
+                                                "tooltipString": "@dictGold@Runeword62\n\n@dictBlue 장착 시 @dictLightBlue(12-17)@dictBlue 레벨 명상 오라 효과 적용\n시전 속도 +35%\n피해 +@dictLightBlue(200-260)@dictBlue% 증가\n최소 피해 +9\n명중률 보너스 @dictLightBlue(180-250)@dictBlue%\n화염 피해 5 - 30 추가\n독 피해 +75 (5초에 걸쳐)\n+@dictLightBlue(1-6)@dictBlue 치명타\n모든 능력치 +5\n적 처치 시 마나 +2\n마법 아이템 발견 확률 23% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -679,7 +679,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword49\n\n@dictBlue 장착 시 10 레벨 원기 오라 효과 적용\n피해 +200~275% 증가 @dictVariable\n@dictBlue 최소 피해 +9\n최대 피해 +9\n화염 피해 55 - 160 추가\n번개 피해 55 - 160 추가\n냉기 피해 55 - 160 추가\n+2~6 발키리 @dictVariable\n@dictBlue 민첩 +10\n마나 재생 20%\n적 처치 시 마나 +2\n시야 +2\n20 레벨 부활 (충전 25회)",
+                                                "tooltipString": "@dictGold@Runeword49\n\n@dictBlue 장착 시 10 레벨 원기 오라 효과 적용\n피해 +@dictLightBlue(200-275)@dictBlue% 증가\n최소 피해 +9\n최대 피해 +9\n화염 피해 55 - 160 추가\n번개 피해 55 - 160 추가\n냉기 피해 55 - 160 추가\n+@dictLightBlue(2-6)@dictBlue 발키리\n민첩 +10\n마나 재생 20%\n적 처치 시 마나 +2\n시야 +2\n20 레벨 부활 (충전 25회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -783,7 +783,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword95\n\n@dictBlue 공격 속도 +25%\n피해 +160~210% 증가 @dictVariable\n@dictBlue 명중률 보너스 50~80% @dictVariable\n@dictBlue 언데드에게 주는 피해 +75%\n언데드에 대한 명중률 +50\n번개 피해 1 - 50 추가\n+1 광폭화\n+1 열의\n적중 시 대상 실명 +10\n적중 시 괴물 도주 +25%\n괴물에게서 얻는 금화 75% 증가\n3 레벨 울버린의 심장 (충전 12회)",
+                                                "tooltipString": "@dictGold@Runeword95\n\n@dictBlue 공격 속도 +25%\n피해 +@dictLightBlue(160-210)@dictBlue% 증가\n명중률 보너스 @dictLightBlue(50-80)@dictBlue%\n언데드에게 주는 피해 +75%\n언데드에 대한 명중률 +50\n번개 피해 1 - 50 추가\n+1 광폭화\n+1 열의\n적중 시 대상 실명 +10\n적중 시 괴물 도주 +25%\n괴물에게서 얻는 금화 75% 증가\n3 레벨 울버린의 심장 (충전 12회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -887,7 +887,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword99\n\n@dictBlue 타격 시 15% 확률로 13 레벨 얼음 보주 시전\n타격 시 18% 확률로 20 레벨 얼음 작렬 시전\n명중률 +50\n악마에게 주는 피해 +220~350% @dictVariable\n@dictBlue 언데드에게 주는 피해 +355~375% @dictVariable\n@dictBlue 언데드에 대한 명중률 +50\n냉기 피해 100 - 220 추가\n적의 냉기 저항 -24%\n민첩 +10\n빙결되지 않음\n괴물에게서 얻는 금화 75% 증가\n시야 +1",
+                                                "tooltipString": "@dictGold@Runeword99\n\n@dictBlue 타격 시 15% 확률로 13 레벨 얼음 보주 시전\n타격 시 18% 확률로 20 레벨 얼음 작렬 시전\n명중률 +50\n악마에게 주는 피해 +@dictLightBlue(220-350)@dictBlue%\n언데드에게 주는 피해 +@dictLightBlue(355-375)@dictBlue%\n언데드에 대한 명중률 +50\n냉기 피해 100 - 220 추가\n적의 냉기 저항 -24%\n민첩 +10\n빙결되지 않음\n괴물에게서 얻는 금화 75% 증가\n시야 +1",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -991,7 +991,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword137\n\n@dictBlue 타격 회복 속도 +60%\n방어력 +250~290% 증가 @dictVariable\n@dictBlue 원거리 공격 방어력 +300\n힘 +16\n활력 +16\n마력 +10\n모든 저항 +15\n16 레벨 타오르는 바위 (충전 80회)\n16 레벨 점토 골렘 (충전 16회)",
+                                                "tooltipString": "@dictGold@Runeword137\n\n@dictBlue 타격 회복 속도 +60%\n방어력 +@dictLightBlue(250-290)@dictBlue% 증가\n원거리 공격 방어력 +300\n힘 +16\n활력 +16\n마력 +10\n모든 저항 +15\n16 레벨 타오르는 바위 (충전 80회)\n16 레벨 점토 골렘 (충전 16회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1095,7 +1095,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword91\n\n@dictBlue 파괴 불가\n타격 시 30% 확률로 20 레벨 뼈 영혼 시전\n공격 속도 +50%\n피해 +210~340% 증가 @dictVariable\n@dictBlue 악마에게 주는 피해 +75%\n악마에 대한 명중률 +100\n괴물 회복 저지\n마력 +10\n마법 흡수 +10~15 @dictVariable\n@dictBlue 16 레벨 울버린의 심장 (충전 20회)\n17 레벨 강철 골렘 (충전 14회)",
+                                                "tooltipString": "@dictGold@Runeword91\n\n@dictBlue 파괴 불가\n타격 시 30% 확률로 20 레벨 뼈 영혼 시전\n공격 속도 +50%\n피해 +@dictLightBlue(210-340)@dictBlue% 증가\n악마에게 주는 피해 +75%\n악마에 대한 명중률 +100\n괴물 회복 저지\n마력 +10\n마법 흡수 +@dictLightBlue(10-15)@dictBlue\n16 레벨 울버린의 심장 (충전 20회)\n17 레벨 강철 골렘 (충전 14회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1199,7 +1199,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword66\n\n@dictBlue 공격 속도 +30%\n피해 +230~270% 증가 @dictVariable\n@dictBlue 대상의 방어력 -25%\n명중률 보너스 20%\n강타 확률 +33%\n상처 악화 확률 +50%\n+1 복수\n괴물 회복 저지\n힘 +10\n괴물에게서 얻는 금화 40% 증가",
+                                                "tooltipString": "@dictGold@Runeword66\n\n@dictBlue 공격 속도 +30%\n피해 +@dictLightBlue(230-270)@dictBlue% 증가\n대상의 방어력 -25%\n명중률 보너스 20%\n강타 확률 +33%\n상처 악화 확률 +50%\n+1 복수\n괴물 회복 저지\n힘 +10\n괴물에게서 얻는 금화 40% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1303,7 +1303,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword121\n\n@dictBlue 타격 시 20% 확률로 16 레벨 회오리바람 시전\n공격 시 16% 확률로 21 레벨 얼음 보주 시전\n명중률 보너스 20%\n마법 피해 160 - 250 추가\n화염 피해 60 - 180 추가\n모든 능력치 +5~10 @dictVariable\n@dictBlue 민첩 +10\n받는 피해의 +38%만큼 마나 회복\n괴물에게서 얻는 금화 75% 증가\n15 레벨 가시 박힌 철관 (충전 40회)\n착용 조건 -20%",
+                                                "tooltipString": "@dictGold@Runeword121\n\n@dictBlue 타격 시 20% 확률로 16 레벨 회오리바람 시전\n공격 시 16% 확률로 21 레벨 얼음 보주 시전\n명중률 보너스 20%\n마법 피해 160 - 250 추가\n화염 피해 60 - 180 추가\n모든 능력치 +@dictLightBlue(5-10)@dictBlue\n민첩 +10\n받는 피해의 +38%만큼 마나 회복\n괴물에게서 얻는 금화 75% 증가\n15 레벨 가시 박힌 철관 (충전 40회)\n착용 조건 -20%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1407,7 +1407,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword51\n\n@dictBlue 모든 기술 +3\n시전 속도 +40%\n악마에게 주는 피해 +75%\n악마에 대한 명중률 +100\n냉기 피해 3 - 14 추가\n적중당 마나 7% 훔침\n민첩 +10\n생명력 회복 +20\n최대 마나 15% 증가\n모든 저항 +30~40 @dictVariable\n@dictBlue 4 레벨 참나무 현자 (충전 25회)\n14 레벨 큰까마귀 (충전 60회)",
+                                                "tooltipString": "@dictGold@Runeword51\n\n@dictBlue 모든 기술 +3\n시전 속도 +40%\n악마에게 주는 피해 +75%\n악마에 대한 명중률 +100\n냉기 피해 3 - 14 추가\n적중당 마나 7% 훔침\n민첩 +10\n생명력 회복 +20\n최대 마나 15% 증가\n모든 저항 +@dictLightBlue(30-40)@dictBlue\n4 레벨 참나무 현자 (충전 25회)\n14 레벨 큰까마귀 (충전 60회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1511,7 +1511,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword37\n\n@dictBlue 타격 시 15% 확률로 5 레벨 생명력 추출 시전\n장착 시 13~16 레벨 인내 오라 효과 적용 @dictVariable\n@dictBlue 공격 오라 +2 (성기사 전용)\n막기 속도 +30%\n대상 빙결\n방어력 +220~260% 증가 @dictVariable\n@dictBlue 생명력 회복 +7\n최대 냉기 저항 +5%\n최대 화염 저항 +5%\n마법 아이템 발견 확률 25% 증가\n내구도 1 회복 (4초마다)",
+                                                "tooltipString": "@dictGold@Runeword37\n\n@dictBlue 타격 시 15% 확률로 5 레벨 생명력 추출 시전\n장착 시 @dictLightBlue(13-16)@dictBlue 레벨 인내 오라 효과 적용\n공격 오라 +2 (성기사 전용)\n막기 속도 +30%\n대상 빙결\n방어력 +@dictLightBlue(220-260)@dictBlue% 증가\n생명력 회복 +7\n최대 냉기 저항 +5%\n최대 화염 저항 +5%\n마법 아이템 발견 확률 25% 증가\n내구도 1 회복 (4초마다)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1615,7 +1615,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 피격 시 20% 확률로 15 레벨 냉기 갑옷 시전\n시전 속도 +25%\n피해 +300% 증가\n최소 피해 +9\n명중률 +50\n치명적 공격 +20%\n적중 시 괴물 도주 +25%\n방어력 +200% 증가\n생명력 +1~(99~148) (캐릭터 레벨에 비례) @dictVariable\n@dictBlue 모든 저항 +25~30 @dictVariable\n@dictBlue 받는 피해의 +12%만큼 마나 회복\n시야 +1",
+                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 피격 시 20% 확률로 15 레벨 냉기 갑옷 시전\n시전 속도 +25%\n피해 +300% 증가\n최소 피해 +9\n명중률 +50\n치명적 공격 +20%\n적중 시 괴물 도주 +25%\n방어력 +200% 증가\n생명력 +1-@dictLightBlue(99-148)@dictBlue (캐릭터 레벨에 비례)\n모든 저항 +@dictLightBlue(25-30)@dictBlue\n받는 피해의 +12%만큼 마나 회복\n시야 +1",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1705,7 +1705,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 피격 시 20% 확률로 15 레벨 냉기 갑옷 시전\n시전 속도 +25%\n피해 +300% 증가\n방어력 +200% 증가\n방어력 +15\n생명력 +1~(99~148) (캐릭터 레벨에 비례) @dictVariable\n@dictBlue 생명력 회복 +7\n최대 번개 저항 +5%\n모든 저항 +25~30 @dictVariable\n@dictBlue 피해 7 감소\n받는 피해의 +12%만큼 마나 회복\n시야 +1",
+                                                "tooltipString": "@dictGold@Runeword41\n\n@dictBlue 피격 시 20% 확률로 15 레벨 냉기 갑옷 시전\n시전 속도 +25%\n피해 +300% 증가\n방어력 +200% 증가\n방어력 +15\n생명력 +1-@dictLightBlue(99-148)@dictBlue (캐릭터 레벨에 비례)\n생명력 회복 +7\n최대 번개 저항 +5%\n모든 저항 +@dictLightBlue(25-30)@dictBlue\n피해 7 감소\n받는 피해의 +12%만큼 마나 회복\n시야 +1",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1809,7 +1809,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword9\n\n@dictBlue 장착 시 15~21 레벨 가시 오라 효과 적용 @dictVariable\n@dictBlue 타격 회복 속도 +50%\n독 기술 피해 +25~50% @dictVariable\n@dictBlue 방어력 +300\n최대 마나 5% 증가\n마나 재생 15%\n최대 냉기 저항 +5%\n화염 저항 +30%\n독 저항 +100%\n적 처치 시 생명력 +13\n13 레벨 가시의 영혼 (충전 33회)",
+                                                "tooltipString": "@dictGold@Runeword9\n\n@dictBlue 장착 시 @dictLightBlue(15-21)@dictBlue 레벨 가시 오라 효과 적용\n타격 회복 속도 +50%\n독 기술 피해 +@dictLightBlue(25-50)@dictBlue%\n방어력 +300\n최대 마나 5% 증가\n마나 재생 15%\n최대 냉기 저항 +5%\n화염 저항 +30%\n독 저항 +100%\n적 처치 시 생명력 +13\n13 레벨 가시의 영혼 (충전 33회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2017,7 +2017,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword60\n\n@dictBlue 적 처치 시 50% 확률로 20 레벨 연쇄 번개 시전\n장착 시 12 레벨 선고 오라 효과 적용\n달리기/걷기 속도 +35%\n피해 +255~325% 증가 @dictVariable\n@dictBlue 적의 번개 저항 -(45~55)% @dictVariable\n@dictBlue 강타 확률 +40%\n괴물 회복 저지\n활력 +0~49 (캐릭터 레벨에 비례)\n마법 아이템 발견 확률 30% 증가\n21 레벨 회오리 갑옷 (충전 30회)",
+                                                "tooltipString": "@dictGold@Runeword60\n\n@dictBlue 적 처치 시 50% 확률로 20 레벨 연쇄 번개 시전\n장착 시 12 레벨 선고 오라 효과 적용\n달리기/걷기 속도 +35%\n피해 +@dictLightBlue(255-325)@dictBlue% 증가\n적의 번개 저항 -@dictLightBlue(45-55)@dictBlue%\n강타 확률 +40%\n괴물 회복 저지\n활력 +(0-49) (캐릭터 레벨에 비례)\n마법 아이템 발견 확률 30% 증가\n21 레벨 회오리 갑옷 (충전 30회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2121,7 +2121,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword168\n\n@dictBlue 타격 시 30% 확률로 1 레벨 노화 시전\n타격 시 5% 확률로 10 레벨 생명력 추출 시전\n악마에게 주는 피해 +375%\n악마에 대한 명중률 +100\n언데드에게 주는 피해 +250~300% @dictVariable\n@dictBlue 마법 피해 85 - 120 추가\n번개 피해 41 - 240 추가\n강타 확률 +20%\n괴물 회복 저지\n마력 +10\n빙결되지 않음",
+                                                "tooltipString": "@dictGold@Runeword168\n\n@dictBlue 타격 시 30% 확률로 1 레벨 노화 시전\n타격 시 5% 확률로 10 레벨 생명력 추출 시전\n악마에게 주는 피해 +375%\n악마에 대한 명중률 +100\n언데드에게 주는 피해 +@dictLightBlue(250-300)@dictBlue%\n마법 피해 85 - 120 추가\n번개 피해 41 - 240 추가\n강타 확률 +20%\n괴물 회복 저지\n마력 +10\n빙결되지 않음",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2225,7 +2225,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword10\n\n@dictBlue 피격 시 35% 확률로 14 레벨 피해 증폭 시전\n타격 시 100% 확률로 18 레벨 뼈 창 시전\n폭발하는 화살 발사\n피해 +260~340% 증가 @dictVariable\n@dictBlue 대상의 방어력 무시\n명중률 보너스 20%\n악마에게 주는 피해 +280~330% @dictVariable\n@dictBlue 치명적 공격 +20%\n괴물 회복 저지\n밀쳐내기",
+                                                "tooltipString": "@dictGold@Runeword10\n\n@dictBlue 피격 시 35% 확률로 14 레벨 피해 증폭 시전\n타격 시 100% 확률로 18 레벨 뼈 창 시전\n폭발하는 화살 발사\n피해 +@dictLightBlue(260-340)@dictBlue% 증가\n대상의 방어력 무시\n명중률 보너스 20%\n악마에게 주는 피해 +@dictLightBlue(280-330)@dictBlue%\n치명적 공격 +20%\n괴물 회복 저지\n밀쳐내기",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2329,7 +2329,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword38\n\n@dictBlue 장착 시 12~15 레벨 광신 오라 효과 적용 @dictVariable\n@dictBlue 모든 기술 +1~2 @dictVariable\n@dictBlue 피해 +330% 증가\n대상의 방어력 무시\n명중률 보너스 300%\n언데드에게 주는 피해 +75%\n언데드에 대한 명중률 +50\n화염 피해 +120\n모든 저항 +15\n처치 시 10% 확률로 되돌아온 자 소생\n괴물에게서 얻는 금화 75% 증가",
+                                                "tooltipString": "@dictGold@Runeword38\n\n@dictBlue 장착 시 @dictLightBlue(12-15)@dictBlue 레벨 광신 오라 효과 적용\n모든 기술 +@dictLightBlue(1-2)@dictBlue\n피해 +330% 증가\n대상의 방어력 무시\n명중률 보너스 300%\n언데드에게 주는 피해 +75%\n언데드에 대한 명중률 +50\n화염 피해 +120\n모든 저항 +15\n처치 시 10% 확률로 되돌아온 자 소생\n괴물에게서 얻는 금화 75% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2433,7 +2433,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword39\n\n@dictBlue 공격 속도 +30%\n피해 +320~370% 증가 @dictVariable\n@dictBlue 대상의 방어력 무시\n마법 피해 180 - 200 추가\n화염 피해 50 - 200 추가\n번개 피해 51 - 250 추가\n냉기 피해 50 - 200 추가\n적중당 생명력 12% 훔침\n괴물 회복 저지\n힘 +10",
+                                                "tooltipString": "@dictGold@Runeword39\n\n@dictBlue 공격 속도 +30%\n피해 +@dictLightBlue(320-370)@dictBlue% 증가\n대상의 방어력 무시\n마법 피해 180 - 200 추가\n화염 피해 50 - 200 추가\n번개 피해 51 - 250 추가\n냉기 피해 50 - 200 추가\n적중당 생명력 12% 훔침\n괴물 회복 저지\n힘 +10",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2537,7 +2537,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword59\n\n@dictBlue 레벨 상승 시 100% 확률로 40 레벨 눈보라 시전\n타격 시 25% 확률로 22 레벨 서릿발 시전\n장착 시 18 레벨 신성한 빙결 오라 효과 적용\n공격 속도 +20%\n피해 +140~210% 증가 @dictVariable\n@dictBlue 대상의 방어력 무시\n냉기 기술 피해 +25~30% @dictVariable\n@dictBlue 적중당 생명력 7% 훔침\n적의 냉기 저항 -20%\n치명적 공격 +20%\n괴물에게서 얻는 금화 3~309% 증가 (캐릭터 레벨에 비례)",
+                                                "tooltipString": "@dictGold@Runeword59\n\n@dictBlue 레벨 상승 시 100% 확률로 40 레벨 눈보라 시전\n타격 시 25% 확률로 22 레벨 서릿발 시전\n장착 시 18 레벨 신성한 빙결 오라 효과 적용\n공격 속도 +20%\n피해 +@dictLightBlue(140-210)@dictBlue% 증가\n대상의 방어력 무시\n냉기 기술 피해 +@dictLightBlue(25-30)@dictBlue%\n적중당 생명력 7% 훔침\n적의 냉기 저항 -20%\n치명적 공격 +20%\n괴물에게서 얻는 금화 (3-309)% 증가 (캐릭터 레벨에 비례)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2641,7 +2641,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 레벨 상승 시 100% 확률로 40 레벨 불길 시전\n타격 시 40% 확률로 22 레벨 화염폭풍 시전\n장착 시 10~15 레벨 속죄 오라 효과 적용 @dictVariable\n@dictBlue 피해 +350~400% 증가 @dictVariable\n@dictBlue 대상의 방어력 무시\n적중당 마나 14% 훔침\n적의 화염 저항 -28%\n치명적 공격 +20%\n원거리 공격 방어력 +350~400 @dictVariable\n@dictBlue 화염 흡수 +15~21 @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 레벨 상승 시 100% 확률로 40 레벨 불길 시전\n타격 시 40% 확률로 22 레벨 화염폭풍 시전\n장착 시 @dictLightBlue(10-15)@dictBlue 레벨 속죄 오라 효과 적용\n피해 +@dictLightBlue(350-400)@dictBlue% 증가\n대상의 방어력 무시\n적중당 마나 14% 훔침\n적의 화염 저항 -28%\n치명적 공격 +20%\n원거리 공격 방어력 +@dictLightBlue(350-400)@dictBlue\n화염 흡수 +@dictLightBlue(15-21)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2731,7 +2731,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 레벨 상승 시 100% 확률로 40 레벨 불길 시전\n타격 시 40% 확률로 22 레벨 화염폭풍 시전\n장착 시 10~15 레벨 속죄 오라 효과 적용 @dictVariable\n@dictBlue 피해 +350~400% 증가 @dictVariable\n@dictBlue 적의 화염 저항 -28%\n원거리 공격 방어력 +350~400 @dictVariable\n@dictBlue 생명력 +50\n최대 번개 저항 +5%\n최대 화염 저항 +10%\n화염 흡수 +15~21 @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword103\n\n@dictBlue 레벨 상승 시 100% 확률로 40 레벨 불길 시전\n타격 시 40% 확률로 22 레벨 화염폭풍 시전\n장착 시 @dictLightBlue(10-15)@dictBlue 레벨 속죄 오라 효과 적용\n피해 +@dictLightBlue(350-400)@dictBlue% 증가\n적의 화염 저항 -28%\n원거리 공격 방어력 +@dictLightBlue(350-400)@dictBlue\n생명력 +50\n최대 번개 저항 +5%\n최대 화염 저항 +10%\n화염 흡수 +@dictLightBlue(15-21)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2835,7 +2835,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword48\n\n@dictBlue 레벨 상승 시 100% 확률로 36 레벨 불길 시전\n사망 시 100% 확률로 48 레벨 운석 낙하 시전\n장착 시 16 레벨 신성한 불꽃 오라 효과 적용\n공격 속도 +33%\n피해 +280~330% 증가 @dictVariable\n@dictBlue 대상의 방어력 무시\n적의 화염 저항 -20%\n적중당 생명력 7% 훔침\n치명적 공격 +20%\n적중 시 대상 실명\n대상 빙결 +3",
+                                                "tooltipString": "@dictGold@Runeword48\n\n@dictBlue 레벨 상승 시 100% 확률로 36 레벨 불길 시전\n사망 시 100% 확률로 48 레벨 운석 낙하 시전\n장착 시 16 레벨 신성한 불꽃 오라 효과 적용\n공격 속도 +33%\n피해 +@dictLightBlue(280-330)@dictBlue% 증가\n대상의 방어력 무시\n적의 화염 저항 -20%\n적중당 생명력 7% 훔침\n치명적 공격 +20%\n적중 시 대상 실명\n대상 빙결 +3",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2939,7 +2939,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword109\n\n@dictBlue 피격 시 25% 확률로 17 레벨 화염벽 시전\n장착 시 16~20 레벨 집중 오라 효과 적용 @dictVariable\n@dictBlue 명중률 보너스 260~300% @dictVariable\n@dictBlue 악마에게 주는 피해 +1~99% (캐릭터 레벨에 비례)\n번개 피해 50 - 280 추가\n치명적 공격 +20%\n적중 시 대상 실명\n대상 빙결 +3\n활력 +10\n생명력 회복 +8\n괴물에게서 얻는 금화 1~185% 증가 (캐릭터 레벨에 비례)",
+                                                "tooltipString": "@dictGold@Runeword109\n\n@dictBlue 피격 시 25% 확률로 17 레벨 화염벽 시전\n장착 시 @dictLightBlue(16-20)@dictBlue 레벨 집중 오라 효과 적용\n명중률 보너스 @dictLightBlue(260-300)@dictBlue%\n악마에게 주는 피해 +(1-99)% (캐릭터 레벨에 비례)\n번개 피해 50 - 280 추가\n치명적 공격 +20%\n적중 시 대상 실명\n대상 빙결 +3\n활력 +10\n생명력 회복 +8\n괴물에게서 얻는 금화 (1-185)% 증가 (캐릭터 레벨에 비례)",
                                                 "pressedFrame": 0
                                             }
                                         }

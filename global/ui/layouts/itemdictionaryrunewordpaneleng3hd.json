@@ -549,6 +549,110 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "@Runeword3",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r15L + @r13L + @r08L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword3\n\n@dictBlue 10% Chance to cast level 15 Miasma Chain on striking\n2% Chance to cast level 10 Psychic Ward when struck\n+2 to Warlock Skill Levels\n+20% Faster Hit Recovery\n+@dictLightBlue(40-60)@dictBlue% Enhanced Damage\nFire Resist +30%\nRequirements -15%",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3 Socket Armors\n@dictRequiredLevel: 29 @dictNeedRotW",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "@Runeword178",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -589,7 +693,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword178\n\n@dictBlue Level 1 Cleansing Aura When Equipped\n+20% Faster Hit Recovery\n+75-100% Enhanced Defense @dictVariable\n@dictBlue +10 to Vitality\nIncrease Maximum Life 5%\nPoison Resist +40-60% @dictVariable\n@dictBlue Poison Length Reduced by 50%",
+                                                "tooltipString": "@dictGold@Runeword178\n\n@dictBlue Level 1 Cleansing Aura When Equipped\n+20% Faster Hit Recovery\n+@dictLightBlue(75-100)@dictBlue% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nPoison Resist +@dictLightBlue(40-60)@dictBlue%\nPoison Length Reduced by 50%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -693,7 +797,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword176\n\n@dictBlue +20% Faster Hit Recovery\n+75-100% Enhanced Defense @dictVariable\n@dictBlue +10 to Vitality\nIncrease Maximum Life 5%\nFire Resist +40-60% @dictVariable\n@dictBlue Fire Absorb +10-15% @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword176\n\n@dictBlue +20% Faster Hit Recovery\n+@dictLightBlue(75-100)@dictBlue% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nFire Resist +@dictLightBlue(40-60)@dictBlue%\nFire Absorb +@dictLightBlue(10-15)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -797,7 +901,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword175\n\n@dictBlue +20% Faster Hit Recovery\n+75-100% Enhanced Defense @dictVariable\n@dictBlue +10 to Vitality\nIncrease Maximum Life 5%\nLightning Resist +40-60% @dictVariable\n@dictBlue Lightning Absorb +10-15% @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword175\n\n@dictBlue +20% Faster Hit Recovery\n+@dictLightBlue(75-100)@dictBlue% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nLightning Resist +@dictLightBlue(40-60)@dictBlue%\nLightning Absorb +@dictLightBlue(10-15)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -901,7 +1005,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword177\n\n@dictBlue +20% Faster Hit Recovery\n+75-100% Enhanced Defense @dictVariable\n@dictBlue +10 to Vitality\nIncrease Maximum Life 5%\nCold Resist +40-60% @dictVariable\n@dictBlue Cold Absorb +10-15% @dictVariable\n@dictBlue Cannot Be Frozen",
+                                                "tooltipString": "@dictGold@Runeword177\n\n@dictBlue +20% Faster Hit Recovery\n+@dictLightBlue(75-100)@dictBlue% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nCold Resist +@dictLightBlue(40-60)@dictBlue%\nCold Absorb +@dictLightBlue(10-15)@dictBlue%\nCannot Be Frozen",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1005,7 +1109,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword179\n\n@dictBlue +20% Faster Hit Recovery\n4-6% Life stolen per hit @dictVariable\n@dictBlue +75-100% Enhanced Defense @dictVariable\n@dictBlue +10 to Vitality\nIncrease Maximum Life 5%\nReflensh Life +30\nDamage Reduced by 7\nPhysical Damage Received Reduced by 10-15% @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword179\n\n@dictBlue +20% Faster Hit Recovery\n@dictLightBlue(4-6)@dictBlue% Life stolen per hit\n+@dictLightBlue(75-100)@dictBlue% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nReflensh Life +30\nDamage Reduced by 7\nPhysical Damage Received Reduced by @dictLightBlue(10-15)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1069,7 +1173,7 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword172",
+                                                "text": "@Runeword171",
                                                 "style": "$StyleDictionaryCategory"
                                             }
                                         }
@@ -1109,7 +1213,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword172\n\n@dictBlue +65% Faster Run/Walk\n+40% Increased Attack Speed\n+20% Faster Hit Recovery\n+6 Evade\n+10 to Dexterity\n50% Slower Stamina Drain\nAll Resistances +10",
+                                                "tooltipString": "@dictGold@Runeword171\n\n@dictBlue +65% Faster Run/Walk\n+40% Increased Attack Speed\n+20% Faster Hit Recovery\n+6 Evade\n+10 to Dexterity\n50% Slower Stamina Drain\nAll Resistances +10",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1629,7 +1733,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword165\n\n@dictBlue +33% Piercing Attack\n15-25% Bonus to Attack Rating @dictVariable\n@dictBlue 4-8% Mana stolen per hit @dictVariable\n@dictBlue +30% Enhanced Defense\n+10 to Energy\n15% Slower Stamina Drain\nCannot Be Frozen\n+5 Mana after each Kill\n+15% Damage Taken Goes To Mana",
+                                                "tooltipString": "@dictGold@Runeword165\n\n@dictBlue +33% Piercing Attack\n@dictLightBlue(15-25)@dictBlue% Bonus to Attack Rating\n@dictLightBlue(4-8)@dictBlue% Mana stolen per hit\n+30% Enhanced Defense\n+10 to Energy\n15% Slower Stamina Drain\nCannot Be Frozen\n+5 Mana after each Kill\n+15% Damage Taken Goes To Mana",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1733,7 +1837,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword8\n\n@dictBlue 15% Chance to cast level 10 Bone Armor when struck\n15% Chance to cast level 10 Bone Spear on striking\n+2 to Necromancer Skill Levels\n+100-150 to Mana @dictVariable\n@dictBlue All Resistances +30\nDamage Reduced by 7",
+                                                "tooltipString": "@dictGold@Runeword8\n\n@dictBlue 15% Chance to cast level 10 Bone Armor when struck\n15% Chance to cast level 10 Bone Spear on striking\n+2 to Necromancer Skill Levels\n+@dictLightBlue(100-150)@dictBlue to Mana\nAll Resistances +30\nDamage Reduced by 7",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1837,7 +1941,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword30\n\n@dictBlue +40% Faster Hit Recovery\n+10-20% Enhanced Damage @dictVariable\n@dictBlue Adds 37-133 cold damage\n+15% Chance of Crushing Blow\n+33% Chance of Open Wounds\n+150-200% Enhanced Defense @dictVariable\n@dictBlue 20% Slower Stamina Drain\nCold Resist +45%\nLightning Resist +15%\nFire Resist +15%\nPoison Resist +15%",
+                                                "tooltipString": "@dictGold@Runeword30\n\n@dictBlue +40% Faster Hit Recovery\n+@dictLightBlue(10-20)@dictBlue% Enhanced Damage\nAdds 37-133 cold damage\n+15% Chance of Crushing Blow\n+33% Chance of Open Wounds\n+@dictLightBlue(150-200)@dictBlue% Enhanced Defense\n20% Slower Stamina Drain\nCold Resist +45%\nLightning Resist +15%\nFire Resist +15%\nPoison Resist +15%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1941,7 +2045,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword45\n\n@dictBlue 15% Chance to cast level 3 Dim Vision when struck\n+10% Faster Hit Recovery\n+200-260% Enhanced Defense @dictVariable\n@dictBlue +10 to Strength\nAll Resistances +45\nHalf Freeze Duration\n+5% Damage Taken Goes To Mana\n-3 to Light Radius",
+                                                "tooltipString": "@dictGold@Runeword45\n\n@dictBlue 15% Chance to cast level 3 Dim Vision when struck\n+10% Faster Hit Recovery\n+@dictLightBlue(200-260)@dictBlue% Enhanced Defense\n+10 to Strength\nAll Resistances +45\nHalf Freeze Duration\n+5% Damage Taken Goes To Mana\n-3 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2045,7 +2149,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword117\n\n@dictBlue 5% Chance to cast level 15 Cyclone Armor when struck\n5% Chance to cast level 15 Twister on striking\n+2 to Druid Skill Levels\n+100-150 to Mana @dictVariable\n@dictBlue Lightning Resist +30%\nMagic Damage Reduced by 7\n+15% Damage Taken Goes To Mana",
+                                                "tooltipString": "@dictGold@Runeword117\n\n@dictBlue 5% Chance to cast level 15 Cyclone Armor when struck\n5% Chance to cast level 15 Twister on striking\n+2 to Druid Skill Levels\n+@dictLightBlue(100-150)@dictBlue to Mana\nLightning Resist +30%\nMagic Damage Reduced by 7\n+15% Damage Taken Goes To Mana",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2149,7 +2253,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword122\n\n@dictBlue +20% Faster Hit Recovery\n+20% Faster Block Rate\n20% Increased Chance of Blocking\n+130-160% Enhanced Defense @dictVariable\n@dictBlue +250 Defense vs. Missile\n+20 to Dexterity\nAll Resistances +50-70 @dictVariable\n@dictBlue Magic Damage Reduced by 7\nLevel 12 Slow Missiles (60 Charges)",
+                                                "tooltipString": "@dictGold@Runeword122\n\n@dictBlue +20% Faster Hit Recovery\n+20% Faster Block Rate\n20% Increased Chance of Blocking\n+@dictLightBlue(130-160)@dictBlue% Enhanced Defense\n+250 Defense vs. Missile\n+20 to Dexterity\nAll Resistances +@dictLightBlue(50-70)@dictBlue\nMagic Damage Reduced by 7\nLevel 12 Slow Missiles (60 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2317,6 +2421,110 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "@Runeword180",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r24L + @r08L + @r16L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword180\n\n@dictBlue 5% Chance to cast level 10 Sigil: Lethargy when struck\n+1 to All Skills\n+20% Faster Cast Rate\n+@dictLightBlue(30-50)@dictBlue% Enhanced Defense\n+10 to Vitality\nFire Resist +30%\n+@dictLightBlue(1-5)@dictBlue Life after each Kill\n@dictLightBlue(26-40)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3 Socket Helms\n@dictRequiredLevel: 51 @dictNeedRotW",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "@Runeword110",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -2357,7 +2565,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword110\n\n@dictBlue 100% Chance to cast level 5 Holy Bolt on striking\n+2 to Paladin Skill Levels\n+50% Damage to Undead\n+100-150 to Life @dictVariable\n@dictBlue 15% Slower Stamina Drain\n+5% to Maximum Poison Resist\nFire Resist +30%",
+                                                "tooltipString": "@dictGold@Runeword110\n\n@dictBlue 100% Chance to cast level 5 Holy Bolt on striking\n+2 to Paladin Skill Levels\n+50% Damage to Undead\n+@dictLightBlue(100-150)@dictBlue to Life\n15% Slower Stamina Drain\n+5% to Maximum Poison Resist\nFire Resist +30%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2461,7 +2669,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword40\n\n@dictBlue Level 4-8 Resist Fire Aura When Equipped @dictVariable\n@dictBlue +3 to Fire Skills\n-(10-15)% to Enemy Fire Resistance @dictVariable\n@dictBlue +30% Enhanced Defense\n+30 Defense vs. Missile\n+50-75 to Mana @dictVariable\n@dictBlue +5% to Maximum Fire Resist\nHalf Freeze Duration\nPoison Length Reduced by 50%",
+                                                "tooltipString": "@dictGold@Runeword40\n\n@dictBlue Level @dictLightBlue(4-8)@dictBlue Resist Fire Aura When Equipped\n+3 to Fire Skills\n-@dictLightBlue(10-15)@dictBlue% to Enemy Fire Resistance\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+@dictLightBlue(50-75)@dictBlue to Mana\n+5% to Maximum Fire Resist\nHalf Freeze Duration\nPoison Length Reduced by 50%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2565,7 +2773,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 20% Chance to cast level 18 Venom when struck\n12% Chance to cast level 15 Hydra on striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3-5 to all Attributes @dictVariable\n@dictBlue +0-37 to Strength (Based on Character Level)\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7",
+                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 20% Chance to cast level 18 Venom when struck\n12% Chance to cast level 15 Hydra on striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+@dictLightBlue(3-5)@dictBlue to all Attributes\n+(0-37) to Strength (Based on Character Level)\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2669,7 +2877,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+20-30% Faster Hit Recovery @dictVariable\n@dictBlue +30% Enhanced Defense\n+150-220 Defense @dictVariable\n@dictBlue +10 to Vitality\nIncrease Maximum Life 5%\n+0-61 to Mana (Based on Character Level)\nAll Resistances +5-20 @dictVariable\n@dictBlue 12-25% Better Chance of Getting Magic Items @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+@dictLightBlue(20-30)@dictBlue% Faster Hit Recovery\n+30% Enhanced Defense\n+@dictLightBlue(150-220)@dictBlue Defense\n+10 to Vitality\nIncrease Maximum Life 5%\n+(0-61) to Mana (Based on Character Level)\nAll Resistances +@dictLightBlue(5-20)@dictBlue\n@dictLightBlue(12-25)@dictBlue% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2759,7 +2967,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+20-30% Faster Hit Recovery @dictVariable\n@dictBlue +30% Enhanced Defense\n+150-220 Defense @dictVariable\n@dictBlue +10 to Vitality\n+50 to Life\n+0-61 to Mana (Based on Character Level)\nAll Resistances +5-20 @dictVariable\n@dictBlue 12-25% Better Chance of Getting Magic Items @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 10% Chance to cast level 15 Confuse when struck\nLevel 15 Holy Shock Aura When Equipped\n+@dictLightBlue(20-30)@dictBlue% Faster Hit Recovery\n+30% Enhanced Defense\n+@dictLightBlue(150-220)@dictBlue Defense\n+10 to Vitality\n+50 to Life\n+(0-61) to Mana (Based on Character Level)\nAll Resistances +@dictLightBlue(5-20)@dictBlue\n@dictLightBlue(12-25)@dictBlue% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2863,7 +3071,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword33\n\n@dictBlue +2 to All Skills\n+45% Faster Run/Walk\n+1 Teleportation\n+750-775 Defense @dictVariable\n@dictBlue +0-74 to Strength (Based on Character Level)\nIncrease Maximum Life 5%\nPhysical Damage Received Reduced by 8%\n+14 Life after each Kill\n+15% Damage Taken Goes To Mana\n1-99% Better Chance of Getting Magic Items (Based on Character Level)",
+                                                "tooltipString": "@dictGold@Runeword33\n\n@dictBlue +2 to All Skills\n+45% Faster Run/Walk\n+1 Teleportation\n+@dictLightBlue(750-775)@dictBlue Defense\n+(0-74) to Strength (Based on Character Level)\nIncrease Maximum Life 5%\nPhysical Damage Received Reduced by 8%\n+14 Life after each Kill\n+15% Damage Taken Goes To Mana\n(1-99)% Better Chance of Getting Magic Items (Based on Character Level)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2967,7 +3175,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword174\n\n@dictBlue Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf\n30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear\n+25% Increased Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid Only)\n+25% Chance of Crushing Blow\n+50-80% Enhanced Defense @dictVariable\n@dictBlue +10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot Be Frozen",
+                                                "tooltipString": "@dictGold@Runeword174\n\n@dictBlue Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf\n30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear\n+25% Increased Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid Only)\n+25% Chance of Crushing Blow\n+@dictLightBlue(50-80)@dictBlue% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot Be Frozen",
                                                 "pressedFrame": 0
                                             }
                                         }

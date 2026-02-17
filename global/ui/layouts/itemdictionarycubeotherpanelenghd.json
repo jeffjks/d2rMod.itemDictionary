@@ -405,6 +405,163 @@
                                     "type": "Widget",
                                     "name": "GammaCalibration",
                                     "fields": {
+                                        "marginTop": 49,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 36,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/shard/talics_anguish",
+                                                "tooltipString": "@ua1",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 198,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 311,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/shard/korlics_pain",
+                                                "tooltipString": "@ua2",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 473,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 586,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/shard/madawcs_ire",
+                                                "tooltipString": "@ua3",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 748,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 861,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/shard/bulkathos_nightmare",
+                                                "tooltipString": "@ua4",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1023,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1136,
+                                                    "y": 49
+                                                },
+                                                "filename": "items/misc/shard/worusks_end",
+                                                "tooltipString": "@ua5",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1298,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1411,
+                                                    "y": 50
+                                                },
+                                                "filename": "itemDictionary/cubehelp_redPortalLarge",
+                                                "tooltipString": "Open Colossal Summit (Uber Ancients) Portal",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
                                         "marginTop": 98,
                                         "marginLeft": 36
                                     },

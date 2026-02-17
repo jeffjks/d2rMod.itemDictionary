@@ -534,7 +534,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접두사\n@dictBlue모든 저항 +16~20% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "고정 접두사\n@dictBlue모든 저항 +@dictLightBlue(16-20)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -604,7 +604,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접두사\n@dictBlue독 저항 +21~30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "고정 접두사\n@dictBlue독 저항 +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -674,7 +674,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접두사\n@dictBlue화염 저항 +21~30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "고정 접두사\n@dictBlue화염 저항 +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -744,7 +744,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접두사\n@dictBlue번개 저항 +21~30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "고정 접두사\n@dictBlue번개 저항 +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -814,7 +814,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접두사\n@dictBlue냉기 저항 +21~30% @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "고정 접두사\n@dictBlue냉기 저항 +@dictLightBlue(21-30)@dictBlue%\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -884,7 +884,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접미사\n@dictBlue적중당 생명력 2~5% 훔침 @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "고정 접미사\n@dictBlue적중당 생명력 @dictLightBlue(2-5)@dictBlue% 훔침\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -954,7 +954,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접미사\n@dictBlue공격자가 피해를 4~6 받음 @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "고정 접미사\n@dictBlue공격자가 피해를 @dictLightBlue(4-6)@dictBlue 받음\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1024,7 +1024,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "고정 접두사\n@dictBlue피해 +66~80% 증가 @dictVariable\n\n@dictWhite@dictItemLevel: 50",
+                                                "tooltipString": "고정 접두사\n@dictBlue피해 +@dictLightBlue(66-80)@dictBlue% 증가\n\n@dictWhite@dictItemLevel: 50",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1071,7 +1071,7 @@
                                             "name": "CubeRecipeResult",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "->  @strBSMagic 무기 (홈 1~2개)",
+                                                "text": "->  @strBSMagic 무기 (홈 1-2개)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1094,7 +1094,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictBlue홈 있음 (1~2) @dictVariable\n\n@dictWhite@dictItemLevel: 25",
+                                                "tooltipString": "@dictBlue홈 있음 @dictLightBlue(1-2)\n\n@dictWhite@dictItemLevel: 25",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1141,7 +1141,7 @@
                                             "name": "CubeRecipeResult",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "->  @strBSMagic 무기 (홈 1~2개)",
+                                                "text": "->  @strBSMagic 무기 (홈 1-2개)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1164,7 +1164,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictBlue홈 있음 (1~2) @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "@dictBlue홈 있음 @dictLightBlue(1-2)\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1211,7 +1211,7 @@
                                             "name": "CubeRecipeResult",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "->  @strBSMagic 무기 (홈 1~2개)",
+                                                "text": "->  @strBSMagic 무기 (홈 1-2개)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1234,7 +1234,7 @@
                                                     "scale": 0.6
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictBlue홈 있음 (1~2) @dictVariable\n\n@dictWhite@dictItemLevel: 30",
+                                                "tooltipString": "@dictBlue홈 있음 @dictLightBlue(1-2)\n\n@dictWhite@dictItemLevel: 30",
                                                 "pressedFrame": 0
                                             }
                                         }

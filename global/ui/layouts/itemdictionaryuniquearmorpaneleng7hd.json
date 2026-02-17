@@ -114,7 +114,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Nagelring \n@rin\n\n@dictBlue +50-75 to Attack Rating @dictVariable\n@dictBlue Magic Damage Reduced by 3\nAttacker Takes Damage of 3\n15-30% Better Chance of Getting Magic Items @dictVariable",
+                                                "tooltipString": "@dictGold Nagelring \n@rin\n\n@dictBlue +@dictLightBlue(50-75)@dictBlue to Attack Rating\nMagic Damage Reduced by 3\nAttacker Takes Damage of 3\n@dictLightBlue(15-30)@dictBlue% Better Chance of Getting Magic Items",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -226,7 +226,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Manald Heal \n@rin\n\n@dictBlue 4-7% Mana stolen per hit @dictVariable\n@dictBlue +20 to Life\nReflensh Life +5-8 @dictVariable\n@dictBlue Regenerate Mana 20%",
+                                                "tooltipString": "@dictGold Manald Heal \n@rin\n\n@dictBlue @dictLightBlue(4-7)@dictBlue% Mana stolen per hit\n+20 to Life\nReflensh Life +@dictLightBlue(5-8)@dictBlue\nRegenerate Mana 20%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -450,7 +450,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Dwarf Star \n@rin\n\n@dictBlue +40 to Life\n+40 Maximum Stamina\nHeal Stamina Plus 15%\nFire Absorb +15%\nMagic Damage Reduced by 12-15 @dictVariable\n@dictBlue 100% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Dwarf Star \n@rin\n\n@dictBlue +40 to Life\n+40 Maximum Stamina\nHeal Stamina Plus 15%\nFire Absorb +15%\nMagic Damage Reduced by @dictLightBlue(12-15)@dictBlue\n100% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -562,7 +562,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Raven Frost \n@rin\n\n@dictBlue +150-250 to Attack Rating @dictVariable\n@dictBlue Adds 15-45 cold damage\n+15-20 to Dexterity @dictVariable\n@dictBlue +40 to Mana\nCold Absorb +20%\nCannot Be Frozen",
+                                                "tooltipString": "@dictGold Raven Frost \n@rin\n\n@dictBlue +@dictLightBlue(150-250)@dictBlue to Attack Rating\nAdds 15-45 cold damage\n+@dictLightBlue(15-20)@dictBlue to Dexterity\n+40 to Mana\nCold Absorb +20%\nCannot Be Frozen",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -659,6 +659,230 @@
                                             "name": "Uniquename",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "Sling",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Sling \n@rin\n\n@dictBlue +10% Faster Cast Rate\n-@dictLightBlue(3-5)@dictBlue% to Enemy Magic Resistance\n+1 to Town Portal\nSlows Target by 15%\n+@dictLightBlue(10-15)@dictBlue to Energy\n@dictLightBlue(10-20)@dictBlue% Better Chance of Getting Magic Items",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/ring/ring4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @rin",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 50",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Opalvein",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Opalvein \n@rin\n\n@dictBlue 2% Chance to cast level 15 Flame Wave on attack\n+10% Faster Cast Rate\nAll Resistances +@dictLightBlue(6-8)@dictBlue\n+@dictLightBlue(1-3)@dictBlue Life after each Kill\n+@dictLightBlue(1-3)@dictBlue to Mana after each Kill\n\n1 of the following:\n+@dictLightBlue(20-40)@dictBlue% Enhanced Damage\n+@dictLightBlue(3-5)@dictBlue% to Poison Skill Damage\n+@dictLightBlue(3-5)@dictBlue% to Lightning Skill Damage\n+@dictLightBlue(3-5)@dictBlue% to Magic Skill Damage\n+@dictLightBlue(3-5)@dictBlue% to Fire Skill Damage\n+@dictLightBlue(3-5)@dictBlue% to Cold Skill Damage",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/ring/ring2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @rin",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 50",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "Bul-Kathos' Wedding Band",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -674,7 +898,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Bul-Kathos' Wedding Band \n@rin\n\n@dictBlue +1 to All Skills\n3-5% Life stolen per hit @dictVariable\n@dictBlue +0-49 to Life (Based on Character Level)\n+50 Maximum Stamina",
+                                                "tooltipString": "@dictGold Bul-Kathos' Wedding Band \n@rin\n\n@dictBlue +1 to All Skills\n@dictLightBlue(3-5)@dictBlue% Life stolen per hit\n+(0-49) to Life (Based on Character Level)\n+50 Maximum Stamina",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -786,7 +1010,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Carrion Wind \n@rin\n\n@dictBlue 10% Chance to cast level 10 Poison Nova when struck\n8% Chance to cast level 13 Twister on striking\n6-9% Life stolen per hit @dictVariable\n@dictBlue +100-160 Defense vs. Missile @dictVariable\n@dictBlue Poison Resist +55%\n+10% Damage Taken Goes To Mana\nLevel 21 Poison Creeper (15 Charges)",
+                                                "tooltipString": "@dictGold Carrion Wind \n@rin\n\n@dictBlue 10% Chance to cast level 10 Poison Nova when struck\n8% Chance to cast level 13 Twister on striking\n@dictLightBlue(6-9)@dictBlue% Life stolen per hit\n+@dictLightBlue(100-160)@dictBlue Defense vs. Missile\nPoison Resist +55%\n+10% Damage Taken Goes To Mana\nLevel 21 Poison Creeper (15 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -898,7 +1122,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Nature's Peace \n@rin\n\n@dictBlue Slain Monsters Rest in Peace\nPrevent Monster Heal\nPoison Resist +20-30% @dictVariable\n@dictBlue Damage Reduced by 7-11 @dictVariable\n@dictBlue Level 5 Oak Sage (27 Charges)",
+                                                "tooltipString": "@dictGold Nature's Peace \n@rin\n\n@dictBlue Slain Monsters Rest in Peace\nPrevent Monster Heal\nPoison Resist +@dictLightBlue(20-30)@dictBlue%\nDamage Reduced by @dictLightBlue(7-11)@dictBlue\nLevel 5 Oak Sage (27 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1010,7 +1234,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Wisp Projector \n@rin\n\n@dictBlue 10% Chance to cast level 16 Lightning on striking\nLightning Absorb +10-20% @dictVariable\n@dictBlue 10-20% Better Chance of Getting Magic Items @dictVariable\n@dictBlue Level 7 Spirit of Barbs (11 Charges)\nLevel 5 Heart of Wolverine (13 Charges)\nLevel 2 Oak Sage (15 Charges)",
+                                                "tooltipString": "@dictGold Wisp Projector \n@rin\n\n@dictBlue 10% Chance to cast level 16 Lightning on striking\nLightning Absorb +@dictLightBlue(10-20)@dictBlue%\n@dictLightBlue(10-20)@dictBlue% Better Chance of Getting Magic Items\nLevel 7 Spirit of Barbs (11 Charges)\nLevel 5 Heart of Wolverine (13 Charges)\nLevel 2 Oak Sage (15 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1252,7 +1476,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Eye of Etlich \n@amu\n\n@dictBlue +1 to All Skills\nAdds (1-2)-(3-5) cold damage @dictVariable\n@dictBlue 3-7% Life stolen per hit @dictVariable\n@dictBlue +10-40 Defense vs. Missile @dictVariable\n@dictBlue +1-5 to Light Radius @dictVariable",
+                                                "tooltipString": "@dictGold Eye of Etlich \n@amu\n\n@dictBlue +1 to All Skills\nAdds @dictLightBlue(1-2)@dictBlue-@dictLightBlue(3-5)@dictBlue cold damage\n@dictLightBlue(3-7)@dictBlue% Life stolen per hit\n+@dictLightBlue(10-40)@dictBlue Defense vs. Missile\n+@dictLightBlue(1-5)@dictBlue to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1476,7 +1700,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Saracen's Chance \n@amu\n\n@dictBlue 10% Chance to cast level 2 Iron Maiden when struck\n+12 to all Attributes\nAll Resistances +15-25 @dictVariable",
+                                                "tooltipString": "@dictGold Saracen's Chance \n@amu\n\n@dictBlue 10% Chance to cast level 2 Iron Maiden when struck\n+12 to all Attributes\nAll Resistances +@dictLightBlue(15-25)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1700,7 +1924,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Crescent Moon \n@amu\n\n@dictBlue 11-15% Mana stolen per hit @dictVariable\n@dictBlue 3-6% Life stolen per hit @dictVariable\n@dictBlue +45 to Mana\nMagic Damage Reduced by 10\n+10% Damage Taken Goes To Mana\n-2 to Light Radius",
+                                                "tooltipString": "@dictGold Crescent Moon \n@amu\n\n@dictBlue @dictLightBlue(11-15)@dictBlue% Mana stolen per hit\n@dictLightBlue(3-6)@dictBlue% Life stolen per hit\n+45 to Mana\nMagic Damage Reduced by 10\n+10% Damage Taken Goes To Mana\n-2 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1759,6 +1983,118 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "@dictRequiredLevel: 50",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Entropy Locket",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x1",
+                                                "tooltipString": "@dictGold Entropy Locket \n@amu\n\n@dictBlue 4% Chance to cast level 19 Miasma Chain on striking\n+@dictLightBlue(5-10)@dictBlue% Faster Cast Rate\n+@dictLightBlue(5-10)@dictBlue% to Magic Skill Damage\nIncrease Maximum Mana @dictLightBlue(10-15)@dictBlue%\nLightning Resist +@dictLightBlue(25-40)@dictBlue%\nMagic Damage Reduced by @dictLightBlue(8-12)",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/misc/amulet/amulet1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @amu",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictRequiredLevel: 54",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1924,7 +2260,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Rising Sun \n@amu\n\n@dictBlue 2% Chance to cast level 13-19 Meteor when struck @dictVariable\n@dictBlue +2 to Fire Skills\nAdds 24-48 fire damage\nReflensh Life +10\n+0-74 Absorbs Fire Damage (Based on Character Level)\n+4 to Light Radius",
+                                                "tooltipString": "@dictGold Rising Sun \n@amu\n\n@dictBlue 2% Chance to cast level @dictLightBlue(13-19)@dictBlue Meteor when struck\n+2 to Fire Skills\nAdds 24-48 fire damage\nReflensh Life +10\n+(0-74) Absorbs Fire Damage (Based on Character Level)\n+4 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2036,7 +2372,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Highlord's Wrath \n@amu\n\n@dictBlue +1 to All Skills\n+20% Increased Attack Speed\nAdds 1-30 lightning damage\n+0-37% Deadly Strike (Based on Character Level)\nLightning Resist +35%\nAttacker Takes Lightning Damage of 15",
+                                                "tooltipString": "@dictGold Highlord's Wrath \n@amu\n\n@dictBlue +1 to All Skills\n+20% Increased Attack Speed\nAdds 1-30 lightning damage\n+(0-37)% Deadly Strike (Based on Character Level)\nLightning Resist +35%\nAttacker Takes Lightning Damage of 15",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2148,7 +2484,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Seraph's Hymn \n@amu\n\n@dictBlue +2 to All Skills\n+1-2 to Defensive Auras (Paladin Only) @dictVariable\n@dictBlue +25-50% Damage to Demons @dictVariable\n@dictBlue +150-250 to Attack Rating against Demons @dictVariable\n@dictBlue +25-50% Damage to Undead @dictVariable\n@dictBlue +150-250 to Attack Rating against Undead @dictVariable\n@dictBlue +2 to Light Radius",
+                                                "tooltipString": "@dictGold Seraph's Hymn \n@amu\n\n@dictBlue +2 to All Skills\n+@dictLightBlue(1-2)@dictBlue to Defensive Auras (Paladin Only)\n+@dictLightBlue(25-50)@dictBlue% Damage to Demons\n+@dictLightBlue(150-250)@dictBlue to Attack Rating against Demons\n+@dictLightBlue(25-50)@dictBlue% Damage to Undead\n+@dictLightBlue(150-250)@dictBlue to Attack Rating against Undead\n+2 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2260,7 +2596,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Mara's Kaleidoscope \n@amu\n\n@dictBlue +2 to All Skills\n+5 to all Attributes\nAll Resistances +20-30 @dictVariable",
+                                                "tooltipString": "@dictGold Mara's Kaleidoscope \n@amu\n\n@dictBlue +2 to All Skills\n+5 to all Attributes\nAll Resistances +@dictLightBlue(20-30)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2372,7 +2708,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x1",
-                                                "tooltipString": "@dictGold Metalgrid \n@amu\n\n@dictBlue +400-450 to Attack Rating @dictVariable\n@dictBlue +300-350 Defense @dictVariable\n@dictBlue All Resistances +25-35 @dictVariable\n@dictBlue Level 22 Iron Golem (11 Charges)\nLevel 12 Iron Maiden (20 Charges)",
+                                                "tooltipString": "@dictGold Metalgrid \n@amu\n\n@dictBlue +@dictLightBlue(400-450)@dictBlue to Attack Rating\n+@dictLightBlue(300-350)@dictBlue Defense\nAll Resistances +@dictLightBlue(25-35)@dictBlue\nLevel 22 Iron Golem (11 Charges)\nLevel 12 Iron Maiden (20 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },

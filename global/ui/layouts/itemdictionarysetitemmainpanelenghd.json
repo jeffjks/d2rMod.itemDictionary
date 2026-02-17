@@ -69,14 +69,14 @@
             "fields": {
                 "rect": "$SettingsPanelTabsRect",
                 "anchor": { "x": 0.5 },
-                "tabCount": 2,
+                "tabCount": 3,
                 "tabSize": { "x": 266, "y": 121 },
                 "tabPadding": { "x": 2, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
                 "tabSizingMethod": "fixedCenter",
                 "filename": "Controller/Panel/Stash/V2/StashTabs",
-                "inactiveFrames": [ 1, 1 ],
-                "activeFrames": [ 0, 0 ],
+                "inactiveFrames": [ 1, 1, 1 ],
+                "activeFrames": [ 0, 0, 0 ],
                 "activeTextColor": "$TabsActiveTextColor",
                 "inactiveTextColor": "$TabsInactiveTextColor",
                 "tabTextOffset": { "x": 0, "y": -4 },
@@ -87,10 +87,11 @@
                     "fontColor": "$FontColorWhite",
                     "spacing": {"leading":0.9, "kerning":0.95}
                 },
-                "textStrings": [ "Original", "Expansion" ],
+                "textStrings": [ "Original", "Expansion", "RotW" ],
                 "tabMessages": [
                     "SettingsPanelMessage:CheckChanges:ItemDictionarySetItemPanelEng1",
-                    "SettingsPanelMessage:CheckChanges:ItemDictionarySetItemPanelEng2"
+                    "SettingsPanelMessage:CheckChanges:ItemDictionarySetItemPanelEng2",
+                    "SettingsPanelMessage:CheckChanges:ItemDictionarySetItemPanelEng3"
                 ]
             }
         },

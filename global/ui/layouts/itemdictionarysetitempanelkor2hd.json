@@ -172,7 +172,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xap\n@strchrdef: 120~128",
+                                                "text": "@dictBaseItem: @xap\n@strchrdef: 120-128",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -426,7 +426,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @vbt\n@strchrdef: 30~41, @dictKickDamage: 4 - 10",
+                                                "text": "@dictBaseItem: @vbt\n@strchrdef: 30-41, @dictKickDmg: 4 - 10",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -608,7 +608,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @cap\n@strchrdef: 3~5",
+                                                "text": "@dictBaseItem: @cap\n@strchrdef: 3-5",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -762,7 +762,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bwn\n@dictOneHandDamage: 5-12",
+                                                "text": "@dictBaseItem: @bwn\n@dictOneHandDmg: 5-12",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -916,7 +916,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @vgl\n@strchrdef: 25~31",
+                                                "text": "@dictBaseItem: @vgl\n@strchrdef: 25-31",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1070,7 +1070,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @vbt\n@strchrdef: 5~6, @dictKickDamage: 4 - 10",
+                                                "text": "@dictBaseItem: @vbt\n@strchrdef: 5-6, @dictKickDmg: 4 - 10",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1252,7 +1252,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @Diadem\n@strchrdef: 200~210",
+                                                "text": "@dictBaseItem: @Diadem\n@strchrdef: 200-210",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1406,7 +1406,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @amc\n@dictTwoHandDamage: 40-207",
+                                                "text": "@dictBaseItem: @amc\n@dictTwoHandDmg: 40-207",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1560,7 +1560,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uld\n@strchrdef: 767~873",
+                                                "text": "@dictBaseItem: @uld\n@strchrdef: 767-873",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1714,7 +1714,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xtg\n@strchrdef: 84~97",
+                                                "text": "@dictBaseItem: @xtg\n@strchrdef: 84-97",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1868,7 +1868,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @zvb\n@strchrdef: 81~86, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @zvb\n@strchrdef: 81-86, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2050,7 +2050,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xh9\n@strchrdef: 195~300",
+                                                "text": "@dictBaseItem: @xh9\n@strchrdef: 195-300",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2204,7 +2204,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7qr\n@dictOneHandDamage: 120-153",
+                                                "text": "@dictBaseItem: @7qr\n@dictOneHandDmg: 120-153",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2358,7 +2358,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ucl\n@strchrdef: 540~721",
+                                                "text": "@dictBaseItem: @ucl\n@strchrdef: 540-721",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2512,7 +2512,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xmb\n@strchrdef: 112~169, @dictKickDamage: 23 - 52",
+                                                "text": "@dictBaseItem: @xmb\n@strchrdef: 112-169, @dictKickDmg: 23 - 52",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2694,7 +2694,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xsk\n@strchrdef: 99~131",
+                                                "text": "@dictBaseItem: @xsk\n@strchrdef: 99-131",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2975,7 +2975,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @oba\n@dictOneHandDamage: 18-42",
+                                                "text": "@dictBaseItem: @oba\n@dictOneHandDmg: 18-42",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3129,7 +3129,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uth\n@strchrdef: 833~941",
+                                                "text": "@dictBaseItem: @uth\n@strchrdef: 833-941",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3283,7 +3283,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @zmb\n@strchrdef: 35~40, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @zmb\n@strchrdef: 35-40, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3565,7 +3565,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9vo\n@dictTwoHandDamage: 42-159",
+                                                "text": "@dictBaseItem: @9vo\n@dictTwoHandDmg: 42-159",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3692,7 +3692,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xcl\n@strchrdef: 376~390",
+                                                "text": "@dictBaseItem: @xcl\n@strchrdef: 376-390",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4001,7 +4001,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @dr8\n@strchrdef: 151~171",
+                                                "text": "@dictBaseItem: @dr8\n@strchrdef: 151-171",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4155,7 +4155,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9mt\n@dictOneHandDamage: 60-93",
+                                                "text": "@dictBaseItem: @9mt\n@dictOneHandDmg: 60-93",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4309,7 +4309,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uul\n@strchrdef: 746~857",
+                                                "text": "@dictBaseItem: @uul\n@strchrdef: 746-857",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4463,7 +4463,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xtb\n@strchrdef: 39~47, @dictKickDamage: 37 - 64",
+                                                "text": "@dictBaseItem: @xtb\n@strchrdef: 39-47, @dictKickDmg: 37 - 64",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4645,7 +4645,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uh9\n@strchrdef: 180~257",
+                                                "text": "@dictBaseItem: @uh9\n@strchrdef: 180-257",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4926,7 +4926,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ne9\n@strchrdef: 175~189, @dictBlockRate: 60%",
+                                                "text": "@dictBaseItem: @ne9\n@strchrdef: 175-189, @dictBlockRate: 60%",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5080,7 +5080,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xmg\n@strchrdef: 67~74",
+                                                "text": "@dictBaseItem: @xmg\n@strchrdef: 67-74",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5234,7 +5234,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @utc\n@strchrdef: 134~166, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @utc\n@strchrdef: 134-166, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5416,7 +5416,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhl\n@strchrdef: 175~184",
+                                                "text": "@dictBaseItem: @xhl\n@strchrdef: 175-184",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5570,7 +5570,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ls\n@dictOneHandDamage: 12-192",
+                                                "text": "@dictBaseItem: @7ls\n@dictOneHandDmg: 12-192",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5724,7 +5724,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @upl\n@strchrdef: 810~917",
+                                                "text": "@dictBaseItem: @upl\n@strchrdef: 810-917",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5906,7 +5906,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ba5\n@strchrdef: 160~175",
+                                                "text": "@dictBaseItem: @ba5\n@strchrdef: 160-175",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -6060,7 +6060,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7m7\n@dictTwoHandDamage: 231-318",
+                                                "text": "@dictBaseItem: @7m7\n@dictTwoHandDmg: 231-318",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -6368,7 +6368,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhg\n@strchrdef: 108~118",
+                                                "text": "@dictBaseItem: @xhg\n@strchrdef: 108-118",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -6676,7 +6676,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xhb\n@strchrdef: 118~128, @dictKickDamage: 39 - 80",
+                                                "text": "@dictBaseItem: @xhb\n@strchrdef: 118-128, @dictKickDmg: 39 - 80",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -6985,7 +6985,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uui\n@strchrdef: 666~882",
+                                                "text": "@dictBaseItem: @uui\n@strchrdef: 666-882",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -7139,7 +7139,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ulg\n@strchrdef: 79~87",
+                                                "text": "@dictBaseItem: @ulg\n@strchrdef: 79-87",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -7293,7 +7293,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @umc\n@strchrdef: 108~115, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @umc\n@strchrdef: 108-115, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -7447,7 +7447,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xlb\n@strchrdef: 53~60, @dictKickDamage: 26 - 46",
+                                                "text": "@dictBaseItem: @xlb\n@strchrdef: 53-60, @dictKickDmg: 26 - 46",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -7783,7 +7783,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xml\n@strchrdef: 154, @dictBlockRate: 97% / 92% / 87%, @dictSmiteDamage: 7 - 14",
+                                                "text": "@dictBaseItem: @xml\n@strchrdef: 154, @dictBlockRate: 97% / 92% / 87%, @dictSmiteDmg: 7 - 14",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -8246,7 +8246,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @circlet\n@strchrdef: 95~105",
+                                                "text": "@dictBaseItem: @circlet\n@strchrdef: 95-105",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -8373,7 +8373,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @6cs\n@dictTwoHandDamage: 200-232",
+                                                "text": "@dictBaseItem: @6cs\n@dictTwoHandDmg: 200-232",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -8500,7 +8500,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ult\n@strchrdef: 721~830",
+                                                "text": "@dictBaseItem: @ult\n@strchrdef: 721-830",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -8682,7 +8682,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @urn\n@strchrdef: 249~290",
+                                                "text": "@dictBaseItem: @urn\n@strchrdef: 249-290",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -8836,7 +8836,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ws\n@dictOneHandDamage: (111~125)-(129~146)",
+                                                "text": "@dictBaseItem: @7ws\n@dictOneHandDmg: (111-125)-(129-146)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -8990,7 +8990,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xar\n@strchrdef: 917~950",
+                                                "text": "@dictBaseItem: @xar\n@strchrdef: 917-950",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9117,7 +9117,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @paf\n@strchrdef: 290~333, @dictBlockRate: 69%, @dictSmiteDamage: 5 - 87",
+                                                "text": "@dictBaseItem: @paf\n@strchrdef: 290-333, @dictBlockRate: 69%, @dictSmiteDmg: 5 - 87",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9299,7 +9299,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7wd\n@dictOneHandDamage: 120-150",
+                                                "text": "@dictBaseItem: @7wd\n@dictOneHandDmg: 120-150",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9453,7 +9453,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gd\n@dictOneHandDamage: 75-195, @dictTwoHandDamage: 174-345",
+                                                "text": "@dictBaseItem: @7gd\n@dictOneHandDmg: 75-195, @dictTwoHandDmg: 174-345",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9608,7 +9608,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uhm\n@strchrdef: 164~209",
+                                                "text": "@dictBaseItem: @uhm\n@strchrdef: 164-209",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9735,7 +9735,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ma\n@dictOneHandDamage: 41-49",
+                                                "text": "@dictBaseItem: @7ma\n@dictOneHandDmg: 41-49",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9862,7 +9862,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xrs\n@strchrdef: 688~702",
+                                                "text": "@dictBaseItem: @xrs\n@strchrdef: 688-702",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -9989,7 +9989,7 @@
                                             "name": "ItemInfoText",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ward\n@strchrdef: 203~220, @dictBlockRate: 79% / 74% / 69%, @dictSmiteDamage: 11-35",
+                                                "text": "@dictBaseItem: @ward\n@strchrdef: 203-220, @dictBlockRate: 79% / 74% / 69%, @dictSmiteDmg: 11-35",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

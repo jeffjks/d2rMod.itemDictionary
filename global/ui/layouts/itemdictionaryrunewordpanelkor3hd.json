@@ -549,6 +549,110 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "@Runeword3",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r15L + @r13L + @r08L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword3\n\n@dictBlue 타격 시 10% 확률로 15 레벨 독기 사슬 시전\n피격 시 2% 확률로 10 레벨 정신 결계 시전\n악마술사 기술 레벨 +2\n타격 회복 속도 +20%\n피해 +@dictLightBlue(40-60)@dictBlue% 증가\n화염 저항 +30%\n착용 조건 -15%",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3홈 갑옷\n@dictRequiredLevel: 29 @dictNeedRotW",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "@Runeword178",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -589,7 +693,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword178\n\n@dictBlue 장착 시 1 레벨 정화 오라 효과 적용\n타격 회복 속도 +20%\n방어력 +75~100% 증가 @dictVariable\n@dictBlue 활력 +10\n최대 생명력 5% 증가\n독 저항 +40~60% @dictVariable\n@dictBlue 독 지속시간 50% 감소",
+                                                "tooltipString": "@dictGold@Runeword178\n\n@dictBlue 장착 시 1 레벨 정화 오라 효과 적용\n타격 회복 속도 +20%\n방어력 +@dictLightBlue(75-100)@dictBlue% 증가\n활력 +10\n최대 생명력 5% 증가\n독 저항 +@dictLightBlue(40-60)@dictBlue%\n독 지속시간 50% 감소",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -693,7 +797,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword176\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +75~100% 증가 @dictVariable\n@dictBlue 활력 +10\n최대 생명력 5% 증가\n화염 저항 +40~60% @dictVariable\n@dictBlue 화염 흡수 +10~15% @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword176\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +@dictLightBlue(75-100)@dictBlue% 증가\n활력 +10\n최대 생명력 5% 증가\n화염 저항 +@dictLightBlue(40-60)@dictBlue%\n화염 흡수 +@dictLightBlue(10-15)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -797,7 +901,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword175\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +75~100% 증가 @dictVariable\n@dictBlue 활력 +10\n최대 생명력 5% 증가\n번개 저항 +40~60% @dictVariable\n@dictBlue 번개 흡수 +10~15% @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword175\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +@dictLightBlue(75-100)@dictBlue% 증가\n활력 +10\n최대 생명력 5% 증가\n번개 저항 +@dictLightBlue(40-60)@dictBlue%\n번개 흡수 +@dictLightBlue(10-15)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -901,7 +1005,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword177\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +75~100% 증가 @dictVariable\n@dictBlue 활력 +10\n최대 생명력 5% 증가\n냉기 저항 +40~60% @dictVariable\n@dictBlue 냉기 흡수 +10~15% @dictVariable\n@dictBlue 빙결되지 않음",
+                                                "tooltipString": "@dictGold@Runeword177\n\n@dictBlue 타격 회복 속도 +20%\n방어력 +@dictLightBlue(75-100)@dictBlue% 증가\n활력 +10\n최대 생명력 5% 증가\n냉기 저항 +@dictLightBlue(40-60)@dictBlue%\n냉기 흡수 +@dictLightBlue(10-15)@dictBlue%\n빙결되지 않음",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1005,7 +1109,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword179\n\n@dictBlue 타격 회복 속도 +20%\n적중당 생명력 4~6% 훔침 @dictVariable\n@dictBlue 방어력 +75~100% 증가 @dictVariable\n@dictBlue 활력 +10\n최대 생명력 5% 증가\n생명력 회복 +30\n피해 7 감소\n받는 물리 피해 10~15% 감소 @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword179\n\n@dictBlue 타격 회복 속도 +20%\n적중당 생명력 @dictLightBlue(4-6)@dictBlue% 훔침\n방어력 +@dictLightBlue(75-100)@dictBlue% 증가\n활력 +10\n최대 생명력 5% 증가\n생명력 회복 +30\n피해 7 감소\n받는 물리 피해 @dictLightBlue(10-15)@dictBlue% 감소",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1069,7 +1173,7 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@Runeword172",
+                                                "text": "@Runeword171 (투지)",
                                                 "style": "$StyleDictionaryCategory"
                                             }
                                         }
@@ -1109,7 +1213,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword172\n\n@dictBlue 달리기/걷기 속도 +65%\n공격 속도 +40%\n타격 회복 속도 +20%\n+6 피하기\n민첩 +10\n지구력 고갈 속도 50% 감소\n모든 저항 +10",
+                                                "tooltipString": "@dictGold@Runeword171\n\n@dictBlue 달리기/걷기 속도 +65%\n공격 속도 +40%\n타격 회복 속도 +20%\n+6 피하기\n민첩 +10\n지구력 고갈 속도 50% 감소\n모든 저항 +10",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1629,7 +1733,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword165\n\n@dictBlue 관통 공격 +33%\n명중률 보너스 15~25% @dictVariable\n@dictBlue 적중당 마나 4~8% 훔침 @dictVariable\n@dictBlue 방어력 +30% 증가\n마력 +10\n지구력 고갈 속도 15% 감소\n빙결되지 않음\n적 처치 시 마나 +5\n받는 피해의 +15%만큼 마나 회복",
+                                                "tooltipString": "@dictGold@Runeword165\n\n@dictBlue 관통 공격 +33%\n명중률 보너스 @dictLightBlue(15-25)@dictBlue%\n적중당 마나 @dictLightBlue(4-8)@dictBlue% 훔침\n방어력 +30% 증가\n마력 +10\n지구력 고갈 속도 15% 감소\n빙결되지 않음\n적 처치 시 마나 +5\n받는 피해의 +15%만큼 마나 회복",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1733,7 +1837,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword8\n\n@dictBlue 피격 시 15% 확률로 10 레벨 뼈 갑옷 시전\n타격 시 15% 확률로 10 레벨 뼈 창 시전\n강령술사 기술 레벨 +2\n마나 +100~150 @dictVariable\n@dictBlue 모든 저항 +30\n피해 7 감소",
+                                                "tooltipString": "@dictGold@Runeword8\n\n@dictBlue 피격 시 15% 확률로 10 레벨 뼈 갑옷 시전\n타격 시 15% 확률로 10 레벨 뼈 창 시전\n강령술사 기술 레벨 +2\n마나 +@dictLightBlue(100-150)@dictBlue\n모든 저항 +30\n피해 7 감소",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1837,7 +1941,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword30\n\n@dictBlue 타격 회복 속도 +40%\n피해 +10~20% 증가 @dictVariable\n@dictBlue 냉기 피해 37 - 133 추가\n강타 확률 +15%\n상처 악화 확률 +33%\n방어력 +150~200% 증가 @dictVariable\n@dictBlue 지구력 고갈 속도 20% 감소\n냉기 저항 +45%\n번개 저항 +15%\n화염 저항 +15%\n독 저항 +15%",
+                                                "tooltipString": "@dictGold@Runeword30\n\n@dictBlue 타격 회복 속도 +40%\n피해 +@dictLightBlue(10-20)@dictBlue% 증가\n냉기 피해 37 - 133 추가\n강타 확률 +15%\n상처 악화 확률 +33%\n방어력 +@dictLightBlue(150-200)@dictBlue% 증가\n지구력 고갈 속도 20% 감소\n냉기 저항 +45%\n번개 저항 +15%\n화염 저항 +15%\n독 저항 +15%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -1941,7 +2045,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword45\n\n@dictBlue 피격 시 15% 확률로 3 레벨 시야 흐리기 시전\n타격 회복 속도 +10%\n방어력 +200~260% 증가 @dictVariable\n@dictBlue 힘 +10\n모든 저항 +45\n빙결 지속시간 절반으로 감소\n받는 피해의 +5%만큼 마나 회복\n시야 -3",
+                                                "tooltipString": "@dictGold@Runeword45\n\n@dictBlue 피격 시 15% 확률로 3 레벨 시야 흐리기 시전\n타격 회복 속도 +10%\n방어력 +@dictLightBlue(200-260)@dictBlue% 증가\n힘 +10\n모든 저항 +45\n빙결 지속시간 절반으로 감소\n받는 피해의 +5%만큼 마나 회복\n시야 -3",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2045,7 +2149,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword117\n\n@dictBlue 피격 시 5% 확률로 15 레벨 회오리 갑옷 시전\n타격 시 5% 확률로 15 레벨 돌개바람 시전\n드루이드 기술 레벨 +2\n마나 +100~150 @dictVariable\n@dictBlue 번개 저항 +30%\n마법 피해 7 감소\n받는 피해의 +15%만큼 마나 회복",
+                                                "tooltipString": "@dictGold@Runeword117\n\n@dictBlue 피격 시 5% 확률로 15 레벨 회오리 갑옷 시전\n타격 시 5% 확률로 15 레벨 돌개바람 시전\n드루이드 기술 레벨 +2\n마나 +@dictLightBlue(100-150)@dictBlue\n번개 저항 +30%\n마법 피해 7 감소\n받는 피해의 +15%만큼 마나 회복",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2149,7 +2253,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword122\n\n@dictBlue 타격 회복 속도 +20%\n막기 속도 +20%\n막기 확률 20% 증가\n방어력 +130~160% 증가 @dictVariable\n@dictBlue 원거리 공격 방어력 +250\n민첩 +20\n모든 저항 +50~70 @dictVariable\n@dictBlue 마법 피해 7 감소\n12 레벨 투사체 감속 (충전 60회)",
+                                                "tooltipString": "@dictGold@Runeword122\n\n@dictBlue 타격 회복 속도 +20%\n막기 속도 +20%\n막기 확률 20% 증가\n방어력 +@dictLightBlue(130-160)@dictBlue% 증가\n원거리 공격 방어력 +250\n민첩 +20\n모든 저항 +@dictLightBlue(50-70)@dictBlue\n마법 피해 7 감소\n12 레벨 투사체 감속 (충전 60회)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2317,6 +2421,110 @@
                                             "name": "Runewordname",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "@Runeword180",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 88
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "ItemType",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@r24L + @r08L + @r16L",
+                                                "style": "$StyleDictionaryRunewordRune"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 48,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "optionimg",
+                                            "fields": {
+                                                "rect": {
+                                                    "scale": 0.75
+                                                },
+                                                "filename": "$DictionaryOptionScrollImage",
+                                                "tooltipString": "@dictGold@Runeword180\n\n@dictBlue 피격 시 5% 확률로 10 레벨 인장: 무기력 시전\n모든 기술 +1\n시전 속도 +20%\n방어력 +@dictLightBlue(30-50)@dictBlue% 증가\n활력 +10\n화염 저항 +30%\n적 처치 시 생명력 +@dictLightBlue(1-5)@dictBlue\n마법 아이템 발견 확률 @dictLightBlue(26-40)@dictBlue% 증가",
+                                                "pressedFrame": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "RunewordReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "3홈 투구\n@dictRequiredLevel: 51 @dictNeedRotW",
+                                                "style": "$StyleDictionaryRunewordDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "RunewordTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Runewordname",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "@Runeword110 (원리원칙)",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -2357,7 +2565,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword110\n\n@dictBlue 타격 시 100% 확률로 5 레벨 신성한 빛줄기 시전\n성기사 기술 레벨 +2\n언데드에게 주는 피해 +50%\n생명력 +100~150 @dictVariable\n@dictBlue 지구력 고갈 속도 15% 감소\n최대 독 저항 +5%\n화염 저항 +30%",
+                                                "tooltipString": "@dictGold@Runeword110\n\n@dictBlue 타격 시 100% 확률로 5 레벨 신성한 빛줄기 시전\n성기사 기술 레벨 +2\n언데드에게 주는 피해 +50%\n생명력 +@dictLightBlue(100-150)@dictBlue\n지구력 고갈 속도 15% 감소\n최대 독 저항 +5%\n화염 저항 +30%",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2461,7 +2669,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword40\n\n@dictBlue 장착 시 4~8 레벨 화염 저항 오라 효과 적용 @dictVariable\n@dictBlue 화염 기술 +3\n적의 화염 저항 -(10~15)% @dictVariable\n@dictBlue 방어력 +30% 증가\n원거리 공격 방어력 +30\n마나 +50~75 @dictVariable\n@dictBlue 최대 화염 저항 +5%\n빙결 지속시간 절반으로 감소\n독 지속시간 50% 감소",
+                                                "tooltipString": "@dictGold@Runeword40\n\n@dictBlue 장착 시 @dictLightBlue(4-8)@dictBlue 레벨 화염 저항 오라 효과 적용\n화염 기술 +3\n적의 화염 저항 -@dictLightBlue(10-15)@dictBlue%\n방어력 +30% 증가\n원거리 공격 방어력 +30\n마나 +@dictLightBlue(50-75)@dictBlue\n최대 화염 저항 +5%\n빙결 지속시간 절반으로 감소\n독 지속시간 50% 감소",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2565,7 +2773,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 피격 시 20% 확률로 18 레벨 맹독 시전\n타격 시 12% 확률로 15 레벨 히드라 시전\n장착 시 14 레벨 신성한 불꽃 오라 효과 적용\n방어력 +360\n원거리 공격 방어력 +230\n모든 능력치 +3~5 @dictVariable\n@dictBlue 힘 +0~37 (캐릭터 레벨에 비례)\n마나 +50\n최대 번개 저항 +5%\n피해 7 감소",
+                                                "tooltipString": "@dictGold@Runeword27\n\n@dictBlue 피격 시 20% 확률로 18 레벨 맹독 시전\n타격 시 12% 확률로 15 레벨 히드라 시전\n장착 시 14 레벨 신성한 불꽃 오라 효과 적용\n방어력 +360\n원거리 공격 방어력 +230\n모든 능력치 +@dictLightBlue(3-5)@dictBlue\n힘 +(0-37) (캐릭터 레벨에 비례)\n마나 +50\n최대 번개 저항 +5%\n피해 7 감소",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2669,7 +2877,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 피격 시 10% 확률로 15 레벨 혼란 시전\n장착 시 15 레벨 신성한 충격 오라 효과 적용\n타격 회복 속도 +20~30% @dictVariable\n@dictBlue 방어력 +30% 증가\n방어력 +150~220 @dictVariable\n@dictBlue 활력 +10\n최대 생명력 5% 증가\n마나 +0~61 (캐릭터 레벨에 비례)\n모든 저항 +5~20 @dictVariable\n@dictBlue 마법 아이템 발견 확률 12~25% 증가 @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 피격 시 10% 확률로 15 레벨 혼란 시전\n장착 시 15 레벨 신성한 충격 오라 효과 적용\n타격 회복 속도 +@dictLightBlue(20-30)@dictBlue%\n방어력 +30% 증가\n방어력 +@dictLightBlue(150-220)@dictBlue\n활력 +10\n최대 생명력 5% 증가\n마나 +(0-61) (캐릭터 레벨에 비례)\n모든 저항 +@dictLightBlue(5-20)@dictBlue\n마법 아이템 발견 확률 @dictLightBlue(12-25)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2759,7 +2967,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 피격 시 10% 확률로 15 레벨 혼란 시전\n장착 시 15 레벨 신성한 충격 오라 효과 적용\n타격 회복 속도 +20~30% @dictVariable\n@dictBlue 방어력 +30% 증가\n방어력 +150~220 @dictVariable\n@dictBlue 활력 +10\n생명력 +50\n마나 +0~61 (캐릭터 레벨에 비례)\n모든 저항 +5~20 @dictVariable\n@dictBlue 마법 아이템 발견 확률 12~25% 증가 @dictVariable",
+                                                "tooltipString": "@dictGold@Runeword29\n\n@dictBlue 피격 시 10% 확률로 15 레벨 혼란 시전\n장착 시 15 레벨 신성한 충격 오라 효과 적용\n타격 회복 속도 +@dictLightBlue(20-30)@dictBlue%\n방어력 +30% 증가\n방어력 +@dictLightBlue(150-220)@dictBlue\n활력 +10\n생명력 +50\n마나 +(0-61) (캐릭터 레벨에 비례)\n모든 저항 +@dictLightBlue(5-20)@dictBlue\n마법 아이템 발견 확률 @dictLightBlue(12-25)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2863,7 +3071,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword33\n\n@dictBlue 모든 기술 +2\n달리기/걷기 속도 +45%\n+1 순간이동\n방어력 +750~775 @dictVariable\n@dictBlue 힘 +0~74 (캐릭터 레벨에 비례)\n최대 생명력 5% 증가\n받는 물리 피해 8% 감소\n적 처치 시 생명력 +14\n받는 피해의 +15%만큼 마나 회복\n마법 아이템 발견 확률 1~99% 증가 (캐릭터 레벨에 비례)",
+                                                "tooltipString": "@dictGold@Runeword33\n\n@dictBlue 모든 기술 +2\n달리기/걷기 속도 +45%\n+1 순간이동\n방어력 +@dictLightBlue(750-775)@dictBlue\n힘 +(0-74) (캐릭터 레벨에 비례)\n최대 생명력 5% 증가\n받는 물리 피해 8% 감소\n적 처치 시 생명력 +14\n받는 피해의 +15%만큼 마나 회복\n마법 아이템 발견 확률 (1-99)% 증가 (캐릭터 레벨에 비례)",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -2967,7 +3175,7 @@
                                                     "scale": 0.75
                                                 },
                                                 "filename": "$DictionaryOptionScrollImage",
-                                                "tooltipString": "@dictGold@Runeword174\n\n@dictBlue 늑대인간 공격이 180초 동안 징표 효과 부여\n늑대의 징표:\n명중률 보너스 30%\n최대 생명력 40% 증가\n\n곰인간 공격이 180초 동안 징표 효과 부여\n곰의 징표:\n공격 속도 +25%\n받는 물리 피해 20% 감소\n\n변신 기술 +5 (드루이드 전용)\n강타 확률 +25%\n방어력 +50~80% 증가 @dictVariable\n@dictBlue 힘 +10\n활력 +10\n모든 저항 +10\n빙결되지 않음",
+                                                "tooltipString": "@dictGold@Runeword174\n\n@dictBlue 늑대인간 공격이 180초 동안 징표 효과 부여\n늑대의 징표:\n명중률 보너스 30%\n최대 생명력 40% 증가\n\n곰인간 공격이 180초 동안 징표 효과 부여\n곰의 징표:\n공격 속도 +25%\n받는 물리 피해 20% 감소\n\n변신 기술 +5 (드루이드 전용)\n강타 확률 +25%\n방어력 +@dictLightBlue(50-80)@dictBlue% 증가\n힘 +10\n활력 +10\n모든 저항 +10\n빙결되지 않음",
                                                 "pressedFrame": 0
                                             }
                                         }

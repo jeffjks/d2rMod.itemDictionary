@@ -3,7 +3,7 @@
     "description": "Add Item Dictionary on ESC menu",
     "author": "강낭땅콩",
     "website": "https://www.nexusmods.com/diablo2resurrected/mods/582",
-    "version": "2.7",
+    "version": "2.10",
     "config": [
         {
             "id": "addButtonToPauseMenu",

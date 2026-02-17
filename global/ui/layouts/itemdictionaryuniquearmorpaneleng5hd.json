@@ -278,7 +278,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Snakecord \n@vbl\n\n@dictBlue +12 poison damage over 3 seconds\n+20-30% Enhanced Defense @dictVariable\n@dictBlue +10 Defense\nReflensh Life +5\nPoison Resist +25%\nPoison Length Reduced by 50%",
+                                                "tooltipString": "@dictGold Snakecord \n@vbl\n\n@dictBlue +12 poison damage over 3 seconds\n+@dictLightBlue(20-30)@dictBlue% Enhanced Defense\n+10 Defense\nReflensh Life +5\nPoison Resist +25%\nPoison Length Reduced by 50%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -338,7 +338,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @vbl\n@strchrdef: 14~15, @dictBeltSize: +4@dictBeltSlots",
+                                                "text": "@dictBaseItem: @vbl\n@strchrdef: 14-15, @dictBeltSize: +4@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -442,7 +442,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Nightsmoke \n@mbl\n\n@dictBlue +30-50% Enhanced Defense @dictVariable\n@dictBlue +15 Defense\n+20 to Mana\nAll Resistances +10\nDamage Reduced by 2\n+50% Damage Taken Goes To Mana",
+                                                "tooltipString": "@dictGold Nightsmoke \n@mbl\n\n@dictBlue +@dictLightBlue(30-50)@dictBlue% Enhanced Defense\n+15 Defense\n+20 to Mana\nAll Resistances +10\nDamage Reduced by 2\n+50% Damage Taken Goes To Mana",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -502,7 +502,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @mbl\n@strchrdef: 22~24, @dictBeltSize: +8@dictBeltSlots",
+                                                "text": "@dictBaseItem: @mbl\n@strchrdef: 22-24, @dictBeltSize: +8@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -606,7 +606,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Goldwrap \n@tbl\n\n@dictBlue +10% Increased Attack Speed\n+40-60% Enhanced Defense @dictVariable\n@dictBlue +25 Defense\n50-80% Extra Gold from Monsters @dictVariable\n@dictBlue 30% Better Chance of Getting Magic Items\n+2 to Light Radius",
+                                                "tooltipString": "@dictGold Goldwrap \n@tbl\n\n@dictBlue +10% Increased Attack Speed\n+@dictLightBlue(40-60)@dictBlue% Enhanced Defense\n+25 Defense\n@dictLightBlue(50-80)@dictBlue% Extra Gold from Monsters\n30% Better Chance of Getting Magic Items\n+2 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -666,7 +666,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @tbl\n@strchrdef: 34 - 36, @dictBeltSize: +8@dictBeltSlots",
+                                                "text": "@dictBaseItem: @tbl\n@strchrdef: 34-36, @dictBeltSize: +8@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -770,7 +770,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Bladebuckle \n@hbl\n\n@dictBlue +30% Faster Hit Recovery\n+80-100% Enhanced Defense @dictVariable\n@dictBlue +30 Defense\n+5 to Strength\n+10 to Dexterity\nDamage Reduced by 3\nAttacker Takes Damage of 8",
+                                                "tooltipString": "@dictGold Bladebuckle \n@hbl\n\n@dictBlue +30% Faster Hit Recovery\n+@dictLightBlue(80-100)@dictBlue% Enhanced Defense\n+30 Defense\n+5 to Strength\n+10 to Dexterity\nDamage Reduced by 3\nAttacker Takes Damage of 8",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -830,7 +830,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @hbl\n@strchrdef: 51~54, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @hbl\n@strchrdef: 51-54, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -934,7 +934,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold String of Ears \n@zlb\n\n@dictBlue 6-8% Life stolen per hit @dictVariable\n@dictBlue +150-180% Enhanced Defense @dictVariable\n@dictBlue +15 Defense\nPhysical Damage Received Reduced by 10-15% @dictVariable\n@dictBlue Magic Damage Reduced by 10-15 @dictVariable",
+                                                "tooltipString": "@dictGold String of Ears \n@zlb\n\n@dictBlue @dictLightBlue(6-8)@dictBlue% Life stolen per hit\n+@dictLightBlue(150-180)@dictBlue% Enhanced Defense\n+15 Defense\nPhysical Damage Received Reduced by @dictLightBlue(10-15)@dictBlue%\nMagic Damage Reduced by @dictLightBlue(10-15)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -967,7 +967,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @zlb\n@strchrdef: 102~113, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @zlb\n@strchrdef: 102-113, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1071,7 +1071,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Razortail \n@zvb\n\n@dictBlue +33% Piercing Attack\n+10 to Maximum Damage\n+120-150% Enhanced Defense @dictVariable\n@dictBlue +15 Defense\n+15 to Dexterity\nAttacker Takes Damage of 1-99 (Based on Character Level)",
+                                                "tooltipString": "@dictGold Razortail \n@zvb\n\n@dictBlue +33% Piercing Attack\n+10 to Maximum Damage\n+@dictLightBlue(120-150)@dictBlue% Enhanced Defense\n+15 Defense\n+15 to Dexterity\nAttacker Takes Damage of (1-99) (Based on Character Level)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1104,7 +1104,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @zvb\n@strchrdef: 96~107, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @zvb\n@strchrdef: 96-107, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1208,7 +1208,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Gloom's Trap \n@zmb\n\n@dictBlue 5% Mana stolen per hit\n+120-150% Enhanced Defense @dictVariable\n@dictBlue +15 to Vitality\nIncrease Maximum Mana 15%\nRegenerate Mana 15%\n-3 to Light Radius",
+                                                "tooltipString": "@dictGold Gloom's Trap \n@zmb\n\n@dictBlue 5% Mana stolen per hit\n+@dictLightBlue(120-150)@dictBlue% Enhanced Defense\n+15 to Vitality\nIncrease Maximum Mana 15%\nRegenerate Mana 15%\n-3 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1241,7 +1241,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @zmb\n@strchrdef: 90~102, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @zmb\n@strchrdef: 90-102, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1345,7 +1345,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Snowclash \n@ztb\n\n@dictBlue 5% Chance to cast level 7-19 Blizzard when struck @dictVariable\n@dictBlue Adds 13-21 cold damage\n+2 to Chilling Armor (Sorceress Only)\n+2 to Blizzard (Sorceress Only)\n+3 to Glacial Spike (Sorceress Only)\n+130-170% Enhanced Defense @dictVariable\n@dictBlue +15% to Maximum Cold Resist\n+15 Cold Absorb",
+                                                "tooltipString": "@dictGold Snowclash \n@ztb\n\n@dictBlue 5% Chance to cast level @dictLightBlue(7-19)@dictBlue Blizzard when struck\nAdds 13-21 cold damage\n+2 to Chilling Armor (Sorceress Only)\n+2 to Blizzard (Sorceress Only)\n+3 to Glacial Spike (Sorceress Only)\n+@dictLightBlue(130-170)@dictBlue% Enhanced Defense\n+15% to Maximum Cold Resist\n+15 Cold Absorb",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1378,7 +1378,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ztb\n@strchrdef: 98~116, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @ztb\n@strchrdef: 98-116, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1482,7 +1482,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Thundergod's Vigor \n@zhb\n\n@dictBlue 5% Chance to cast level 7 Fist of the Heavens when struck\nAdds 1-50 lightning damage\n+3 to Lightning Fury (Amazon Only)\n+3 to Lightning Strike (Amazon Only)\n+160-200% Enhanced Defense @dictVariable\n@dictBlue +20 to Strength\n+20 to Vitality\n+10% to Maximum Lightning Resist\n+20 Lightning Absorb",
+                                                "tooltipString": "@dictGold Thundergod's Vigor \n@zhb\n\n@dictBlue 5% Chance to cast level 7 Fist of the Heavens when struck\nAdds 1-50 lightning damage\n+3 to Lightning Fury (Amazon Only)\n+3 to Lightning Strike (Amazon Only)\n+@dictLightBlue(160-200)@dictBlue% Enhanced Defense\n+20 to Strength\n+20 to Vitality\n+10% to Maximum Lightning Resist\n+20 Lightning Absorb",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1515,7 +1515,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @zhb\n@strchrdef: 137 - 159, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @zhb\n@strchrdef: 137-159, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1619,7 +1619,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Arachnid Mesh \n@ulc\n\n@dictBlue +1 to All Skills\n+20% Faster Cast Rate\nSlows Target by 10%\n+90-120% Enhanced Defense @dictVariable\n@dictBlue Increase Maximum Mana 5%\nLevel 3 Venom (11 Charges)",
+                                                "tooltipString": "@dictGold Arachnid Mesh \n@ulc\n\n@dictBlue +1 to All Skills\n+20% Faster Cast Rate\nSlows Target by 10%\n+@dictLightBlue(90-120)@dictBlue% Enhanced Defense\nIncrease Maximum Mana 5%\nLevel 3 Venom (11 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1679,7 +1679,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ulc\n@strchrdef: 119~138, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @ulc\n@strchrdef: 119-138, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1783,7 +1783,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Nosferatu's Coil \n@uvc\n\n@dictBlue +10% Increased Attack Speed\n5-7% Life stolen per hit @dictVariable\n@dictBlue Slows Target by 10%\n+15 to Strength\n+2 Mana after each Kill\n-3 to Light Radius",
+                                                "tooltipString": "@dictGold Nosferatu's Coil \n@uvc\n\n@dictBlue +10% Increased Attack Speed\n@dictLightBlue(5-7)@dictBlue% Life stolen per hit\nSlows Target by 10%\n+15 to Strength\n+2 Mana after each Kill\n-3 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1816,7 +1816,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uvc\n@strchrdef: 56~63, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @uvc\n@strchrdef: 56-63, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1920,7 +1920,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x1",
-                                                "tooltipString": "@dictGold Verdungo's Hearty Cord \n@umc\n\n@dictBlue +10% Faster Hit Recovery\n+90-140% Enhanced Defense @dictVariable\n@dictBlue +30-40 to Vitality @dictVariable\n@dictBlue Reflensh Life +10-13 @dictVariable\n@dictBlue +100-120 Maximum Stamina @dictVariable\n@dictBlue Physical Damage Received Reduced by 10-15% @dictVariable",
+                                                "tooltipString": "@dictGold Verdungo's Hearty Cord \n@umc\n\n@dictBlue +10% Faster Hit Recovery\n+@dictLightBlue(90-140)@dictBlue% Enhanced Defense\n+@dictLightBlue(30-40)@dictBlue to Vitality\nReflensh Life +@dictLightBlue(10-13)@dictBlue\n+@dictLightBlue(100-120)@dictBlue Maximum Stamina\nPhysical Damage Received Reduced by @dictLightBlue(10-15)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1980,7 +1980,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @umc\n@strchrdef: 125~158, @dictBeltSize: +12@dictBeltSlots",
+                                                "text": "@dictBaseItem: @umc\n@strchrdef: 125-158, @dictBeltSize: +12@dictBeltSlots",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2006,6 +2006,143 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "@StrHDHelpDurabilityStatus: 16\n@dictRequiredStrength: 106, @dictRequiredLevel: 63",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "Gheed's Wager",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x1",
+                                                "tooltipString": "@dictGold Gheed's Wager \n@utc\n\n@dictBlue +@dictLightBlue(10-20)@dictBlue% Faster Run/Walk\n+@dictLightBlue(10-20)@dictBlue% Faster Cast Rate\n +@dictLightBlue(10-20)@dictBlue% Faster Hit Recovery\n-@dictLightBlue(3-7)@dictBlue% to Enemy Magic Resistance\n+@dictLightBlue(90-150)@dictBlue% Enhanced Defense\nAll Resistances +@dictLightBlue(5-15)@dictBlue\n@dictLightBlue(44-75)@dictBlue% Extra Gold from Monsters",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/belt/heavy_belt"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @utc\n@strchrdef: 127-167, @dictBeltSize: +12@dictBeltSlots",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 18\n@dictRequiredStrength: 151, @dictRequiredLevel: 71",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

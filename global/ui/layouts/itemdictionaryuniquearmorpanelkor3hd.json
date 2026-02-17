@@ -139,7 +139,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 펠타 루나타 \n@buc\n\n@dictBlue 막기 속도 +40%\n막기 확률 20% 증가\n방어력 +30~40% 증가 @dictVariable\n@dictBlue 방어력 +30\n힘 +2\n활력 +10\n마력 +10",
+                                                "tooltipString": "@dictGold 펠타 루나타 \n@buc\n\n@dictBlue 막기 속도 +40%\n막기 확률 20% 증가\n방어력 +@dictLightBlue(30-40)@dictBlue% 증가\n방어력 +30\n힘 +2\n활력 +10\n마력 +10",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -172,7 +172,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @buc\n@strchrdef: 39, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDamage: 1 - 3",
+                                                "text": "@dictBaseItem: @buc\n@strchrdef: 39, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDmg: 1 - 3",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -276,7 +276,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 그림자 원반 \n@sml\n\n@dictBlue 막기 확률 30% 증가\n적중 시 대상 실명\n방어력 +40~50% 증가 @dictVariable\n@dictBlue 방어력 +30\n민첩 +10\n생명력 +20\n시야 -2",
+                                                "tooltipString": "@dictGold 그림자 원반 \n@sml\n\n@dictBlue 막기 확률 30% 증가\n적중 시 대상 실명\n방어력 +@dictLightBlue(40-50)@dictBlue% 증가\n방어력 +30\n민첩 +10\n생명력 +20\n시야 -2",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -309,7 +309,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @sml\n@strchrdef: 45~46, @dictBlockRate: 65% / 60% / 55%, @dictSmiteDamage: 2 - 3",
+                                                "text": "@dictBaseItem: @sml\n@strchrdef: 45-46, @dictBlockRate: 65% / 60% / 55%, @dictSmiteDmg: 2 - 3",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -413,7 +413,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 폭풍길드 \n@lrg\n\n@dictBlue 막기 확률 30% 증가\n번개 피해 1 - 6 추가\n방어력 +50~60% 증가 @dictVariable\n@dictBlue 방어력 +30\n번개 저항 +25%\n마법 피해 1 감소\n공격자가 번개 피해를 3 받음",
+                                                "tooltipString": "@dictGold 폭풍길드 \n@lrg\n\n@dictBlue 막기 확률 30% 증가\n번개 피해 1 - 6 추가\n방어력 +@dictLightBlue(50-60)@dictBlue% 증가\n방어력 +30\n번개 저항 +25%\n마법 피해 1 감소\n공격자가 번개 피해를 3 받음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -446,7 +446,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @lrg\n@strchrdef: 52~54, @dictBlockRate: 72% / 67% / 62%, @dictSmiteDamage: 2 - 4",
+                                                "text": "@dictBaseItem: @lrg\n@strchrdef: 52-54, @dictBlockRate: 72% / 67% / 62%, @dictSmiteDmg: 2 - 4",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -550,7 +550,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 강철격돌 \n@kit\n\n@dictBlue 성기사 기술 레벨 +1\n막기 속도 +20%\n막기 확률 25% 증가\n방어력 +60~100% 증가 @dictVariable\n@dictBlue 방어력 +20\n모든 저항 +15\n피해 3 감소\n시야 +3",
+                                                "tooltipString": "@dictGold 강철격돌 \n@kit\n\n@dictBlue 성기사 기술 레벨 +1\n막기 속도 +20%\n막기 확률 25% 증가\n방어력 +@dictLightBlue(60-100)@dictBlue% 증가\n방어력 +20\n모든 저항 +15\n피해 3 감소\n시야 +3",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -583,7 +583,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @kit\n@strchrdef: 50~58, @dictBlockRate: 63% / 58% / 53%, @dictSmiteDamage: 2 - 5",
+                                                "text": "@dictBaseItem: @kit\n@strchrdef: 50-58, @dictBlockRate: 63% / 58% / 53%, @dictSmiteDmg: 2 - 5",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -687,7 +687,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 검등 잡이 \n@spk\n\n@dictBlue 막기 확률 20% 증가\n상처 악화 확률 +50%\n방어력 +30~60% 증가 @dictVariable\n@dictBlue 방어력 +10\n공격자가 피해를 10 받음",
+                                                "tooltipString": "@dictGold 검등 잡이 \n@spk\n\n@dictBlue 막기 확률 20% 증가\n상처 악화 확률 +50%\n방어력 +@dictLightBlue(30-60)@dictBlue% 증가\n방어력 +10\n공격자가 피해를 10 받음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -720,7 +720,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @spk\n@strchrdef: 43~51, @dictBlockRate: 60% / 55% / 50%, @dictSmiteDamage: 5 - 9",
+                                                "text": "@dictBaseItem: @spk\n@strchrdef: 43-51, @dictBlockRate: 60% / 55% / 50%, @dictSmiteDmg: 5 - 9",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -824,7 +824,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 브베리트 성채 \n@tow\n\n@dictBlue 막기 확률 10% 증가\n방어력 +80~120% 증가 @dictVariable\n@dictBlue 방어력 +30\n힘 +5\n화염 저항 +75%\n마법 피해 5 감소",
+                                                "tooltipString": "@dictGold 브베리트 성채 \n@tow\n\n@dictBlue 막기 확률 10% 증가\n방어력 +@dictLightBlue(80-120)@dictBlue% 증가\n방어력 +30\n힘 +5\n화염 저항 +75%\n마법 피해 5 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -857,7 +857,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @tow\n@strchrdef: 76~87, @dictBlockRate: 64% / 59% / 54%, @dictSmiteDamage: 1 - 5",
+                                                "text": "@dictBaseItem: @tow\n@strchrdef: 76-87, @dictBlockRate: 64% / 59% / 54%, @dictSmiteDmg: 1 - 5",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -961,7 +961,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 눈 없는 자의 벽 \n@bsh\n\n@dictBlue 시전 속도 +20%\n적중당 마나 3% 훔침\n방어력 +30~40% 증가 @dictVariable\n@dictBlue 방어력 +10\n독 저항 +20%\n적 처치 시 마나 +5",
+                                                "tooltipString": "@dictGold 눈 없는 자의 벽 \n@bsh\n\n@dictBlue 시전 속도 +20%\n적중당 마나 3% 훔침\n방어력 +@dictLightBlue(30-40)@dictBlue% 증가\n방어력 +10\n독 저항 +20%\n적 처치 시 마나 +5",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -994,7 +994,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bsh\n@strchrdef: 50~53, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDamage: 3 - 6",
+                                                "text": "@dictBaseItem: @bsh\n@strchrdef: 50-53, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDmg: 3 - 6",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1098,7 +1098,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold 호신부 \n@gts\n\n@dictBlue 막기 확률 10% 증가\n방어력 +100% 증가\n방어력 +40\n힘 +10\n모든 저항 +30~50 @dictVariable\n@dictBlue 마법 피해 2 감소",
+                                                "tooltipString": "@dictGold 호신부 \n@gts\n\n@dictBlue 막기 확률 10% 증가\n방어력 +100% 증가\n방어력 +40\n힘 +10\n모든 저항 +@dictLightBlue(30-50)@dictBlue\n마법 피해 2 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1131,7 +1131,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @gts\n@strchrdef: 112, @dictBlockRate: 56% / 51% / 46%, @dictSmiteDamage: 2 - 6",
+                                                "text": "@dictBaseItem: @gts\n@strchrdef: 112, @dictBlockRate: 56% / 51% / 46%, @dictSmiteDmg: 2 - 6",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1235,7 +1235,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 적출자 \n@xuc\n\n@dictBlue 원소술사 기술 레벨 +1\n막기 속도 +30%\n막기 확률 30% 증가\n방어력 +100~150% 증가 @dictVariable\n@dictBlue 공격자가 번개 피해를 10 받음",
+                                                "tooltipString": "@dictGold 적출자 \n@xuc\n\n@dictBlue 원소술사 기술 레벨 +1\n막기 속도 +30%\n막기 확률 30% 증가\n방어력 +@dictLightBlue(100-150)@dictBlue% 증가\n공격자가 번개 피해를 10 받음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1268,7 +1268,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xuc\n@strchrdef: 100~125, @dictBlockRate: 70% / 65% / 60%, @dictSmiteDamage: 8 - 12",
+                                                "text": "@dictBaseItem: @xuc\n@strchrdef: 100-125, @dictBlockRate: 70% / 65% / 60%, @dictSmiteDmg: 8 - 12",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1372,7 +1372,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 모저의 축복받은 고리 \n@xml\n\n@dictBlue 막기 속도 +30%\n막기 확률 25% 증가\n방어력 +180~220% 증가 @dictVariable\n@dictBlue 모든 저항 +25\n홈 있음 (2)",
+                                                "tooltipString": "@dictGold 모저의 축복받은 고리 \n@xml\n\n@dictBlue 막기 속도 +30%\n막기 확률 25% 증가\n방어력 +@dictLightBlue(180-220)@dictBlue% 증가\n모든 저항 +25\n홈 있음 (2)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1405,7 +1405,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xml\n@strchrdef: 156~179, @dictBlockRate: 67% / 62% / 57%, @dictSmiteDamage: 7 - 14",
+                                                "text": "@dictBaseItem: @xml\n@strchrdef: 156-179, @dictBlockRate: 67% / 62% / 57%, @dictSmiteDmg: 7 - 14",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1509,7 +1509,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 폭풍추격자 \n@xrg\n\n@dictBlue 피격 시 4% 확률로 5 레벨 회오리바람 시전\n피격 시 4% 확률로 6 레벨 눈보라 시전\n막기 속도 +10%\n막기 확률 20% 증가\n명중률 +150\n번개 피해 1 - 60 추가\n방어력 +160~220% 증가 @dictVariable\n@dictBlue 번개 저항 +50%\n빙결 지속시간 절반으로 감소",
+                                                "tooltipString": "@dictGold 폭풍추격자 \n@xrg\n\n@dictBlue 피격 시 4% 확률로 5 레벨 회오리바람 시전\n피격 시 4% 확률로 6 레벨 눈보라 시전\n막기 속도 +10%\n막기 확률 20% 증가\n명중률 +150\n번개 피해 1 - 60 추가\n방어력 +@dictLightBlue(160-220)@dictBlue% 증가\n번개 저항 +50%\n빙결 지속시간 절반으로 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1569,7 +1569,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xrg\n@strchrdef: 161~198, @dictBlockRate: 64% / 59% / 54%, @dictSmiteDamage: 11 - 15",
+                                                "text": "@dictBaseItem: @xrg\n@strchrdef: 161-198, @dictBlockRate: 64% / 59% / 54%, @dictSmiteDmg: 11 - 15",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1673,7 +1673,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 티아마트의 질책 \n@xit\n\n@dictBlue 피격 시 3% 확률로 6 레벨 히드라 시전\n피격 시 5% 확률로 7 레벨 번개 파장 시전\n피격 시 5% 확률로 9 레벨 서릿발 시전\n화염 피해 35 - 95 추가\n번개 피해 1 - 120 추가\n냉기 피해 27 - 53 추가\n방어력 +140~200% 증가 @dictVariable\n@dictBlue 모든 저항 +25~35 @dictVariable",
+                                                "tooltipString": "@dictGold 티아마트의 질책 \n@xit\n\n@dictBlue 피격 시 3% 확률로 6 레벨 히드라 시전\n피격 시 5% 확률로 7 레벨 번개 파장 시전\n피격 시 5% 확률로 9 레벨 서릿발 시전\n화염 피해 35 - 95 추가\n번개 피해 1 - 120 추가\n냉기 피해 27 - 53 추가\n방어력 +@dictLightBlue(140-200)@dictBlue% 증가\n모든 저항 +@dictLightBlue(25-35)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1733,7 +1733,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xit\n@strchrdef: 163~204, @dictBlockRate: 48% / 43% / 38%, @dictSmiteDamage: 15 - 24",
+                                                "text": "@dictBaseItem: @xit\n@strchrdef: 163-204, @dictBlockRate: 48% / 43% / 38%, @dictSmiteDmg: 15 - 24",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1837,7 +1837,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 기병창 보호구 \n@xpk\n\n@dictBlue 타격 회복 속도 +30%\n치명적 공격 +20%\n방어력 +70~120% 증가 @dictVariable\n@dictBlue 생명력 +50\n공격자가 피해를 47 받음\n받는 피해의 +15%만큼 마나 회복",
+                                                "tooltipString": "@dictGold 기병창 보호구 \n@xpk\n\n@dictBlue 타격 회복 속도 +30%\n치명적 공격 +20%\n방어력 +@dictLightBlue(70-120)@dictBlue% 증가\n생명력 +50\n공격자가 피해를 47 받음\n받는 피해의 +15%만큼 마나 회복",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1870,7 +1870,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xpk\n@strchrdef: 134~173, @dictBlockRate: 47% / 42% / 37%, @dictSmiteDamage: 18 - 35",
+                                                "text": "@dictBaseItem: @xpk\n@strchrdef: 134-173, @dictBlockRate: 47% / 42% / 37%, @dictSmiteDmg: 18 - 35",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1974,7 +1974,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 게르케의 성역 \n@xow\n\n@dictBlue 막기 확률 30% 증가\n방어력 +180~240% 증가 @dictVariable\n@dictBlue 생명력 회복 +15\n모든 저항 +20~30 @dictVariable\n@dictBlue 피해 11~16 감소 @dictVariable\n@dictBlue 마법 피해 14~18 감소 @dictVariable",
+                                                "tooltipString": "@dictGold 게르케의 성역 \n@xow\n\n@dictBlue 막기 확률 30% 증가\n방어력 +@dictLightBlue(180-240)@dictBlue% 증가\n생명력 회복 +15\n모든 저항 +@dictLightBlue(20-30)@dictBlue\n피해 @dictLightBlue(11-16)@dictBlue 감소\n마법 피해 @dictLightBlue(14-18)@dictBlue 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2034,7 +2034,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xow\n@strchrdef: 221~268, @dictBlockRate: 84% / 79% / 74%, @dictSmiteDamage: 10 - 17",
+                                                "text": "@dictBaseItem: @xow\n@strchrdef: 221-268, @dictBlockRate: 84% / 79% / 74%, @dictSmiteDmg: 10 - 17",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2138,7 +2138,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 각성의 벽 \n@xsh\n\n@dictBlue 모든 기술 +1\n시전 속도 +20%\n방어력 +80~130% 증가 @dictVariable\n@dictBlue 마력 +10\n최대 마나 10% 증가\n적 처치 시 마나 +3~5 @dictVariable\n@dictBlue 시야 +1",
+                                                "tooltipString": "@dictGold 각성의 벽 \n@xsh\n\n@dictBlue 모든 기술 +1\n시전 속도 +20%\n방어력 +@dictLightBlue(80-130)@dictBlue% 증가\n마력 +10\n최대 마나 10% 증가\n적 처치 시 마나 +@dictLightBlue(3-5)@dictBlue\n시야 +1",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2198,7 +2198,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xsh\n@strchrdef: 271~347, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDamage: 14 - 20",
+                                                "text": "@dictBaseItem: @xsh\n@strchrdef: 271-347, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDmg: 14 - 20",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2302,7 +2302,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold 라다먼트의 명주 \n@xts\n\n@dictBlue 피격 시 5% 확률로 5 레벨 맹독 확산 시전\n막기 속도 +20%\n막기 확률 20% 증가\n독 피해 +80 (4초에 걸쳐)\n방어력 +160~200% 증가 @dictVariable\n@dictBlue 독 저항 +75%\n6 레벨 맹독 폭발 (충전 40회)",
+                                                "tooltipString": "@dictGold 라다먼트의 명주 \n@xts\n\n@dictBlue 피격 시 5% 확률로 5 레벨 맹독 확산 시전\n막기 속도 +20%\n막기 확률 20% 증가\n독 피해 +80 (4초에 걸쳐)\n방어력 +@dictLightBlue(160-200)@dictBlue% 증가\n독 저항 +75%\n6 레벨 맹독 폭발 (충전 40회)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2335,7 +2335,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @xts\n@strchrdef: 244~282, @dictBlockRate: 66% / 61% / 56%, @dictSmiteDamage: 12 - 16",
+                                                "text": "@dictBaseItem: @xts\n@strchrdef: 244-282, @dictBlockRate: 66% / 61% / 56%, @dictSmiteDmg: 12 - 16",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2439,7 +2439,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 검은참나무 방패 \n@uml\n\n@dictBlue 피격 시 4% 확률로 5 레벨 약화 시전\n막기 속도 +50%\n방어력 +160~200% 증가 @dictVariable\n@dictBlue 민첩 +0~49 (캐릭터 레벨에 비례)\n생명력 +1~123 (캐릭터 레벨에 비례)\n냉기 피해 흡수 +0~61 (캐릭터 레벨에 비례)\n빙결 지속시간 절반으로 감소",
+                                                "tooltipString": "@dictGold 검은참나무 방패 \n@uml\n\n@dictBlue 피격 시 4% 확률로 5 레벨 약화 시전\n막기 속도 +50%\n방어력 +@dictLightBlue(160-200)@dictBlue% 증가\n민첩 +(0-49) (캐릭터 레벨에 비례)\n생명력 +(1-123) (캐릭터 레벨에 비례)\n냉기 피해 흡수 +(0-61) (캐릭터 레벨에 비례)\n빙결 지속시간 절반으로 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2472,7 +2472,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uml\n@strchrdef: 322~372, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDamage: 17 - 29",
+                                                "text": "@dictBaseItem: @uml\n@strchrdef: 322-372, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDmg: 17 - 29",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2576,7 +2576,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 폭풍막이 \n@uit\n\n@dictBlue 파괴 불가\n막기 속도 +35%\n막기 확률 25% 증가\n방어력 +3~371 (캐릭터 레벨에 비례)\n힘 +30\n냉기 저항 +60%\n번개 저항 +25%\n받는 물리 피해 35% 감소\n공격자가 번개 피해를 10 받음",
+                                                "tooltipString": "@dictGold 폭풍막이 \n@uit\n\n@dictBlue 파괴 불가\n막기 속도 +35%\n막기 확률 25% 증가\n방어력 +(3-371) (캐릭터 레벨에 비례)\n힘 +30\n냉기 저항 +60%\n번개 저항 +25%\n받는 물리 피해 35% 감소\n공격자가 번개 피해를 10 받음",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2609,7 +2609,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @uit\n@strchrdef: 136~519, @dictBlockRate: 77% / 72% / 67%, @dictSmiteDamage: 12 - 34",
+                                                "text": "@dictBaseItem: @uit\n@strchrdef: 136-519, @dictBlockRate: 77% / 72% / 67%, @dictSmiteDmg: 12 - 34",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2713,7 +2713,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 쐐기 가시 \n@upk\n\n@dictBlue 타격 회복 속도 +30%\n방어력 +120~150% 증가 @dictVariable\n@dictBlue 받는 물리 피해 15~20% 감소 @dictVariable\n@dictBlue 공격자가 피해를 1~136 받음 (캐릭터 레벨에 비례)\n홈 있음 (1)",
+                                                "tooltipString": "@dictGold 쐐기 가시 \n@upk\n\n@dictBlue 타격 회복 속도 +30%\n방어력 +@dictLightBlue(120-150)@dictBlue% 증가\n받는 물리 피해 @dictLightBlue(15-20)@dictBlue% 감소\n공격자가 피해를 (1-136) 받음 (캐릭터 레벨에 비례)\n홈 있음 (1)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2773,7 +2773,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @upk\n@strchrdef: 360~410, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDamage: 26 - 40",
+                                                "text": "@dictBaseItem: @upk\n@strchrdef: 360-410, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDmg: 26 - 40",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2877,7 +2877,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 메두사의 눈길 \n@aegis\n\n@dictBlue 피격 시 10% 확률로 7 레벨 저항 감소 시전\n사망 시 100% 확률로 44 레벨 번개 파장 시전\n적중당 생명력 5~9% 훔침 @dictVariable\n@dictBlue 대상 감속 20%\n방어력 +150~180% 증가 @dictVariable\n@dictBlue 냉기 저항 +40~80% @dictVariable",
+                                                "tooltipString": "@dictGold 메두사의 눈길 \n@aegis\n\n@dictBlue 피격 시 10% 확률로 7 레벨 저항 감소 시전\n사망 시 100% 확률로 44 레벨 번개 파장 시전\n적중당 생명력 @dictLightBlue(5-9)@dictBlue% 훔침\n대상 감속 20%\n방어력 +@dictLightBlue(150-180)@dictBlue% 증가\n냉기 저항 +@dictLightBlue(40-80)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2937,7 +2937,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @aegis\n@strchrdef: 405~453, @dictBlockRate: 54% / 49% / 44%, @dictSmiteDamage: 18 - 28",
+                                                "text": "@dictBaseItem: @aegis\n@strchrdef: 405-453, @dictBlockRate: 54% / 49% / 44%, @dictSmiteDmg: 18 - 28",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3041,7 +3041,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold 머리 사냥꾼의 영예 \n@ush\n\n@dictBlue 방어력 +320~420 @dictVariable\n@dictBlue 원거리 공격 방어력 +300~350 @dictVariable\n@dictBlue 화염 저항 +20~30% @dictVariable\n@dictBlue 독 저항 +30~40% @dictVariable\n@dictBlue 적 처치 시 생명력 +5~7 @dictVariable\n@dictBlue 홈 있음 (1~3) @dictVariable",
+                                                "tooltipString": "@dictGold 머리 사냥꾼의 영예 \n@ush\n\n@dictBlue 방어력 +@dictLightBlue(320-420)@dictBlue\n원거리 공격 방어력 +@dictLightBlue(300-350)@dictBlue\n화염 저항 +@dictLightBlue(20-30)@dictBlue%\n독 저항 +@dictLightBlue(30-40)@dictBlue%\n적 처치 시 생명력 +@dictLightBlue(5-7)@dictBlue\n홈 있음 @dictLightBlue(1-3)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3074,7 +3074,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ush\n@strchrdef: 478~593, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDamage: 24 - 38",
+                                                "text": "@dictBaseItem: @ush\n@strchrdef: 478-593, @dictBlockRate: 50% / 45% / 40%, @dictSmiteDmg: 24 - 38",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3178,7 +3178,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold 혼령 호신부 \n@ward\n\n@dictBlue 피격 시 5% 확률로 8 레벨 흐리기 시전\n막기 속도 +25%\n막기 확률 20~30% 증가 @dictVariable\n@dictBlue 방어력 +130~180% 증가 @dictVariable\n@dictBlue 모든 저항 +30~40 @dictVariable\n@dictBlue 냉기 흡수 +6~11 @dictVariable",
+                                                "tooltipString": "@dictGold 혼령 호신부 \n@ward\n\n@dictBlue 피격 시 5% 확률로 8 레벨 흐리기 시전\n막기 속도 +25%\n막기 확률 @dictLightBlue(20-30)@dictBlue% 증가\n방어력 +@dictLightBlue(130-180)@dictBlue% 증가\n모든 저항 +@dictLightBlue(30-40)@dictBlue\n냉기 흡수 +@dictLightBlue(6-11)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3238,7 +3238,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ward\n@strchrdef: 393~478, @dictBlockRate: 74~84% / 69~79% / 64~74%, @dictSmiteDamage: 11 - 35",
+                                                "text": "@dictBaseItem: @ward\n@strchrdef: 393-478, @dictBlockRate: 74-84% / 69-79% / 64-74%, @dictSmiteDmg: 11 - 35",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3360,7 +3360,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold 자카룸의 전령 \n@pa9\n\n@dictBlue 전투 기술 +2 (성기사 전용)\n성기사 기술 레벨 +2\n막기 속도 +30%\n막기 확률 30% 증가\n명중률 보너스 20%\n방어력 +150~200% 증가 @dictVariable\n@dictBlue 힘 +20\n활력 +20\n모든 저항 +50",
+                                                "tooltipString": "@dictGold 자카룸의 전령 \n@pa9\n\n@dictBlue 전투 기술 +2 (성기사 전용)\n성기사 기술 레벨 +2\n막기 속도 +30%\n막기 확률 30% 증가\n명중률 보너스 20%\n방어력 +@dictLightBlue(150-200)@dictBlue% 증가\n힘 +20\n활력 +20\n모든 저항 +50",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3393,7 +3393,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @pa9\n@strchrdef: 422~507, @dictBlockRate: 82%, @dictSmiteDamage: 20 - 28",
+                                                "text": "@dictBaseItem: @pa9\n@strchrdef: 422-507, @dictBlockRate: 82%, @dictSmiteDmg: 20 - 28",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3497,7 +3497,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 알마 네그라 \n@pac\n\n@dictBlue 성기사 기술 레벨 +1~2 @dictVariable\n@dictBlue 막기 속도 +30%\n막기 확률 20% 증가\n피해 +40~75% 증가 @dictVariable\n@dictBlue 명중률 보너스 40~75% @dictVariable\n@dictBlue 방어력 +180~210% 증가 @dictVariable\n@dictBlue 마법 피해 5~9 감소 @dictVariable",
+                                                "tooltipString": "@dictGold 알마 네그라 \n@pac\n\n@dictBlue 성기사 기술 레벨 +@dictLightBlue(1-2)@dictBlue\n막기 속도 +30%\n막기 확률 20% 증가\n피해 +@dictLightBlue(40-75)@dictBlue% 증가\n명중률 보너스 @dictLightBlue(40-75)@dictBlue%\n방어력 +@dictLightBlue(180-210)@dictBlue% 증가\n마법 피해 @dictLightBlue(5-9)@dictBlue 감소",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3530,7 +3530,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @pac\n@strchrdef: 461~511, @dictBlockRate: 78%, @dictSmiteDamage: 35 - 58",
+                                                "text": "@dictBaseItem: @pac\n@strchrdef: 461-511, @dictBlockRate: 78%, @dictSmiteDmg: 35 - 58",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3634,7 +3634,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold 용비늘 \n@pae\n\n@dictBlue 화염 피해 211 - 371 추가\n화염 기술 피해 +15%\n+10 히드라\n방어력 +170~200% 증가 @dictVariable\n@dictBlue 힘 +15~25 @dictVariable\n@dictBlue 최대 화염 저항 +5%\n화염 흡수 +10~20% @dictVariable",
+                                                "tooltipString": "@dictGold 용비늘 \n@pae\n\n@dictBlue 화염 피해 211 - 371 추가\n화염 기술 피해 +15%\n+10 히드라\n방어력 +@dictLightBlue(170-200)@dictBlue% 증가\n힘 +@dictLightBlue(15-25)@dictBlue\n최대 화염 저항 +5%\n화염 흡수 +@dictLightBlue(10-20)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3667,7 +3667,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @pae\n@strchrdef: 523~582, @dictBlockRate: 52%, @dictSmiteDamage: 46",
+                                                "text": "@dictBaseItem: @pae\n@strchrdef: 523-582, @dictBlockRate: 52%, @dictSmiteDmg: 46",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3789,7 +3789,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 호문쿨루스 \n@nea\n\n@dictBlue 저주 +2 (강령술사 전용)\n강령술사 기술 레벨 +2\n막기 속도 +30%\n막기 확률 40% 증가\n방어력 +150~200% 증가 @dictVariable\n@dictBlue 마력 +20\n마나 재생 33%\n모든 저항 +40\n적 처치 시 마나 +5",
+                                                "tooltipString": "@dictGold 호문쿨루스 \n@nea\n\n@dictBlue 저주 +2 (강령술사 전용)\n강령술사 기술 레벨 +2\n막기 속도 +30%\n막기 확률 40% 증가\n방어력 +@dictLightBlue(150-200)@dictBlue% 증가\n마력 +20\n마나 재생 33%\n모든 저항 +40\n적 처치 시 마나 +5",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3822,7 +3822,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @nea\n@strchrdef: 177~213, @dictBlockRate: 72%",
+                                                "text": "@dictBaseItem: @nea\n@strchrdef: 177-213, @dictBlockRate: 72%",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3926,7 +3926,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 뼈불길 \n@nee\n\n@dictBlue 피격 시 15% 확률로 3 레벨 공포 시전\n강령술사 기술 레벨 +2~3 @dictVariable\n@dictBlue 달리기/걷기 속도 +20%\n방어력 +120~150% 증가 @dictVariable\n@dictBlue 모든 저항 +20~30 @dictVariable",
+                                                "tooltipString": "@dictGold 뼈불길 \n@nee\n\n@dictBlue 피격 시 15% 확률로 3 레벨 공포 시전\n강령술사 기술 레벨 +@dictLightBlue(2-3)@dictBlue\n달리기/걷기 속도 +20%\n방어력 +@dictLightBlue(120-150)@dictBlue% 증가\n모든 저항 +@dictLightBlue(20-30)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3959,7 +3959,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @nee\n@strchrdef: 323~367, @dictBlockRate: 30%",
+                                                "text": "@dictBaseItem: @nee\n@strchrdef: 323-367, @dictBlockRate: 30%",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4063,7 +4063,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold 어둠의 종자 \n@nef\n\n@dictBlue 소환 기술 +1~3 (강령술사 전용) @dictVariable\n@dictBlue 독과 뼈 기술 +1~3 (강령술사 전용) @dictVariable\n@dictBlue 저주 +1~3 (강령술사 전용) @dictVariable\n@dictBlue 시전 속도 +30%\n방어력 +140~180% 증가 @dictVariable\n@dictBlue 최대 마나 10% 증가",
+                                                "tooltipString": "@dictGold 어둠의 종자 \n@nef\n\n@dictBlue 소환 기술 +@dictLightBlue(1-3)@dictBlue (강령술사 전용)\n독과 뼈 기술 +@dictLightBlue(1-3)@dictBlue (강령술사 전용)\n저주 +@dictLightBlue(1-3)@dictBlue (강령술사 전용)\n시전 속도 +30%\n방어력 +@dictLightBlue(140-180)@dictBlue% 증가\n최대 마나 10% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4096,7 +4096,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @nef\n@strchrdef: 357 - 417, @dictBlockRate: 32%",
+                                                "text": "@dictBaseItem: @nef\n@strchrdef: 357-417, @dictBlockRate: 32%",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4147,6 +4147,626 @@
                                             "fields": {
                                                 "fitToText": true,
                                                 "text": "@NecOnly",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "악마술사 전용 방패",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "신중한 진노",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x2",
+                                                "tooltipString": "@dictGold 신중한 진노 \n@wa6\n\n@dictBlue 피격 시 5% 확률로 25 레벨 화염 고리 시전\n악마술사 기술 레벨 +1\n시전 속도 +25%\n+@dictLightBlue(1-3)@dictBlue 화염 파도 (악마술사 전용)\n+@dictLightBlue(1-3)@dictBlue 화염 고리 (악마술사 전용)\n+@dictLightBlue(1-3)@dictBlue 오염된 자 소환 (악마술사 전용)\n방어력 +@dictLightBlue(130-180)@dictBlue% 증가\n활력 +@dictLightBlue(10-20)@dictBlue\n모든 저항 +@dictLightBlue(20-30)@dictBlue\n적 처치 시 생명력 +@dictLightBlue(3-5)",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/grimoires/measured_wrath"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @wa6\n@strchrdef: 112-137, @dictBlockRate: 28%",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 38, @dictRequiredLevel: 52",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "아르스 둘메피스토스",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x2",
+                                                "tooltipString": "@dictGold 아르스 둘메피스토스 \n@wac\n\n@dictBlue 피격 시 15% 확률로 28 레벨 눈보라 시전\n악마술사 기술 레벨 +2\n시전 속도 @dictLightBlue(20-30)@dictBlue%\n타격 회복 속도 +30%\n피해 +@dictLightBlue(70-115)@dictBlue% 증가\n명중률 보너스 @dictLightBlue(50-70)@dictBlue%\n적 마법 저항 -@dictLightBlue(10-20)@dictBlue%\n방어력 @dictLightBlue(140-170)@dictBlue% 증가\n마법 아이템 발견 확률 @dictLightBlue(10-25)@dictBlue% 증가",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/grimoires/ars_aldiablolos",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange": {
+                                                    "hue": [
+                                                        0.05,
+                                                        0.06
+                                                    ],
+                                                    "saturation": [
+                                                        0.5,
+                                                        0.501
+                                                    ],
+                                                    "value": [
+                                                        0.585,
+                                                        0.415
+                                                    ]
+                                                },
+                                                "hsvTransform": [
+                                                    0.58,
+                                                    0.2,
+                                                    0.5,
+                                                    0.0
+                                                ],
+                                                "tintTransform": [
+                                                    0.427,
+                                                    0.698,
+                                                    0.728,
+                                                    0.5
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @wac\n@strchrdef: 340-383, @dictBlockRate: 30%",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 82, @dictRequiredLevel: 78",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "아르스 토르바알로스",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x2",
+                                                "tooltipString": "@dictGold 아르스 토르바알로스 \n@wae\n\n@dictBlue 피격 시 15% 확률로 1 레벨 노화 시전\n악마 기술 +2 (악마술사 전용)\n+@dictLightBlue(2-3)@dictBlue 소모 (악마술사 전용)\n+@dictLightBlue(2-4)@dictBlue 끓는 피 (악마술사 전용)\n+@dictLightBlue(2-3)@dictBlue 포식 (악마술사 전용)\n+@dictLightBlue(2-3)@dictBlue 악마 숙련 (악마술사 전용)\n방어력 +@dictLightBlue(120-150)@dictBlue% 증가\n생명력 +(1-148) (캐릭터 레벨에 비례)\n받는 물리 피해 @dictLightBlue(5-10)@dictBlue% 감소",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/grimoires/ars_aldiablolos"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @wae\n@strchrdef: 323-367, @dictBlockRate: 35%",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 95, @dictRequiredLevel: 73",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "아르스 알디아볼로스",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_2x2",
+                                                "tooltipString": "@dictGold 아르스 알디아볼로스 \n@waf\n\n@dictBlue 피격 시 15% 확률로 1 레벨 공포 시전\n혼돈 기술 +2 (악마술사 전용)\n시전 속도 +25%\n화염 기술 피해 +@dictLightBlue(15-25)@dictBlue%\n+@dictLightBlue(3-5)@dictBlue 종말 (악마술사 전용)\n방어력 +@dictLightBlue(170-200)@dictBlue% 증가\n화염 저항 +@dictLightBlue(20-30)@dictBlue%\n적 처치 시 마나 +@dictLightBlue(5-10)@dictBlue\n시야 +@dictLightBlue(5-10)",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/armor/grimoires/ars_aldiablolos",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange": {
+                                                    "hue": [
+                                                        0.05,
+                                                        0.06
+                                                    ],
+                                                    "saturation": [
+                                                        0.5,
+                                                        0.501
+                                                    ],
+                                                    "value": [
+                                                        0.585,
+                                                        0.415
+                                                    ]
+                                                },
+                                                "hsvTransform": [
+                                                    0.0,
+                                                    1.0,
+                                                    0.5,
+                                                    0.0
+                                                ],
+                                                "tintTransform": [
+                                                    0.9,
+                                                    0.1,
+                                                    0.0,
+                                                    0.7
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @waf\n@strchrdef: 402-447, @dictBlockRate: 37%",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 106, @dictRequiredLevel: 80",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

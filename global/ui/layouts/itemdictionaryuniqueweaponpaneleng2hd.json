@@ -174,7 +174,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @ssd\n@dictOneHandDamage: 9 - 14",
+                                                "text": "@dictBaseItem: @ssd\n@dictOneHandDmg: 9 - 14",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -278,7 +278,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Blood Crescent \n@scm\n\n@dictBlue +15% Increased Attack Speed\n+60-80% Enhanced Damage @dictVariable\n@dictBlue 15% Life stolen per hit\n+33% Chance of Open Wounds\n+15 to Life\nAll Resistances +15\n+4 to Light Radius",
+                                                "tooltipString": "@dictGold Blood Crescent \n@scm\n\n@dictBlue +15% Increased Attack Speed\n+@dictLightBlue(60-80)@dictBlue% Enhanced Damage\n15% Life stolen per hit\n+33% Chance of Open Wounds\n+15 to Life\nAll Resistances +15\n+4 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -311,7 +311,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @scm\n@dictOneHandDamage: 3 - (9~10)",
+                                                "text": "@dictBaseItem: @scm\n@dictOneHandDmg: 3 - (9-10)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -448,7 +448,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @sbr\n@dictOneHandDamage: 7 - 19",
+                                                "text": "@dictBaseItem: @sbr\n@dictOneHandDmg: 7 - 19",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -552,7 +552,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Gleamscythe \n@flc\n\n@dictBlue +20% Increased Attack Speed\n+60-100% Enhanced Damage @dictVariable\n@dictBlue Adds 3-5 cold damage\n+20 Defense\n+30 to Mana\n+3 to Light Radius",
+                                                "tooltipString": "@dictGold Gleamscythe \n@flc\n\n@dictBlue +20% Increased Attack Speed\n+@dictLightBlue(60-100)@dictBlue% Enhanced Damage\nAdds 3-5 cold damage\n+20 Defense\n+30 to Mana\n+3 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -585,7 +585,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @flc\n@dictOneHandDamage: (14~18) - (27~34)",
+                                                "text": "@dictBaseItem: @flc\n@dictOneHandDmg: (14-18) - (27-34)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -689,7 +689,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Griswold's Edge \n@bsd\n\n@dictBlue +10% Increased Attack Speed\n+80-120% Enhanced Damage @dictVariable\n@dictBlue +100 to Attack Rating\nAdds (10-12)-(15-25) fire damage @dictVariable\n@dictBlue Knockback\n+12 to Strength",
+                                                "tooltipString": "@dictGold Griswold's Edge \n@bsd\n\n@dictBlue +10% Increased Attack Speed\n+@dictLightBlue(80-120)@dictBlue% Enhanced Damage\n+100 to Attack Rating\nAdds (@dictLightBlue(10-12)@dictBlue)-@dictLightBlue(15-25)@dictBlue fire damage\nKnockback\n+12 to Strength",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -722,7 +722,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bsd\n@dictOneHandDamage: (12~15) - (25~30)",
+                                                "text": "@dictBaseItem: @bsd\n@dictOneHandDmg: (12-15) - (25-30)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -826,7 +826,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Hellplague \n@lsd\n\n@dictBlue +2 to Fire Skills\n+70-80% Enhanced Damage @dictVariable\n@dictBlue Adds 25-75 fire damage\nAdds 28-56 poison damage over 6 seconds @dictVariable\n@dictBlue 5% Mana stolen per hit\n5% Life stolen per hit",
+                                                "tooltipString": "@dictGold Hellplague \n@lsd\n\n@dictBlue +2 to Fire Skills\n+@dictLightBlue(70-80)@dictBlue% Enhanced Damage\nAdds 25-75 fire damage\nAdds 28-56 poison damage over 6 seconds\n5% Mana stolen per hit\n5% Life stolen per hit",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -859,7 +859,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @lsd\n@dictOneHandDamage: 5 - (32~34)",
+                                                "text": "@dictBaseItem: @lsd\n@dictOneHandDmg: 5 - (32-34)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -963,7 +963,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Culwen's Point \n@wsd\n\n@dictBlue +1 to All Skills\n+20% Increased Attack Speed\n+20% Faster Hit Recovery\n+70-80% Enhanced Damage @dictVariable\n@dictBlue +60 to Attack Rating\nPoison Length Reduced by 50%",
+                                                "tooltipString": "@dictGold Culwen's Point \n@wsd\n\n@dictBlue +1 to All Skills\n+20% Increased Attack Speed\n+20% Faster Hit Recovery\n+@dictLightBlue(70-80)@dictBlue% Enhanced Damage\n+60 to Attack Rating\nPoison Length Reduced by 50%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1023,7 +1023,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @wsd\n@dictOneHandDamage: (13~14) - (34~36)",
+                                                "text": "@dictBaseItem: @wsd\n@dictOneHandDmg: (13-14) - (34-36)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1127,7 +1127,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Bloodletter \n@9ss\n\n@dictBlue +20% Increased Attack Speed\n+140% Enhanced Damage\nAdds 12-45 damage\n+90 to Attack Rating\n8% Life stolen per hit\n+1-3 to Whirlwind (Barbarian Only) @dictVariable\n@dictBlue +2-4 to Blade Mastery (Barbarian Only) @dictVariable\n@dictBlue 10% Slower Stamina Drain",
+                                                "tooltipString": "@dictGold Bloodletter \n@9ss\n\n@dictBlue +20% Increased Attack Speed\n+140% Enhanced Damage\nAdds 12-45 damage\n+90 to Attack Rating\n8% Life stolen per hit\n+@dictLightBlue(1-3)@dictBlue to Whirlwind (Barbarian Only)\n+@dictLightBlue(2-4)@dictBlue to Blade Mastery (Barbarian Only)\n10% Slower Stamina Drain",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1187,7 +1187,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9ss\n@dictOneHandDamage: 31 - 97",
+                                                "text": "@dictBaseItem: @9ss\n@dictOneHandDmg: 31 - 97",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1291,7 +1291,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Coldsteel Eye \n@9sm\n\n@dictBlue +20% Increased Attack Speed\n+200-250% Enhanced Damage @dictVariable\n@dictBlue 6% Mana stolen per hit\n+50% Deadly Strike\nHit Blinds Target\nSlows Target by 30%",
+                                                "tooltipString": "@dictGold Coldsteel Eye \n@9sm\n\n@dictBlue +20% Increased Attack Speed\n+@dictLightBlue(200-250)@dictBlue% Enhanced Damage\n6% Mana stolen per hit\n+50% Deadly Strike\nHit Blinds Target\nSlows Target by 30%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1324,7 +1324,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9sm\n@dictOneHandDamage: (24~28) - (63~73)",
+                                                "text": "@dictBaseItem: @9sm\n@dictOneHandDmg: (24-28) - (63-73)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1428,7 +1428,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Hexfire \n@9sb\n\n@dictBlue +3 to Fire Skills\n+140-160% Enhanced Damage @dictVariable\n@dictBlue Adds 35-40 damage\nIgnore Target's Defense\n+10% to Maximum Fire Resist\nFire Resist +25%\nLevel 6 Hydra (36 Charges)",
+                                                "tooltipString": "@dictGold Hexfire \n@9sb\n\n@dictBlue +3 to Fire Skills\n+@dictLightBlue(140-160)@dictBlue% Enhanced Damage\nAdds 35-40 damage\nIgnore Target's Defense\n+10% to Maximum Fire Resist\nFire Resist +25%\nLevel 6 Hydra (36 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1461,7 +1461,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9sb\n@dictOneHandDamage: (59~61) - (97~102)",
+                                                "text": "@dictBaseItem: @9sb\n@dictOneHandDmg: (59-61) - (97-102)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1565,7 +1565,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Blade of Ali Baba \n@9fc\n\n@dictBlue +60-120% Enhanced Damage @dictVariable\n@dictBlue +5-15 to Dexterity @dictVariable\n@dictBlue +15 to Mana\n2-247% Extra Gold from Monsters (Based on Character Level)\n1-99% Better Chance of Getting Magic Items (Based on Character Level)\nSocketed (2)",
+                                                "tooltipString": "@dictGold Blade of Ali Baba \n@9fc\n\n@dictBlue +@dictLightBlue(60-120)@dictBlue% Enhanced Damage\n+@dictLightBlue(5-15)@dictBlue to Dexterity\n+15 to Mana\n(2-247)% Extra Gold from Monsters (Based on Character Level)\n(1-99)% Better Chance of Getting Magic Items (Based on Character Level)\nSocketed (2)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1625,7 +1625,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9fc\n@dictOneHandDamage: (25~35) - (56~77)",
+                                                "text": "@dictBaseItem: @9fc\n@dictOneHandDmg: (25-35) - (56-77)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1729,7 +1729,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Ginther's Rift \n@9cr\n\n@dictBlue +30% Increased Attack Speed\n+100-150% Enhanced Damage @dictVariable\n@dictBlue Adds 50-120 magic damage\nMagic Damage Reduced by 7-12 @dictVariable\n@dictBlue Repairs 1 durability in 5 seconds",
+                                                "tooltipString": "@dictGold Ginther's Rift \n@9cr\n\n@dictBlue +30% Increased Attack Speed\n+@dictLightBlue(100-150)@dictBlue% Enhanced Damage\nAdds 50-120 magic damage\nMagic Damage Reduced by @dictLightBlue(7-12)@dictBlue\nRepairs 1 durability in 5 seconds",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1762,7 +1762,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9cr\n@dictOneHandDamage: (26~32) - (70~87)",
+                                                "text": "@dictBaseItem: @9cr\n@dictOneHandDmg: (26-32) - (70-87)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -1866,7 +1866,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Headstriker \n@9bs\n\n@dictBlue +150% Enhanced Damage\n+1-99 to Maximum Damage (Based on Character Level)\n+1-148% Deadly Strike (Based on Character Level)\nPrevent Monster Heal\n+15 to Strength",
+                                                "tooltipString": "@dictGold Headstriker \n@9bs\n\n@dictBlue +150% Enhanced Damage\n+(1-99) to Maximum Damage (Based on Character Level)\n+(1-148)% Deadly Strike (Based on Character Level)\nPrevent Monster Heal\n+15 to Strength",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1926,7 +1926,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9bs\n@dictOneHandDamage: 40 - (86~184)",
+                                                "text": "@dictBaseItem: @9bs\n@dictOneHandDmg: 40 - (86-184)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2063,7 +2063,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9ls\n@dictOneHandDamage: 35 - 150",
+                                                "text": "@dictBaseItem: @9ls\n@dictOneHandDmg: 35 - 150",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2167,7 +2167,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold The Atlantean \n@9wd\n\n@dictBlue +2 to Paladin Skill Levels\n+200-250% Enhanced Damage @dictVariable\n@dictBlue 50% Bonus to Attack Rating\n+75 Defense\n+16 to Strength\n+12 to Dexterity\n+8 to Vitality",
+                                                "tooltipString": "@dictGold The Atlantean \n@9wd\n\n@dictBlue +2 to Paladin Skill Levels\n+@dictLightBlue(200-250)@dictBlue% Enhanced Damage\n50% Bonus to Attack Rating\n+75 Defense\n+16 to Strength\n+12 to Dexterity\n+8 to Vitality",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2227,7 +2227,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9wd\n@dictOneHandDamage: (54~63) - (129~150)",
+                                                "text": "@dictBaseItem: @9wd\n@dictOneHandDmg: (54-63) - (129-150)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2331,7 +2331,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Djinn Slayer \n@7sm\n\n@dictBlue +190-240% Enhanced Damage @dictVariable\n@dictBlue +100-150% Damage to Demons @dictVariable\n@dictBlue +200-300 to Attack Rating against Demons @dictVariable\n@dictBlue Adds 250-500 fire damage\n3-6% Mana stolen per hit @dictVariable\n@dictBlue +3-7 Lightning Absorb @dictVariable\n@dictBlue Socketed (1-2) @dictVariable",
+                                                "tooltipString": "@dictGold Djinn Slayer \n@7sm\n\n@dictBlue +@dictLightBlue(190-240)@dictBlue% Enhanced Damage\n+@dictLightBlue(100-150)@dictBlue% Damage to Demons\n+@dictLightBlue(200-300)@dictBlue to Attack Rating against Demons\nAdds 250-500 fire damage\n@dictLightBlue(3-6)@dictBlue% Mana stolen per hit\n+@dictLightBlue(3-7)@dictBlue Lightning Absorb\nSocketed @dictLightBlue(1-2)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2364,7 +2364,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7sm\n@dictOneHandDamage: (75~88) - (133~156)",
+                                                "text": "@dictBaseItem: @7sm\n@dictOneHandDmg: (75-88) - (133-156)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2468,7 +2468,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Bloodmoon \n@7sb\n\n@dictBlue +210-260% Enhanced Damage @dictVariable\n@dictBlue 10-15% Life stolen per hit @dictVariable\n@dictBlue +50% Chance of Open Wounds\n+7-13 Life after each Kill @dictVariable\n@dictBlue Level 15 Blood Golem (9 Charges)",
+                                                "tooltipString": "@dictGold Bloodmoon \n@7sb\n\n@dictBlue +@dictLightBlue(210-260)@dictBlue% Enhanced Damage\n@dictLightBlue(10-15)@dictBlue% Life stolen per hit\n+50% Chance of Open Wounds\n+@dictLightBlue(7-13)@dictBlue Life after each Kill\nLevel 15 Blood Golem (9 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2501,7 +2501,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7sb\n@dictOneHandDamage: (77~118) - (136~162)",
+                                                "text": "@dictBaseItem: @7sb\n@dictOneHandDmg: (77-118) - (136-162)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2605,7 +2605,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Lightsabre \n@7cr\n\n@dictBlue 5% Chance to cast level 14-20 Chain Lightning on attack @dictVariable\n@dictBlue +20% Increased Attack Speed\n+150-200% Enhanced Damage @dictVariable\n@dictBlue Adds 10-30 damage\nIgnore Target's Defense\nAdds 60-120 magic damage\nAdds 1-200 lightning damage\n5-7% Mana stolen per hit @dictVariable\n@dictBlue Lightning Absorb +25%\n+7 to Light Radius",
+                                                "tooltipString": "@dictGold Lightsabre \n@7cr\n\n@dictBlue 5% Chance to cast level @dictLightBlue(14-20)@dictBlue Chain Lightning on attack\n+20% Increased Attack Speed\n+@dictLightBlue(150-200)@dictBlue% Enhanced Damage\nAdds 10-30 damage\nIgnore Target's Defense\nAdds 60-120 magic damage\nAdds 1-200 lightning damage\n@dictLightBlue(5-7)@dictBlue% Mana stolen per hit\nLightning Absorb +25%\n+7 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2638,7 +2638,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7cr\n@dictOneHandDamage: (87~103) - (117~135)",
+                                                "text": "@dictBaseItem: @7cr\n@dictOneHandDmg: (87-103) - (117-135)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2742,7 +2742,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Azurewrath \n@7cr\n\n@dictBlue Level 10-13 Sanctuary Aura When Equipped @dictVariable\n@dictBlue +1 to All Skills\n+30% Increased Attack Speed\n+230-270% Enhanced Damage @dictVariable\n@dictBlue Adds 250-500 magic damage\nAdds 250-500 cold damage\n+5-10 to all Attributes @dictVariable\n@dictBlue +3 to Light Radius",
+                                                "tooltipString": "@dictGold Azurewrath \n@7cr\n\n@dictBlue Level @dictLightBlue(10-13)@dictBlue Sanctuary Aura When Equipped\n+1 to All Skills\n+30% Increased Attack Speed\n+@dictLightBlue(230-270)@dictBlue% Enhanced Damage\nAdds 250-500 magic damage\nAdds 250-500 cold damage\n+@dictLightBlue(5-10)@dictBlue to all Attributes\n+3 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2775,7 +2775,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7cr\n@dictOneHandDamage: (102~114) - (115~129)",
+                                                "text": "@dictBaseItem: @7cr\n@dictOneHandDmg: (102-114) - (115-129)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -2879,7 +2879,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@dictGold Frostwind \n@7ls\n\n@dictBlue +25% Increased Attack Speed\n+180-230% Enhanced Damage @dictVariable\n@dictBlue Adds 237-486 cold damage\n+7-14 Arctic Blast @dictVariable\n@dictBlue Freezes Target +4\nCold Absorb +7-15% @dictVariable\n@dictBlue Half Freeze Duration",
+                                                "tooltipString": "@dictGold Frostwind \n@7ls\n\n@dictBlue +25% Increased Attack Speed\n+@dictLightBlue(180-230)@dictBlue% Enhanced Damage\nAdds 237-486 cold damage\n+@dictLightBlue(7-14)@dictBlue Arctic Blast\nFreezes Target +4\nCold Absorb +@dictLightBlue(7-15)@dictBlue%\nHalf Freeze Duration",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2939,7 +2939,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7ls\n@dictOneHandDamage: (14~16) - (215~254)",
+                                                "text": "@dictBaseItem: @7ls\n@dictOneHandDmg: (14-16) - (215-254)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3094,7 +3094,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @2hs\n@dictOneHandDamage: 4 - 18, @dictTwoHandDamage: 16 - 34",
+                                                "text": "@dictBaseItem: @2hs\n@dictOneHandDmg: 4 - 18, @dictTwoHandDmg: 16 - 34",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3198,7 +3198,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Soulflay \n@clm\n\n@dictBlue +10% Increased Attack Speed\n+70-100% Enhanced Damage @dictVariable\n@dictBlue 4-10% Mana stolen per hit @dictVariable\n@dictBlue 4% Life stolen per hit\nAll Resistances +5",
+                                                "tooltipString": "@dictGold Soulflay \n@clm\n\n@dictBlue +10% Increased Attack Speed\n+@dictLightBlue(70-100)@dictBlue% Enhanced Damage\n@dictLightBlue(4-10)@dictBlue% Mana stolen per hit\n4% Life stolen per hit\nAll Resistances +5",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3258,7 +3258,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @clm\n@dictOneHandDamage: (8~10) - (20~24), @dictTwoHandDamage: (22~26) - (51~60)",
+                                                "text": "@dictBaseItem: @clm\n@dictOneHandDmg: (8-10) - (20-24), @dictTwoHandDmg: (22-26) - (51-60)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3362,7 +3362,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Kinemil's Awl \n@gis\n\n@dictBlue +80-100% Enhanced Damage @dictVariable\n@dictBlue +100-150 to Attack Rating @dictVariable\n@dictBlue Fire Adds 6-(20-40) damage @dictVariable\n@dictBlue +6 to Holy Fire (Paladin Only)\n+20 to Mana",
+                                                "tooltipString": "@dictGold Kinemil's Awl \n@gis\n\n@dictBlue +@dictLightBlue(80-100)@dictBlue% Enhanced Damage\n+@dictLightBlue(100-150)@dictBlue to Attack Rating\nAdds fire damage 6-@dictLightBlue(20-40)@dictBlue\n+6 to Holy Fire (Paladin Only)\n+20 to Mana",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3395,7 +3395,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @gis\n@dictOneHandDamage: (5~6) - (28~32), @dictTwoHandDamage: (16~18) - (50~56)",
+                                                "text": "@dictBaseItem: @gis\n@dictOneHandDmg: (5-6) - (28-32), @dictTwoHandDmg: (16-18) - (50-56)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3499,7 +3499,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Blacktongue \n@bsw\n\n@dictBlue +50-60% Enhanced Damage @dictVariable\n@dictBlue +50 to Attack Rating\n+113 poison damage over 6 seconds\nPrevent Monster Heal\nPoison Resist +50%",
+                                                "tooltipString": "@dictGold Blacktongue \n@bsw\n\n@dictBlue +@dictLightBlue(50-60)@dictBlue% Enhanced Damage\n+50 to Attack Rating\n+113 poison damage over 6 seconds\nPrevent Monster Heal\nPoison Resist +50%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3532,7 +3532,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @bsw\n@dictOneHandDamage: (10~11) - (28~30), @dictTwoHandDamage: (30~32) - (42~44)",
+                                                "text": "@dictBaseItem: @bsw\n@dictOneHandDmg: (10-11) - (28-30), @dictTwoHandDmg: (30-32) - (42-44)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3636,7 +3636,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Ripsaw \n@flb\n\n@dictBlue +80-100% Enhanced Damage @dictVariable\n@dictBlue +15 to Maximum Damage\n6% Mana stolen per hit\n+80% Chance of Open Wounds",
+                                                "tooltipString": "@dictGold Ripsaw \n@flb\n\n@dictBlue +@dictLightBlue(80-100)@dictBlue% Enhanced Damage\n+15 to Maximum Damage\n6% Mana stolen per hit\n+80% Chance of Open Wounds",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3696,7 +3696,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @flb\n@dictOneHandDamage: (16~18) - (42~45), @dictTwoHandDamage: (23~26) - (61~67)",
+                                                "text": "@dictBaseItem: @flb\n@dictOneHandDmg: (16-18) - (42-45), @dictTwoHandDmg: (23-26) - (61-67)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3800,7 +3800,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold The Patriarch \n@gsd\n\n@dictBlue +100-120% Enhanced Damage @dictVariable\n@dictBlue Hit Blinds Target\n+10 to Strength\nDamage Reduced by 3\nMagic Damage Reduced by 3\n100% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold The Patriarch \n@gsd\n\n@dictBlue +@dictLightBlue(100-120)@dictBlue% Enhanced Damage\nHit Blinds Target\n+10 to Strength\nDamage Reduced by 3\nMagic Damage Reduced by 3\n100% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3833,7 +3833,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @gsd\n@dictOneHandDamage: (24~26) - (40~44), @dictTwoHandDamage: (50~55) - (84~92)",
+                                                "text": "@dictBaseItem: @gsd\n@dictOneHandDmg: (24-26) - (40-44), @dictTwoHandDmg: (50-55) - (84-92)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -3937,7 +3937,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Crainte Vomir \n@92h\n\n@dictBlue +20% Faster Run/Walk\n+50% Increased Attack Speed\n+160-200% Enhanced Damage @dictVariable\n@dictBlue Slows Target by 35%\n-70 to Monster Defense Per Hit\nPhysical Damage Received Reduced by 10%",
+                                                "tooltipString": "@dictGold Crainte Vomir \n@92h\n\n@dictBlue +20% Faster Run/Walk\n+50% Increased Attack Speed\n+@dictLightBlue(160-200)@dictBlue% Enhanced Damage\nSlows Target by 35%\n-70 to Monster Defense Per Hit\nPhysical Damage Received Reduced by 10%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -3970,7 +3970,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @92h\n@dictOneHandDamage: (20~24) - (67~78), @dictTwoHandDamage: (46~54) - (104~120)",
+                                                "text": "@dictBaseItem: @92h\n@dictOneHandDmg: (20-24) - (67-78), @dictTwoHandDmg: (46-54) - (104-120)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4074,7 +4074,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Bing Sz Wang \n@9cm\n\n@dictBlue 5% Chance to cast level 3 Frozen Orb on striking\n+130-160% Enhanced Damage @dictVariable\n@dictBlue Adds 50-140 cold damage\nFreezes Target +2\n+20 to Strength\nRequirements -30%",
+                                                "tooltipString": "@dictGold Bing Sz Wang \n@9cm\n\n@dictBlue 5% Chance to cast level 3 Frozen Orb on striking\n+@dictLightBlue(130-160)@dictBlue% Enhanced Damage\nAdds 50-140 cold damage\nFreezes Target +2\n+20 to Strength\nRequirements -30%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4107,7 +4107,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9cm\n@dictOneHandDamage: (29~33) - (69~78), @dictTwoHandDamage: (59~67) - (140~158)",
+                                                "text": "@dictBaseItem: @9cm\n@dictOneHandDmg: (29-33) - (69-78), @dictTwoHandDmg: (59-67) - (140-158)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4211,7 +4211,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold The Vile Husk \n@9gs\n\n@dictBlue 6% Chance to cast level 1 Amplify Damage on striking\n+150-200% Enhanced Damage @dictVariable\n@dictBlue +7-742% Damage to Undead (Based on Character Level)\n+10-990 to Attack Rating against Undead (Based on Character Level)\n+250 poison damage over 6 seconds\nPoison Resist +50%",
+                                                "tooltipString": "@dictGold The Vile Husk \n@9gs\n\n@dictBlue 6% Chance to cast level 1 Amplify Damage on striking\n+@dictLightBlue(150-200)@dictBlue% Enhanced Damage\n+(7-742)% Damage to Undead (Based on Character Level)\n+(10-990) to Attack Rating against Undead (Based on Character Level)\n+250 poison damage over 6 seconds\nPoison Resist +50%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4271,7 +4271,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9gs\n@dictOneHandDamage: (25~30) - (92~111), @dictTwoHandDamage: (47~57) - (145~174)",
+                                                "text": "@dictBaseItem: @9gs\n@dictOneHandDmg: (25-30) - (92-111), @dictTwoHandDmg: (47-57) - (145-174)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4375,7 +4375,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Cloudcrack \n@9b9\n\n@dictBlue 6% Chance to cast level 7 Fist of the Heavens on striking\n+2 to Defensive Auras (Paladin Only)\n+2 to Offensive Auras (Paladin Only)\n+150-200% Enhanced Damage @dictVariable\n@dictBlue Adds 1-240 lightning damage\n+30 Defense\n+10% to Maximum Lightning Resist\nAttacker Takes Lightning Damage of 15\n+2 to Light Radius",
+                                                "tooltipString": "@dictGold Cloudcrack \n@9b9\n\n@dictBlue 6% Chance to cast level 7 Fist of the Heavens on striking\n+2 to Defensive Auras (Paladin Only)\n+2 to Offensive Auras (Paladin Only)\n+@dictLightBlue(150-200)@dictBlue% Enhanced Damage\nAdds 1-240 lightning damage\n+30 Defense\n+10% to Maximum Lightning Resist\nAttacker Takes Lightning Damage of 15\n+2 to Light Radius",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4408,7 +4408,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9b9\n@dictOneHandDamage: (35~42) - (100~120), @dictTwoHandDamage: (97~117) - (150~180)",
+                                                "text": "@dictBaseItem: @9b9\n@dictOneHandDmg: (35-42) - (100-120), @dictTwoHandDmg: (97-117) - (150-180)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4512,7 +4512,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Todesfaelle Flamme \n@9fb\n\n@dictBlue 10% Chance to cast level 6 Fire Ball on attack\n+120-160% Enhanced Damage @dictVariable\n@dictBlue Adds 50-200 fire damage\nFire Resist +40%\n+10 Fire Absorb\nLevel 10 Enchant (45 Charges)\nLevel 10 Fire Wall (20 Charges)",
+                                                "tooltipString": "@dictGold Todesfaelle Flamme \n@9fb\n\n@dictBlue 10% Chance to cast level 6 Fire Ball on attack\n+@dictLightBlue(120-160)@dictBlue% Enhanced Damage\nAdds 50-200 fire damage\nFire Resist +40%\n+10 Fire Absorb\nLevel 10 Enchant (45 Charges)\nLevel 10 Fire Wall (20 Charges)",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4545,7 +4545,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9fb\n@dictOneHandDamage: (41~49) - (77~91), @dictTwoHandDamage: (63~75) - (118~140)",
+                                                "text": "@dictBaseItem: @9fb\n@dictOneHandDmg: (41-49) - (77-91), @dictTwoHandDmg: (63-75) - (118-140)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4649,7 +4649,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold Swordguard \n@9gd\n\n@dictBlue +20% Faster Hit Recovery\n20% Increased Chance of Blocking\n+170-180% Enhanced Damage @dictVariable\n@dictBlue +5-495 Defense (Based on Character Level)\n+200 Defense vs. Melee\n+100 Defense vs. Missile\nAll Resistances +10-20 @dictVariable\n@dictBlue +30% Damage Taken Goes To Mana\nRequirements -50%",
+                                                "tooltipString": "@dictGold Swordguard \n@9gd\n\n@dictBlue +20% Faster Hit Recovery\n20% Increased Chance of Blocking\n+@dictLightBlue(170-180)@dictBlue% Enhanced Damage\n+(5-495) Defense (Based on Character Level)\n+200 Defense vs. Melee\n+100 Defense vs. Missile\nAll Resistances +@dictLightBlue(10-20)@dictBlue\n+30% Damage Taken Goes To Mana\nRequirements -50%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4709,7 +4709,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @9gd\n@dictOneHandDamage: (64~67) - (108~112), @dictTwoHandDamage: (126~131) - (216~224)",
+                                                "text": "@dictBaseItem: @9gd\n@dictOneHandDmg: (64-67) - (108-112), @dictTwoHandDmg: (126-131) - (216-224)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4798,6 +4798,170 @@
                                             "name": "Uniquename",
                                             "fields": {
                                                 "fitToText": true,
+                                                "text": "Dreadfang",
+                                                "style": "$StyleDictionaryCategory"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueTextWrapper",
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "customitembgimg",
+                                            "fields": {
+                                                "filename": "itemDictionary/grid_1x4",
+                                                "tooltipString": "@dictGold Dreadfang \n@72h\n\n@dictBlue 33% Chance to cast level 3 Amplify Damage on striking\n+33% Increased Attack Speed\n+@dictLightBlue(133-166)@dictBlue% Enhanced Damage\n+33% Bonus to Attack Rating\n@dictLightBlue(3-6)@dictBlue% Mana stolen per hit\n+33% Deadly Strike\n+3 to Mirrored Blades (Warlock Only)\nRequirements -33%",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "GammaCalibration",
+                                            "fields": {
+                                                "rect": "$StyleDictionaryDefaultImageRect",
+                                                "filename": "items/weapon/sword/two_handed_sword",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange": {
+                                                    "hue": [
+                                                        0.0,
+                                                        0.501
+                                                    ],
+                                                    "saturation": [
+                                                        0.14,
+                                                        0.14
+                                                    ],
+                                                    "value": [
+                                                        0.425,
+                                                        0.54
+                                                    ]
+                                                },
+                                                "hsvTransform": [
+                                                    0.0,
+                                                    -0.65,
+                                                    -0.65,
+                                                    0.0
+                                                ],
+                                                "tintTransform": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@dictBaseItem: @72h\n@dictOneHandDmg: (51-130) - (58-148), @dictTwoHandDmg: (116-133) - (219-250)",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "@StrHDHelpDurabilityStatus: 44\n@dictRequiredDexterity: 67, @dictRequiredStrength: 118, @dictRequiredLevel: 61",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "BaseItemLevelReq",
+                                            "fields": {
+                                                "fitToText": true,
+                                                "text": "",
+                                                "style": "$StyleDictionaryItemDescription"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "ImageWidget",
+                                    "name": "Divider",
+                                    "fields": {
+                                        "rect": "$OptionsDividerRect",
+                                        "filename": "PauseMenu\\Divider"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "LayoutItemWidget",
+                                    "name": "UniqueTextWrapper",
+                                    "fields": {
+                                        "marginTop": 12,
+                                        "marginBottom": 12
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "Uniquename",
+                                            "fields": {
+                                                "fitToText": true,
                                                 "text": "Flamebellow",
                                                 "style": "$StyleDictionaryCategory"
                                             }
@@ -4813,7 +4977,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Flamebellow \n@7gs\n\n@dictBlue 12% Chance to cast level 16 Firestorm on striking\n+3 to Fire Skills\n+170-240% Enhanced Damage @dictVariable\n@dictBlue Adds 233-482 fire damage\n+12-18 Inferno @dictVariable\n@dictBlue +10-20 to Strength @dictVariable\n@dictBlue +5-10 to Vitality @dictVariable\n@dictBlue Fire Absorb +20-30% @dictVariable",
+                                                "tooltipString": "@dictGold Flamebellow \n@7gs\n\n@dictBlue 12% Chance to cast level 16 Firestorm on striking\n+3 to Fire Skills\n+@dictLightBlue(170-240)@dictBlue% Enhanced Damage\nAdds 233-482 fire damage\n+@dictLightBlue(12-18)@dictBlue Inferno\n+@dictLightBlue(10-20)@dictBlue to Strength\n+@dictLightBlue(5-10)@dictBlue to Vitality\nFire Absorb +@dictLightBlue(20-30)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4873,7 +5037,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gs\n@dictOneHandDamage: (40~51) - (202~255), @dictTwoHandDamage: (148~187) - (318~401)",
+                                                "text": "@dictBaseItem: @7gs\n@dictOneHandDmg: (40-51) - (202-255), @dictTwoHandDmg: (148-187) - (318-401)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4977,7 +5141,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x4",
-                                                "tooltipString": "@dictGold Doombringer \n@7b7\n\n@dictBlue 8% Chance to cast level 3 Weaken on striking\n+180-250% Enhanced Damage @dictVariable\n@dictBlue Adds 30-100 damage\n40% Bonus to Attack Rating\n5-7% Life stolen per hit @dictVariable\n@dictBlue Increase Maximum Life 20%",
+                                                "tooltipString": "@dictGold Doombringer \n@7b7\n\n@dictBlue 8% Chance to cast level 3 Weaken on striking\n+@dictLightBlue(180-250)@dictBlue% Enhanced Damage\nAdds 30-100 damage\n40% Bonus to Attack Rating\n@dictLightBlue(5-7)@dictBlue% Life stolen per hit\nIncrease Maximum Life 20%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -5037,7 +5201,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7b7\n@dictOneHandDamage: (97~114) - (251~289), @dictTwoHandDamage: (228~278) - (332~390)",
+                                                "text": "@dictBaseItem: @7b7\n@dictOneHandDmg: (97-114) - (251-289), @dictTwoHandDmg: (228-278) - (332-390)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -5141,7 +5305,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGold The Grandfather \n@7gd\n\n@dictBlue +150-250% Enhanced Damage @dictVariable\n@dictBlue +2-247 to Maximum Damage (Based on Character Level)\n50% Bonus to Attack Rating\n+20 to all Attributes\n+80 to Life",
+                                                "tooltipString": "@dictGold The Grandfather \n@7gd\n\n@dictBlue +@dictLightBlue(150-250)@dictBlue% Enhanced Damage\n+(2-247) to Maximum Damage (Based on Character Level)\n50% Bonus to Attack Rating\n+20 to all Attributes\n+80 to Life",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -5201,7 +5365,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "@dictBaseItem: @7gd\n@dictOneHandDamage: (62~87) - (164~474), @dictTwoHandDamage: (145~203) - (289~649)",
+                                                "text": "@dictBaseItem: @7gd\n@dictOneHandDmg: (62-87) - (164-474), @dictTwoHandDmg: (145-203) - (289-649)",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }

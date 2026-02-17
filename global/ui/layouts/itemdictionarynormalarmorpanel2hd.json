@@ -121,7 +121,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@qui\n@dictWhite@strchrdef: 8~11\n@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 12\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@qui\n@dictWhite@strchrdef: 8-11\n@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 12\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -151,7 +151,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xui\n@dictWhite@strchrdef: 102~117\n@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 38\n@dictRequiredLevel: 22\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@xui\n@dictWhite@strchrdef: 102-117\n@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 38\n@dictRequiredLevel: 22\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -181,7 +181,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uui\n@dictWhite@strchrdef: 361~467\n@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 77\n@dictRequiredLevel: 49\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uui\n@dictWhite@strchrdef: 361-467\n@StrHDHelpDurabilityStatus: 20\n@dictRequiredStrength: 77\n@dictRequiredLevel: 49\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -229,7 +229,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@lea\n@dictWhite@strchrdef: 14~17\n@StrHDHelpDurabilityStatus: 24\n@dictRequiredStrength: 15\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@lea\n@dictWhite@strchrdef: 14-17\n@StrHDHelpDurabilityStatus: 24\n@dictRequiredStrength: 15\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -259,7 +259,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xea\n@dictWhite@strchrdef: 111~126\n@StrHDHelpDurabilityStatus: 24\n@dictRequiredStrength: 43\n@dictRequiredLevel: 24\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@xea\n@dictWhite@strchrdef: 111-126\n@StrHDHelpDurabilityStatus: 24\n@dictRequiredStrength: 43\n@dictRequiredLevel: 24\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -289,7 +289,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uea\n@dictWhite@strchrdef: 364~470\n@StrHDHelpDurabilityStatus: 24\n@dictRequiredStrength: 84\n@dictRequiredLevel: 50\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uea\n@dictWhite@strchrdef: 364-470\n@StrHDHelpDurabilityStatus: 24\n@dictRequiredStrength: 84\n@dictRequiredLevel: 50\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -337,7 +337,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@hla\n@dictWhite@strchrdef: 21~24\n@StrHDHelpDurabilityStatus: 28\n@dictRequiredStrength: 20\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@hla\n@dictWhite@strchrdef: 21-24\n@StrHDHelpDurabilityStatus: 28\n@dictRequiredStrength: 20\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -367,7 +367,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xla\n@dictWhite@strchrdef: 122~136\n@StrHDHelpDurabilityStatus: 28\n@dictRequiredStrength: 50\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@xla\n@dictWhite@strchrdef: 122-136\n@StrHDHelpDurabilityStatus: 28\n@dictRequiredStrength: 50\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -397,7 +397,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@ula\n@dictWhite@strchrdef: 369~474\n@StrHDHelpDurabilityStatus: 28\n@dictRequiredStrength: 95\n@dictRequiredLevel: 51\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@ula\n@dictWhite@strchrdef: 369-474\n@StrHDHelpDurabilityStatus: 28\n@dictRequiredStrength: 95\n@dictRequiredLevel: 51\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -445,7 +445,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@stu\n@dictWhite@strchrdef: 32~35\n@StrHDHelpDurabilityStatus: 32\n@dictRequiredStrength: 27\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@stu\n@dictWhite@strchrdef: 32-35\n@StrHDHelpDurabilityStatus: 32\n@dictRequiredStrength: 27\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -475,7 +475,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xtu\n@dictWhite@strchrdef: 138~153\n@StrHDHelpDurabilityStatus: 32\n@dictRequiredStrength: 61\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@xtu\n@dictWhite@strchrdef: 138-153\n@StrHDHelpDurabilityStatus: 32\n@dictRequiredStrength: 61\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -505,7 +505,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@utu\n@dictWhite@strchrdef: 375~481\n@StrHDHelpDurabilityStatus: 32\n@dictRequiredStrength: 111\n@dictRequiredLevel: 53\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@utu\n@dictWhite@strchrdef: 375-481\n@StrHDHelpDurabilityStatus: 32\n@dictRequiredStrength: 111\n@dictRequiredLevel: 53\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -553,7 +553,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@rng\n@dictWhite@strchrdef: 45~48\n@StrHDHelpDurabilityStatus: 26\n@dictRequiredStrength: 36\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@rng\n@dictWhite@strchrdef: 45-48\n@StrHDHelpDurabilityStatus: 26\n@dictRequiredStrength: 36\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -583,7 +583,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xng\n@dictWhite@strchrdef: 158~172\n@StrHDHelpDurabilityStatus: 26\n@dictRequiredStrength: 74\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xng\n@dictWhite@strchrdef: 158-172\n@StrHDHelpDurabilityStatus: 26\n@dictRequiredStrength: 74\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -613,7 +613,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@ung\n@dictWhite@strchrdef: 383~489\n@StrHDHelpDurabilityStatus: 26\n@dictRequiredStrength: 131\n@dictRequiredLevel: 54\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@ung\n@dictWhite@strchrdef: 383-489\n@StrHDHelpDurabilityStatus: 26\n@dictRequiredStrength: 131\n@dictRequiredLevel: 54\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -661,7 +661,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@scl\n@dictWhite@strchrdef: 57~60\n@StrHDHelpDurabilityStatus: 36\n@dictRequiredStrength: 44\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@scl\n@dictWhite@strchrdef: 57-60\n@StrHDHelpDurabilityStatus: 36\n@dictRequiredStrength: 44\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -691,7 +691,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xcl\n@dictWhite@strchrdef: 176~190\n@StrHDHelpDurabilityStatus: 36\n@dictRequiredStrength: 86\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xcl\n@dictWhite@strchrdef: 176-190\n@StrHDHelpDurabilityStatus: 36\n@dictRequiredStrength: 86\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -721,7 +721,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@ucl\n@dictWhite@strchrdef: 390~496\n@StrHDHelpDurabilityStatus: 36\n@dictRequiredStrength: 149\n@dictRequiredLevel: 55\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@ucl\n@dictWhite@strchrdef: 390-496\n@StrHDHelpDurabilityStatus: 36\n@dictRequiredStrength: 149\n@dictRequiredLevel: 55\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -769,7 +769,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@brs\n@dictWhite@strchrdef: 65~68\n@StrHDHelpDurabilityStatus: 50\n@dictRequiredStrength: 30\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@brs\n@dictWhite@strchrdef: 65-68\n@StrHDHelpDurabilityStatus: 50\n@dictRequiredStrength: 30\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -799,7 +799,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xrs\n@dictWhite@strchrdef: 188~202\n@StrHDHelpDurabilityStatus: 50\n@dictRequiredStrength: 65\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xrs\n@dictWhite@strchrdef: 188-202\n@StrHDHelpDurabilityStatus: 50\n@dictRequiredStrength: 65\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -829,7 +829,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@urs\n@dictWhite@strchrdef: 395~501\n@StrHDHelpDurabilityStatus: 50\n@dictRequiredStrength: 118\n@dictRequiredLevel: 56\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@urs\n@dictWhite@strchrdef: 395-501\n@StrHDHelpDurabilityStatus: 50\n@dictRequiredStrength: 118\n@dictRequiredLevel: 56\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -877,7 +877,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@chn\n@dictWhite@strchrdef: 72~75\n@StrHDHelpDurabilityStatus: 45\n@dictRequiredStrength: 48\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@chn\n@dictWhite@strchrdef: 72-75\n@StrHDHelpDurabilityStatus: 45\n@dictRequiredStrength: 48\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -907,7 +907,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xhn\n@dictWhite@strchrdef: 198~213\n@StrHDHelpDurabilityStatus: 45\n@dictRequiredStrength: 92\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xhn\n@dictWhite@strchrdef: 198-213\n@StrHDHelpDurabilityStatus: 45\n@dictRequiredStrength: 92\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -937,7 +937,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uhn\n@dictWhite@strchrdef: 399~505\n@StrHDHelpDurabilityStatus: 45\n@dictRequiredStrength: 158\n@dictRequiredLevel: 47\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uhn\n@dictWhite@strchrdef: 399-505\n@StrHDHelpDurabilityStatus: 45\n@dictRequiredStrength: 158\n@dictRequiredLevel: 47\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -985,7 +985,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@spl\n@dictWhite@strchrdef: 90~95\n@StrHDHelpDurabilityStatus: 30\n@dictRequiredStrength: 51\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@spl\n@dictWhite@strchrdef: 90-95\n@StrHDHelpDurabilityStatus: 30\n@dictRequiredStrength: 51\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1015,7 +1015,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xpl\n@dictWhite@strchrdef: 225~243\n@StrHDHelpDurabilityStatus: 30\n@dictRequiredStrength: 97\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xpl\n@dictWhite@strchrdef: 225-243\n@StrHDHelpDurabilityStatus: 30\n@dictRequiredStrength: 97\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1045,7 +1045,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@upl\n@dictWhite@strchrdef: 410~517\n@StrHDHelpDurabilityStatus: 30\n@dictRequiredStrength: 165\n@dictRequiredLevel: 57\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@upl\n@dictWhite@strchrdef: 410-517\n@StrHDHelpDurabilityStatus: 30\n@dictRequiredStrength: 165\n@dictRequiredLevel: 57\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -1093,7 +1093,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@ltp\n@dictWhite@strchrdef: 90~107\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 41\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@ltp\n@dictWhite@strchrdef: 90-107\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 41\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1123,7 +1123,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xtp\n@dictWhite@strchrdef: 225~261\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 55\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xtp\n@dictWhite@strchrdef: 225-261\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 55\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1153,7 +1153,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@utp\n@dictWhite@strchrdef: 410~524\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 103\n@dictRequiredLevel: 63\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@utp\n@dictWhite@strchrdef: 410-524\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 103\n@dictRequiredLevel: 63\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -1201,7 +1201,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@fld\n@dictWhite@strchrdef: 101~105\n@StrHDHelpDurabilityStatus: 48\n@dictRequiredStrength: 55\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@fld\n@dictWhite@strchrdef: 101-105\n@StrHDHelpDurabilityStatus: 48\n@dictRequiredStrength: 55\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1231,7 +1231,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xld\n@dictWhite@strchrdef: 242~258\n@StrHDHelpDurabilityStatus: 48\n@dictRequiredStrength: 103\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xld\n@dictWhite@strchrdef: 242-258\n@StrHDHelpDurabilityStatus: 48\n@dictRequiredStrength: 103\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1261,7 +1261,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uld\n@dictWhite@strchrdef: 417~523\n@StrHDHelpDurabilityStatus: 48\n@dictRequiredStrength: 174\n@dictRequiredLevel: 61\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uld\n@dictWhite@strchrdef: 417-523\n@StrHDHelpDurabilityStatus: 48\n@dictRequiredStrength: 174\n@dictRequiredLevel: 61\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -1309,7 +1309,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@plt\n@dictWhite@strchrdef: 108~116\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 65\n@dictMaxSocketNumber: (2 / 2 / 2)",
+                                                "tooltipString": "@plt\n@dictWhite@strchrdef: 108-116\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 65\n@dictMaxSocketNumber: (2 / 2 / 2)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1339,7 +1339,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xlt\n@dictWhite@strchrdef: 252~274\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 118\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
+                                                "tooltipString": "@xlt\n@dictWhite@strchrdef: 252-274\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 118\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 3 / 3)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1369,7 +1369,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@ult\n@dictWhite@strchrdef: 421~530\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 196\n@dictRequiredLevel: 59\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@ult\n@dictWhite@strchrdef: 421-530\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 196\n@dictRequiredLevel: 59\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -1417,7 +1417,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@gth\n@dictWhite@strchrdef: 128~135\n@StrHDHelpDurabilityStatus: 55\n@dictRequiredStrength: 70\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@gth\n@dictWhite@strchrdef: 128-135\n@StrHDHelpDurabilityStatus: 55\n@dictRequiredStrength: 70\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1447,7 +1447,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xth\n@dictWhite@strchrdef: 282~303\n@StrHDHelpDurabilityStatus: 55\n@dictRequiredStrength: 125\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@xth\n@dictWhite@strchrdef: 282-303\n@StrHDHelpDurabilityStatus: 55\n@dictRequiredStrength: 125\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1477,7 +1477,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uth\n@dictWhite@strchrdef: 433~541\n@StrHDHelpDurabilityStatus: 55\n@dictRequiredStrength: 208\n@dictRequiredLevel: 62\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uth\n@dictWhite@strchrdef: 433-541\n@StrHDHelpDurabilityStatus: 55\n@dictRequiredStrength: 208\n@dictRequiredLevel: 62\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -1525,7 +1525,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@ful\n@dictWhite@strchrdef: 150~161\n@StrHDHelpDurabilityStatus: 70\n@dictRequiredStrength: 80\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@ful\n@dictWhite@strchrdef: 150-161\n@StrHDHelpDurabilityStatus: 70\n@dictRequiredStrength: 80\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1555,7 +1555,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xul\n@dictWhite@strchrdef: 315~342\n@StrHDHelpDurabilityStatus: 70\n@dictRequiredStrength: 140\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@xul\n@dictWhite@strchrdef: 315-342\n@StrHDHelpDurabilityStatus: 70\n@dictRequiredStrength: 140\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1585,7 +1585,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uul\n@dictWhite@strchrdef: 446~557\n@StrHDHelpDurabilityStatus: 70\n@dictRequiredStrength: 230\n@dictRequiredLevel: 64\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uul\n@dictWhite@strchrdef: 446-557\n@StrHDHelpDurabilityStatus: 70\n@dictRequiredStrength: 230\n@dictRequiredLevel: 64\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
@@ -1633,7 +1633,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@aar\n@dictWhite@strchrdef: 218~233\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 100\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@aar\n@dictWhite@strchrdef: 218-233\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 100\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": 350,
@@ -1663,7 +1663,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@xar\n@dictWhite@strchrdef: 417~450\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 170\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@xar\n@dictWhite@strchrdef: 417-450\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 170\n@dictRequiredLevel: 25\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -50,
@@ -1693,7 +1693,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x3",
-                                                "tooltipString": "@uar\n@dictWhite@strchrdef: 487~600\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 232\n@dictRequiredLevel: 66\n@dictMaxSocketNumber: (3 / 4 / 4)",
+                                                "tooltipString": "@uar\n@dictWhite@strchrdef: 487-600\n@StrHDHelpDurabilityStatus: 60\n@dictRequiredStrength: 232\n@dictRequiredLevel: 66\n@dictMaxSocketNumber: (3 / 4 / 4)",
                                                 "pressedFrame": 0,
                                                 "rect": {
                                                     "x": -450,
