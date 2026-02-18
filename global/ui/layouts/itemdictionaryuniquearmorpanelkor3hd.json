@@ -4301,7 +4301,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "",
+                                                "text": "@WarOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4465,7 +4465,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "",
+                                                "text": "@WarOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4602,7 +4602,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "",
+                                                "text": "@WarOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
@@ -4766,7 +4766,7 @@
                                             "name": "BaseItemLevelReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "",
+                                                "text": "@WarOnly",
                                                 "style": "$StyleDictionaryItemDescription"
                                             }
                                         }
