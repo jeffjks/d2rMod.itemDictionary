@@ -733,7 +733,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 36,
@@ -780,7 +780,6 @@
                                                             0.0,
                                                             0.5
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lred",
                                                         "invTrans": 8
                                                     }
@@ -876,7 +875,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 1494,
@@ -923,7 +922,6 @@
                                                             0.0,
                                                             0.5
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lred",
                                                         "invTrans": 8
                                                     }
@@ -960,7 +958,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 36,
@@ -1007,7 +1005,6 @@
                                                             0.98,
                                                             0.4
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lblu",
                                                         "invTrans": 8
                                                     }
@@ -1103,7 +1100,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 1494,
@@ -1150,7 +1147,6 @@
                                                             0.98,
                                                             0.4
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lblu",
                                                         "invTrans": 8
                                                     }
@@ -1187,7 +1183,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 36,
@@ -1234,7 +1230,6 @@
                                                             0.25,
                                                             0.8
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lyel",
                                                         "invTrans": 8
                                                     }
@@ -1330,7 +1325,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 1494,
@@ -1377,7 +1372,6 @@
                                                             0.25,
                                                             0.8
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lyel",
                                                         "invTrans": 8
                                                     }
@@ -1414,7 +1408,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 36,
@@ -1461,7 +1455,6 @@
                                                             0.0,
                                                             0.3
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lgrn",
                                                         "invTrans": 8
                                                     }
@@ -1557,7 +1550,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 1494,
@@ -1604,7 +1597,6 @@
                                                             0.0,
                                                             0.3
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lgrn",
                                                         "invTrans": 8
                                                     }
@@ -1641,7 +1633,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 36,
@@ -1688,7 +1680,6 @@
                                                             0.0,
                                                             0.0
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "whit",
                                                         "invTrans": 8
                                                     }
@@ -1784,7 +1775,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 1494,
@@ -1831,7 +1822,6 @@
                                                             0.0,
                                                             0.0
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "whit",
                                                         "invTrans": 8
                                                     }
@@ -1868,7 +1858,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 36,
@@ -1915,7 +1905,6 @@
                                                             0.0,
                                                             0.0
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lgry",
                                                         "invTrans": 8
                                                     }
@@ -2059,7 +2048,7 @@
                                             "children": [
                                                 {
                                                     "type": "ButtonWidget",
-                                                    "name": "cubeRecipeBtn",
+                                                    "name": "cubeRecipeBtnForTooltip",
                                                     "fields": {
                                                         "rect": {
                                                             "x": 1494,
@@ -2106,7 +2095,6 @@
                                                             0.0,
                                                             0.0
                                                         ],
-                                                        "visible": false,
                                                         "invTransform": "lgry",
                                                         "invTrans": 8
                                                     }
