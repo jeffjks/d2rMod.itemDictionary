@@ -148,7 +148,7 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 473,
+                                                    "x": 1298,
                                                     "y": 122
                                                 },
                                                 "filename": "itemDictionary/cubehelp_equal"
@@ -159,8 +159,8 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 586,
-                                                    "y": 50
+                                                    "x": 1411,
+                                                    "y": 49
                                                 },
                                                 "filename": "itemDictionary/cubehelp_redPortalLarge",
                                                 "tooltipString": "Open Secret Cow Level Portal",
@@ -200,7 +200,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/key/mephisto_key",
-                                                "tooltipString": "@pk1",
+                                                "tooltipString": "@dictOrange@pk1",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -224,7 +224,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/key/mephisto_key",
-                                                "tooltipString": "@pk2",
+                                                "tooltipString": "@dictOrange@pk2",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -248,7 +248,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/key/mephisto_key",
-                                                "tooltipString": "@pk3",
+                                                "tooltipString": "@dictOrange@pk3",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -257,7 +257,7 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 748,
+                                                    "x": 1298,
                                                     "y": 122
                                                 },
                                                 "filename": "itemDictionary/cubehelp_equal"
@@ -268,8 +268,8 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 861,
-                                                    "y": 50
+                                                    "x": 1411,
+                                                    "y": 49
                                                 },
                                                 "filename": "itemDictionary/cubehelp_redPortalLarge",
                                                 "tooltipString": "Open Pandemonium Event Portal",
@@ -309,7 +309,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/body_part/horn",
-                                                "tooltipString": "@dhn",
+                                                "tooltipString": "@dictOrange@dhn",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -333,7 +333,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/body_part/brain",
-                                                "tooltipString": "@mbr",
+                                                "tooltipString": "@dictOrange@mbr",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -357,7 +357,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/body_part/eye",
-                                                "tooltipString": "@bey",
+                                                "tooltipString": "@dictOrange@bey",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -366,7 +366,7 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 748,
+                                                    "x": 1298,
                                                     "y": 122
                                                 },
                                                 "filename": "itemDictionary/cubehelp_equal"
@@ -377,8 +377,8 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 861,
-                                                    "y": 50
+                                                    "x": 1411,
+                                                    "y": 49
                                                 },
                                                 "filename": "itemDictionary/cubehelp_redPortalLarge",
                                                 "tooltipString": "Open Pandemonium Event (Uber Tristram) Portal",
@@ -418,7 +418,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/shard/talics_anguish",
-                                                "tooltipString": "@ua1",
+                                                "tooltipString": "@dictOrange@ua1",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -442,7 +442,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/shard/korlics_pain",
-                                                "tooltipString": "@ua2",
+                                                "tooltipString": "@dictOrange@ua2",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -466,7 +466,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/shard/madawcs_ire",
-                                                "tooltipString": "@ua3",
+                                                "tooltipString": "@dictOrange@ua3",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -490,7 +490,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/shard/bulkathos_nightmare",
-                                                "tooltipString": "@ua4",
+                                                "tooltipString": "@dictOrange@ua4",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -514,7 +514,7 @@
                                                     "y": 49
                                                 },
                                                 "filename": "items/misc/shard/worusks_end",
-                                                "tooltipString": "@ua5",
+                                                "tooltipString": "@dictOrange@ua5",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -535,10 +535,10 @@
                                             "fields": {
                                                 "rect": {
                                                     "x": 1411,
-                                                    "y": 50
+                                                    "y": 49
                                                 },
                                                 "filename": "itemDictionary/cubehelp_redPortalLarge",
-                                                "tooltipString": "Open Colossal Summit (Colossal Ancients) Portal",
+                                                "tooltipString": "Open Colossal Ancients Event Portal",
                                                 "pressedFrame": 0
                                             }
                                         }
@@ -656,7 +656,7 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 1023,
+                                                    "x": 1298,
                                                     "y": 122
                                                 },
                                                 "filename": "itemDictionary/cubehelp_equal"
@@ -667,13 +667,1451 @@
                                             "name": "cubeRecipeImg",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 1136,
+                                                    "x": 1411,
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/quest/token_of_absolution",
                                                 "tooltipString": "@dictOrange@toa\n@UseTokenOfAbsolution",
                                                 "pressedFrame": 0
                                             }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row Gameplay Options",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "name": "Gameplay Options",
+                                    "fields": {
+                                        "text": "Sunder Charm",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "tooltipString": "@dictGold Latent Flame Rift \n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -90%",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.0,
+                                                            0.25,
+                                                            0.55,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.5
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lred",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 182,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 279,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/io_rune",
+                                                "tooltipString": "@r16",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 425,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 522,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_ruby",
+                                                "tooltipString": "@gpr",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 668,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 765,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_terror",
+                                                "tooltipString": "@dictOrange@xa4",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1397,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "tooltipString": "@dictGold Renewed Flame Rift \n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Fire Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Fire Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.0,
+                                                            0.25,
+                                                            0.55,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.5
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lred",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "tooltipString": "@dictGold Latent Cold Rupture \n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -90%",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            -0.47,
+                                                            0.2,
+                                                            0.6,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.595,
+                                                            0.96,
+                                                            0.98,
+                                                            0.4
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lblu",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 182,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 279,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/lum_rune",
+                                                "tooltipString": "@r17",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 425,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 522,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_saphire",
+                                                "tooltipString": "@gpb",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 668,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 765,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_pain",
+                                                "tooltipString": "@dictOrange@xa2",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1397,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "tooltipString": "@dictGold Renewed Cold Rupture \n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Cold Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Cold Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large1",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            -0.47,
+                                                            0.2,
+                                                            0.6,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.595,
+                                                            0.96,
+                                                            0.98,
+                                                            0.4
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lblu",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "tooltipString": "@dictGold Latent Crack of Heavens \n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -90%",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.065,
+                                                            0.4,
+                                                            0.4,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.8,
+                                                            0.68,
+                                                            0.25,
+                                                            0.8
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lyel",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 182,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 279,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/fal_rune",
+                                                "tooltipString": "@r19",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 425,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 522,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_topaz",
+                                                "tooltipString": "@gpy",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 668,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 765,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_hatred",
+                                                "tooltipString": "@dictOrange@xa3",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1397,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "tooltipString": "@dictGold Renewed Crack of Heavens \n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Lightning Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Lightning Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.065,
+                                                            0.4,
+                                                            0.4,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.8,
+                                                            0.68,
+                                                            0.25,
+                                                            0.8
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lyel",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "tooltipString": "@dictGold Latent Rotting Fissure \n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -90%",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.25,
+                                                            0.25,
+                                                            -0.1,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.0,
+                                                            1.0,
+                                                            0.0,
+                                                            0.3
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lgrn",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 182,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 279,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/ko_rune",
+                                                "tooltipString": "@r18",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 425,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 522,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_emerald",
+                                                "tooltipString": "@gpg",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 668,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 765,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_anguish",
+                                                "tooltipString": "@dictOrange@xa1",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1397,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "tooltipString": "@dictGold Renewed Rotting Fissure \n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Poison Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Poison Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large2",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.25,
+                                                            0.25,
+                                                            -0.1,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.0,
+                                                            1.0,
+                                                            0.0,
+                                                            0.3
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lgrn",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "tooltipString": "@dictGold Latent Bone Break \n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by 20%",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.0,
+                                                            -0.5,
+                                                            0.5,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "whit",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 182,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 279,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/pul_rune",
+                                                "tooltipString": "@r21",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 425,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 522,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_amethyst",
+                                                "tooltipString": "@gpv",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 668,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 765,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_destruction",
+                                                "tooltipString": "@dictOrange@xa5",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1397,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "tooltipString": "@dictGold Renewed Bone Break \n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by @dictLightBlue(20-10)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(75-100)@dictBlue% Enhanced Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Physical Damage Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.0,
+                                                            -0.5,
+                                                            0.5,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "whit",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode"
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "name": "Row ItemNameDisplayMode",
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "GammaCalibration",
+                                    "fields": {
+                                        "marginTop": 0,
+                                        "marginLeft": 36
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "tooltipString": "@dictGold Latent Black Cleft \n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -65%",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 36,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.0,
+                                                            -0.55,
+                                                            -0.35,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lgry",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 182,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 279,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/rune/mal_rune",
+                                                "tooltipString": "@r23",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 425,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 522,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/gem/perfect_diamond",
+                                                "tooltipString": "@gpw",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 668,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 765,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_hatred",
+                                                "tooltipString": "@dictOrange@xa3",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 911,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1008,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_terror",
+                                                "tooltipString": "@dictOrange@xa4",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1154,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_plus"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1251,
+                                                    "y": 98
+                                                },
+                                                "filename": "items/misc/shard/mote_of_destruction",
+                                                "tooltipString": "@dictOrange@xa5",
+                                                "pressedFrame": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "cubeRecipeImg",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 1397,
+                                                    "y": 122
+                                                },
+                                                "filename": "itemDictionary/cubehelp_equal"
+                                            }
+                                        },
+                                        {
+                                            "type": "Widget",
+                                            "name": "GammaCalibration",
+                                            "children": [
+                                                {
+                                                    "type": "ButtonWidget",
+                                                    "name": "cubeRecipeBtn",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "tooltipString": "@dictGold Renewed Black Cleft \n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -@dictLightBlue(65-45)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(10-15)@dictBlue% to Magic Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Magic Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                        "pressedFrame": 0
+                                                    }
+                                                },
+                                                {
+                                                    "type": "ImageWidget",
+                                                    "name": "cubeRecipeImg",
+                                                    "fields": {
+                                                        "rect": {
+                                                            "x": 1494,
+                                                            "y": 0
+                                                        },
+                                                        "filename": "items/misc/charm/charm_large3",
+                                                        "useAdvancedColoring": true,
+                                                        "recolorRange": {
+                                                            "hue": [
+                                                                0.05,
+                                                                0.06
+                                                            ],
+                                                            "saturation": [
+                                                                0.5,
+                                                                0.501
+                                                            ],
+                                                            "value": [
+                                                                0.585,
+                                                                0.415
+                                                            ]
+                                                        },
+                                                        "hsvTransform": [
+                                                            0.0,
+                                                            -0.55,
+                                                            -0.35,
+                                                            0.0
+                                                        ],
+                                                        "tintTransform": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "visible": false,
+                                                        "invTransform": "lgry",
+                                                        "invTrans": 8
+                                                    }
+                                                }
+                                            ]
                                         }
                                     ]
                                 }

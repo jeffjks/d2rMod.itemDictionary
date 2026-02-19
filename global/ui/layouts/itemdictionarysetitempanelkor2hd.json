@@ -9956,7 +9956,7 @@
                                             "name": "ItemImageButton",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x4",
-                                                "tooltipString": "@dictGreen 태백의 영예 \n@war\n\n@dictSetTaebaeksGlory\n\n@dictSetHeavensBrethren",
+                                                "tooltipString": "@dictGreen 태백의 영예 \n@uts\n\n@dictSetTaebaeksGlory\n\n@dictSetHeavensBrethren",
                                                 "pressedFrame": 0
                                             }
                                         },
