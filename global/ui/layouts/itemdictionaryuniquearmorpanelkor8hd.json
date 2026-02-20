@@ -525,7 +525,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 잠복하는 불길의 균열 \n@cm3\n\n@dictBlue 괴물의 화염 면역이 파괴됨\n화염 저항 -90%",
+                                                "tooltipString": "@dictGold 잠복하는 불길의 균열 \n@cm3\n\n@dictBlue 괴물의 화염 면역이 파괴됨\n화염 저항 -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -689,7 +689,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 잠복하는 추위의 파열 \n@cm3\n\n@dictBlue 괴물의 냉기 면역이 파괴됨\n냉기 저항 -90%",
+                                                "tooltipString": "@dictGold 잠복하는 추위의 파열 \n@cm3\n\n@dictBlue 괴물의 냉기 면역이 파괴됨\n냉기 저항 -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -853,7 +853,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 잠복하는 천상의 틈 \n@cm3\n\n@dictBlue 괴물의 번개 면역이 파괴됨\n번개 저항 -90%",
+                                                "tooltipString": "@dictGold 잠복하는 천상의 틈 \n@cm3\n\n@dictBlue 괴물의 번개 면역이 파괴됨\n번개 저항 -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1017,7 +1017,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 잠복하는 부패의 분열 \n@cm3\n\n@dictBlue 괴물의 독 면역이 파괴됨\n독 저항 -90%",
+                                                "tooltipString": "@dictGold 잠복하는 부패의 분열 \n@cm3\n\n@dictBlue 괴물의 독 면역이 파괴됨\n독 저항 -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1181,7 +1181,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 잠복하는 뼈의 분쇄 \n@cm3\n\n@dictBlue 괴물의 물리 면역이 파괴됨\n받는 물리 피해 20% 증가",
+                                                "tooltipString": "@dictGold 잠복하는 뼈의 분쇄 \n@cm3\n\n@dictBlue 괴물의 물리 면역이 파괴됨\n받는 물리 피해 @dictLightBlue(20-10)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1345,7 +1345,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 잠복하는 칠흑의 천공 \n@cm3\n\n@dictBlue 괴물의 마법 면역이 파괴됨\n마법 저항 -65%",
+                                                "tooltipString": "@dictGold 잠복하는 칠흑의 천공 \n@cm3\n\n@dictBlue 괴물의 마법 면역이 파괴됨\n마법 저항 -@dictLightBlue(65-45)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1509,7 +1509,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 새로워진 불길의 균열 \n@cm3\n\n@dictBlue 괴물의 화염 면역이 파괴됨\n화염 저항 -@dictLightBlue(90-70)@dictBlue%\n\n다음 중 1:\n화염 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 화염 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
+                                                "tooltipString": "@dictGold 새로워진 불길의 균열 \n@cm3\n\n@dictBlue 괴물의 화염 면역이 파괴됨\n화염 저항 -70%\n\n다음 중 1:\n화염 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 화염 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1673,7 +1673,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 새로워진 추위의 파열 \n@cm3\n\n@dictBlue 괴물의 냉기 면역이 파괴됨\n냉기 저항 -@dictLightBlue(90-70)@dictBlue%\n\n다음 중 1:\n냉기 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 냉기 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
+                                                "tooltipString": "@dictGold 새로워진 추위의 파열 \n@cm3\n\n@dictBlue 괴물의 냉기 면역이 파괴됨\n냉기 저항 -70%\n\n다음 중 1:\n냉기 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 냉기 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1837,7 +1837,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 새로워진 천상의 틈 \n@cm3\n\n@dictBlue 괴물의 번개 면역이 파괴됨\n번개 저항 -@dictLightBlue(90-70)@dictBlue%\n\n다음 중 1:\n번개 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 번개 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
+                                                "tooltipString": "@dictGold 새로워진 천상의 틈 \n@cm3\n\n@dictBlue 괴물의 번개 면역이 파괴됨\n번개 저항 -70%\n\n다음 중 1:\n번개 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 번개 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2001,7 +2001,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 새로워진 부패의 분열 \n@cm3\n\n@dictBlue 괴물의 독 면역이 파괴됨\n독 저항 -@dictLightBlue(90-70)@dictBlue%\n\n다음 중 1:\n독 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 독 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
+                                                "tooltipString": "@dictGold 새로워진 부패의 분열 \n@cm3\n\n@dictBlue 괴물의 독 면역이 파괴됨\n독 저항 -70%\n\n다음 중 1:\n독 기술 피해 +@dictLightBlue(5-15)@dictBlue%\n적의 독 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2165,7 +2165,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 새로워진 뼈의 분쇄 \n@cm3\n\n@dictBlue 괴물의 물리 면역이 파괴됨\n받는 물리 피해 @dictLightBlue(20-10)@dictBlue% 증가\n\n다음 중 1:\n피해 +@dictLightBlue(75-100)@dictBlue% 증가\n적 물리 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
+                                                "tooltipString": "@dictGold 새로워진 뼈의 분쇄 \n@cm3\n\n@dictBlue 괴물의 물리 면역이 파괴됨\n받는 물리 피해 10% 증가\n\n다음 중 1:\n피해 +@dictLightBlue(75-100)@dictBlue% 증가\n적 물리 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2329,7 +2329,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold 새로워진 칠흑의 천공 \n@cm3\n\n@dictBlue 괴물의 마법 면역이 파괴됨\n마법 저항 -@dictLightBlue(65-45)@dictBlue%\n\n다음 중 1:\n마법 기술 피해 +@dictLightBlue(10-15)@dictBlue%\n적 마법 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
+                                                "tooltipString": "@dictGold 새로워진 칠흑의 천공 \n@cm3\n\n@dictBlue 괴물의 마법 면역이 파괴됨\n마법 저항 -45%\n\n다음 중 1:\n마법 기술 피해 +@dictLightBlue(10-15)@dictBlue%\n적 마법 저항 -@dictLightBlue(5-10)@dictBlue%\n\n다음 중 1:\n달리기/걷기 속도 +@dictLightBlue(5-10)@dictBlue%\n타격 회복 속도 +@dictLightBlue(12-24)@dictBlue%\n모든 능력치 +@dictLightBlue(3-8)@dictBlue\n\n다음 중 1:\n생명력 +@dictLightBlue(10-65)@dictBlue\n마나 +@dictLightBlue(10-75)@dictBlue\n\n다음 중 1:\n마법 피해 @dictLightBlue(5-10)@dictBlue 감소\n피해 @dictLightBlue(5-10)@dictBlue 감소\n\n다음 중 1:\n마법 아이템 발견 확률 @dictLightBlue(14-25)@dictBlue% 증가\n괴물에게서 얻는 금화 @dictLightBlue(20-55)@dictBlue% 증가",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4399,7 +4399,7 @@
                                     "type": "TextBoxWidget",
                                     "name": "Gameplay Options",
                                     "fields": {
-                                        "text": "구 파괴 부적 (확장팩 전용)",
+                                        "text": "구 파괴 부적 (구 확장팩 전용)",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [

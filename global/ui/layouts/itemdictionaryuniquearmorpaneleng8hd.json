@@ -525,7 +525,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Latent Flame Rift \n@cm3\n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -90%",
+                                                "tooltipString": "@dictGold Latent Flame Rift \n@cm3\n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -689,7 +689,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Latent Cold Rupture \n@cm3\n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -90%",
+                                                "tooltipString": "@dictGold Latent Cold Rupture \n@cm3\n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -853,7 +853,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Latent Crack of Heavens \n@cm3\n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -90%",
+                                                "tooltipString": "@dictGold Latent Crack of Heavens \n@cm3\n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1017,7 +1017,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Latent Rotting Fissure \n@cm3\n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -90%",
+                                                "tooltipString": "@dictGold Latent Rotting Fissure \n@cm3\n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -@dictLightBlue(90-70)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1181,7 +1181,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Latent Bone Break \n@cm3\n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by 20%",
+                                                "tooltipString": "@dictGold Latent Bone Break \n@cm3\n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by @dictLightBlue(20-10)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1345,7 +1345,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Latent Black Cleft \n@cm3\n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -65%",
+                                                "tooltipString": "@dictGold Latent Black Cleft \n@cm3\n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -@dictLightBlue(65-45)@dictBlue%",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1509,7 +1509,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Renewed Flame Rift \n@cm3\n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Fire Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Fire Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Renewed Flame Rift \n@cm3\n\n@dictBlue Monster Fire Immunity is Sundered\nFire Resist -70%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Fire Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Fire Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1673,7 +1673,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Renewed Cold Rupture \n@cm3\n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Cold Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Cold Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Renewed Cold Rupture \n@cm3\n\n@dictBlue Monster Cold Immunity is Sundered\nCold Resist -70%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Cold Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Cold Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1837,7 +1837,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Renewed Crack of Heavens \n@cm3\n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Lightning Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Lightning Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Renewed Crack of Heavens \n@cm3\n\n@dictBlue Monster Lightning Immunity is Sundered\nLightning Resist -70%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Lightning Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Lightning Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2001,7 +2001,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Renewed Rotting Fissure \n@cm3\n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -@dictLightBlue(90-70)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Poison Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Poison Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Renewed Rotting Fissure \n@cm3\n\n@dictBlue Monster Poison Immunity is Sundered\nPoison Resist -70%\n\n1 of the following:\n+@dictLightBlue(5-15)@dictBlue% to Poison Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Poison Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2165,7 +2165,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Renewed Bone Break \n@cm3\n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by @dictLightBlue(20-10)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(75-100)@dictBlue% Enhanced Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Physical Damage Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Renewed Bone Break \n@cm3\n\n@dictBlue Monster Physical Immunity is Sundered\nPhysical Damage Received Increased by 10%\n\n1 of the following:\n+@dictLightBlue(75-100)@dictBlue% Enhanced Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Physical Damage Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2329,7 +2329,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_1x3",
-                                                "tooltipString": "@dictGold Renewed Black Cleft \n@cm3\n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -@dictLightBlue(65-45)@dictBlue%\n\n1 of the following:\n+@dictLightBlue(10-15)@dictBlue% to Magic Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Magic Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
+                                                "tooltipString": "@dictGold Renewed Black Cleft \n@cm3\n\n@dictBlue Monster Magic Immunity is Sundered\nMagic Resist -45%\n\n1 of the following:\n+@dictLightBlue(10-15)@dictBlue% to Magic Skill Damage\n-@dictLightBlue(5-10)@dictBlue% to Enemy Magic Resistance\n\n1 of the following:\n+@dictLightBlue(5-10)@dictBlue% Faster Run/Walk\n+@dictLightBlue(12-24)@dictBlue% Faster Hit Recovery\n+@dictLightBlue(3-8)@dictBlue to all Attributes\n\n1 of the following:\n+@dictLightBlue(10-65)@dictBlue to Life\n+@dictLightBlue(10-75)@dictBlue to Mana\n\n1 of the following:\nMagic Damage Reduced by @dictLightBlue(5-10)@dictBlue\nDamage Reduced by @dictLightBlue(5-10)@dictBlue\n\n1 of the following:\n@dictLightBlue(14-25)@dictBlue% Better Chance of Getting Magic Items\n@dictLightBlue(20-55)@dictBlue% Extra Gold from Monsters",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -4399,7 +4399,7 @@
                                     "type": "TextBoxWidget",
                                     "name": "Gameplay Options",
                                     "fields": {
-                                        "text": "Old Sunder Charms (Expansion Only)",
+                                        "text": "Old Sunder Charms (Old Expansion Only)",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
