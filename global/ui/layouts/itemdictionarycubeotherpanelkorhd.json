@@ -854,7 +854,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_terror",
-                                                "tooltipString": "@dictOrange@xa4",
+                                                "tooltipString": "@dictLightRed@xa4",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1079,7 +1079,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_pain",
-                                                "tooltipString": "@dictOrange@xa2",
+                                                "tooltipString": "@dictLightRed@xa2",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1304,7 +1304,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_hatred",
-                                                "tooltipString": "@dictOrange@xa3",
+                                                "tooltipString": "@dictLightRed@xa3",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1529,7 +1529,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_anguish",
-                                                "tooltipString": "@dictOrange@xa1",
+                                                "tooltipString": "@dictLightRed@xa1",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1754,7 +1754,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_destruction",
-                                                "tooltipString": "@dictOrange@xa5",
+                                                "tooltipString": "@dictLightRed@xa5",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1979,7 +1979,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_hatred",
-                                                "tooltipString": "@dictOrange@xa3",
+                                                "tooltipString": "@dictLightRed@xa3",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2003,7 +2003,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_terror",
-                                                "tooltipString": "@dictOrange@xa4",
+                                                "tooltipString": "@dictLightRed@xa4",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2027,7 +2027,7 @@
                                                     "y": 98
                                                 },
                                                 "filename": "items/misc/shard/mote_of_destruction",
-                                                "tooltipString": "@dictOrange@xa5",
+                                                "tooltipString": "@dictLightRed@xa5",
                                                 "pressedFrame": 0
                                             }
                                         },

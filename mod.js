@@ -668,6 +668,7 @@ function addString()
         {"Key":"dictLightBlue","default":"ÿcU"},
         {"Key":"dictOrange","default":"ÿc8"},
         {"Key":"dictGreen","default":"ÿc2"},
+        {"Key":"dictLightRed","default":"ÿc1"}
     ];
 
     stringColorKeyList.forEach((item) => {
