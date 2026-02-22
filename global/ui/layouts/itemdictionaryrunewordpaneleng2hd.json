@@ -1238,7 +1238,7 @@
                                             "name": "RunewordReq",
                                             "fields": {
                                                 "fitToText": true,
-                                                "text": "3 Socket Claws\n@dictRequiredLevel: 53 @dictLadderOnly",
+                                                "text": "3 Socket Claws\n@dictRequiredLevel: 53 @dictStandardOnly",
                                                 "style": "$StyleDictionaryRunewordDescription"
                                             }
                                         }
